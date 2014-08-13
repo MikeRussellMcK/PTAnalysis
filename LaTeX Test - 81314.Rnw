@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\begin{document}
+
+\subsection{Type of Research:}
+
+<<echo=FALSE>>==
+# library("dplyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+# library("RCurl", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+# library("mosaic", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+# library("ggplot2", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+# Private <- fetchGoogle("https://docs.google.com/spreadsheet/pub?key=0ApPsU6wycRKhdC14cnZXb3k0T0pKek5pbFpibFJUekE&output=csv")
+
+# Delete unused columns
+Private$Author.s.. <- NULL
+Private$Reviewer.Name <- NULL
+
+# Convert blanks to NA
+Private[Private==""]  <- NA 
+
+#Rename to make easier
+names(Private) <- c("Time", "ID", "ResearchType", "Publisher", "PubYear", "PubLang", "Country", "Region","EdLevel","ResearchApproach","ResearchMethods","Theory","Framed","WhatTaught","WhereOccur","DoesCharge","ClassSize","OperationSize","WhyTaking","Reviewer","PubType","WhoProvides","HowViewed","AddDetails","WhatData","Stakeholders","EquityDefine","WasData")
+
+@
+
+<<echo=FALSE>>==
+
+# Type of Research
+
+ResearchTypeGrid <- data.frame(Private$ID, grepl("Original", Private$ResearchType), grepl("Review", Private$ResearchType), grepl("Policy", Private$ResearchType))
+names(ResearchTypeGrid) <- c("ID", "Original", "Review", "Policy")
+
+#Making the Others
+ResearchTypeOther <- subset(Private, !grepl("Original", Private$ResearchType) & !grepl("Review", Private$ResearchType) & !grepl("Policy", Private$ResearchType), select=c(ID, ResearchType))
+ResearchTypeOther <- na.omit(ResearchTypeOther)
+
+@
+
+\textbf{All Articles} \newline
+Original Research: \Sexpr{sum(ResearchTypeGrid$Original)} \newline
+Review of Research: \Sexpr{sum(ResearchTypeGrid$Review)} \newline
+Policy Analysis: \Sexpr{sum(ResearchTypeGrid$Policy)} \newline
+
+\textbf{English-language Only}
+
+Regions
+
+<<echo=FALSE>>==
+# Region(s) studied:
+
+Region <- Private$'Region.s..studied.'
+
+Region_MENA_TF <- grepl("Middle East", Region)
+Region_SubSaharan_TF <- grepl("Sub-Saharan", Region)
+Region_CentAsia_TF <- grepl("Central", Region)
+Region_EastAsia_TF <- grepl("East Asia", Region)
+Region_SEAsia_TF <- grepl("Southeast", Region)
+Region_ANZ_TF <- grepl("Australia", Region)
+Region_WestEurope_TF <- grepl("Western", Region)
+Region_EastEurope_TF <- grepl("Eastern", Region)
+Region_USCanada_TF <- grepl("Canada", Region)
+Region_LAC_TF <- grepl("Caribbean", Region)
+Region_Global_TF <- grepl("Global", Region)
+@
+
+
+
+
+
+
+
+\end{document}
