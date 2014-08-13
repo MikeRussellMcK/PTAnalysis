@@ -1,8 +1,7 @@
 ---
 title: "PT Publications Database Duplicates"
 output:
-  html_document:
-    theme: cerulean
+  html_document
 ---
 
 
