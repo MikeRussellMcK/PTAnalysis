@@ -1,0 +1,21 @@
+---
+title: "PT Publications Database Duplicates"
+output:
+  html_document
+---
+
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+source('./RCode/Download and Clean PT Data.R')
+source('./RCode/Find Duplicate IDs.R')
+```
+
+### Number of duplicate ID numbers in the Google Doc: `r nrow(Dupes)`
+
+### List of all duplicates as of `r Sys.time()`:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(Dupes, row.names=FALSE)
+```
+
+

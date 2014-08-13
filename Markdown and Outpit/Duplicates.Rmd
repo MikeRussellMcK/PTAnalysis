@@ -1,13 +1,15 @@
 ---
 title: "PT Publications Database Duplicates"
 output:
-  html_document
+  html_document:
+    keep_md: yes
+  pdf_document: default
 ---
 
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-source('Download and Clean PT Data.R')
-source('Find Duplicate IDs.R')
+source('../RCode/Download and Clean PT Data.R')
+source('../RCode/Find Duplicate IDs.R')
 ```
 
 ### Number of duplicate ID numbers in the Google Doc: `r nrow(Dupes)`
