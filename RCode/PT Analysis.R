@@ -1,9 +1,3 @@
-library("dplyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
-library("RCurl", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
-library("mosaic", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
-library("ggplot2", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
-Private <- fetchGoogle("https://docs.google.com/spreadsheet/pub?key=0ApPsU6wycRKhdC14cnZXb3k0T0pKek5pbFpibFJUekE&output=csv")
-
 # Delete unused columns
 Private$Author.s.. <- NULL
 Private$Reviewer.Name <- NULL
@@ -17,9 +11,17 @@ names(Private) <- c("Time", "ID", "ResearchType", "Publisher", "PubYear", "PubLa
 # =================
 # Type of Research
   
-ResearchTypeGrid <- data.frame(Private$ID, grepl("Original", Private$ResearchType), grepl("Review", Private$ResearchType), grepl("Policy", Private$ResearchType))
+ResearchTypeGrid <- data.frame(Private$ID, grepl("Original", Private$ResearchType), grepl("Review", Private$ResearchType), grepl("Policy", Private$ResearchType), Private$PubLang)
 names(ResearchTypeGrid) <- c("ID", "Original", "Review", "Policy")
 
 # Others
-ResearchTypeOther <- subset(Private, !grepl("Original", Private$ResearchType) & !grepl("Review", Private$ResearchType) & !grepl("Policy", Private$ResearchType), select=c(ID, ResearchType))
+ResearchTypeOther <- subset(Private, !grepl("Original", Private$ResearchType) & !grepl("Review", Private$ResearchType) & !grepl("Policy", Private$ResearchType), select=c(ID, ResearchType, PubLang))
 ResearchTypeOther <- na.omit(ResearchTypeOther)
+
+# Counts
+ResearchTypeCounts <- c(sum(ResearchTypeGrid$Original), sum(ResearchTypeGrid$Review), sum(ResearchTypeGrid$Policy))
+
+# =================
+# 
+
+summary(Private$PubLang)
