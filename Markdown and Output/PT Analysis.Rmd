@@ -20,6 +20,6 @@ Research Type Others:
 
 ### Language Counts
 
-*Number of Chinese-language articles:* `r sum(grepl("Chinese",Private$PubLang))` (`r paste(round(sum(grepl("Chinese",Private$PubLang))/nrow(Private), digits=4)*100, "%")`)
+**Number of Chinese-language articles:** `r sum(grepl("Chinese",Private$PubLang))` (`r paste(round(sum(grepl("Chinese",Private$PubLang))/nrow(Private), digits=4)*100, "%")`)
 
-*Number of English-language articles:* `r sum(grepl("English",Private$PubLang))` (`r paste(round(sum(grepl("English",Private$PubLang))/nrow(Private), digits=4)*100, "%")`)
+**Number of English-language articles:** `r sum(grepl("English",Private$PubLang))` (`r paste(round(sum(grepl("English",Private$PubLang))/nrow(Private), digits=4)*100, "%")`)
