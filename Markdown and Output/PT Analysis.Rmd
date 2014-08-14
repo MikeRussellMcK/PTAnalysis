@@ -12,14 +12,35 @@ source('../RCode/Download and Clean PT Data.R')
 source('../RCode/PT Analysis.R')
 ```
 
-Research Type Others: 
+### Type of Publication
+
+
+
+### Research Type
+
+#### All sources
+
+**Research Type Counts:**
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-
+kable(data.frame(colSums(ResearchTypeGrid)))
 ```
+
+**Research Type Percentages:**
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(prop.table(data.frame(colSums(ResearchTypeGrid))))
+```
+
+**Research Type Others:** 
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(ResearchTypeOther, row.names=FALSE)
+```
+
+#### Asian region only
 
 ### Language Counts
 
-**Number of Chinese-language articles:** `r sum(grepl("Chinese",Private$PubLang))` (`r paste(round(sum(grepl("Chinese",Private$PubLang))/nrow(Private), digits=4)*100, "%")`)
-
+**Number of Chinese-language articles:** `r sum(grepl("Chinese",Private$PubLang))` (`r paste(round(sum(grepl("Chinese",Private$PubLang))/nrow(Private), digits=4)*100, "%")`)  
 **Number of English-language articles:** `r sum(grepl("English",Private$PubLang))` (`r paste(round(sum(grepl("English",Private$PubLang))/nrow(Private), digits=4)*100, "%")`)

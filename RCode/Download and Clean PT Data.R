@@ -19,3 +19,7 @@ Private[Private==""]  <- NA
 
 #Renames columns to make processing easier
 names(Private) <- c("Time", "ID", "ResearchType", "Publisher", "PubYear", "PubLang", "Country", "Region","EdLevel","ResearchApproach","ResearchMethods","Theory","Framed","WhatTaught","WhereOccur","DoesCharge","ClassSize","OperationSize","WhyTaking","Reviewer","PubType","WhoProvides","HowViewed","AddDetails","WhatData","Stakeholders","EquityDefine","WasData")
+
+# Makes Asian Y/N column
+
+Private$AsiaYN <- grepl("Asia", Private$Region)
