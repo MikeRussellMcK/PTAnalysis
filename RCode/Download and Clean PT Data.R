@@ -1,5 +1,7 @@
 # Loads libraries used in analysis:
+library("plyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 library("dplyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+library("reshape2", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 library("RCurl", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 library("mosaic", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 library("ggplot2", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")

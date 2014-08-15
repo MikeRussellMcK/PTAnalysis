@@ -9,9 +9,10 @@
 #names(Private) <- c("Time", "ID", "ResearchType", "Publisher", "PubYear", "PubLang", "Country", "Region","EdLevel","ResearchApproach","ResearchMethods","Theory","Framed","WhatTaught","WhereOccur","DoesCharge","ClassSize","OperationSize","WhyTaking","Reviewer","PubType","WhoProvides","HowViewed","AddDetails","WhatData","Stakeholders","EquityDefine","WasData")
 
 # =================
-# Type of Publication
+# Publication Language
 
-# Private$
+PubLangGrid <- data.frame(grepl("Chinese", Private$PubLang), grepl("English", Private$PubLang), (!grepl("Chinese", Private$PubLang) & !grepl("English", Private$PubLang)))
+names(PubLangGrid) <- c("Chinese", "English", "Other")
 
 # =================
 # Type of Research
@@ -26,13 +27,13 @@ ResearchTypeGrid$AsianRegionOriginal <- grepl("Original", Private$ResearchType) 
 ResearchTypeGrid$AsianRegionReview <- grepl("Review", Private$ResearchType) & grepl("TRUE", Private$AsiaYN)
 ResearchTypeGrid$AsianRegionPolicy <- grepl("Policy", Private$ResearchType) & grepl("TRUE", Private$AsiaYN)
 
-ResearchTypeGrid$EngLangOriginal <- grepl("Original", Private$ResearchType) & grepl("English", Private$PubLang)
-ResearchTypeGrid$EngLangReview <- grepl("Review", Private$ResearchType) & grepl("English", Private$PubLang)
-ResearchTypeGrid$EngLangPolicy <- grepl("Policy", Private$ResearchType) & grepl("English", Private$PubLang)
+ResearchTypeGrid$EnglishLangOriginal <- grepl("Original", Private$ResearchType) & grepl("English", Private$PubLang)
+ResearchTypeGrid$EnglishLangReview <- grepl("Review", Private$ResearchType) & grepl("English", Private$PubLang)
+ResearchTypeGrid$EnglishLangPolicy <- grepl("Policy", Private$ResearchType) & grepl("English", Private$PubLang)
 
-ResearchTypeGrid$ChLangOriginal <- grepl("Original", Private$ResearchType) & grepl("Chinese", Private$PubLang)
-ResearchTypeGrid$ChLangReview <- grepl("Review", Private$ResearchType) & grepl("Chinese", Private$PubLang)
-ResearchTypeGrid$ChLangPolicy <- grepl("Policy", Private$ResearchType) & grepl("Chinese", Private$PubLang)
+ResearchTypeGrid$ChineseLangOriginal <- grepl("Original", Private$ResearchType) & grepl("Chinese", Private$PubLang)
+ResearchTypeGrid$ChineseLangReview <- grepl("Review", Private$ResearchType) & grepl("Chinese", Private$PubLang)
+ResearchTypeGrid$ChineseLangPolicy <- grepl("Policy", Private$ResearchType) & grepl("Chinese", Private$PubLang)
 
 
 # Others

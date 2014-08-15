@@ -3,9 +3,19 @@
 
 
 
+### Publication Language
+
+
+
+|        | colSums.PubLangGrid.|
+|:-------|--------------------:|
+|Chinese |                  119|
+|English |                  182|
+|Other   |                    0|
+
 ### Type of Publication
 
-
+![plot of chunk unnamed-chunk-3](./PT_Analysis_files/figure-html/unnamed-chunk-31.png) ![plot of chunk unnamed-chunk-3](./PT_Analysis_files/figure-html/unnamed-chunk-32.png) 
 
 ### Research Type
 
@@ -22,30 +32,14 @@
 |AsianRegionOriginal          |                       107|
 |AsianRegionReview            |                        76|
 |AsianRegionPolicy            |                        13|
-|EngLangOriginal              |                       126|
-|EngLangReview                |                        39|
-|EngLangPolicy                |                        14|
-|ChLangOriginal               |                        50|
-|ChLangReview                 |                        82|
-|ChLangPolicy                 |                         5|
+|EnglishLangOriginal          |                       126|
+|EnglishLangReview            |                        39|
+|EnglishLangPolicy            |                        14|
+|ChineseLangOriginal          |                        50|
+|ChineseLangReview            |                        82|
+|ChineseLangPolicy            |                         5|
 
 **Research Type Percentages:**
-
-
-|                             | colSums.ResearchTypeGrid.|
-|:----------------------------|-------------------------:|
-|Private.ResearchTypeOriginal |                    0.2126|
-|Private.ResearchTypeReview   |                    0.1461|
-|Private.ResearchTypePolicy   |                    0.0229|
-|AsianRegionOriginal          |                    0.1292|
-|AsianRegionReview            |                    0.0918|
-|AsianRegionPolicy            |                    0.0157|
-|EngLangOriginal              |                    0.1522|
-|EngLangReview                |                    0.0471|
-|EngLangPolicy                |                    0.0169|
-|ChLangOriginal               |                    0.0604|
-|ChLangReview                 |                    0.0990|
-|ChLangPolicy                 |                    0.0060|
 
 **Research Type Others:** 
 
@@ -60,9 +54,3 @@
 |96e  |Analysis based on theoretical approaches          |English |
 |97e  |Secondary research                                |English |
 
-#### Asian region only
-
-### Language Counts
-
-**Number of Chinese-language articles:** 119 (39.53 %)  
-**Number of English-language articles:** 182 (60.47 %)
