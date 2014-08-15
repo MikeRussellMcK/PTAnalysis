@@ -23,5 +23,13 @@ Private[Private==""]  <- NA
 names(Private) <- c("Time", "ID", "ResearchType", "Publisher", "PubYear", "PubLang", "Country", "Region","EdLevel","ResearchApproach","ResearchMethods","Theory","Framed","WhatTaught","WhereOccur","DoesCharge","ClassSize","OperationSize","WhyTaking","Reviewer","PubType","WhoProvides","HowViewed","AddDetails","WhatData","Stakeholders","EquityDefine","WasData")
 
 # Makes Asian Y/N column
-
 Private$AsiaYN <- grepl("Asia", Private$Region)
+
+# Make new data frame based Asia region
+AllAsia <- filter(Private, AsiaYN == "TRUE")
+
+# Make new data frame for English Language
+AllEnglish <- filter(Private, PubLang == "English")
+
+# Mane new data frame for Chinese Language
+AllChinese <- filter(Private, PubLang == "Chinese")

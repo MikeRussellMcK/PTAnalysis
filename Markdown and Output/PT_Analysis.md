@@ -15,31 +15,30 @@
 
 ### Type of Publication
 
-![plot of chunk unnamed-chunk-3](./PT_Analysis_files/figure-html/unnamed-chunk-31.png) ![plot of chunk unnamed-chunk-3](./PT_Analysis_files/figure-html/unnamed-chunk-32.png) 
+
+|Var1             | Freq|
+|:----------------|----:|
+|Book             |    6|
+|Book Chapter     |   16|
+|Discussion Paper |    2|
+|Dissertation     |   18|
+|Journal Article  |  213|
+|Master's Thesis  |   30|
+|Master's Thesis  |    2|
+|Report           |    7|
+|Working Paper    |    7|
 
 ### Research Type
 
-#### All sources
-
 **Research Type Counts:**
 
+![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-4.png) 
 
 |                             | colSums.ResearchTypeGrid.|
 |:----------------------------|-------------------------:|
 |Private.ResearchTypeOriginal |                       176|
 |Private.ResearchTypeReview   |                       121|
 |Private.ResearchTypePolicy   |                        19|
-|AsianRegionOriginal          |                       107|
-|AsianRegionReview            |                        76|
-|AsianRegionPolicy            |                        13|
-|EnglishLangOriginal          |                       126|
-|EnglishLangReview            |                        39|
-|EnglishLangPolicy            |                        14|
-|ChineseLangOriginal          |                        50|
-|ChineseLangReview            |                        82|
-|ChineseLangPolicy            |                         5|
-
-**Research Type Percentages:**
 
 **Research Type Others:** 
 

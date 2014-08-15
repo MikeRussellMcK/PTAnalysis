@@ -22,22 +22,18 @@ kable(data.frame(colSums(PubLangGrid)))
 ### Type of Publication
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-dotchart(colSums(ResearchTypeGrid))
-par(las=2)
-barplot(colSums(ResearchTypeGrid), main="Types of Research")
+# dotchart(colSums(ResearchPubType))
+kable(data.frame(table(Private$PubType)))
 ```
 
 ### Research Type
 
-#### All sources
-
 **Research Type Counts:**
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
+dotchart(colSums(ResearchTypeGrid))
 kable(data.frame(colSums(ResearchTypeGrid)))
 ```
-
-**Research Type Percentages:**
 
 **Research Type Others:** 
 
