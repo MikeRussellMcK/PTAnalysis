@@ -12,27 +12,38 @@ source('../RCode/Download and Clean PT Data.R')
 source('../RCode/PT Analysis.R')
 ```
 
+### TOTAL NUMBER OF ARTICLES: `r nrow(Private)`
+
 ### Publication Language
 
-
 ```{r, results="asis", echo=FALSE, message=FALSE}
+dotchart(colSums(PubLangGrid))
 kable(data.frame(colSums(PubLangGrid)))
+kable(prop.table(data.frame(colSums(PubLangGrid))))
 ```
 
 ### Type of Publication
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-# dotchart(colSums(ResearchPubType))
+dotchart(data.matrix(table(Private$PubType)))
 kable(data.frame(table(Private$PubType)))
+kable(data.frame(prop.table(table(Private$PubType))), digits=2)
+```
+
+### Publication Year
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+dotchart(data.matrix(table(Private$PubYear)))
+kable(data.frame(table(Private$PubYear)))
+kable(data.frame(prop.table(table(Private$PubYear))), digits=2)
 ```
 
 ### Research Type
 
-**Research Type Counts:**
-
 ```{r, results="asis", echo=FALSE, message=FALSE}
 dotchart(colSums(ResearchTypeGrid))
 kable(data.frame(colSums(ResearchTypeGrid)))
+kable(data.frame(prop.table(colSums(ResearchTypeGrid))), digits=2)
 ```
 
 **Research Type Others:** 
