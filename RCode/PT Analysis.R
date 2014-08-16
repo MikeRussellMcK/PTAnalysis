@@ -23,11 +23,8 @@ Private$ResearchTypePolicy <- grepl("Policy", Private$ResearchType)
 
 ResearchTypeGrid <- data.frame(Private$ResearchTypeOriginal, Private$ResearchTypeReview, Private$ResearchTypePolicy)
 
-
-
-
 # Others
-ResearchTypeOther <- subset(Private, !grepl("Original", Private$ResearchType) & !grepl("Review", Private$ResearchType) & !grepl("Policy", Private$ResearchType), select=c(ID, ResearchType, PubLang))
+ResearchTypeOther <- subset(Private, !grepl("Original", Private$ResearchType) & !grepl("Review", Private$ResearchType) & !grepl("Policy", Private$ResearchType), select=c(ID, ResearchType, PubLang, Reviewer))
 ResearchTypeOther <- na.omit(ResearchTypeOther)
 
 # Counts

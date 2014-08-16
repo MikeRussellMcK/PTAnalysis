@@ -1,8 +1,9 @@
 ---
-title: "Private Tutoring Analysis"
+title: "All Entries Descriptives"
 output:
   html_document:
     keep_md: yes
+    toc: true
   pdf_document: default
 ---
 
@@ -14,13 +15,7 @@ source('../RCode/PT Analysis.R')
 
 ### TOTAL NUMBER OF ARTICLES: `r nrow(Private)`
 
-### Publication Language
-
-```{r, results="asis", echo=FALSE, message=FALSE}
-dotchart(colSums(PubLangGrid))
-kable(data.frame(colSums(PubLangGrid)))
-kable(prop.table(data.frame(colSums(PubLangGrid))))
-```
+## Publication Details
 
 ### Type of Publication
 
@@ -28,6 +23,11 @@ kable(prop.table(data.frame(colSums(PubLangGrid))))
 dotchart(data.matrix(table(Private$PubType)))
 kable(data.frame(table(Private$PubType)))
 kable(data.frame(prop.table(table(Private$PubType))), digits=2)
+```
+
+### Publisher
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(data.frame(table(Private$Publisher)))
 ```
 
 ### Publication Year
@@ -38,7 +38,15 @@ kable(data.frame(table(Private$PubYear)))
 kable(data.frame(prop.table(table(Private$PubYear))), digits=2)
 ```
 
-### Research Type
+### Publication Language
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+dotchart(colSums(PubLangGrid))
+kable(data.frame(colSums(PubLangGrid)))
+kable(prop.table(data.frame(colSums(PubLangGrid))))
+```
+
+### Type of Research
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 dotchart(colSums(ResearchTypeGrid))
@@ -51,4 +59,10 @@ kable(data.frame(prop.table(colSums(ResearchTypeGrid))), digits=2)
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(ResearchTypeOther, row.names=FALSE)
 ```
+
+## Subjects and Approach
+
+### Country or Countries Studied
+
+### Region(s) Studied
 
