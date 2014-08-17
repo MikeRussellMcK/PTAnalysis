@@ -21,7 +21,7 @@ source('../RCode/PT Analysis.R')
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 dotchart(data.matrix(table(Private$PubType)))
-kable(data.frame(table(Private$PubType)))
+kable(data.frame(table(Private$PubType)), format="html",  caption='TEST')
 kable(data.frame(prop.table(table(Private$PubType))), digits=2)
 ```
 

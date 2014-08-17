@@ -9,18 +9,49 @@
 
 ### Type of Publication
 
-![plot of chunk unnamed-chunk-2](./PT_Analysis_files/figure-html/unnamed-chunk-2.png) 
-
-|Var1             | Freq|
-|:----------------|----:|
-|Book             |    6|
-|Book Chapter     |   16|
-|Discussion Paper |    2|
-|Dissertation     |   18|
-|Journal Article  |  213|
-|Master's Thesis  |   32|
-|Report           |    7|
-|Working Paper    |    7|
+![plot of chunk unnamed-chunk-2](./PT_Analysis_files/figure-html/unnamed-chunk-2.png) <table>
+<caption>TEST</caption>
+ <thead>
+  <tr>
+   <th align="left"> Var1 </th>
+   <th align="right"> Freq </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> Book </td>
+   <td align="right"> 6 </td>
+  </tr>
+  <tr>
+   <td align="left"> Book Chapter </td>
+   <td align="right"> 16 </td>
+  </tr>
+  <tr>
+   <td align="left"> Discussion Paper </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Dissertation </td>
+   <td align="right"> 18 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal Article </td>
+   <td align="right"> 213 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis </td>
+   <td align="right"> 32 </td>
+  </tr>
+  <tr>
+   <td align="left"> Report </td>
+   <td align="right"> 7 </td>
+  </tr>
+  <tr>
+   <td align="left"> Working Paper </td>
+   <td align="right"> 7 </td>
+  </tr>
+</tbody>
+</table>
 
 
 |Var1             | Freq|
