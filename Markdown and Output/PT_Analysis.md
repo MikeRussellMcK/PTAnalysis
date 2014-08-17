@@ -97,281 +97,1086 @@
 </table>
 
 ### Publisher
-
-|Var1                                                                                     | Freq|
-|:----------------------------------------------------------------------------------------|----:|
-|                                                                                         |    0|
-|  Research in Teaching                                                                   |    1|
-| Anthropology and Education Quarterly                                                    |    1|
-| Comparative Education Review                                                            |    1|
-| École des hautes études commerciales, Institut dè́conomie appliquée.                    |    1|
-| Master's Thesis of Zhejiang Normal University                                           |    1|
-| Sociology of Education                                                                  |    1|
-| University of Hawai'i                                                                   |    1|
-|￼Institut für Ethnologie und Afrikastudie                                                |    1|
-|AASA Journal of Scholarship & Practice                                                   |    1|
-|AASA Journal of Scholarship and Practice                                                 |    1|
-|ADB                                                                                      |    1|
-|American Journal of Sociology                                                            |    2|
-|Annual meeting of the Canada Economic Association                                        |    1|
-|Applied Behavioral Science Review                                                        |    1|
-|Asia Pacific Edu Review                                                                  |    1|
-|Asia Pacific Educ. Rev.                                                                  |    1|
-|Asia Pacific Education Review                                                            |   12|
-|Asia Pacific Education Review                                                            |    1|
-|Asian Pacific Education Review                                                           |    1|
-|BRAC Center                                                                              |    1|
-|British Educational Research Journal                                                     |    1|
-|British Journal of Sociology of Education                                                |    1|
-|Canadian Review of Sociology                                                             |    1|
-|Career Horizen                                                                           |    1|
-|Career Horizon                                                                           |    1|
-|Childhood Education                                                                      |    1|
-|China Educational Technology & Equipment                                                 |    1|
-|China Today Forums                                                                       |    1|
-|China-Today Forum                                                                        |    1|
-|Chinese Education and Society                                                            |    1|
-|Chinese Educational Economic year conference                                             |    1|
-|Chung-Ang University                                                                     |    1|
-|Columbia University                                                                      |    2|
-|Comparative Education                                                                    |    1|
-|Comparative Education Review                                                             |    2|
-|Compare                                                                                  |    2|
-|Contemporary Educational Science                                                         |    1|
-|Deprtment of Anthropology amd African Studies of the Johannes Gutenberg University Mainz |    1|
-|Economic Development and Cultural Change                                                 |    1|
-|Economic Review                                                                          |    1|
-|Economics of Education                                                                   |    1|
-|Economics of Education Review                                                            |    7|
-|Education & Economy                                                                      |    1|
-|Education & Economy                                                                      |    3|
-|Education and Urban Society                                                              |    1|
-|Education Economics                                                                      |    1|
-|Education Research                                                                       |    1|
-|Education Research Institute                                                             |    1|
-|Education Research Institute, Seoul National University                                  |    1|
-|Education Research Monthly                                                               |    2|
-|Education Teaching Forum                                                                 |    1|
-|Education Theory                                                                         |    1|
-|Education&Economy                                                                        |    2|
-|Educational Evaluation and Policy Analysis                                               |    2|
-|Educational Policy                                                                       |    1|
-|Educational Research and Evaluation: An International Journal on Theory and Practice     |    1|
-|Educational Studies                                                                      |    1|
-|Educational Studies in Mathematics                                                       |    1|
-|Eighteenth-Century Life, Duke University Press                                           |    1|
-|Elementary & Secondary Schooling Abroad                                                  |    1|
-|Elementary and Secondary Schooling Abroad                                                |    1|
-|European Commission                                                                      |    1|
-|European Journal of Psychology of Education                                              |    1|
-|European Sociological Review                                                             |    1|
-|Frontiers of Education in China                                                          |    2|
-|Future and Development                                                                   |    1|
-|Guide of Science and Education                                                           |    1|
-|Guide of Science and Education                                                           |    1|
-|Guide to Business                                                                        |    1|
-|Harvard International Review                                                             |    1|
-|Harvard University                                                                       |    1|
-|History of Education                                                                     |    1|
-|Institute for the Study of Labor, Bonn, Germany                                          |    1|
-|Institute for the Study of Labor, Bonn, Germany (IZA DP No. 6626                         |    1|
-|Int. J. Educational Development                                                          |    1|
-|International Education Journal                                                          |    1|
-|International Education Studies                                                          |    1|
-|International J. Soc. Sci. & Education                                                   |    1|
-|International Journal of Educational Development                                         |    2|
-|International Journal of Humanities and Social Science                                   |    1|
-|International Perspectives on Education and Society                                      |   11|
-|International Review of Education, the Netherlands                                       |    1|
-|Introduction of Business                                                                 |    1|
-|IZA, Germany                                                                             |    1|
-|JERO                                                                                     |    1|
-|Jiangsu Education Research                                                               |    2|
-|Jiangxi Education                                                                        |    1|
-|Jiannan Literature                                                                       |    2|
-|Jiannan Literature                                                                       |    1|
-|Journal for Educational Research Online                                                  |    2|
-|Journal of Asia Pacific Communication                                                    |    1|
-|Journal of Changzhou College of Education                                                |    1|
-|Journal of Chengdu University(Educational Sciences Edition)                              |    1|
-|Journal of Culture and Education                                                         |    1|
-|Journal of Curriculum Studies                                                            |    3|
-|Journal of Educational Science of Hunan Normal University                                |    1|
-|Journal of Guangxi University for Nationalities                                          |    1|
-|Journal of Guangxi Vocational and Technical College                                      |    1|
-|Journal of Guangxi vocational and technical college                                      |    1|
-|Journal of Hangzhou College of Education                                                 |    1|
-|Journal of Hebei Normal Univerisity(Educational Science Version)                         |    1|
-|Journal of Henan Science and Technology University                                       |    1|
-|Journal of Hetian Teachers College                                                       |    1|
-|Journal of Huangshi Education College                                                    |    1|
-|Journal of Hubei University of Educaiton                                                 |    1|
-|Journal of Hubei University of Education                                                 |    1|
-|Journal of Inner Mongolia Normal Univerisity(Educational Science Version)                |    1|
-|Journal of International and Comparative Education                                       |    1|
-|Journal of Negro Education                                                               |    1|
-|Journal of Schooling Studies                                                             |    2|
-|Journal of Schooling Studies                                                             |    1|
-|Journal of Teaching and Management                                                       |    3|
-|Journal of Teaching and Management                                                       |    1|
-|Journal of Weifang University                                                            |    2|
-|Journal of World Education                                                               |    1|
-|Journal of Youth Studies                                                                 |    1|
-|Journal of Youth Studies                                                                 |    1|
-|KDI School of Public Policy and Management                                               |    1|
-|KEDI Journal of Educational Policy                                                       |    2|
-|London Review of Education                                                               |    1|
-|Loyola Marymount University                                                              |    1|
-|Management of Middle & Primary School                                                    |    1|
-|Massey University, Palmerston North, New Zealand                                         |    1|
-|Master's Thesis of Anhui University                                                      |    1|
-|Master's Thesis of Capital Normal University University                                  |    1|
-|Master's Thesis of Central China Normal University                                       |    5|
-|Master's Thesis of Chongqing Normal University                                           |    1|
-|Master's Thesis of East China Normal University                                          |    1|
-|Master's Thesis of East China Normal University                                          |    1|
-|Master's Thesis of Guangxi Normal University                                             |    2|
-|Master's Thesis of Guangzhou University                                                  |    1|
-|Master's Thesis of Hubei University                                                      |    1|
-|Master's Thesis of Hunan Normal University                                               |    2|
-|Master's Thesis of Jiangxi Normal University                                             |    1|
-|Master's Thesis of Jilin University                                                      |    2|
-|Master's Thesis of Liaoning Normal University                                            |    1|
-|Master's Thesis of Nanjing Normal University                                             |    3|
-|Master's Thesis of Northeast Normal University                                           |    1|
-|Master's Thesis of Northwest Normal University                                           |    2|
-|Master's Thesis of Shangdong Normal University                                           |    2|
-|Master's Thesis of Shanghai Normal University                                            |    1|
-|Master's Thesis of Shanxi Financial University                                           |    1|
-|Master's Thesis of Yanbian University                                                    |    1|
-|Munich Personal RePEc Archive                                                            |    1|
-|National Center for the Study of Privatization in Education, NCSPE.org                   |    1|
-|Northwest Population Journal                                                             |    1|
-|Orbis Scholae                                                                            |    1|
-|Oriental Enterprise Culture                                                              |    1|
-|OSI                                                                                      |    2|
-|OXFORD BULLETIN OF ECONOMICS AND STATISTICS                                              |    1|
-|Oxford Review of Education                                                               |    1|
-|Peabody Journal of Education                                                             |    1|
-|Pennsylvania State University                                                            |    1|
-|Phi Delta Kappan                                                                         |    1|
-|Policy Reform                                                                            |    1|
-|Procedia-Social and Behavioral Sciences                                                  |    1|
-|Reading Improvement                                                                      |    1|
-|Research in Comparative and International Education                                      |    1|
-|Research in Sociology of Education                                                       |    1|
-|Research on Education Tsinghua University                                                |    1|
-|Research On Education Tsinghua University                                                |    2|
-|Research On Education Tsinghua University                                                |    1|
-|Research Papers in Education                                                             |    1|
-|Review of Market Integration                                                             |    1|
-|School of Public Policy and Management                                                   |    1|
-|Sense Publishers                                                                         |   15|
-|Shanghai Research on Education                                                           |    2|
-|Shanghai Research on Education                                                           |    1|
-|Shenzhou Education                                                                       |    2|
-|Social Forces                                                                            |    4|
-|Social orces                                                                             |    1|
-|Sociological Forum, Springer                                                             |    1|
-|Sociology of Education                                                                   |    7|
-|Springer                                                                                 |    1|
-|Studies of Finance and Accounting in Education                                           |    1|
-|Study of Educational History                                                             |    1|
-|Survey of Education                                                                      |    1|
-|Survey of Education                                                                      |    1|
-|Teacher's Education Research                                                             |    1|
-|Teachers College Record                                                                  |    1|
-|TESOL                                                                                    |    1|
-|The Developing Economy                                                                   |    1|
-|The Journal of Special Education                                                         |    1|
-|The Pennsylvania State University                                                        |    2|
-|The Science Education Article Collects                                                   |    1|
-|The Science Education Article Collects                                                   |    2|
-|The Study of New Curriculum                                                              |    1|
-|The University of Hong Kong                                                              |    1|
-|the University of Minnesota                                                              |    1|
-|The World Bank research observer                                                         |    1|
-|Theory and Practice of Education                                                         |    4|
-|Theory Into Practice                                                                     |    1|
-|UNESCO                                                                                   |    1|
-|UNESCO, IIEP                                                                             |    1|
-|Union Institute and University Graduate College                                          |    1|
-|University of California, Los Angeles                                                    |    1|
-|University of Chicago Press                                                              |    1|
-|University of Maryland                                                                   |    1|
-|University of Maryland University College                                                |    1|
-|University of Pennsylvania                                                               |    1|
-|University of Pittsburgh, School of Education                                            |    1|
-|University of Toronto Press, The Canadian Journal of Sociology                           |    1|
-|World bank                                                                               |    1|
-|World Bank                                                                               |    1|
-|World Bank and UNICEF                                                                    |    1|
-|World Education Information                                                              |    1|
-|World Yearbook of Education                                                              |    1|
-|Young Lives                                                                              |    1|
+<table>
+<caption>Counts</caption>
+ <thead>
+  <tr>
+   <th align="left"> Var1 </th>
+   <th align="right"> Freq </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left">  </td>
+   <td align="right"> 0 </td>
+  </tr>
+  <tr>
+   <td align="left">   Research in Teaching   </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  Anthropology and Education Quarterly </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  Comparative Education Review </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  École des hautes études commerciales, Institut dè́conomie appliquée. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  Master's Thesis of Zhejiang Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  Sociology of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  University of Hawai'i </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> ￼Institut für Ethnologie und Afrikastudie </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> AASA Journal of Scholarship & Practice </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> AASA Journal of Scholarship and Practice </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> ADB </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> American Journal of Sociology </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Annual meeting of the Canada Economic Association </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Applied Behavioral Science Review </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Asia Pacific Edu Review </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Asia Pacific Educ. Rev. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Asia Pacific Education Review </td>
+   <td align="right"> 12 </td>
+  </tr>
+  <tr>
+   <td align="left"> Asia Pacific Education Review  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Asian Pacific Education Review </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> BRAC Center </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> British Educational Research Journal </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> British Journal of Sociology of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Canadian Review of Sociology </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Career Horizen </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Career Horizon </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Childhood Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> China Educational Technology & Equipment </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> China Today Forums </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> China-Today Forum </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Chinese Education and Society </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Chinese Educational Economic year conference  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Chung-Ang University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Columbia University </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Comparative Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Comparative Education Review  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Compare </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Contemporary Educational Science </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Deprtment of Anthropology amd African Studies of the Johannes Gutenberg University Mainz </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Economic Development and Cultural Change </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Economic Review </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Economics of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Economics of Education Review </td>
+   <td align="right"> 7 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education & Economy </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education & Economy  </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education and Urban Society </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education Economics </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education Research  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education Research Institute </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education Research Institute, Seoul National University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education Research Monthly </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education Teaching Forum </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education Theory </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Education&Economy   </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Educational Evaluation and Policy Analysis </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Educational Policy </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Educational Research and Evaluation: An International Journal on Theory and Practice </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Educational Studies </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Educational Studies in Mathematics </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Eighteenth-Century Life, Duke University Press </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Elementary & Secondary Schooling Abroad  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Elementary and Secondary Schooling Abroad </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> European Commission </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> European Journal of Psychology of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> European Sociological Review </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Frontiers of Education in China </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Future and Development  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Guide of Science and Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Guide of Science and Education  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Guide to Business  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Harvard International Review </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Harvard University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> History of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Institute for the Study of Labor, Bonn, Germany </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Institute for the Study of Labor, Bonn, Germany (IZA DP No. 6626 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Int. J. Educational Development </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> International Education Journal </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> International Education Studies </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> International J. Soc. Sci. & Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> International Journal of Educational Development </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> International Journal of Humanities and Social Science </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> International Perspectives on Education and Society </td>
+   <td align="right"> 11 </td>
+  </tr>
+  <tr>
+   <td align="left"> International Review of Education, the Netherlands </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Introduction of Business  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> IZA, Germany </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> JERO </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Jiangsu Education Research </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Jiangxi Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Jiannan Literature </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Jiannan Literature  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal for Educational Research Online </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Asia Pacific Communication </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Changzhou College of Education    </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Chengdu University(Educational Sciences Edition)  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Culture and Education  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Curriculum Studies </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Educational Science of Hunan Normal University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Guangxi University for Nationalities  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Guangxi Vocational and Technical College </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Guangxi vocational and technical college   </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Hangzhou College of Education    </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Hebei Normal Univerisity(Educational Science Version) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Henan Science and Technology University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Hetian Teachers College </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Huangshi Education College </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Hubei University of Educaiton </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Hubei University of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Inner Mongolia Normal Univerisity(Educational Science Version) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of International and Comparative Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Negro Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Schooling Studies </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Schooling Studies  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Teaching and Management </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Teaching and Management  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Weifang University </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of World Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Youth Studies </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Youth Studies  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> KDI School of Public Policy and Management </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> KEDI Journal of Educational Policy </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> London Review of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Loyola Marymount University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Management of Middle & Primary School  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Massey University, Palmerston North, New Zealand </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Anhui University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Capital Normal University University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Central China Normal University  </td>
+   <td align="right"> 5 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Chongqing Normal University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of East China Normal University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of East China Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Guangxi Normal University  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Guangzhou University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Hubei University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Hunan Normal University  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Jiangxi Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Jilin University  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Liaoning Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Nanjing Normal University  </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Northeast Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Northwest Normal University  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Shangdong Normal University  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Shanghai Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Shanxi Financial University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Master's Thesis of Yanbian University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Munich Personal RePEc Archive </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> National Center for the Study of Privatization in Education, NCSPE.org </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Northwest Population Journal </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Orbis Scholae </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Oriental Enterprise Culture </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> OSI </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> OXFORD BULLETIN OF ECONOMICS AND STATISTICS </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Oxford Review of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Peabody Journal of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Pennsylvania State University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Phi Delta Kappan </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Policy Reform </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Procedia-Social and Behavioral Sciences </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Reading Improvement </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Research in Comparative and International Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Research in Sociology of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Research on Education Tsinghua University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Research On Education Tsinghua University </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Research On Education Tsinghua University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Research Papers in Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Review of Market Integration </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> School of Public Policy and Management </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Sense Publishers </td>
+   <td align="right"> 15 </td>
+  </tr>
+  <tr>
+   <td align="left"> Shanghai Research on Education </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Shanghai Research on Education  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Shenzhou Education </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Social Forces </td>
+   <td align="right"> 4 </td>
+  </tr>
+  <tr>
+   <td align="left"> Social orces </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Sociological Forum, Springer </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Sociology of Education </td>
+   <td align="right"> 7 </td>
+  </tr>
+  <tr>
+   <td align="left"> Springer </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Studies of Finance and Accounting in Education  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Study of Educational History </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Survey of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Survey of Education  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Teacher's Education Research </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Teachers College Record </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> TESOL </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The Developing Economy </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The Journal of Special Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The Pennsylvania State University </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> The Science Education Article Collects </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The Science Education Article Collects  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> The Study of New Curriculum </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The University of Hong Kong </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> the University of Minnesota </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The World Bank research observer </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Theory and Practice of Education </td>
+   <td align="right"> 4 </td>
+  </tr>
+  <tr>
+   <td align="left"> Theory Into Practice </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> UNESCO </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> UNESCO, IIEP </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Union Institute and University Graduate College </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> University of California, Los Angeles </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> University of Chicago Press  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> University of Maryland </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> University of Maryland University College </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> University of Pennsylvania </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> University of Pittsburgh, School of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> University of Toronto Press, The Canadian Journal of Sociology </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> World bank </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> World Bank </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> World Bank and UNICEF </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> World Education Information  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> World Yearbook of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Young Lives </td>
+   <td align="right"> 1 </td>
+  </tr>
+</tbody>
+</table>
 
 ### Publication Year
 
-![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-4.png) 
-
-|Var1    | Freq|
-|:-------|----:|
-|1986    |    1|
-|1987    |    1|
-|1988    |    2|
-|1991    |    1|
-|1992    |    2|
-|1994    |    2|
-|1995    |    2|
-|1996    |    3|
-|1997    |    3|
-|1998    |    1|
-|1999    |    5|
-|2001    |    2|
-|2002    |    3|
-|2003    |    4|
-|2004    |    7|
-|2005    |    9|
-|2006    |   10|
-|2007    |   10|
-|2008    |   15|
-|2009    |   22|
-|2010    |   35|
-|2011    |   34|
-|2012    |   39|
-|2013    |   76|
-|2014    |    8|
-|Unclear |    4|
-
-
-|Var1    | Freq|
-|:-------|----:|
-|1986    | 0.00|
-|1987    | 0.00|
-|1988    | 0.01|
-|1991    | 0.00|
-|1992    | 0.01|
-|1994    | 0.01|
-|1995    | 0.01|
-|1996    | 0.01|
-|1997    | 0.01|
-|1998    | 0.00|
-|1999    | 0.02|
-|2001    | 0.01|
-|2002    | 0.01|
-|2003    | 0.01|
-|2004    | 0.02|
-|2005    | 0.03|
-|2006    | 0.03|
-|2007    | 0.03|
-|2008    | 0.05|
-|2009    | 0.07|
-|2010    | 0.12|
-|2011    | 0.11|
-|2012    | 0.13|
-|2013    | 0.25|
-|2014    | 0.03|
-|Unclear | 0.01|
+![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-4.png) <table>
+<caption>Counts</caption>
+ <thead>
+  <tr>
+   <th align="left"> Var1 </th>
+   <th align="right"> Freq </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> 1986 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1987 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1988 </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1991 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1992 </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1994 </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1995 </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1996 </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1997 </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1998 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1999 </td>
+   <td align="right"> 5 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2001 </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2002 </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2003 </td>
+   <td align="right"> 4 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2004 </td>
+   <td align="right"> 7 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2005 </td>
+   <td align="right"> 9 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2006 </td>
+   <td align="right"> 10 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2007 </td>
+   <td align="right"> 10 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2008 </td>
+   <td align="right"> 15 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2009 </td>
+   <td align="right"> 22 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2010 </td>
+   <td align="right"> 35 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2011 </td>
+   <td align="right"> 34 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2012 </td>
+   <td align="right"> 39 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2013 </td>
+   <td align="right"> 76 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2014 </td>
+   <td align="right"> 8 </td>
+  </tr>
+  <tr>
+   <td align="left"> Unclear </td>
+   <td align="right"> 4 </td>
+  </tr>
+</tbody>
+</table>
+<table>
+<caption>Percentage</caption>
+ <thead>
+  <tr>
+   <th align="left"> Var1 </th>
+   <th align="right"> Freq </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> 1986 </td>
+   <td align="right"> 0.00 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1987 </td>
+   <td align="right"> 0.00 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1988 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1991 </td>
+   <td align="right"> 0.00 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1992 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1994 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1995 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1996 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1997 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1998 </td>
+   <td align="right"> 0.00 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1999 </td>
+   <td align="right"> 0.02 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2001 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2002 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2003 </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2004 </td>
+   <td align="right"> 0.02 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2005 </td>
+   <td align="right"> 0.03 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2006 </td>
+   <td align="right"> 0.03 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2007 </td>
+   <td align="right"> 0.03 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2008 </td>
+   <td align="right"> 0.05 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2009 </td>
+   <td align="right"> 0.07 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2010 </td>
+   <td align="right"> 0.12 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2011 </td>
+   <td align="right"> 0.11 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2012 </td>
+   <td align="right"> 0.13 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2013 </td>
+   <td align="right"> 0.25 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2014 </td>
+   <td align="right"> 0.03 </td>
+  </tr>
+  <tr>
+   <td align="left"> Unclear </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+</tbody>
+</table>
 
 ### Publication Language
 
@@ -392,37 +1197,475 @@
 
 ### Type of Research
 
-![plot of chunk unnamed-chunk-6](./PT_Analysis_files/figure-html/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](./PT_Analysis_files/figure-html/unnamed-chunk-6.png) <table>
+<caption>Counts</caption>
+ <thead>
+  <tr>
+   <th align="left">   </th>
+   <th align="right"> colSums.ResearchTypeGrid. </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> Private.ResearchTypeOriginal </td>
+   <td align="right"> 176 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.ResearchTypeReview </td>
+   <td align="right"> 121 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.ResearchTypePolicy </td>
+   <td align="right"> 19 </td>
+  </tr>
+</tbody>
+</table>
+<table>
+<caption>Percentage</caption>
+ <thead>
+  <tr>
+   <th align="left">   </th>
+   <th align="right"> prop.table.colSums.ResearchTypeGrid.. </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> Private.ResearchTypeOriginal </td>
+   <td align="right"> 0.56 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.ResearchTypeReview </td>
+   <td align="right"> 0.38 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.ResearchTypePolicy </td>
+   <td align="right"> 0.06 </td>
+  </tr>
+</tbody>
+</table>
+    
+#### Research Type Others:
 
-|                             | colSums.ResearchTypeGrid.|
-|:----------------------------|-------------------------:|
-|Private.ResearchTypeOriginal |                       176|
-|Private.ResearchTypeReview   |                       121|
-|Private.ResearchTypePolicy   |                        19|
 
-
-|                             | prop.table.colSums.ResearchTypeGrid..|
-|:----------------------------|-------------------------------------:|
-|Private.ResearchTypeOriginal |                                  0.56|
-|Private.ResearchTypeReview   |                                  0.38|
-|Private.ResearchTypePolicy   |                                  0.06|
-
-**Research Type Others:** 
-
-
-|ID   |ResearchType                                      |PubLang |Reviewer     |
-|:----|:-------------------------------------------------|:-------|:------------|
-|60   |Author designs theoretical model private tutoring |English |Mike         |
-|86   |secondary analysis of primary information         |English |Hang Duong   |
-|101e |secondary analysis of primary information         |English |Hang Duong   |
-|104e |secondary analysis of primary information         |English |Hang Duong   |
-|95e  |analysis paper on primary data                    |English |Hang Duong   |
-|96e  |Analysis based on theoretical approaches          |English |Hang Duong   |
-|97e  |Secondary research                                |English |Damian Wyman |
+|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.items..collapse.......... |Private.Reviewer |
+|:----------|:------------------------------------------------------------------------------|:----------------|
+|60         |Author designs theoretical model private tutoring                              |Mike             |
+|86         |secondary analysis of primary information                                      |Hang Duong       |
+|101e       |secondary analysis of primary information                                      |Hang Duong       |
+|104e       |secondary analysis of primary information                                      |Hang Duong       |
+|109e       | + Theoretical???                                                              |Hang Duong       |
+|95e        |analysis paper on primary data                                                 |Hang Duong       |
+|96e        |Analysis based on theoretical approaches                                       |Hang Duong       |
+|97e        |Secondary research                                                             |Damian Wyman     |
 
 ## Subjects and Approach
 
 ### Country or Countries Studied
 
+<table>
+<caption>Counts</caption>
+ <thead>
+  <tr>
+   <th align="left"> Var1 </th>
+   <th align="right"> Freq </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left">  </td>
+   <td align="right"> 0 </td>
+  </tr>
+  <tr>
+   <td align="left"> Albania, Georgia, Lithuania </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Australia </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Azerbaijan, Bosnia and Herzegovina, Croatia, Georgia, Lithuania, Mongolia, Poland, Slovakia, and Ukraine, Kazakhstan, Kyrgyzstan, and Tajikistan </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Azerbaijan, Georgia, Ukraine, Croatia, Lithuania, B&H, Mongolia, Poland, Slovakia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Bangladesh </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Bangladesh  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Bosnia & Herzegovina and Croatia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Brazil </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> British </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Cambodia </td>
+   <td align="right"> 4 </td>
+  </tr>
+  <tr>
+   <td align="left"> Canada </td>
+   <td align="right"> 5 </td>
+  </tr>
+  <tr>
+   <td align="left"> China </td>
+   <td align="right"> 90 </td>
+  </tr>
+  <tr>
+   <td align="left"> Cyprus </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Egypt </td>
+   <td align="right"> 5 </td>
+  </tr>
+  <tr>
+   <td align="left"> England </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Europe </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Examples: USA and India </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> France </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Georgia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Germany </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> global study </td>
+   <td align="right"> 9 </td>
+  </tr>
+  <tr>
+   <td align="left"> Great Britain </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Greece </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Greek </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Hong Kong </td>
+   <td align="right"> 8 </td>
+  </tr>
+  <tr>
+   <td align="left"> Hong Kong, Macao, Korea, Japan, and Taiwan </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> India </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Ireland </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Italy </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Japan </td>
+   <td align="right"> 10 </td>
+  </tr>
+  <tr>
+   <td align="left"> Japan, South Korea, and Cambodia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Jordan </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Kazakhstan, Kyrgyzstan, Tajikistan </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Kenya </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korea </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korea, Taiwan, Romania, and Phillippines </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korea, US </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Kuwait </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Luxembourg </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Malaysia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Maldives </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Malta </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Poland </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Portugal </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Romania </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Russia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> S.Korea </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Scoland </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Singapore </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Slovenia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> South Korea </td>
+   <td align="right"> 16 </td>
+  </tr>
+  <tr>
+   <td align="left"> South Korea and United States </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Sri Lanka </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Taiwan </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> the Phillipines </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Trinidad and Tobago </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Turkey </td>
+   <td align="right"> 8 </td>
+  </tr>
+  <tr>
+   <td align="left"> UK </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> United States </td>
+   <td align="right"> 5 </td>
+  </tr>
+  <tr>
+   <td align="left"> US </td>
+   <td align="right"> 5 </td>
+  </tr>
+  <tr>
+   <td align="left"> US vs S.Korea </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> US, Korea, Japan </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> USA </td>
+   <td align="right"> 6 </td>
+  </tr>
+  <tr>
+   <td align="left"> Vietnam </td>
+   <td align="right"> 6 </td>
+  </tr>
+</tbody>
+</table>
+
 ### Region(s) Studied
+
+![plot of chunk unnamed-chunk-9](./PT_Analysis_files/figure-html/unnamed-chunk-9.png) <table>
+<caption>Categorical Counts</caption>
+ <thead>
+  <tr>
+   <th align="left">   </th>
+   <th align="right"> colSums.RegionGrid. </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> Private.RegionMENA </td>
+   <td align="right"> 4 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSSA </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionCentralAsia </td>
+   <td align="right"> 6 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionEastAsia </td>
+   <td align="right"> 154 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSouthAsia </td>
+   <td align="right"> 11 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSoutheastAsia </td>
+   <td align="right"> 17 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSouthANZ </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionWesternEurope </td>
+   <td align="right"> 19 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionEasternEurope </td>
+   <td align="right"> 19 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionUSCanada </td>
+   <td align="right"> 30 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionLAC </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionGlobal </td>
+   <td align="right"> 36 </td>
+  </tr>
+</tbody>
+</table>
+<table>
+<caption>Categorical Percentages</caption>
+ <thead>
+  <tr>
+   <th align="left">   </th>
+   <th align="right"> prop.table.colSums.RegionGrid.. </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> Private.RegionMENA </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSSA </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionCentralAsia </td>
+   <td align="right"> 0.02 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionEastAsia </td>
+   <td align="right"> 0.51 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSouthAsia </td>
+   <td align="right"> 0.04 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSoutheastAsia </td>
+   <td align="right"> 0.06 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionSouthANZ </td>
+   <td align="right"> 0.00 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionWesternEurope </td>
+   <td align="right"> 0.06 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionEasternEurope </td>
+   <td align="right"> 0.06 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionUSCanada </td>
+   <td align="right"> 0.10 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionLAC </td>
+   <td align="right"> 0.01 </td>
+  </tr>
+  <tr>
+   <td align="left"> Private.RegionGlobal </td>
+   <td align="right"> 0.12 </td>
+  </tr>
+</tbody>
+</table>
+
+#### Research Type Others:
+
+
+|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.items..collapse.......... |Private.Reviewer |
+|:----------|:------------------------------------------------------------------------------|:----------------|
+|51         |"Developing countries"                                                         |Olga             |
+|171        |North Europe                                                                   |Xiaoran Yu       |
+|118e       |Mediterranean                                                                  |Iveta            |
+|119e       |Mediterranean                                                                  |Iveta            |
+|131e       |Mediterranean                                                                  |Iveta            |
+
+
+### Levels of Education Discussed
 

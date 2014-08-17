@@ -27,15 +27,15 @@ kable(data.frame(prop.table(table(Private$PubType))), format="html",  caption='P
 
 ### Publisher
 ```{r, results="asis", echo=FALSE, message=FALSE}
-kable(data.frame(table(Private$Publisher)))
+kable(data.frame(table(Private$Publisher)), format="html",  caption='Counts')
 ```
 
 ### Publication Year
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 dotchart(data.matrix(table(Private$PubYear)))
-kable(data.frame(table(Private$PubYear)))
-kable(data.frame(prop.table(table(Private$PubYear))), digits=2)
+kable(data.frame(table(Private$PubYear)), format="html",  caption='Counts')
+kable(data.frame(prop.table(table(Private$PubYear))), format="html",  caption='Percentage', digits=2)
 ```
 
 ### Publication Language
@@ -50,11 +50,11 @@ kable(prop.table(data.frame(colSums(PubLangGrid))))
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 dotchart(colSums(ResearchTypeGrid))
-kable(data.frame(colSums(ResearchTypeGrid)))
-kable(data.frame(prop.table(colSums(ResearchTypeGrid))), digits=2)
+kable(data.frame(colSums(ResearchTypeGrid)), format="html",  caption='Counts')
+kable(data.frame(prop.table(colSums(ResearchTypeGrid))), format="html",  caption='Percentage', digits=2)
 ```
-
-**Research Type Others:** 
+    
+#### Research Type Others:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(ResearchTypeOther, row.names=FALSE)
@@ -64,5 +64,24 @@ kable(ResearchTypeOther, row.names=FALSE)
 
 ### Country or Countries Studied
 
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(data.frame(table(Private$Country)), format="html",  caption='Counts')
+```
+
 ### Region(s) Studied
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+# kable(data.frame(table(Private$Region)), format="html",  caption='Raw Counts')
+dotchart(colSums(RegionGrid))
+kable(data.frame(colSums(RegionGrid)), format="html",  caption='Categorical Counts')
+kable(data.frame(prop.table(colSums(RegionGrid))), format="html",  caption='Categorical Percentages', digits=2)
+```
+
+#### Research Type Others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(RegionOther, row.names=FALSE)
+```
+
+### Levels of Education Discussed
 
