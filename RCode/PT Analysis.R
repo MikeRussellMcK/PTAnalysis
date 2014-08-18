@@ -36,6 +36,29 @@ ResearchTypeOther <- na.omit(ResearchTypeOther)
 #ResearchTypeCounts <- c(sum(ResearchTypeGrid$Original), sum(ResearchTypeGrid$Review), sum(ResearchTypeGrid$Policy))
 
 # =================
+# Publication type
+
+PrivatePubTypeLabel <- as.data.frame(table(Private$PubType))
+colnames(PrivatePubTypeLabel)[1] <- "x"
+PrivatePubTypeLabel$lab <- as.character(round(100 * PrivatePubTypeLabel$Freq / sum(PrivatePubTypeLabel$Freq)))
+PrivatePubTypeLabel$lab <- paste(PrivatePubTypeLabel$Freq,paste("(",PrivatePubTypeLabel$lab,"%)",sep=""),sep=" ")
+
+AllAsiaPubTypeLabel <- as.data.frame(table(AllAsia$PubType))
+colnames(AllAsiaPubTypeLabel)[1] <- "x"
+AllAsiaPubTypeLabel$lab <- as.character(round(100 * AllAsiaPubTypeLabel$Freq / sum(AllAsiaPubTypeLabel$Freq)))
+AllAsiaPubTypeLabel$lab <- paste(AllAsiaPubTypeLabel$Freq,paste("(",AllAsiaPubTypeLabel$lab,"%)",sep=""),sep=" ")
+
+AllChinesePubTypeLabel <- as.data.frame(table(AllChinese$PubType))
+colnames(AllChinesePubTypeLabel)[1] <- "x"
+AllChinesePubTypeLabel$lab <- as.character(round(100 * AllChinesePubTypeLabel$Freq / sum(AllChinesePubTypeLabel$Freq)))
+AllChinesePubTypeLabel$lab <- paste(AllChinesePubTypeLabel$Freq,paste("(",AllChinesePubTypeLabel$lab,"%)",sep=""),sep=" ")
+
+AllEnglishPubTypeLabel <- as.data.frame(table(AllEnglish$PubType))
+colnames(AllEnglishPubTypeLabel)[1] <- "x"
+AllEnglishPubTypeLabel$lab <- as.character(round(100 * AllEnglishPubTypeLabel$Freq / sum(AllEnglishPubTypeLabel$Freq)))
+AllEnglishPubTypeLabel$lab <- paste(AllEnglishPubTypeLabel$Freq,paste("(",AllEnglishPubTypeLabel$lab,"%)",sep=""),sep=" ")
+
+# =================
 #  Regions
 
 Private$RegionMENA <- grepl("Middle East", Private$Region)

@@ -20,9 +20,28 @@ source('../RCode/PT Analysis.R')
 ### Type of Publication
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-dotchart(data.matrix(table(Private$PubType)))
-kable(data.frame(table(Private$PubType)), format="html",  caption='Counts')
-kable(data.frame(prop.table(table(Private$PubType))), format="html",  caption='Percentage', digits=2)
+
+PrivatePubTypeGraph <- ggplot(Private, aes(factor(PubType))) + geom_bar() + ggtitle("All Entries") +
+    geom_text(size=3, data=PrivatePubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
+    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
+    scale_y_continuous(limits = c(0, 350)) + coord_flip()
+
+AllAsiaPubTypeGraph <- ggplot(AllAsia, aes(factor(PubType))) + geom_bar() + ggtitle("Asian Region") +
+    geom_text(size=3, data=AllAsiaPubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
+    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
+    scale_y_continuous(limits = c(0, 350)) + coord_flip()
+
+AllChinesePubTypeGraph <- ggplot(AllChinese, aes(factor(PubType))) + geom_bar() + ggtitle("Chinese-language") +
+    geom_text(size=3, data=AllChinesePubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
+    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
+    scale_y_continuous(limits = c(0, 350)) + coord_flip()
+
+AllEnglishPubTypeGraph <- ggplot(AllEnglish, aes(factor(PubType))) + geom_bar() + ggtitle("English-language") +
+    geom_text(size=3, data=AllEnglishPubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
+    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
+    scale_y_continuous(limits = c(0, 350)) + coord_flip()
+
+grid.arrange(PrivatePubTypeGraph, AllAsiaPubTypeGraph, AllChinesePubTypeGraph, AllEnglishPubTypeGraph, ncol=2)
 ```
 
 ### Publisher

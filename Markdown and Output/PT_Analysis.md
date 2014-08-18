@@ -9,92 +9,7 @@
 
 ### Type of Publication
 
-![plot of chunk unnamed-chunk-2](./PT_Analysis_files/figure-html/unnamed-chunk-2.png) <table>
-<caption>Counts</caption>
- <thead>
-  <tr>
-   <th align="left"> Var1 </th>
-   <th align="right"> Freq </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td align="left"> Book </td>
-   <td align="right"> 6 </td>
-  </tr>
-  <tr>
-   <td align="left"> Book Chapter </td>
-   <td align="right"> 16 </td>
-  </tr>
-  <tr>
-   <td align="left"> Discussion Paper </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Dissertation </td>
-   <td align="right"> 18 </td>
-  </tr>
-  <tr>
-   <td align="left"> Journal Article </td>
-   <td align="right"> 213 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis </td>
-   <td align="right"> 32 </td>
-  </tr>
-  <tr>
-   <td align="left"> Report </td>
-   <td align="right"> 7 </td>
-  </tr>
-  <tr>
-   <td align="left"> Working Paper </td>
-   <td align="right"> 7 </td>
-  </tr>
-</tbody>
-</table>
-<table>
-<caption>Percentage</caption>
- <thead>
-  <tr>
-   <th align="left"> Var1 </th>
-   <th align="right"> Freq </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td align="left"> Book </td>
-   <td align="right"> 0.02 </td>
-  </tr>
-  <tr>
-   <td align="left"> Book Chapter </td>
-   <td align="right"> 0.05 </td>
-  </tr>
-  <tr>
-   <td align="left"> Discussion Paper </td>
-   <td align="right"> 0.01 </td>
-  </tr>
-  <tr>
-   <td align="left"> Dissertation </td>
-   <td align="right"> 0.06 </td>
-  </tr>
-  <tr>
-   <td align="left"> Journal Article </td>
-   <td align="right"> 0.71 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis </td>
-   <td align="right"> 0.11 </td>
-  </tr>
-  <tr>
-   <td align="left"> Report </td>
-   <td align="right"> 0.02 </td>
-  </tr>
-  <tr>
-   <td align="left"> Working Paper </td>
-   <td align="right"> 0.02 </td>
-  </tr>
-</tbody>
-</table>
+![plot of chunk unnamed-chunk-2](./PT_Analysis_files/figure-html/unnamed-chunk-2.png) 
 
 ### Publisher
 <table>
@@ -1665,7 +1580,6 @@
 |118e       |Mediterranean                                                                  |Iveta            |
 |119e       |Mediterranean                                                                  |Iveta            |
 |131e       |Mediterranean                                                                  |Iveta            |
-
 
 ### Levels of Education Discussed
 
