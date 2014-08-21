@@ -35,3 +35,8 @@ AllEnglish <- filter(Private, PubLang == "English")
 
 # Mane new data frame for Chinese Language
 AllChinese <- filter(Private, PubLang == "Chinese")
+
+PrivateName1 <- "All Entries"
+AllAsiaName1 <- "Asia Regions"
+AllChineseName1 <- "Chinese-language"
+AllEnglishName1 <- "English-language"

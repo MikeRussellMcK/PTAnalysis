@@ -20,57 +20,66 @@ source('../RCode/PT Analysis.R')
 ### Type of Publication
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-
-PrivatePubTypeGraph <- ggplot(Private, aes(factor(PubType))) + geom_bar() + ggtitle("All Entries") +
-    geom_text(size=3, data=PrivatePubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
-    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
-    scale_y_continuous(limits = c(0, 350)) + coord_flip()
-
-AllAsiaPubTypeGraph <- ggplot(AllAsia, aes(factor(PubType))) + geom_bar() + ggtitle("Asian Region") +
-    geom_text(size=3, data=AllAsiaPubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
-    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
-    scale_y_continuous(limits = c(0, 350)) + coord_flip()
-
-AllChinesePubTypeGraph <- ggplot(AllChinese, aes(factor(PubType))) + geom_bar() + ggtitle("Chinese-language") +
-    geom_text(size=3, data=AllChinesePubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
-    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
-    scale_y_continuous(limits = c(0, 350)) + coord_flip()
-
-AllEnglishPubTypeGraph <- ggplot(AllEnglish, aes(factor(PubType))) + geom_bar() + ggtitle("English-language") +
-    geom_text(size=3, data=AllEnglishPubTypeLabel,aes(x=x,y=Freq,label=lab),hjust=-.1) +
-    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
-    scale_y_continuous(limits = c(0, 350)) + coord_flip()
-
-grid.arrange(PrivatePubTypeGraph, AllAsiaPubTypeGraph, AllChinesePubTypeGraph, AllEnglishPubTypeGraph, ncol=2)
+DataSource1="PubType"
+YLim=350
+PrivateGraph <- AllDataPlot(Private, DataSource1, Private$PubType, Title1, YLim)
+AllAsiaGraph <- AllDataPlot(AllAsia, DataSource1, AllAsia$PubType, Title2, YLim)
+AllChineseGraph <- AllDataPlot(AllChinese, DataSource1, AllChinese$PubType, Title3, YLim)
+AllEnglishGraph <- AllDataPlot(AllEnglish, DataSource1, AllEnglish$PubType, Title4, YLim)
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
 
 ### Publisher
 ```{r, results="asis", echo=FALSE, message=FALSE}
-kable(data.frame(table(Private$Publisher)), format="html",  caption='Counts')
+#kable(data.frame(table(Private$Publisher)), format="html",  caption='Counts')
 ```
 
 ### Publication Year
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-dotchart(data.matrix(table(Private$PubYear)))
-kable(data.frame(table(Private$PubYear)), format="html",  caption='Counts')
-kable(data.frame(prop.table(table(Private$PubYear))), format="html",  caption='Percentage', digits=2)
+DataSource1="PubYear"
+YLim=100
+AllDataPlot(Private, DataSource1, Private$PubYear, Title1, YLim)
+AllDataPlot(AllAsia, DataSource1, AllAsia$PubYear, Title2, YLim)
+AllDataPlot(AllChinese, DataSource1, AllChinese$PubYear, Title3, YLim)
+AllDataPlot(AllEnglish, DataSource1, AllEnglish$PubYear, Title4, YLim)
+
 ```
 
 ### Publication Language
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-dotchart(colSums(PubLangGrid))
-kable(data.frame(colSums(PubLangGrid)))
-kable(prop.table(data.frame(colSums(PubLangGrid))))
+
+DataSet1 <- PrivatePubLangLabel
+GraphName1 <- "All Entries"
+
+PrivateGraph <- ggplot(data=DataSet1, aes(x=x, y=Freq)) + geom_bar(stat="identity") + ggtitle(PrivateName1) +
+  geom_text(size=3, data=DataSet1,aes(x=x,y=Freq,label=lab),hjust=-.1) +
+  theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
+  scale_y_continuous(limits = c(0, 350)) + coord_flip()
+
+DataSet1 <- AllAsiaPubLangLabel
+
+AllAsiaGraph <- ggplot(data=DataSet1, aes(x=x, y=Freq)) + geom_bar(stat="identity") + ggtitle(AllAsiaName1) +
+  geom_text(size=3, data=DataSet1,aes(x=x,y=Freq,label=lab),hjust=-.1) +
+  theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
+  scale_y_continuous(limits = c(0, 350)) + coord_flip()
+
+grid.arrange(PrivateGraph, AllAsiaGraph, ncol=2)
 ```
 
 ### Type of Research
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-dotchart(colSums(ResearchTypeGrid))
-kable(data.frame(colSums(ResearchTypeGrid)), format="html",  caption='Counts')
-kable(data.frame(prop.table(colSums(ResearchTypeGrid))), format="html",  caption='Percentage', digits=2)
+
+DataSource1=PrivateResearchTypeGrid
+YLim=350
+PrivateGraph <- CategoricalPlot(PrivateResearchTypeGrid, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(AllAsiaResearchTypeGrid, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(AllChineseResearchTypeGrid, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(AllEnglishResearchTypeGrid, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
     
 #### Research Type Others:
@@ -91,12 +100,21 @@ kable(data.frame(table(Private$Country)), format="html",  caption='Counts')
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 # kable(data.frame(table(Private$Region)), format="html",  caption='Raw Counts')
-dotchart(colSums(RegionGrid))
-kable(data.frame(colSums(RegionGrid)), format="html",  caption='Categorical Counts')
-kable(data.frame(prop.table(colSums(RegionGrid))), format="html",  caption='Categorical Percentages', digits=2)
+DataSource1=PrivateRegionGrid
+DataSource2=AllAsiaRegionGrid
+DataSource3=AllChineseRegionGrid
+DataSource4=AllEnglishRegionGrid
+
+YLim=275
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
 
-#### Research Type Others:
+#### Region(s) Others:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(RegionOther, row.names=FALSE)
@@ -104,3 +122,6 @@ kable(RegionOther, row.names=FALSE)
 
 ### Levels of Education Discussed
 
+```{r, results="asis", echo=FALSE, message=FALSE}
+
+```
