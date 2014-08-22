@@ -48,23 +48,12 @@ Title4 = "All English"
 PrivatePubLangGrid <- data.frame(grepl("Chinese", Private$PubLang), grepl("English", Private$PubLang), (!grepl("Chinese", Private$PubLang) & !grepl("English", Private$PubLang)))
 names(PrivatePubLangGrid) <- c("Chinese", "English", "Other")
 
-# Sets all entries for the graphing
-PrivatePubLangLabel <- as.data.frame(colSums(PrivatePubLangGrid))
-PrivatePubLangLabel <- setNames(cbind(rownames(PrivatePubLangLabel), PrivatePubLangLabel, row.names = NULL), c("x", "Freq"))
-PrivatePubLangLabel$lab <- as.character(round(100 * PrivatePubLangLabel$Freq / sum(PrivatePubLangLabel$Freq)))
-PrivatePubLangLabel$lab <- paste(PrivatePubLangLabel$Freq,paste("(",PrivatePubLangLabel$lab,"%)",sep=""),sep=" ")
-
 AllAsiaPubLangGrid <- data.frame(grepl("Chinese", AllAsia$PubLang), grepl("English", AllAsia$PubLang), (!grepl("Chinese", AllAsia$PubLang) & !grepl("English", AllAsia$PubLang)))
 names(AllAsiaPubLangGrid) <- c("Chinese", "English", "Other")
 
-# Sets Asian Region for the graphing
-AllAsiaPubLangLabel <- as.data.frame(colSums(AllAsiaPubLangGrid))
-AllAsiaPubLangLabel <- setNames(cbind(rownames(AllAsiaPubLangLabel), AllAsiaPubLangLabel, row.names = NULL), c("x", "Freq"))
-AllAsiaPubLangLabel$lab <- as.character(round(100 * AllAsiaPubLangLabel$Freq / sum(AllAsiaPubLangLabel$Freq)))
-AllAsiaPubLangLabel$lab <- paste(AllAsiaPubLangLabel$Freq,paste("(",AllAsiaPubLangLabel$lab,"%)",sep=""),sep=" ")
-
 # Type of Research
-# =================
+# ================= 
+# Type of Research
 
 #Make the Private T/F Grid
 Private$ResearchTypeOriginal <- grepl("Original", Private$ResearchType)
@@ -74,12 +63,6 @@ Private$ResearchTypePolicy <- grepl("Policy", Private$ResearchType)
 PrivateResearchTypeGrid <- data.frame(Private$ResearchTypeOriginal, Private$ResearchTypeReview, Private$ResearchTypePolicy)
 names(PrivateResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
 
-# Sets up the Private Graph
-PrivateResearchTypeLabel <- as.data.frame(colSums(PrivateResearchTypeGrid))
-PrivateResearchTypeLabel <- setNames(cbind(rownames(PrivateResearchTypeLabel), PrivateResearchTypeLabel, row.names = NULL), c("x", "Freq"))
-PrivateResearchTypeLabel$lab <- as.character(round(100 * PrivateResearchTypeLabel$Freq / sum(PrivateResearchTypeLabel$Freq)))
-PrivateResearchTypeLabel$lab <- paste(PrivateResearchTypeLabel$Freq,paste("(",PrivateResearchTypeLabel$lab,"%)",sep=""),sep=" ")
-
 #Make the AllAsia T/F Grid
 AllAsia$ResearchTypeOriginal <- grepl("Original", AllAsia$ResearchType)
 AllAsia$ResearchTypeReview <- grepl("Review", AllAsia$ResearchType)
@@ -87,12 +70,6 @@ AllAsia$ResearchTypePolicy <- grepl("Policy", AllAsia$ResearchType)
 
 AllAsiaResearchTypeGrid <- data.frame(AllAsia$ResearchTypeOriginal, AllAsia$ResearchTypeReview, AllAsia$ResearchTypePolicy)
 names(AllAsiaResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
-
-# Sets up the AllAsia Graph
-AllAsiaResearchTypeLabel <- as.data.frame(colSums(AllAsiaResearchTypeGrid))
-AllAsiaResearchTypeLabel <- setNames(cbind(rownames(AllAsiaResearchTypeLabel), AllAsiaResearchTypeLabel, row.names = NULL), c("x", "Freq"))
-AllAsiaResearchTypeLabel$lab <- as.character(round(100 * AllAsiaResearchTypeLabel$Freq / sum(AllAsiaResearchTypeLabel$Freq)))
-AllAsiaResearchTypeLabel$lab <- paste(AllAsiaResearchTypeLabel$Freq,paste("(",AllAsiaResearchTypeLabel$lab,"%)",sep=""),sep=" ")
 
 #Make the AllChinese T/F Grid
 AllChinese$ResearchTypeOriginal <- grepl("Original", AllChinese$ResearchType)
@@ -102,12 +79,6 @@ AllChinese$ResearchTypePolicy <- grepl("Policy", AllChinese$ResearchType)
 AllChineseResearchTypeGrid <- data.frame(AllChinese$ResearchTypeOriginal, AllChinese$ResearchTypeReview, AllChinese$ResearchTypePolicy)
 names(AllChineseResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
 
-# Sets up the AllChinese Graph
-AllChineseResearchTypeLabel <- as.data.frame(colSums(AllChineseResearchTypeGrid))
-AllChineseResearchTypeLabel <- setNames(cbind(rownames(AllChineseResearchTypeLabel), AllChineseResearchTypeLabel, row.names = NULL), c("x", "Freq"))
-AllChineseResearchTypeLabel$lab <- as.character(round(100 * AllChineseResearchTypeLabel$Freq / sum(AllChineseResearchTypeLabel$Freq)))
-AllChineseResearchTypeLabel$lab <- paste(AllChineseResearchTypeLabel$Freq,paste("(",AllChineseResearchTypeLabel$lab,"%)",sep=""),sep=" ")
-
 #Make the AllEnglish T/F Grid
 AllEnglish$ResearchTypeOriginal <- grepl("Original", AllEnglish$ResearchType)
 AllEnglish$ResearchTypeReview <- grepl("Review", AllEnglish$ResearchType)
@@ -116,13 +87,7 @@ AllEnglish$ResearchTypePolicy <- grepl("Policy", AllEnglish$ResearchType)
 AllEnglishResearchTypeGrid <- data.frame(AllEnglish$ResearchTypeOriginal, AllEnglish$ResearchTypeReview, AllEnglish$ResearchTypePolicy)
 names(AllEnglishResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
 
-# Sets up the AllEnglish Graph
-AllEnglishResearchTypeLabel <- as.data.frame(colSums(AllEnglishResearchTypeGrid))
-AllEnglishResearchTypeLabel <- setNames(cbind(rownames(AllEnglishResearchTypeLabel), AllEnglishResearchTypeLabel, row.names = NULL), c("x", "Freq"))
-AllEnglishResearchTypeLabel$lab <- as.character(round(100 * AllEnglishResearchTypeLabel$Freq / sum(AllEnglishResearchTypeLabel$Freq)))
-AllEnglishResearchTypeLabel$lab <- paste(AllEnglishResearchTypeLabel$Freq,paste("(",AllEnglishResearchTypeLabel$lab,"%)",sep=""),sep=" ")
-
-# Others
+## Others
 items <- c("Review of other research", 
            "Original empirical research", 
            "Policy analysis")
@@ -131,61 +96,14 @@ ResearchTypeOther <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)
 ResearchTypeOther[ResearchTypeOther==""] <- NA
 ResearchTypeOther <- na.omit(ResearchTypeOther)
 
-# Counts
-#ResearchTypeCounts <- c(sum(ResearchTypeGrid$Original), sum(ResearchTypeGrid$Review), sum(ResearchTypeGrid$Policy))
-
-# Publication Year
-PrivatePubYearLabel <- as.data.frame(table(Private$PubYear))
-colnames(PrivatePubYearLabel)[1] <- "x"
-PrivatePubYearLabel$lab <- as.character(round(100 * PrivatePubYearLabel$Freq / sum(PrivatePubYearLabel$Freq)))
-PrivatePubYearLabel$lab <- paste(PrivatePubYearLabel$Freq,paste("(",PrivatePubYearLabel$lab,"%)",sep=""),sep=" ")
-
-AllAsiaPubYearLabel <- as.data.frame(table(AllAsia$PubYear))
-colnames(AllAsiaPubYearLabel)[1] <- "x"
-AllAsiaPubYearLabel$lab <- as.character(round(100 * AllAsiaPubYearLabel$Freq / sum(AllAsiaPubYearLabel$Freq)))
-AllAsiaPubYearLabel$lab <- paste(AllAsiaPubYearLabel$Freq,paste("(",AllAsiaPubYearLabel$lab,"%)",sep=""),sep=" ")
-
-AllChinesePubYearLabel <- as.data.frame(table(AllChinese$PubYear))
-colnames(AllChinesePubYearLabel)[1] <- "x"
-AllChinesePubYearLabel$lab <- as.character(round(100 * AllChinesePubYearLabel$Freq / sum(AllChinesePubYearLabel$Freq)))
-AllChinesePubYearLabel$lab <- paste(AllChinesePubYearLabel$Freq,paste("(",AllChinesePubYearLabel$lab,"%)",sep=""),sep=" ")
-
-AllEnglishPubYearLabel <- as.data.frame(table(AllEnglish$PubYear))
-colnames(AllEnglishPubYearLabel)[1] <- "x"
-AllEnglishPubYearLabel$lab <- as.character(round(100 * AllEnglishPubYearLabel$Freq / sum(AllEnglishPubYearLabel$Freq)))
-AllEnglishPubYearLabel$lab <- paste(AllEnglishPubYearLabel$Freq,paste("(",AllEnglishPubYearLabel$lab,"%)",sep=""),sep=" ")
-
-
-# Publication type
-# =================
-
-PrivatePubTypeLabel <- as.data.frame(table(Private$PubType))
-colnames(PrivatePubTypeLabel)[1] <- "x"
-PrivatePubTypeLabel$lab <- as.character(round(100 * PrivatePubTypeLabel$Freq / sum(PrivatePubTypeLabel$Freq)))
-PrivatePubTypeLabel$lab <- paste(PrivatePubTypeLabel$Freq,paste("(",PrivatePubTypeLabel$lab,"%)",sep=""),sep=" ")
-
-AllAsiaPubTypeLabel <- as.data.frame(table(AllAsia$PubType))
-colnames(AllAsiaPubTypeLabel)[1] <- "x"
-AllAsiaPubTypeLabel$lab <- as.character(round(100 * AllAsiaPubTypeLabel$Freq / sum(AllAsiaPubTypeLabel$Freq)))
-AllAsiaPubTypeLabel$lab <- paste(AllAsiaPubTypeLabel$Freq,paste("(",AllAsiaPubTypeLabel$lab,"%)",sep=""),sep=" ")
-
-AllChinesePubTypeLabel <- as.data.frame(table(AllChinese$PubType))
-colnames(AllChinesePubTypeLabel)[1] <- "x"
-AllChinesePubTypeLabel$lab <- as.character(round(100 * AllChinesePubTypeLabel$Freq / sum(AllChinesePubTypeLabel$Freq)))
-AllChinesePubTypeLabel$lab <- paste(AllChinesePubTypeLabel$Freq,paste("(",AllChinesePubTypeLabel$lab,"%)",sep=""),sep=" ")
-
-AllEnglishPubTypeLabel <- as.data.frame(table(AllEnglish$PubType))
-colnames(AllEnglishPubTypeLabel)[1] <- "x"
-AllEnglishPubTypeLabel$lab <- as.character(round(100 * AllEnglishPubTypeLabel$Freq / sum(AllEnglishPubTypeLabel$Freq)))
-AllEnglishPubTypeLabel$lab <- paste(AllEnglishPubTypeLabel$Freq,paste("(",AllEnglishPubTypeLabel$lab,"%)",sep=""),sep=" ")
-
 #  Regions
 # =================
+# Region
 
 RegionNames <- c("MENA", "Sub-Saharan", "Cent. Asia", "East Asia", "S. Asia", "S.E. Asia", "Aus. & NZ", "W. Europe", "E. Europe", "US & Can", "LAC", "Global")
 
-# Private
-# ======
+## Private
+## ======
 Private$RegionMENA <- grepl("Middle East", Private$Region)
 Private$RegionSSA <- grepl("Sub-Saharan", Private$Region)
 Private$RegionCentralAsia <- grepl("Central", Private$Region)
@@ -202,8 +120,8 @@ Private$RegionGlobal <- grepl("Global", Private$Region)
 PrivateRegionGrid <- data.frame(Private$RegionMENA, Private$RegionSSA, Private$RegionCentralAsia, Private$RegionEastAsia, Private$RegionSouthAsia, Private$RegionSoutheastAsia, Private$RegionSouthANZ, Private$RegionWesternEurope, Private$RegionEasternEurope, Private$RegionUSCanada, Private$RegionLAC, Private$RegionGlobal)
 names(PrivateRegionGrid) <- RegionNames
 
-# AllAsia
-# =====
+## AllAsia
+## =====
 
 AllAsia$RegionMENA <- grepl("Middle East", AllAsia$Region)
 AllAsia$RegionSSA <- grepl("Sub-Saharan", AllAsia$Region)
@@ -221,8 +139,8 @@ AllAsia$RegionGlobal <- grepl("Global", AllAsia$Region)
 AllAsiaRegionGrid <- data.frame(AllAsia$RegionMENA, AllAsia$RegionSSA, AllAsia$RegionCentralAsia, AllAsia$RegionEastAsia, AllAsia$RegionSouthAsia, AllAsia$RegionSoutheastAsia, AllAsia$RegionSouthANZ, AllAsia$RegionWesternEurope, AllAsia$RegionEasternEurope, AllAsia$RegionUSCanada, AllAsia$RegionLAC, AllAsia$RegionGlobal)
 names(AllAsiaRegionGrid) <- RegionNames
 
-# AllChinese
-# =====
+## AllChinese
+## =====
 
 AllChinese$RegionMENA <- grepl("Middle East", AllChinese$Region)
 AllChinese$RegionSSA <- grepl("Sub-Saharan", AllChinese$Region)
@@ -240,8 +158,8 @@ AllChinese$RegionGlobal <- grepl("Global", AllChinese$Region)
 AllChineseRegionGrid <- data.frame(AllChinese$RegionMENA, AllChinese$RegionSSA, AllChinese$RegionCentralAsia, AllChinese$RegionEastAsia, AllChinese$RegionSouthAsia, AllChinese$RegionSoutheastAsia, AllChinese$RegionSouthANZ, AllChinese$RegionWesternEurope, AllChinese$RegionEasternEurope, AllChinese$RegionUSCanada, AllChinese$RegionLAC, AllChinese$RegionGlobal)
 names(AllChineseRegionGrid) <- RegionNames
 
-# AllEnglish
-# =====
+## AllEnglish
+## =====
 
 AllEnglish$RegionMENA <- grepl("Middle East", AllEnglish$Region)
 AllEnglish$RegionSSA <- grepl("Sub-Saharan", AllEnglish$Region)
@@ -259,8 +177,8 @@ AllEnglish$RegionGlobal <- grepl("Global", AllEnglish$Region)
 AllEnglishRegionGrid <- data.frame(AllEnglish$RegionMENA, AllEnglish$RegionSSA, AllEnglish$RegionCentralAsia, AllEnglish$RegionEastAsia, AllEnglish$RegionSouthAsia, AllEnglish$RegionSoutheastAsia, AllEnglish$RegionSouthANZ, AllEnglish$RegionWesternEurope, AllEnglish$RegionEasternEurope, AllEnglish$RegionUSCanada, AllEnglish$RegionLAC, AllEnglish$RegionGlobal)
 names(AllEnglishRegionGrid) <- RegionNames
 
-# Others
-# ======
+## Others
+## ======
 
 items <- c("Middle East & North Africa", 
            "Sub-Saharan Africa",
@@ -278,3 +196,200 @@ RegionOther <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)
                                                             sub(".*\\|\\s(.*)", "\\1", Private$Region))), Private$Reviewer)
 RegionOther[RegionOther==""] <- NA
 RegionOther <- na.omit(RegionOther)
+
+# Level of education discussed
+# ============================
+
+EdLevelNames <- c("Pre-primary", "Primary", "Secondary", "Tertiary")
+
+## Private
+## ======
+
+Private$EdLevelPrePrimary <- grepl("Pre-primary", Private$EdLevel)
+Private$EdLevelPrimary <- grepl("Primary", Private$EdLevel)
+Private$EdLevelSecondary <- grepl("Secondary", Private$EdLevel)
+Private$EdLevelTertiary <- grepl("Tertiary", Private$EdLevel)
+
+PrivateEdLevelGrid <- data.frame(Private$EdLevelPrePrimary, Private$EdLevelPrimary, Private$EdLevelSecondary, Private$EdLevelTertiary)
+names(PrivateEdLevelGrid) <- EdLevelNames
+
+## AllAsia
+## ======
+
+AllAsia$EdLevelPrePrimary <- grepl("Pre-primary", AllAsia$EdLevel)
+AllAsia$EdLevelPrimary <- grepl("Primary", AllAsia$EdLevel)
+AllAsia$EdLevelSecondary <- grepl("Secondary", AllAsia$EdLevel)
+AllAsia$EdLevelTertiary <- grepl("Tertiary", AllAsia$EdLevel)
+
+AllAsiaEdLevelGrid <- data.frame(AllAsia$EdLevelPrePrimary, AllAsia$EdLevelPrimary, AllAsia$EdLevelSecondary, AllAsia$EdLevelTertiary)
+names(AllAsiaEdLevelGrid) <- EdLevelNames
+
+## AllChinese
+## ======
+
+AllChinese$EdLevelPrePrimary <- grepl("Pre-primary", AllChinese$EdLevel)
+AllChinese$EdLevelPrimary <- grepl("Primary", AllChinese$EdLevel)
+AllChinese$EdLevelSecondary <- grepl("Secondary", AllChinese$EdLevel)
+AllChinese$EdLevelTertiary <- grepl("Tertiary", AllChinese$EdLevel)
+
+AllChineseEdLevelGrid <- data.frame(AllChinese$EdLevelPrePrimary, AllChinese$EdLevelPrimary, AllChinese$EdLevelSecondary, AllChinese$EdLevelTertiary)
+names(AllChineseEdLevelGrid) <- EdLevelNames
+
+## AllEnglish
+## ======
+
+AllEnglish$EdLevelPrePrimary <- grepl("Pre-primary", AllEnglish$EdLevel)
+AllEnglish$EdLevelPrimary <- grepl("Primary", AllEnglish$EdLevel)
+AllEnglish$EdLevelSecondary <- grepl("Secondary", AllEnglish$EdLevel)
+AllEnglish$EdLevelTertiary <- grepl("Tertiary", AllEnglish$EdLevel)
+
+AllEnglishEdLevelGrid <- data.frame(AllEnglish$EdLevelPrePrimary, AllEnglish$EdLevelPrimary, AllEnglish$EdLevelSecondary, AllEnglish$EdLevelTertiary)
+names(AllEnglishEdLevelGrid) <- EdLevelNames
+
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(EdLevelNames, collapse = "|")), "", 
+                                                      sub(".*\\|\\s(.*)", "\\1", Private$EdLevel))), Private$Reviewer)
+Other[Other==""] <- NA
+EdLevelOther <- na.omit(Other)
+
+# Research Approach
+# ============================
+
+ResearchApproachNames <- c("Single-country / case", "Comparative")
+
+## Private
+## ======
+
+Private$ResearchApproachSingle <- grepl("Single-country", Private$ResearchApproach)
+Private$ResearchApproachComparative <- grepl("Comparative", Private$ResearchApproach)
+
+PrivateResearchApproachGrid <- data.frame(Private$ResearchApproachSingle, Private$ResearchApproachComparative)
+names(PrivateResearchApproachGrid) <- ResearchApproachNames
+
+## AllAsia
+## ======
+
+AllAsia$ResearchApproachSingle <- grepl("Single-country", AllAsia$ResearchApproach)
+AllAsia$ResearchApproachComparative <- grepl("Comparative", AllAsia$ResearchApproach)
+
+AllAsiaResearchApproachGrid <- data.frame(AllAsia$ResearchApproachSingle, AllAsia$ResearchApproachComparative)
+names(AllAsiaResearchApproachGrid) <- ResearchApproachNames
+
+## AllChinese
+## ======
+
+AllChinese$ResearchApproachSingle <- grepl("Single-country", AllChinese$ResearchApproach)
+AllChinese$ResearchApproachComparative <- grepl("Comparative", AllChinese$ResearchApproach)
+
+AllChineseResearchApproachGrid <- data.frame(AllChinese$ResearchApproachSingle, AllChinese$ResearchApproachComparative)
+names(AllChineseResearchApproachGrid) <- ResearchApproachNames
+
+## AllEnglish
+## ======
+
+AllEnglish$ResearchApproachSingle <- grepl("Single-country", AllEnglish$ResearchApproach)
+AllEnglish$ResearchApproachComparative <- grepl("Comparative", AllEnglish$ResearchApproach)
+
+AllEnglishResearchApproachGrid <- data.frame(AllEnglish$ResearchApproachSingle, AllEnglish$ResearchApproachComparative)
+names(AllEnglishResearchApproachGrid) <- ResearchApproachNames
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(ResearchApproachNames, collapse = "|")), "", 
+                                                sub(".*\\|\\s(.*)", "\\1", Private$ResearchApproach))), Private$Reviewer)
+Other[Other==""] <- NA
+ResearchApproachOther <- na.omit(Other)
+
+# Research Methods
+# ============================
+
+ResearchMethodsNames <- c("Quantitative", "Qualitative", "Mixed", "None or unclear")
+
+## Private
+## ======
+
+Private$ResearchMethodsQuant <- grepl("Quantitative", Private$ResearchMethods)
+Private$ResearchMethodsQual <- grepl("Qualitative", Private$ResearchMethods)
+Private$ResearchMethodsMixed <- grepl("Mixed", Private$ResearchMethods)
+Private$ResearchMethodsNone <- grepl("None", Private$ResearchMethods)
+
+PrivateResearchMethodsGrid <- data.frame(Private$ResearchMethodsQuant, Private$ResearchMethodsQual, Private$ResearchMethodsMixed, Private$ResearchMethodsNone)
+names(PrivateResearchMethodsGrid) <- ResearchMethodsNames
+
+## AllAsia
+## ======
+
+AllAsia$ResearchMethodsQuant <- grepl("Quantitative", AllAsia$ResearchMethods)
+AllAsia$ResearchMethodsQual <- grepl("Qualitative", AllAsia$ResearchMethods)
+AllAsia$ResearchMethodsMixed <- grepl("Mixed", AllAsia$ResearchMethods)
+AllAsia$ResearchMethodsNone <- grepl("None", AllAsia$ResearchMethods)
+
+AllAsiaResearchMethodsGrid <- data.frame(AllAsia$ResearchMethodsQuant, AllAsia$ResearchMethodsQual, AllAsia$ResearchMethodsMixed, AllAsia$ResearchMethodsNone)
+names(AllAsiaResearchMethodsGrid) <- ResearchMethodsNames
+
+## AllChinese
+## ======
+
+AllChinese$ResearchMethodsQuant <- grepl("Quantitative", AllChinese$ResearchMethods)
+AllChinese$ResearchMethodsQual <- grepl("Qualitative", AllChinese$ResearchMethods)
+AllChinese$ResearchMethodsMixed <- grepl("Mixed", AllChinese$ResearchMethods)
+AllChinese$ResearchMethodsNone <- grepl("None", AllChinese$ResearchMethods)
+
+AllChineseResearchMethodsGrid <- data.frame(AllChinese$ResearchMethodsQuant, AllChinese$ResearchMethodsQual, AllChinese$ResearchMethodsMixed, AllChinese$ResearchMethodsNone)
+names(AllChineseResearchMethodsGrid) <- ResearchMethodsNames
+
+## AllEnglish
+## ======
+
+AllEnglish$ResearchMethodsQuant <- grepl("Quantitative", AllEnglish$ResearchMethods)
+AllEnglish$ResearchMethodsQual <- grepl("Qualitative", AllEnglish$ResearchMethods)
+AllEnglish$ResearchMethodsMixed <- grepl("Mixed", AllEnglish$ResearchMethods)
+AllEnglish$ResearchMethodsNone <- grepl("None", AllEnglish$ResearchMethods)
+
+AllEnglishResearchMethodsGrid <- data.frame(AllEnglish$ResearchMethodsQuant, AllEnglish$ResearchMethodsQual, AllEnglish$ResearchMethodsMixed, AllEnglish$ResearchMethodsNone)
+names(AllEnglishResearchMethodsGrid) <- ResearchMethodsNames
+
+# Was data set used?
+# ============================
+
+WasDataNames <- c("Yes", "No")
+
+## Private
+## ======
+
+Private$WasDataYes <- grepl("Yes", Private$WasData)
+Private$WasDataNo <- grepl("No", Private$WasData)
+
+PrivateWasDataGrid <- data.frame(Private$WasDataYes, Private$WasDataNo)
+names(PrivateWasDataGrid) <- WasDataNames
+
+## AllAsia
+## ======
+
+AllAsia$WasDataYes <- grepl("Yes", AllAsia$WasData)
+AllAsia$WasDataNo <- grepl("No", AllAsia$WasData)
+
+AllAsiaWasDataGrid <- data.frame(AllAsia$WasDataYes, AllAsia$WasDataNo)
+names(AllAsiaWasDataGrid) <- WasDataNames
+
+## AllChinese
+## ======
+
+AllChinese$WasDataYes <- grepl("Yes", AllChinese$WasData)
+AllChinese$WasDataNo <- grepl("No", AllChinese$WasData)
+
+AllChineseWasDataGrid <- data.frame(AllChinese$WasDataYes, AllChinese$WasDataNo)
+names(AllChineseWasDataGrid) <- WasDataNames
+
+## AllEnglish
+## ======
+
+AllEnglish$WasDataYes <- grepl("Yes", AllEnglish$WasData)
+AllEnglish$WasDataNo <- grepl("No", AllEnglish$WasData)
+
+AllEnglishWasDataGrid <- data.frame(AllEnglish$WasDataYes, AllEnglish$WasDataNo)
+names(AllEnglishWasDataGrid) <- WasDataNames

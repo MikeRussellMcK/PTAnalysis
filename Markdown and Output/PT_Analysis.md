@@ -333,4 +333,55 @@
 
 ### Levels of Education Discussed
 
+![plot of chunk unnamed-chunk-11](./PT_Analysis_files/figure-html/unnamed-chunk-11.png) 
 
+#### EdLevel Others:
+
+
+|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
+|:----------|:-------------------------------------------------------------------|:----------------|
+|76         |grades 7-9                                                          |Olga             |
+|183        |not clear                                                           |Xia Zhao         |
+|99e        |not clear                                                           |Hang Duong       |
+
+### Research Approach
+
+![plot of chunk unnamed-chunk-13](./PT_Analysis_files/figure-html/unnamed-chunk-13.png) 
+
+#### ResearchApproach Others:
+
+
+|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.ResearchApproachNames.. |Private.Reviewer |
+|:----------|:----------------------------------------------------------------------------|:----------------|
+|7          |Single-case                                                                  |Olga             |
+|8          |Single-case                                                                  |Peggy            |
+|13         |Single-case                                                                  |Mike             |
+|16         |Single-case                                                                  |Peggy            |
+|21         |Single-case                                                                  |Iveta            |
+|34         |Single-case                                                                  |Olga             |
+|41         |Single-case                                                                  |Olga             |
+|41         |Single-case                                                                  |Olga             |
+|43         |Single-case                                                                  |Iveta            |
+|46         |Single-case                                                                  |Olga             |
+|47         |Single-case                                                                  |Iveta            |
+|52         |Single-case                                                                  |Mike             |
+|57         |Single-case                                                                  |Olga             |
+|60         |Theoretical model                                                            |Mike             |
+|66         |Single-case                                                                  |Olga             |
+|71         |Single-case                                                                  |Olga             |
+|78         |Single-case                                                                  |Olga             |
+|81         |Single-case                                                                  |Olga             |
+|82         |Single-case                                                                  |Mike             |
+|84         |Single-case                                                                  |Iveta            |
+|85         |Single-case                                                                  |Iveta            |
+|87         |Single-case                                                                  |Iveta            |
+|109e       |Theoretical/conceptual, proposal a model                                     |Hang Duong       |
+|218        |single country but some comparisons were made                                |Hang Duong       |
+
+### Research Methods
+
+![plot of chunk unnamed-chunk-15](./PT_Analysis_files/figure-html/unnamed-chunk-15.png) 
+
+### Was Data Set Used?
+
+![plot of chunk unnamed-chunk-16](./PT_Analysis_files/figure-html/unnamed-chunk-16.png) 

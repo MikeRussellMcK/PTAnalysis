@@ -50,22 +50,15 @@ AllDataPlot(AllEnglish, DataSource1, AllEnglish$PubYear, Title4, YLim)
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 
-DataSet1 <- PrivatePubLangLabel
+#DataSet1 <- PrivatePubLangLabel
 GraphName1 <- "All Entries"
 
-PrivateGraph <- ggplot(data=DataSet1, aes(x=x, y=Freq)) + geom_bar(stat="identity") + ggtitle(PrivateName1) +
-  geom_text(size=3, data=DataSet1,aes(x=x,y=Freq,label=lab),hjust=-.1) +
-  theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
-  scale_y_continuous(limits = c(0, 350)) + coord_flip()
+YLim=350
+PrivateGraph <- CategoricalPlot(PrivatePubLangGrid, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(AllAsiaPubLangGrid, Title2, YLim)
 
-DataSet1 <- AllAsiaPubLangLabel
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 
-AllAsiaGraph <- ggplot(data=DataSet1, aes(x=x, y=Freq)) + geom_bar(stat="identity") + ggtitle(AllAsiaName1) +
-  geom_text(size=3, data=DataSet1,aes(x=x,y=Freq,label=lab),hjust=-.1) +
-  theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
-  scale_y_continuous(limits = c(0, 350)) + coord_flip()
-
-grid.arrange(PrivateGraph, AllAsiaGraph, ncol=2)
 ```
 
 ### Type of Research
@@ -123,5 +116,79 @@ kable(RegionOther, row.names=FALSE)
 ### Levels of Education Discussed
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateEdLevelGrid
+DataSource2=AllAsiaEdLevelGrid
+DataSource3=AllChineseEdLevelGrid
+DataSource4=AllEnglishEdLevelGrid
 
+YLim=350
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+#### EdLevel Others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(EdLevelOther, row.names=FALSE)
+```
+
+### Research Approach
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateResearchApproachGrid
+DataSource2=AllAsiaResearchApproachGrid
+DataSource3=AllChineseResearchApproachGrid
+DataSource4=AllEnglishResearchApproachGrid
+
+YLim=350
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+#### ResearchApproach Others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(ResearchApproachOther, row.names=FALSE)
+```
+
+### Research Methods
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateResearchMethodsGrid
+DataSource2=AllAsiaResearchMethodsGrid
+DataSource3=AllChineseResearchMethodsGrid
+DataSource4=AllEnglishResearchMethodsGrid
+
+YLim=350
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+### Was Data Set Used?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateWasDataGrid
+DataSource2=AllAsiaWasDataGrid
+DataSource3=AllChineseWasDataGrid
+DataSource4=AllEnglishWasDataGrid
+
+YLim=350
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
