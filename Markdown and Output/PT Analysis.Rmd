@@ -176,7 +176,7 @@ AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
 grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
 
-### Was Data Set Used?
+### Was data set used?
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 DataSource1=PrivateWasDataGrid
@@ -192,3 +192,83 @@ AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
 
 grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
+
+#### What data set was used?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+#kable(data.frame(table(Private$WhatData)), format="html",  caption='Counts')
+```
+
+### Theoretical Framework
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateTheoryGrid
+DataSource2=AllAsiaTheoryGrid
+DataSource3=AllChineseTheoryGrid
+DataSource4=AllEnglishTheoryGrid
+
+YLim=350
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+#### Theory Others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(TheoryOther, format="html", row.names=FALSE)
+```
+
+### How is private tutoring framed in the publication?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateFramedGrid
+DataSource2=AllAsiaFramedGrid
+DataSource3=AllChineseFramedGrid
+DataSource4=AllEnglishFramedGrid
+
+YLim=325
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+#grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, nrow=4)
+PrivateGraph
+AllAsiaGraph
+AllChineseGraph
+AllEnglishGraph
+```
+
+#### Framed Others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(FramedOther, format="html", row.names=FALSE)
+```
+
+#### If previous answer was equity, then please define equity concern here:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(EquityConcernGrid, format="html",  row.names=FALSE)
+```
+
+### How is private tutoring viewed in the article?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateHowViewedGrid
+DataSource2=AllAsiaHowViewedGrid
+DataSource3=AllChineseHowViewedGrid
+DataSource4=AllEnglishHowViewedGrid
+
+YLim=300
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
