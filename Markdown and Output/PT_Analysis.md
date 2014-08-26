@@ -1578,3 +1578,1152 @@ Education is known to promote social mobility and therefore contributes to impro
 
 ![plot of chunk unnamed-chunk-23](./PT_Analysis_files/figure-html/unnamed-chunk-23.png) 
 
+### Data drawn from the following stakeholders:
+
+![plot of chunk unnamed-chunk-24](./PT_Analysis_files/figure-html/unnamed-chunk-24.png) 
+
+#### Stakeholder others:
+
+<table>
+ <thead>
+  <tr>
+   <th align="left"> Private.ID </th>
+   <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.StakeholdersNames.. </th>
+   <th align="left"> Private.Reviewer </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> 2 </td>
+   <td align="left"> : documents </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 4 </td>
+   <td align="left"> general public, principals, vice-principals, and school inspectors </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 8 </td>
+   <td align="left"> Parents/household </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 17 </td>
+   <td align="left"> Juku operators </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 24 </td>
+   <td align="left"> UNICEF officers </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 39 </td>
+   <td align="left"> principals, academic scholars,principals, and tutorial school heads </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 50 </td>
+   <td align="left"> Parents/houeholds </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 58 </td>
+   <td align="left"> Schools </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 69 </td>
+   <td align="left"> Census data </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 86 </td>
+   <td align="left"> parents/
+household </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 137 </td>
+   <td align="left"> educator </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 138 </td>
+   <td align="left"> educator </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 213 </td>
+   <td align="left"> primary observation data </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 104e </td>
+   <td align="left"> primary dataset </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 190e </td>
+   <td align="left"> school administrators </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 191e </td>
+   <td align="left"> School leaders </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 195e </td>
+   <td align="left"> Administrators </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 197e </td>
+   <td align="left"> school administrator </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 203e </td>
+   <td align="left"> policy implemeners </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 95e </td>
+   <td align="left"> primary data </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 99e </td>
+   <td align="left"> school administrators </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 67 </td>
+   <td align="left"> principles </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 212 </td>
+   <td align="left"> SES providers </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 90e </td>
+   <td align="left"> school principals </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 153e </td>
+   <td align="left"> Head teachers </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 204 </td>
+   <td align="left"> Educational entrepreneurs; studentâ€™s parents, friends and colleagues </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 173e </td>
+   <td align="left"> Administrators </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 137e </td>
+   <td align="left"> Author's observations </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 168e </td>
+   <td align="left"> principals </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 175e </td>
+   <td align="left"> unclear </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 178e </td>
+   <td align="left"> Case study observations </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 180e </td>
+   <td align="left"> local education committees </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 155e </td>
+   <td align="left"> principals, administrators, policy documents </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 210 </td>
+   <td align="left"> Publics school administrators and managers of tutoring centers </td>
+   <td align="left"> Mike </td>
+  </tr>
+</tbody>
+</table>
+
+## Definition of Private Tutoring
+
+### What is taught during private tutoring?
+
+![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-261.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-262.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-263.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-264.png) 
+
+#### Stakeholder others:
+
+<table>
+ <thead>
+  <tr>
+   <th align="left"> Private.ID </th>
+   <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.WhatTaughtNames.. </th>
+   <th align="left"> Private.Reviewer </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> 71 </td>
+   <td align="left"> Extracurricular activities (Dance, art, sports, music) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 135e </td>
+   <td align="left"> African-American cultural classes </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 137e </td>
+   <td align="left"> Extracurricular activities (Dance, art, sports, music) </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 178e </td>
+   <td align="left"> Extracurricular activities (Dance, art, sports, music) </td>
+   <td align="left"> Mike </td>
+  </tr>
+</tbody>
+</table>
+
+### Where does private tutoring occur?
+
+![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-281.png) ![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-282.png) ![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-283.png) ![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-284.png) 
+
+#### Stakeholder others:
+
+<table>
+ <thead>
+  <tr>
+   <th align="left"> Private.ID </th>
+   <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.WhereOccurNames.. </th>
+   <th align="left"> Private.Reviewer </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> 2 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 3 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 4 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 5 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 6 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 7 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 11 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 12 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 13 </td>
+   <td align="left"> Workplace </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 14 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 15 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 16 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 18 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 24 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 30 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library), Tutoring Center </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 36 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 37 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 41 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 41 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 43 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 48 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 49 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 50 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 51 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 53 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 54 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 57 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home)in "learning centres" </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 63 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 69 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 70 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 72 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 75 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Damian Wyman </td>
+  </tr>
+  <tr>
+   <td align="left"> 77 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 78 </td>
+   <td align="left"> Cram schools </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 81 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 83 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 85 </td>
+   <td align="left"> Outside school (e.g. at the teacher's home) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 86 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 89 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 90 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 91 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 91 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 93 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 93 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 94 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 103 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 106 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 108 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 108 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 109 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 113 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 115 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 120 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 121 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 125 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 126 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 129 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 130 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 132 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 133 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 137 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 141 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 142 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 153 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 161 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 163 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 165 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 168 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 169 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 170 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 173 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 177 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 180 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 183 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 100e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Damian Wyman </td>
+  </tr>
+  <tr>
+   <td align="left"> 101e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 102e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 103e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Damian Wyman </td>
+  </tr>
+  <tr>
+   <td align="left"> 106e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 108e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 194e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library), shopping malls </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 196e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 91e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library), cultural centers </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 92e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 67 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 118e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 119e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 120e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 122e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 123e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 124e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 131e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 217 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 218 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 219 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 221 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 222 </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 90e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 132e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 168e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 146e </td>
+   <td align="left"> Other outside school (e.g. teacher's home, coffee shop, library) </td>
+   <td align="left"> Peggy </td>
+  </tr>
+</tbody>
+</table>
+
+### Who provides tutoring services?
+
+![plot of chunk unnamed-chunk-30](./PT_Analysis_files/figure-html/unnamed-chunk-30.png) 
+
+#### WhoProvides others:
+
+<table>
+ <thead>
+  <tr>
+   <th align="left"> Private.ID </th>
+   <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.WhoProvidesNames.. </th>
+   <th align="left"> Private.Reviewer </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left"> 2 </td>
+   <td align="left"> Classroom teacherProfessional tutor </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 6 </td>
+   <td align="left"> not defined </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 7 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 8 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 13 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 14 </td>
+   <td align="left"> Professional tutor, University professor </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 15 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 16 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 34 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 36 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 41 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 41 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 43 </td>
+   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 46 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 47 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 48 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 49 </td>
+   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 51 </td>
+   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 54 </td>
+   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 57 </td>
+   <td align="left"> Professional tutor, business leaders, not professional teachers </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 61 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 62 </td>
+   <td align="left"> "learning centers" </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 66 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 68 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 70 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 71 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 72 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 77 </td>
+   <td align="left"> Classroom teacherUniversity professor </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 78 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 80 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 81 </td>
+   <td align="left"> Professional tutor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 83 </td>
+   <td align="left"> Classroom teacherProfessional tutor </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 85 </td>
+   <td align="left"> Professional tutor, University professor </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 87 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 91 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 91 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 93 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 94 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 95 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 100 </td>
+   <td align="left"> Classroom teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 103 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 107 </td>
+   <td align="left"> Classroom teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 108 </td>
+   <td align="left"> Classroom teachers and secondary school student </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 109 </td>
+   <td align="left"> Classroom teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 110 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 111 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 112 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 113 </td>
+   <td align="left"> Classroom teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 114 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 117 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 120 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 122 </td>
+   <td align="left"> Classroom teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 123 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 124 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 125 </td>
+   <td align="left"> Classroom teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 126 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 127 </td>
+   <td align="left"> s, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 128 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 129 </td>
+   <td align="left"> Classroom teachers; Relatives or friendsf </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 130 </td>
+   <td align="left"> Classroom teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 132 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 133 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 136 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 137 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 138 </td>
+   <td align="left"> Classroom teachers, retired teachers etc. </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 140 </td>
+   <td align="left"> Classroom teachercollege students, retired teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 142 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 149 </td>
+   <td align="left"> Classroom teachercollege students and retired teachers </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 153 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 157 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 158 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 159 </td>
+   <td align="left"> Classroom teacher </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 160 </td>
+   <td align="left"> Classroom teachercollege students </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 191e </td>
+   <td align="left"> the study focused more on demand rather than supply </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 192e </td>
+   <td align="left"> self-employed teachers </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 99e </td>
+   <td align="left"> experts in the field </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+</tbody>
+</table>

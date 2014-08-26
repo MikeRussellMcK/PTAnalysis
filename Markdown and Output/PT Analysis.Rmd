@@ -272,3 +272,102 @@ AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
 grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
 
+### Data drawn from the following stakeholders:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateStakeholdersGrid
+DataSource2=AllAsiaStakeholdersGrid
+DataSource3=AllChineseStakeholdersGrid
+DataSource4=AllEnglishStakeholdersGrid
+
+YLim=275
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+#### Stakeholder others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(StakeholdersOther, format="html", row.names=FALSE)
+```
+
+## Definition of Private Tutoring
+
+### What is taught during private tutoring?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateWhatTaughtGrid
+DataSource2=AllAsiaWhatTaughtGrid
+DataSource3=AllChineseWhatTaughtGrid
+DataSource4=AllEnglishWhatTaughtGrid
+
+YLim=275
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+PrivateGraph
+AllAsiaGraph
+AllChineseGraph
+AllEnglishGraph
+```
+
+#### Stakeholder others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(WhatTaughtOther, format="html", row.names=FALSE)
+```
+
+### Where does private tutoring occur?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateWhereOccurGrid
+DataSource2=AllAsiaWhereOccurGrid
+DataSource3=AllChineseWhereOccurGrid
+DataSource4=AllEnglishWhereOccurGrid
+
+YLim=250
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+PrivateGraph
+AllAsiaGraph
+AllChineseGraph
+AllEnglishGraph
+```
+
+#### Stakeholder others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(WhereOccurOther, format="html", row.names=FALSE)
+```
+
+### Who provides tutoring services?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateWhoProvidesGrid
+DataSource2=AllAsiaWhoProvidesGrid
+DataSource3=AllChineseWhoProvidesGrid
+DataSource4=AllEnglishWhoProvidesGrid
+
+YLim=275
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+#### WhoProvides others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(WhoProvidesOther, format="html", row.names=FALSE)
+```

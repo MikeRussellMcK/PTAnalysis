@@ -580,3 +580,334 @@ AllEnglish$HowViewedNeither <- grepl("Does not address benefits or concerns", Al
 
 AllEnglishHowViewedGrid <- data.frame(AllEnglish$HowViewedConcerns, AllEnglish$HowViewedBenefits, AllEnglish$HowViewedBoth, AllEnglish$HowViewedNeither)
 names(AllEnglishHowViewedGrid) <- HowViewedNames
+
+# Stakeholders
+# ============================
+
+StakeholdersNames <- c("Teachers who do not tutor", "Teachers who tutor", "Tutors who are not teachers", "Parents / household", "Students", "Policymakers", "Documents")
+
+## Private
+## ======
+Private$StakeholdersTeachersNonTutor <- grepl("who do not", Private$Stakeholders)
+Private$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", Private$Stakeholders)
+Private$StakeholdersTutorsNonTeachers <- grepl("who are not", Private$Stakeholders)
+Private$StakeholdersParents <- grepl("Parents", Private$Stakeholders)
+Private$StakeholdersStudents <- grepl("Students", Private$Stakeholders)
+Private$StakeholdersPolicymakers <- grepl("Policymakers", Private$Stakeholders)
+Private$StakeholdersDocuments <- grepl("Documents", Private$Stakeholders)
+
+PrivateStakeholdersGrid <- data.frame(Private$StakeholdersTeachersNonTutor, 
+                                      Private$StakeholdersTeachersWhoTutor, Private$StakeholdersTutorsNonTeachers, 
+                                      Private$StakeholdersParents, Private$StakeholdersStudents, Private$StakeholdersPolicymakers, 
+                                      Private$StakeholdersDocuments)
+names(PrivateStakeholdersGrid) <- StakeholdersNames
+
+## AllAsia
+## ======
+AllAsia$StakeholdersTeachersNonTutor <- grepl("who do not", AllAsia$Stakeholders)
+AllAsia$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllAsia$Stakeholders)
+AllAsia$StakeholdersTutorsNonTeachers <- grepl("who are not", AllAsia$Stakeholders)
+AllAsia$StakeholdersParents <- grepl("Parents", AllAsia$Stakeholders)
+AllAsia$StakeholdersStudents <- grepl("Students", AllAsia$Stakeholders)
+AllAsia$StakeholdersPolicymakers <- grepl("Policymakers", AllAsia$Stakeholders)
+AllAsia$StakeholdersDocuments <- grepl("Documents", AllAsia$Stakeholders)
+
+AllAsiaStakeholdersGrid <- data.frame(AllAsia$StakeholdersTeachersNonTutor, 
+                                      AllAsia$StakeholdersTeachersWhoTutor, AllAsia$StakeholdersTutorsNonTeachers, 
+                                      AllAsia$StakeholdersParents, AllAsia$StakeholdersStudents, AllAsia$StakeholdersPolicymakers, 
+                                      AllAsia$StakeholdersDocuments)
+names(AllAsiaStakeholdersGrid) <- StakeholdersNames
+
+## AllChinese
+## ======
+AllChinese$StakeholdersTeachersNonTutor <- grepl("who do not", AllChinese$Stakeholders)
+AllChinese$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllChinese$Stakeholders)
+AllChinese$StakeholdersTutorsNonTeachers <- grepl("who are not", AllChinese$Stakeholders)
+AllChinese$StakeholdersParents <- grepl("Parents", AllChinese$Stakeholders)
+AllChinese$StakeholdersStudents <- grepl("Students", AllChinese$Stakeholders)
+AllChinese$StakeholdersPolicymakers <- grepl("Policymakers", AllChinese$Stakeholders)
+AllChinese$StakeholdersDocuments <- grepl("Documents", AllChinese$Stakeholders)
+
+AllChineseStakeholdersGrid <- data.frame(AllChinese$StakeholdersTeachersNonTutor, 
+                                         AllChinese$StakeholdersTeachersWhoTutor, AllChinese$StakeholdersTutorsNonTeachers, 
+                                         AllChinese$StakeholdersParents, AllChinese$StakeholdersStudents, AllChinese$StakeholdersPolicymakers, 
+                                         AllChinese$StakeholdersDocuments)
+names(AllChineseStakeholdersGrid) <- StakeholdersNames
+
+## AllEnglish
+## ======
+AllEnglish$StakeholdersTeachersNonTutor <- grepl("who do not", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersTutorsNonTeachers <- grepl("who are not", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersParents <- grepl("Parents", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersStudents <- grepl("Students", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersPolicymakers <- grepl("Policymakers", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersDocuments <- grepl("Documents", AllEnglish$Stakeholders)
+
+AllEnglishStakeholdersGrid <- data.frame(AllEnglish$StakeholdersTeachersNonTutor, 
+                                         AllEnglish$StakeholdersTeachersWhoTutor, AllEnglish$StakeholdersTutorsNonTeachers, 
+                                         AllEnglish$StakeholdersParents, AllEnglish$StakeholdersStudents, AllEnglish$StakeholdersPolicymakers, 
+                                         AllEnglish$StakeholdersDocuments)
+names(AllEnglishStakeholdersGrid) <- StakeholdersNames
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(StakeholdersNames, collapse = "|")), "", 
+                                                sub(".*\\|\\s(.*)", "\\1", Private$Stakeholders))), Private$Reviewer)
+Other[Other==""] <- NA
+StakeholdersOther <- na.omit(Other)
+
+# WhatTaught
+# ============================
+
+WhatTaughtNames <- c("Subjects taught in school", "Extracurricular activities (Dance, art, sports, music)","Both", "Not defined")
+
+## Private
+## ======
+Private$WhatTaughtSchool <- grepl("Subjects", Private$WhatTaught)
+Private$WhatTaughtExtracurric <- grepl("Extracurricular", Private$WhatTaught)
+Private$WhatTaughtBoth <- grepl("Both", Private$WhatTaught)
+Private$WhatTaughtNotDefined <- grepl("defined", Private$WhatTaught)
+
+PrivateWhatTaughtGrid <- data.frame(Private$WhatTaughtSchool, Private$WhatTaughtExtracurric, Private$WhatTaughtBoth, Private$WhatTaughtNotDefined)
+names(PrivateWhatTaughtGrid) <- WhatTaughtNames
+
+## AllAsia
+## ======
+AllAsia$WhatTaughtSchool <- grepl("Subjects", AllAsia$WhatTaught)
+AllAsia$WhatTaughtExtracurric <- grepl("Extracurricular", AllAsia$WhatTaught)
+AllAsia$WhatTaughtBoth <- grepl("Both", AllAsia$WhatTaught)
+AllAsia$WhatTaughtNotDefined <- grepl("defined", AllAsia$WhatTaught)
+
+AllAsiaWhatTaughtGrid <- data.frame(AllAsia$WhatTaughtSchool, AllAsia$WhatTaughtExtracurric, AllAsia$WhatTaughtBoth, AllAsia$WhatTaughtNotDefined)
+names(AllAsiaWhatTaughtGrid) <- WhatTaughtNames
+
+## AllChinese
+## ======
+AllChinese$WhatTaughtSchool <- grepl("Subjects", AllChinese$WhatTaught)
+AllChinese$WhatTaughtExtracurric <- grepl("Extracurricular", AllChinese$WhatTaught)
+AllChinese$WhatTaughtBoth <- grepl("Both", AllChinese$WhatTaught)
+AllChinese$WhatTaughtNotDefined <- grepl("defined", AllChinese$WhatTaught)
+
+AllChineseWhatTaughtGrid <- data.frame(AllChinese$WhatTaughtSchool, AllChinese$WhatTaughtExtracurric, AllChinese$WhatTaughtBoth, AllChinese$WhatTaughtNotDefined)
+names(AllChineseWhatTaughtGrid) <- WhatTaughtNames
+
+## AllEnglish
+## ======
+AllEnglish$WhatTaughtSchool <- grepl("Subjects", AllEnglish$WhatTaught)
+AllEnglish$WhatTaughtExtracurric <- grepl("Extracurricular", AllEnglish$WhatTaught)
+AllEnglish$WhatTaughtBoth <- grepl("Both", AllEnglish$WhatTaught)
+AllEnglish$WhatTaughtNotDefined <- grepl("defined", AllEnglish$WhatTaught)
+
+AllEnglishWhatTaughtGrid <- data.frame(AllEnglish$WhatTaughtSchool, AllEnglish$WhatTaughtExtracurric, AllEnglish$WhatTaughtBoth, AllEnglish$WhatTaughtNotDefined)
+names(AllEnglishWhatTaughtGrid) <- WhatTaughtNames
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(WhatTaughtNames, collapse = "|")), "", 
+                                                sub(".*\\|\\s(.*)", "\\1", Private$WhatTaught))), Private$Reviewer)
+Other[Other==""] <- NA
+WhatTaughtOther <- na.omit(Other)
+
+# WhereOccur
+# ============================
+
+WhereOccurNames <- c("On school grounds", "Designated tutoring center or franchise", "On-line / via web", "In the student's home", "Other outside school (e.g. teacher's home, coffee shop, library)", "Not defined")
+
+## Private
+## ======
+Private$WhereOccurSchool <- grepl("school grounds", Private$WhereOccur)
+Private$WhereOccurCenter <- grepl("tutoring center", Private$WhereOccur)
+Private$WhereOccurWeb <- grepl("via web", Private$WhereOccur)
+Private$WhereOccurHome <- grepl("student's", Private$WhereOccur)
+Private$WhereOccurOutside <- grepl("outside", Private$WhereOccur)
+Private$WhereOccurNotDefined <- grepl("Not defined", Private$WhereOccur)
+
+PrivateWhereOccurGrid <- data.frame(Private$WhereOccurSchool, Private$WhereOccurCenter,
+                                    Private$WhereOccurWeb, Private$WhereOccurHome, Private$WhereOccurOutside,
+                                    Private$WhereOccurNotDefined)
+names(PrivateWhereOccurGrid) <- WhereOccurNames
+
+## AllAsia
+## ======
+AllAsia$WhereOccurSchool <- grepl("school grounds", AllAsia$WhereOccur)
+AllAsia$WhereOccurCenter <- grepl("tutoring center", AllAsia$WhereOccur)
+AllAsia$WhereOccurWeb <- grepl("via web", AllAsia$WhereOccur)
+AllAsia$WhereOccurHome <- grepl("student's", AllAsia$WhereOccur)
+AllAsia$WhereOccurOutside <- grepl("outside", AllAsia$WhereOccur)
+AllAsia$WhereOccurNotDefined <- grepl("Not defined", AllAsia$WhereOccur)
+
+AllAsiaWhereOccurGrid <- data.frame(AllAsia$WhereOccurSchool, AllAsia$WhereOccurCenter, 
+                                    AllAsia$WhereOccurWeb, AllAsia$WhereOccurHome, AllAsia$WhereOccurOutside,
+                                    AllAsia$WhereOccurNotDefined)
+names(AllAsiaWhereOccurGrid) <- WhereOccurNames
+
+## AllChinese
+## ======
+AllChinese$WhereOccurSchool <- grepl("school grounds", AllChinese$WhereOccur)
+AllChinese$WhereOccurCenter <- grepl("tutoring center", AllChinese$WhereOccur)
+AllChinese$WhereOccurWeb <- grepl("via web", AllChinese$WhereOccur)
+AllChinese$WhereOccurHome <- grepl("student's", AllChinese$WhereOccur)
+AllChinese$WhereOccurOutside <- grepl("outside", AllChinese$WhereOccur)
+AllChinese$WhereOccurNotDefined <- grepl("Not defined", AllChinese$WhereOccur)
+
+AllChineseWhereOccurGrid <- data.frame(AllChinese$WhereOccurSchool, AllChinese$WhereOccurCenter,
+                                       AllChinese$WhereOccurWeb, AllChinese$WhereOccurHome, AllChinese$WhereOccurOutside,
+                                       AllChinese$WhereOccurNotDefined)
+names(AllChineseWhereOccurGrid) <- WhereOccurNames
+
+## AllEnglish
+## ======
+AllEnglish$WhereOccurSchool <- grepl("school grounds", AllEnglish$WhereOccur)
+AllEnglish$WhereOccurCenter <- grepl("tutoring center", AllEnglish$WhereOccur)
+AllEnglish$WhereOccurWeb <- grepl("via web", AllEnglish$WhereOccur)
+AllEnglish$WhereOccurHome <- grepl("student's", AllEnglish$WhereOccur)
+AllEnglish$WhereOccurOutside <- grepl("outside", AllEnglish$WhereOccur)
+AllEnglish$WhereOccurNotDefined <- grepl("Not defined", AllEnglish$WhereOccur)
+
+AllEnglishWhereOccurGrid <- data.frame(AllEnglish$WhereOccurSchool, AllEnglish$WhereOccurCenter, 
+                                       AllEnglish$WhereOccurWeb, AllEnglish$WhereOccurHome, AllEnglish$WhereOccurOutside,
+                                       AllEnglish$WhereOccurNotDefined)
+names(AllEnglishWhereOccurGrid) <- WhereOccurNames
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(WhereOccurNames, collapse = "|")), "", 
+                                                sub(".*\\|\\s(.*)", "\\1", Private$WhereOccur))), Private$Reviewer)
+Other[Other==""] <- NA
+WhereOccurOther <- na.omit(Other)
+
+# WhoProvides
+# ============================
+
+WhoProvidesNames <- c(
+  "Current classroom teacher",
+  "Other K-12 teachers",
+  "Retired teacher",
+  "University faculty",
+  "Institution / Professional tutor",
+  "College student",
+  "Peer/classmate",
+  "Parent or family member",
+  "Community member / volunteer",
+  "Not defined"
+)
+
+## Private
+## ======
+Private$WhoProvidesCurrentTeacher <- grepl("classroom", Private$WhoProvides)
+Private$WhoProvidesOtherK12 <- grepl("K-12", Private$WhoProvides)
+Private$WhoProvidesRetired <- grepl("Retired", Private$WhoProvides)
+Private$WhoProvidesFaculty <- grepl("University", Private$WhoProvides)
+Private$WhoProvidesProfessional <- grepl("Institution", Private$WhoProvides)
+Private$WhoProvidesCollege <- grepl("College", Private$WhoProvides)
+Private$WhoProvidesPeer <- grepl("Peer", Private$WhoProvides)
+Private$WhoProvidesParent <- grepl("Parent", Private$WhoProvides)
+Private$WhoProvidesCommunity <- grepl("Community", Private$WhoProvides)
+Private$WhoProvidesNotDefined <- grepl("Not defined", Private$WhoProvides)
+
+PrivateWhoProvidesGrid <- data.frame(
+  Private$WhoProvidesCurrentTeacher,
+  Private$WhoProvidesOtherK12,
+  Private$WhoProvidesRetired,
+  Private$WhoProvidesFaculty,
+  Private$WhoProvidesProfessional,
+  Private$WhoProvidesCollege,
+  Private$WhoProvidesPeer,
+  Private$WhoProvidesParent,
+  Private$WhoProvidesCommunity,
+  Private$WhoProvidesNotDefined
+)
+names(PrivateWhoProvidesGrid) <- WhoProvidesNames
+
+## AllAsia
+## ======
+AllAsia$WhoProvidesCurrentTeacher <- grepl("classroom", AllAsia$WhoProvides)
+AllAsia$WhoProvidesOtherK12 <- grepl("K-12", AllAsia$WhoProvides)
+AllAsia$WhoProvidesRetired <- grepl("Retired", AllAsia$WhoProvides)
+AllAsia$WhoProvidesFaculty <- grepl("University", AllAsia$WhoProvides)
+AllAsia$WhoProvidesProfessional <- grepl("Institution", AllAsia$WhoProvides)
+AllAsia$WhoProvidesCollege <- grepl("College", AllAsia$WhoProvides)
+AllAsia$WhoProvidesPeer <- grepl("Peer", AllAsia$WhoProvides)
+AllAsia$WhoProvidesParent <- grepl("Parent", AllAsia$WhoProvides)
+AllAsia$WhoProvidesCommunity <- grepl("Community", AllAsia$WhoProvides)
+AllAsia$WhoProvidesNotDefined <- grepl("Not defined", AllAsia$WhoProvides)
+
+AllAsiaWhoProvidesGrid <- data.frame(
+  AllAsia$WhoProvidesCurrentTeacher,
+  AllAsia$WhoProvidesOtherK12,
+  AllAsia$WhoProvidesRetired,
+  AllAsia$WhoProvidesFaculty,
+  AllAsia$WhoProvidesProfessional,
+  AllAsia$WhoProvidesCollege,
+  AllAsia$WhoProvidesPeer,
+  AllAsia$WhoProvidesParent,
+  AllAsia$WhoProvidesCommunity,
+  AllAsia$WhoProvidesNotDefined
+)
+names(AllAsiaWhoProvidesGrid) <- WhoProvidesNames
+
+## AllChinese
+## ======
+AllChinese$WhoProvidesCurrentTeacher <- grepl("classroom", AllChinese$WhoProvides)
+AllChinese$WhoProvidesOtherK12 <- grepl("K-12", AllChinese$WhoProvides)
+AllChinese$WhoProvidesRetired <- grepl("Retired", AllChinese$WhoProvides)
+AllChinese$WhoProvidesFaculty <- grepl("University", AllChinese$WhoProvides)
+AllChinese$WhoProvidesProfessional <- grepl("Institution", AllChinese$WhoProvides)
+AllChinese$WhoProvidesCollege <- grepl("College", AllChinese$WhoProvides)
+AllChinese$WhoProvidesPeer <- grepl("Peer", AllChinese$WhoProvides)
+AllChinese$WhoProvidesParent <- grepl("Parent", AllChinese$WhoProvides)
+AllChinese$WhoProvidesCommunity <- grepl("Community", AllChinese$WhoProvides)
+AllChinese$WhoProvidesNotDefined <- grepl("Not defined", AllChinese$WhoProvides)
+
+AllChineseWhoProvidesGrid <- data.frame(
+  AllChinese$WhoProvidesCurrentTeacher,
+  AllChinese$WhoProvidesOtherK12,
+  AllChinese$WhoProvidesRetired,
+  AllChinese$WhoProvidesFaculty,
+  AllChinese$WhoProvidesProfessional,
+  AllChinese$WhoProvidesCollege,
+  AllChinese$WhoProvidesPeer,
+  AllChinese$WhoProvidesParent,
+  AllChinese$WhoProvidesCommunity,
+  AllChinese$WhoProvidesNotDefined
+)
+names(AllChineseWhoProvidesGrid) <- WhoProvidesNames
+
+## AllEnglish
+## ======
+AllEnglish$WhoProvidesCurrentTeacher <- grepl("classroom", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesOtherK12 <- grepl("K-12", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesRetired <- grepl("Retired", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesFaculty <- grepl("University", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesProfessional <- grepl("Institution", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesCollege <- grepl("College", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesPeer <- grepl("Peer", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesParent <- grepl("Parent", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesCommunity <- grepl("Community", AllEnglish$WhoProvides)
+AllEnglish$WhoProvidesNotDefined <- grepl("Not defined", AllEnglish$WhoProvides)
+
+AllEnglishWhoProvidesGrid <- data.frame(
+  AllEnglish$WhoProvidesCurrentTeacher,
+  AllEnglish$WhoProvidesOtherK12,
+  AllEnglish$WhoProvidesRetired,
+  AllEnglish$WhoProvidesFaculty,
+  AllEnglish$WhoProvidesProfessional,
+  AllEnglish$WhoProvidesCollege,
+  AllEnglish$WhoProvidesPeer,
+  AllEnglish$WhoProvidesParent,
+  AllEnglish$WhoProvidesCommunity,
+  AllEnglish$WhoProvidesNotDefined
+)
+names(AllEnglishWhoProvidesGrid) <- WhoProvidesNames
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(WhoProvidesNames, collapse = "|")), "", 
+                                                sub(".*\\|\\s(.*)", "\\1", Private$WhoProvides))), Private$Reviewer)
+Other[Other==""] <- NA
+WhoProvidesOther <- na.omit(Other)
