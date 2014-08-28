@@ -1,16 +1,7 @@
-# Delete unused columns
-#Private$Author.s.. <- NULL
-#Private$Reviewer.Name <- NULL
+# Graphing Functions ==================
 
-# Convert blanks to NA
-#Private[Private==""]  <- NA 
-
-#Rename to make easier
-#names(Private) <- c("Time", "ID", "ResearchType", "Publisher", "PubYear", "PubLang", "Country", "Region","EdLevel","ResearchApproach","ResearchMethods","Theory","Framed","WhatTaught","WhereOccur","DoesCharge","ClassSize","OperationSize","WhyTaking","Reviewer","PubType","WhoProvides","HowViewed","AddDetails","WhatData","Stakeholders","EquityDefine","WasData")
-
-# Graphing Function
+# For radio button-style questions:
 AllDataPlot <- function(a,b,c,d,e) {
-  
   Label <- as.data.frame(table(c))
   colnames(Label)[1] <- "x"
   Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq)))
@@ -18,10 +9,11 @@ AllDataPlot <- function(a,b,c,d,e) {
   
   ggplot(a, aes_string(x=b)) + geom_bar() + ggtitle(d) + 
     geom_text(size=3, data=Label,aes(x=x,y=Freq,label=lab),hjust=-.1) + 
-    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=10)) + 
+    theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=5)) + 
     scale_y_continuous(limits=c(0,e)) + coord_flip()
 }
 
+# For checkbox-style questions:
 CategoricalPlot <- function(a,b,c) {
   Label <- as.data.frame(colSums(a))
   Label <- setNames(cbind(rownames(Label), Label, row.names = NULL), c("x", "Freq"))
@@ -34,28 +26,34 @@ CategoricalPlot <- function(a,b,c) {
     scale_y_continuous(limits = c(0, c)) + coord_flip()
 }
 
-
-
+# Keeps titles consistent across all graphs
 Title1 = "All Entries"
 Title2 = "Asia Region"
 Title3 = "All Chinese"
 Title4 = "All English"
 
-# Publication Language
-# ===================
+# Publication Language ===================
+
+# Because language is a dividing point for the rest of the document, this is a little different then how I do it later
 
 # Create the TRUE/FALSE grid
-PrivatePubLangGrid <- data.frame(grepl("Chinese", Private$PubLang), grepl("English", Private$PubLang), (!grepl("Chinese", Private$PubLang) & !grepl("English", Private$PubLang)))
+PrivatePubLangGrid <- data.frame(
+  grepl("Chinese", Private$PubLang), 
+  grepl("English", Private$PubLang), 
+  (!grepl("Chinese", Private$PubLang) & !grepl("English", Private$PubLang))
+  )
 names(PrivatePubLangGrid) <- c("Chinese", "English", "Other")
 
-AllAsiaPubLangGrid <- data.frame(grepl("Chinese", AllAsia$PubLang), grepl("English", AllAsia$PubLang), (!grepl("Chinese", AllAsia$PubLang) & !grepl("English", AllAsia$PubLang)))
+AllAsiaPubLangGrid <- data.frame(
+  grepl("Chinese", AllAsia$PubLang), 
+  grepl("English", AllAsia$PubLang), 
+  (!grepl("Chinese", AllAsia$PubLang) & !grepl("English", AllAsia$PubLang))
+  )
 names(AllAsiaPubLangGrid) <- c("Chinese", "English", "Other")
 
-# Type of Research
-# ================= 
-# Type of Research
+# Type of Research ================= 
 
-#Make the Private T/F Grid
+## Make the Private T/F Grid 
 Private$ResearchTypeOriginal <- grepl("Original", Private$ResearchType)
 Private$ResearchTypeReview <- grepl("Review", Private$ResearchType)
 Private$ResearchTypePolicy <- grepl("Policy", Private$ResearchType)
@@ -96,9 +94,8 @@ ResearchTypeOther <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)
 ResearchTypeOther[ResearchTypeOther==""] <- NA
 ResearchTypeOther <- na.omit(ResearchTypeOther)
 
-#  Regions
-# =================
-# Region
+#  Regions =================
+
 
 RegionNames <- c("MENA", "Sub-Saharan", "Cent. Asia", "East Asia", "S. Asia", "S.E. Asia", "Aus. & NZ", "W. Europe", "E. Europe", "US & Can", "LAC", "Global")
 
@@ -994,11 +991,11 @@ OperationSizeOther <- na.omit(Other)
 # ============================
 
 WhyTakingNames <- c(
-  "Student falls behind and needs extra help (Remediation)",
+  "Student falls behind and needs extra help",
   "Preparation for exams to make student more competitive",
   "Make up for perceived failure in the mainstream system / school",
   "For cultural reasons",
-  "To provide extra enrichment activities (sports or arts)",
+  "To provide extra enrichment activities",
   "Peer pressure",
   "Teacher pressure",
   "Not stated or unclear"

@@ -862,7 +862,7 @@
 
 ### Publication Year
 
-![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-41.png) ![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-42.png) ![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-43.png) ![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-44.png) 
+![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-4.png) 
 
 ### Publication Language
 
@@ -3704,84 +3704,14 @@ household </td>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 2 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 3 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 4 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 5 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 6 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 7 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 8 </td>
-   <td align="left"> , </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 14 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 15 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 24 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 26 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 27 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
    <td align="left"> 30 </td>
    <td align="left"> peer presure </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 34 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
    <td align="left"> 36 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)Socializing effect (if you pay, both girls and boys can study together) </td>
+   <td align="left"> Socializing effect (if you pay, both girls and boys can study together) </td>
    <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 37 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
   </tr>
   <tr>
    <td align="left"> 39 </td>
@@ -3789,483 +3719,18 @@ household </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 41 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 41 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 46 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 47 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 49 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 50 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 51 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 52 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 53 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 54 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 55 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 57 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 58 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 59 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 60 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 62 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 66 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 69 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 70 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 71 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 72 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 75 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 77 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 78 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 81 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 83 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 85 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 86 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 87 </td>
    <td align="left"> supplement low teacher salaries </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 88 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 89 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 90 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
    <td align="left"> 91 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 91 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 91 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)parent pressure </td>
+   <td align="left"> parent pressure </td>
    <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 92 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 93 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 93 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 94 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 94 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 95 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 96 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 97 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 98 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 99 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 100 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 101 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 102 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 103 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 104 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 105 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 106 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 106 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 107 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 108 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 108 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 109 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 110 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 111 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 112 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 113 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 114 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 115 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 116 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 117 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 118 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)influenced by tutoring center's propaganda </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 119 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 120 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 121 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 122 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 123 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 124 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 125 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 126 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 127 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 128 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 129 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 130 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 131 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 132 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 133 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 134 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 135 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 136 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 137 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 138 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 139 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 140 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 141 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 142 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 144 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 145 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 147 </td>
-   <td align="left"> To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 147 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 149 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 150 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
+   <td align="left"> influenced by tutoring center's propaganda </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
@@ -4274,329 +3739,24 @@ household </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 152 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 153 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 153 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 155 </td>
    <td align="left"> Parents do not want to their children lose on the startline; teachers want to earn money </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 159 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 160 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 160 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 161 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 161 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 162 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 163 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 163 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 163 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 164 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 165 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 166 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 166 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 167 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 168 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 168 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 169 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 169 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 170 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 170 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 171 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 171 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 172 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 173 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 173 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 174 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 176 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 177 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 178 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 180 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 183 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 183 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 188 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 213 </td>
-   <td align="left"> To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 100e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
    <td align="left"> 102e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)Other government to compete internationally </td>
+   <td align="left"> Other government to compete internationally </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 103e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 105e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 107e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
    <td align="left"> 108e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)"The parents are unable to help their children’s study" </td>
+   <td align="left"> "The parents are unable to help their children’s study" </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
    <td align="left"> 109e </td>
    <td align="left"> parents want to invest in children's education </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 113e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 115e </td>
-   <td align="left"> To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 141e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 142e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 143e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 146e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 160e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 188e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 189e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 189e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 190e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 191e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 192e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 193e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 194e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 195e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 196e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 197e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 198e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 203e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 208e </td>
@@ -4609,128 +3769,33 @@ household </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 91e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 92e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 93e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 94e </td>
    <td align="left"> parents' investment </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 99e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 67 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 118e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="left"> 120e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)to provide structured time outside of school </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 122e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
+   <td align="left"> to provide structured time outside of school </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
    <td align="left"> 123e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)academic coaching aimed at raising motivation to study and identify professional goals </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 124e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 125e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 126e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 127e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 128e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 215 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 130e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
+   <td align="left"> academic coaching aimed at raising motivation to study and identify professional goals </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
    <td align="left"> 131e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)resistance </td>
+   <td align="left"> resistance </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 186e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 179e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 216 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 217 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 162e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)government's financial support </td>
+   <td align="left"> government's financial support </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 218 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)help stu have “confidence” in their abilities (p.160) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 220 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
+   <td align="left"> help stu have “confidence” in their abilities (p.160) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
@@ -4740,128 +3805,33 @@ household </td>
   </tr>
   <tr>
    <td align="left"> 222 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)parents anxiety (SK case) </td>
+   <td align="left"> parents anxiety (SK case) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
    <td align="left"> 223 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)family/culture capital </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 212 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
+   <td align="left"> family/culture capital </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
    <td align="left"> 161e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)To provide extra enrichment activities (sports or arts), family culture </td>
+   <td align="left"> family culture </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 90e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 111e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 132e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 136e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 153e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 204 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation)providing a legitimate framework for students to  socialize and meet their friends p.58 </td>
+   <td align="left"> providing a legitimate framework for students to  socialize and meet their friends p.58 </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 171e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 173e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 172e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 135e </td>
-   <td align="left"> To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 137e </td>
-   <td align="left"> To provide extra enrichment activities (sports or arts) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 175e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 146e </td>
    <td align="left"> "reflect educational progress" p.27  </td>
    <td align="left"> Peggy </td>
   </tr>
-  <tr>
-   <td align="left"> 174e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 181e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 155e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 181e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 152e </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 210 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 204 </td>
-   <td align="left"> Student falls behind and needs extra help (Remediation) </td>
-   <td align="left"> Mike </td>
-  </tr>
 </tbody>
 </table>
 
-### Additional Details
+## Additional Details
 <table>
  <thead>
   <tr>

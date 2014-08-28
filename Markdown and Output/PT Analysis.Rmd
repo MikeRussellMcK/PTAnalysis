@@ -22,8 +22,8 @@ source('../RCode/PT Analysis.R')
 ```{r, results="asis", echo=FALSE, message=FALSE}
 DataSource1="PubType"
 YLim=350
-PrivateGraph <- AllDataPlot(Private, DataSource1, Private$PubType, Title1, YLim)
-AllAsiaGraph <- AllDataPlot(AllAsia, DataSource1, AllAsia$PubType, Title2, YLim)
+PrivateGraph    <- AllDataPlot(Private, DataSource1, Private$PubType, Title1, YLim)
+AllAsiaGraph    <- AllDataPlot(AllAsia, DataSource1, AllAsia$PubType, Title2, YLim)
 AllChineseGraph <- AllDataPlot(AllChinese, DataSource1, AllChinese$PubType, Title3, YLim)
 AllEnglishGraph <- AllDataPlot(AllEnglish, DataSource1, AllEnglish$PubType, Title4, YLim)
 grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
@@ -39,11 +39,11 @@ kable(data.frame(table(Private$Publisher)), format="html",  caption='Counts')
 ```{r, results="asis", echo=FALSE, message=FALSE}
 DataSource1="PubYear"
 YLim=100
-AllDataPlot(Private, DataSource1, Private$PubYear, Title1, YLim)
-AllDataPlot(AllAsia, DataSource1, AllAsia$PubYear, Title2, YLim)
-AllDataPlot(AllChinese, DataSource1, AllChinese$PubYear, Title3, YLim)
-AllDataPlot(AllEnglish, DataSource1, AllEnglish$PubYear, Title4, YLim)
-
+PrivateGraph    <- AllDataPlot(Private, DataSource1, Private$PubYear, Title1, YLim)
+AllAsiaGraph    <- AllDataPlot(AllAsia, DataSource1, AllAsia$PubYear, Title2, YLim)
+AllChineseGraph <- AllDataPlot(AllChinese, DataSource1, AllChinese$PubYear, Title3, YLim)
+AllEnglishGraph <- AllDataPlot(AllEnglish, DataSource1, AllEnglish$PubYear, Title4, YLim)
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
 
 ### Publication Language
@@ -57,7 +57,7 @@ YLim=350
 PrivateGraph <- CategoricalPlot(PrivatePubLangGrid, Title1, YLim)
 AllAsiaGraph <- CategoricalPlot(AllAsiaPubLangGrid, Title2, YLim)
 
-grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+grid.arrange(PrivateGraph, AllAsiaGraph, ncol=2)
 
 ```
 
@@ -66,13 +66,13 @@ grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=
 ```{r, results="asis", echo=FALSE, message=FALSE}
 
 DataSource1=PrivateResearchTypeGrid
-YLim=350
+YLim=225
 PrivateGraph <- CategoricalPlot(PrivateResearchTypeGrid, Title1, YLim)
 AllAsiaGraph <- CategoricalPlot(AllAsiaResearchTypeGrid, Title2, YLim)
 AllChineseGraph <- CategoricalPlot(AllChineseResearchTypeGrid, Title3, YLim)
 AllEnglishGraph <- CategoricalPlot(AllEnglishResearchTypeGrid, Title4, YLim)
 
-grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=1)
 ```
     
 #### Research Type Others:
