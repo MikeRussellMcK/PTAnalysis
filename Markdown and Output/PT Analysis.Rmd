@@ -31,7 +31,7 @@ grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=
 
 ### Publisher
 ```{r, results="asis", echo=FALSE, message=FALSE}
-#kable(data.frame(table(Private$Publisher)), format="html",  caption='Counts')
+kable(data.frame(table(Private$Publisher)), format="html",  caption='Counts')
 ```
 
 ### Publication Year
@@ -370,4 +370,79 @@ grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(WhoProvidesOther, format="html", row.names=FALSE)
+```
+
+### Does the teacher charge for private tutoring?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1="DoesCharge"
+YLim=350
+PrivateGraph <- AllDataPlot(Private, DataSource1, Private$DoesCharge, Title1, YLim)
+AllAsiaGraph <- AllDataPlot(AllAsia, DataSource1, AllAsia$DoesCharge, Title2, YLim)
+AllChineseGraph <- AllDataPlot(AllChinese, DataSource1, AllChinese$DoesCharge, Title3, YLim)
+AllEnglishGraph <- AllDataPlot(AllEnglish, DataSource1, AllEnglish$DoesCharge, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+
+```
+
+### How large are the tutoring classes?
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1="ClassSize"
+YLim=350
+PrivateGraph <- AllDataPlot(Private, DataSource1, Private$ClassSize, Title1, YLim)
+AllAsiaGraph <- AllDataPlot(AllAsia, DataSource1, AllAsia$ClassSize, Title2, YLim)
+AllChineseGraph <- AllDataPlot(AllChinese, DataSource1, AllChinese$ClassSize, Title3, YLim)
+AllEnglishGraph <- AllDataPlot(AllEnglish, DataSource1, AllEnglish$ClassSize, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+### How large is the tutoring operation?
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateOperationSizeGrid
+DataSource2=AllAsiaOperationSizeGrid
+DataSource3=AllChineseOperationSizeGrid
+DataSource4=AllEnglishOperationSizeGrid
+
+YLim=300
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+```
+
+#### OperationSize others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(OperationSizeOther, format="html", row.names=FALSE)
+```
+
+### Why are students taking private tutoring?
+```{r, results="asis", echo=FALSE, message=FALSE}
+DataSource1=PrivateWhyTakingGrid
+DataSource2=AllAsiaWhyTakingGrid
+DataSource3=AllChineseWhyTakingGrid
+DataSource4=AllEnglishWhyTakingGrid
+
+YLim=350
+CategoricalPlot(DataSource1, Title1, YLim)
+CategoricalPlot(DataSource2, Title2, YLim)
+CategoricalPlot(DataSource3, Title3, YLim)
+CategoricalPlot(DataSource4, Title4, YLim)
+
+```
+
+#### WhyTaking others:
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(WhyTakingOther, format="html", row.names=FALSE)
+```
+
+## Additional Details
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(AddDetailsGrid, format="html",  row.names=FALSE)
 ```

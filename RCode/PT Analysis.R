@@ -531,7 +531,7 @@ Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", pa
 Other[Other==""] <- NA
 FramedOther <- na.omit(Other)
 
-## Equity Convern
+## Equity Concern
 
 EquityConcernGrid <- data.frame(Private$ID, Private$EquityDefine, Private$Reviewer)
 EquityConcernGrid <- na.omit(EquityConcernGrid)
@@ -911,3 +911,203 @@ Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", pa
                                                 sub(".*\\|\\s(.*)", "\\1", Private$WhoProvides))), Private$Reviewer)
 Other[Other==""] <- NA
 WhoProvidesOther <- na.omit(Other)
+
+
+# OperationSize
+# ============================
+
+OperationSizeNames <- c("Individual operator", "Small firm", "Large firm", "Various")
+
+## Private
+## ======
+Private$OperationSizeIndividual <- grepl("Individual", Private$OperationSize)
+Private$OperationSizeSmall <- grepl("Small", Private$OperationSize)
+Private$OperationSizeLarge <- grepl("Large", Private$OperationSize)
+Private$OperationSizeVarious <- grepl("Various", Private$OperationSize)
+
+
+PrivateOperationSizeGrid <- data.frame(
+  Private$OperationSizeIndividual, 
+  Private$OperationSizeSmall, 
+  Private$OperationSizeLarge, 
+  Private$OperationSizeVarious)
+
+names(PrivateOperationSizeGrid) <- OperationSizeNames
+
+## AllAsia
+## ======
+AllAsia$OperationSizeIndividual <- grepl("Individual", AllAsia$OperationSize)
+AllAsia$OperationSizeSmall <- grepl("Small", AllAsia$OperationSize)
+AllAsia$OperationSizeLarge <- grepl("Large", AllAsia$OperationSize)
+AllAsia$OperationSizeVarious <- grepl("Various", AllAsia$OperationSize)
+
+
+AllAsiaOperationSizeGrid <- data.frame(
+  AllAsia$OperationSizeIndividual, 
+  AllAsia$OperationSizeSmall, 
+  AllAsia$OperationSizeLarge, 
+  AllAsia$OperationSizeVarious)
+
+names(AllAsiaOperationSizeGrid) <- OperationSizeNames
+
+## AllChinese
+## ======
+AllChinese$OperationSizeIndividual <- grepl("Individual", AllChinese$OperationSize)
+AllChinese$OperationSizeSmall <- grepl("Small", AllChinese$OperationSize)
+AllChinese$OperationSizeLarge <- grepl("Large", AllChinese$OperationSize)
+AllChinese$OperationSizeVarious <- grepl("Various", AllChinese$OperationSize)
+
+
+AllChineseOperationSizeGrid <- data.frame(
+  AllChinese$OperationSizeIndividual, 
+  AllChinese$OperationSizeSmall, 
+  AllChinese$OperationSizeLarge, 
+  AllChinese$OperationSizeVarious)
+
+names(AllChineseOperationSizeGrid) <- OperationSizeNames
+
+## AllEnglish
+## ======
+AllEnglish$OperationSizeIndividual <- grepl("Individual", AllEnglish$OperationSize)
+AllEnglish$OperationSizeSmall <- grepl("Small", AllEnglish$OperationSize)
+AllEnglish$OperationSizeLarge <- grepl("Large", AllEnglish$OperationSize)
+AllEnglish$OperationSizeVarious <- grepl("Various", AllEnglish$OperationSize)
+
+
+AllEnglishOperationSizeGrid <- data.frame(
+  AllEnglish$OperationSizeIndividual, 
+  AllEnglish$OperationSizeSmall, 
+  AllEnglish$OperationSizeLarge, 
+  AllEnglish$OperationSizeVarious)
+
+names(AllEnglishOperationSizeGrid) <- OperationSizeNames
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(OperationSizeNames, collapse = "|")), "", 
+                                                sub(".*\\|\\s(.*)", "\\1", Private$OperationSize))), Private$Reviewer)
+Other[Other==""] <- NA
+OperationSizeOther <- na.omit(Other)
+
+# WhyTaking
+# ============================
+
+WhyTakingNames <- c(
+  "Student falls behind and needs extra help (Remediation)",
+  "Preparation for exams to make student more competitive",
+  "Make up for perceived failure in the mainstream system / school",
+  "For cultural reasons",
+  "To provide extra enrichment activities (sports or arts)",
+  "Peer pressure",
+  "Teacher pressure",
+  "Not stated or unclear"
+)
+
+## Private
+## ======
+Private$WhyTakingRemediation <- grepl("Remediation", Private$WhyTaking)
+Private$WhyTakingExams <- grepl("exams", Private$WhyTaking)
+Private$WhyTakingFailure <- grepl("failure", Private$WhyTaking)
+Private$WhyTakingCultural <- grepl("cultural", Private$WhyTaking)
+Private$WhyTakingEnrichment <- grepl("enrichment", Private$WhyTaking)
+Private$WhyTakingPeer <- grepl("Peer", Private$WhyTaking)
+Private$WhyTakingTeacher <- grepl("Teacher", Private$WhyTaking)
+Private$WhyTakingUnclear <- grepl("unclear", Private$WhyTaking)
+
+PrivateWhyTakingGrid <- data.frame(
+  Private$WhyTakingRemediation,
+  Private$WhyTakingExams,
+  Private$WhyTakingFailure,
+  Private$WhyTakingCultural,
+  Private$WhyTakingEnrichment, 
+  Private$WhyTakingPeer,
+  Private$WhyTakingTeacher, 
+  Private$WhyTakingUnclear
+) 
+
+names(PrivateWhyTakingGrid) <- WhyTakingNames
+
+## AllAsia
+## ======
+AllAsia$WhyTakingRemediation <- grepl("Remediation", AllAsia$WhyTaking)
+AllAsia$WhyTakingExams <- grepl("exams", AllAsia$WhyTaking)
+AllAsia$WhyTakingFailure <- grepl("failure", AllAsia$WhyTaking)
+AllAsia$WhyTakingCultural <- grepl("cultural", AllAsia$WhyTaking)
+AllAsia$WhyTakingEnrichment <- grepl("enrichment", AllAsia$WhyTaking)
+AllAsia$WhyTakingPeer <- grepl("Peer", AllAsia$WhyTaking)
+AllAsia$WhyTakingTeacher <- grepl("Teacher", AllAsia$WhyTaking)
+AllAsia$WhyTakingUnclear <- grepl("unclear", AllAsia$WhyTaking)
+
+AllAsiaWhyTakingGrid <- data.frame(
+  AllAsia$WhyTakingRemediation,
+  AllAsia$WhyTakingExams,
+  AllAsia$WhyTakingFailure,
+  AllAsia$WhyTakingCultural,
+  AllAsia$WhyTakingEnrichment, 
+  AllAsia$WhyTakingPeer,
+  AllAsia$WhyTakingTeacher, 
+  AllAsia$WhyTakingUnclear
+) 
+
+names(AllAsiaWhyTakingGrid) <- WhyTakingNames
+
+## AllChinese
+## ======
+AllChinese$WhyTakingRemediation <- grepl("Remediation", AllChinese$WhyTaking)
+AllChinese$WhyTakingExams <- grepl("exams", AllChinese$WhyTaking)
+AllChinese$WhyTakingFailure <- grepl("failure", AllChinese$WhyTaking)
+AllChinese$WhyTakingCultural <- grepl("cultural", AllChinese$WhyTaking)
+AllChinese$WhyTakingEnrichment <- grepl("enrichment", AllChinese$WhyTaking)
+AllChinese$WhyTakingPeer <- grepl("Peer", AllChinese$WhyTaking)
+AllChinese$WhyTakingTeacher <- grepl("Teacher", AllChinese$WhyTaking)
+AllChinese$WhyTakingUnclear <- grepl("unclear", AllChinese$WhyTaking)
+
+AllChineseWhyTakingGrid <- data.frame(
+  AllChinese$WhyTakingRemediation,
+  AllChinese$WhyTakingExams,
+  AllChinese$WhyTakingFailure,
+  AllChinese$WhyTakingCultural,
+  AllChinese$WhyTakingEnrichment, 
+  AllChinese$WhyTakingPeer,
+  AllChinese$WhyTakingTeacher, 
+  AllChinese$WhyTakingUnclear
+) 
+
+names(AllChineseWhyTakingGrid) <- WhyTakingNames
+
+## AllEnglish
+## ======
+AllEnglish$WhyTakingRemediation <- grepl("Remediation", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingExams <- grepl("exams", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingFailure <- grepl("failure", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingCultural <- grepl("cultural", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingEnrichment <- grepl("enrichment", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingPeer <- grepl("Peer", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingTeacher <- grepl("Teacher", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingUnclear <- grepl("unclear", AllEnglish$WhyTaking)
+
+AllEnglishWhyTakingGrid <- data.frame(
+  AllEnglish$WhyTakingRemediation,
+  AllEnglish$WhyTakingExams,
+  AllEnglish$WhyTakingFailure,
+  AllEnglish$WhyTakingCultural,
+  AllEnglish$WhyTakingEnrichment, 
+  AllEnglish$WhyTakingPeer,
+  AllEnglish$WhyTakingTeacher, 
+  AllEnglish$WhyTakingUnclear
+) 
+
+names(AllEnglishWhyTakingGrid) <- WhyTakingNames
+
+## Others
+## ======
+
+Other <- data.frame(Private$ID, (others <- gsub(sprintf("(,\\s)?(%s)(,\\s)?", paste(WhyTakingNames, collapse = "|")), "", 
+                                                sub(".*\\|\\s(.*)", "\\1", Private$WhyTaking))), Private$Reviewer)
+Other[Other==""] <- NA
+WhyTakingOther <- na.omit(Other)
+
+# Additional Details
+AddDetailsGrid <- data.frame(Private$ID, Private$AddDetails, Private$Reviewer)
+AddDetailsGrid <- na.omit(AddDetailsGrid)
