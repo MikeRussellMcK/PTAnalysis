@@ -10,6 +10,7 @@ library("foreign", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resourc
 # library("xlsx", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 library("grid", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 library("gridExtra", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+library("gmodels", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 
 # Downloads data fresh from Google - 10-15 MIN DELAY FROM GOOGLE SERVERS
 Private <- fetchGoogle("https://docs.google.com/spreadsheet/pub?key=0ApPsU6wycRKhdC14cnZXb3k0T0pKek5pbFpibFJUekE&output=csv")

@@ -1,9 +1,11 @@
-# All Entries Descriptives
+# escriptives
 
 
 
 
 ### TOTAL NUMBER OF ARTICLES: 301
+
+# Descriptives
 
 ## Publication Details
 
@@ -4152,3 +4154,6 @@ make more educational investments. </td>
   </tr>
 </tbody>
 </table>
+
+# Relationships
+![plot of chunk unnamed-chunk-39](./PT_Analysis_files/figure-html/unnamed-chunk-39.png) 

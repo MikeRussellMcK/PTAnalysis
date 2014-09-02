@@ -1,0 +1,77 @@
+---
+title: "Relationships for All Articles"
+output:
+  html_document:
+    keep_md: yes
+    toc: true
+  pdf_document: default
+---
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+source('../RCode/Download and Clean PT Data.R')
+source('../RCode/PT Analysis.R')
+```
+
+# _Region by year group_ for all entries in the database:
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByYear<-data.frame(Private$YearGroup, PrivateRegionGrid)
+RegionByYear2 <- melt(RegionByYear, id=c("Private.YearGroup"))
+RegionByYear3<-RegionByYear2[!(RegionByYear2$value=="FALSE"),]
+names(RegionByYear3) <- c("YearGroup","Region","value")
+ggplot(RegionByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByYear3$YearGroup, RegionByYear3$Region))
+```
+
+# _Region by publication type_: 
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByPubType <- data.frame(Private$PubType, PrivateRegionGrid)
+RegionByPubType2 <- melt(RegionByPubType, id=c("Private.PubType"))
+RegionByPubType3<-RegionByPubType2[!(RegionByPubType2$value=="FALSE"),]
+names(RegionByPubType3) <- c("PubType","Region","value")
+ggplot(RegionByPubType3, aes(PubType))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByPubType3$PubType, RegionByPubType3$Region))
+```
+
+# _Publication type by year group_ for all entries in the database:
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(Private, aes(YearGroup))+geom_bar()+facet_wrap(~PubType)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(Private$YearGroup, Private$PubType))
+```
+
+# _Research type by region_ for all entries in the database
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByResearchType <- data.frame(PrivateResearchTypeGrid, PrivateRegionGrid)
+RegionByResearchType2 <- melt(RegionByResearchType, id=c("Original.emperical.research", "Review.of.other.research", "Policy.analysis"))
+RegionByResearchType3<-RegionByResearchType2[!(RegionByResearchType2$value=="FALSE"),]
+names(RegionByResearchType3) <- c("Original emperical", "Review of other", "Policy analysis","Region","value")
+RegionByResearchType3 <- melt(RegionByResearchType3, id=c("Region"))
+RegionByResearchType3<-RegionByResearchType3[!(RegionByResearchType3$value=="FALSE"),]
+names(RegionByResearchType3) <- c("Region","ResearchType", "value")
+RegionByResearchType3<-RegionByResearchType3[!(RegionByResearchType3$ResearchType=="value"),]
+ggplot(RegionByResearchType3, aes(ResearchType))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByResearchType3$Region, RegionByResearchType3$ResearchType))
+```

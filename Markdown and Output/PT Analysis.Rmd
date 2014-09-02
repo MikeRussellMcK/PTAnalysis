@@ -1,5 +1,5 @@
 ---
-title: "All Entries Descriptives"
+title: "escriptives"
 output:
   html_document:
     keep_md: yes
@@ -14,6 +14,8 @@ source('../RCode/PT Analysis.R')
 ```
 
 ### TOTAL NUMBER OF ARTICLES: `r nrow(Private)`
+
+# Descriptives
 
 ## Publication Details
 
@@ -196,7 +198,7 @@ grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=
 #### What data set was used?
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-#kable(data.frame(table(Private$WhatData)), format="html",  caption='Counts')
+kable(data.frame(table(Private$WhatData)), format="html",  caption='Counts')
 ```
 
 ### Theoretical Framework
@@ -317,7 +319,7 @@ AllChineseGraph
 AllEnglishGraph
 ```
 
-#### Stakeholder others:
+#### WhatTaught others:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(WhatTaughtOther, format="html", row.names=FALSE)
@@ -445,4 +447,13 @@ kable(WhyTakingOther, format="html", row.names=FALSE)
 ## Additional Details
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(AddDetailsGrid, format="html",  row.names=FALSE)
+```
+
+# Relationships
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByYear<-data.frame(Private$YearGroup, PrivateRegionGrid)
+RegionByYear2 <- melt(RegionByYear, id=c("Private.YearGroup"))
+RegionByYear3<-RegionByYear2[!(RegionByYear2$value=="FALSE"),]
+names(RegionByYear3) <- c("YearGroup","Region","value")
+ggplot(RegionByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```

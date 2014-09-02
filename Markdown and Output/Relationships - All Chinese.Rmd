@@ -1,0 +1,34 @@
+---
+title: "Relationships for All Chinese-language Articles"
+output:
+  html_document:
+    keep_md: yes
+    toc: true
+  pdf_document: default
+---
+```{r, results="asis", echo=FALSE, message=FALSE}
+source('../RCode/Download and Clean PT Data.R')
+source('../RCode/PT Analysis.R')
+```
+
+# Region by years (grouped)
+
+## _Region by year group_ for all Chinese-language entries in the database:
+
+### Graphs for all Chinese-language entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByYear<-data.frame(AllChinese$YearGroup, AllChineseRegionGrid)
+RegionByYear2 <- melt(RegionByYear, id=c("AllChinese.YearGroup"))
+RegionByYear3<-RegionByYear2[!(RegionByYear2$value=="FALSE"),]
+names(RegionByYear3) <- c("YearGroup","Region","value")
+ggplot(RegionByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+### Counts for all Chinese-language entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByYear3$YearGroup, RegionByYear3$Region))
+```
+
+### Percentages for all Chinese-language entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(prop.table(table(RegionByYear3$YearGroup, RegionByYear3$Region)))
