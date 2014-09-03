@@ -75,3 +75,125 @@ ggplot(RegionByResearchType3, aes(ResearchType))+geom_bar()+facet_wrap(~Region)+
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(table(RegionByResearchType3$Region, RegionByResearchType3$ResearchType))
 ```
+
+# _Research type by year group_ for all entries in the database
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchTypeByYear<-data.frame(Private$YearGroup, PrivateResearchTypeGrid)
+ResearchTypeByYear2 <- melt(ResearchTypeByYear, id=c("Private.YearGroup"))
+ResearchTypeByYear3<-ResearchTypeByYear2[!(ResearchTypeByYear2$value=="FALSE"),] 
+names(ResearchTypeByYear3) <- c("YearGroup","ResearchType","value")
+ggplot(ResearchTypeByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchType)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchTypeByYear3$YearGroup, ResearchTypeByYear3$ResearchType))
+```
+
+# _Ed levels by region_ 
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByEdLevel <- data.frame(PrivateEdLevelGrid, PrivateRegionGrid)
+RegionByEdLevel2 <- melt(RegionByEdLevel, id=c("Pre.primary","Primary","Secondary","Tertiary"))
+RegionByEdLevel3<-RegionByEdLevel2[!(RegionByEdLevel2$value=="FALSE"),]
+names(RegionByEdLevel3) <- c("Pre-primary","Primary","Secondary","Tertiary","Region","value")
+RegionByEdLevel3 <- melt(RegionByEdLevel3, id=c("Region"))
+RegionByEdLevel3<-RegionByEdLevel3[!(RegionByEdLevel3$value=="FALSE"),]
+names(RegionByEdLevel3) <- c("Region","EdLevel", "value")
+RegionByEdLevel3<-RegionByEdLevel3[!(RegionByEdLevel3$EdLevel=="value"),]
+ggplot(RegionByEdLevel3, aes(EdLevel))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByEdLevel3$Region, RegionByEdLevel3$EdLevel))
+```
+
+# _Research approach by region_
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByResearchApproach <- data.frame(PrivateResearchApproachGrid, PrivateRegionGrid)
+RegionByResearchApproach2 <- melt(RegionByResearchApproach, id=c("Single.country...case", "Comparative"))
+RegionByResearchApproach3 <- RegionByResearchApproach2[!(RegionByResearchApproach2$value=="FALSE"),]
+names(RegionByResearchApproach3) <- c("Single-country","Comparative", "Region","value")
+RegionByResearchApproach3 <- melt(RegionByResearchApproach3, id=c("Region"))
+RegionByResearchApproach3<-RegionByResearchApproach3[!(RegionByResearchApproach3$value=="FALSE"),]
+names(RegionByResearchApproach3) <- c("Region","ResearchApproach", "value")
+RegionByResearchApproach3<-RegionByResearchApproach3[!(RegionByResearchApproach3$ResearchApproach=="value"),]
+ggplot(RegionByResearchApproach3, aes(ResearchApproach))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByResearchApproach3$Region, RegionByResearchApproach3$ResearchApproach))
+```
+
+# Research approach by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchApproachByYear<-data.frame(Private$YearGroup, PrivateResearchApproachGrid)
+ResearchApproachByYear2 <- melt(ResearchApproachByYear, id=c("Private.YearGroup"))
+ResearchApproachByYear3<-ResearchApproachByYear2[!(ResearchApproachByYear2$value=="FALSE"),]
+names(ResearchApproachByYear3) <- c("YearGroup","ResearchApproach","value")
+ggplot(ResearchApproachByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchApproach)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchApproachByYear3$YearGroup, ResearchApproachByYear3$ResearchApproach))
+```
+
+# Research methods by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchMethodsByYear<-data.frame(Private$YearGroup, Private$ResearchMethods)
+ResearchMethodsByYear2 <- melt(ResearchMethodsByYear, id=c("Private.YearGroup"))
+ResearchMethodsByYear3<-ResearchMethodsByYear2[!(ResearchMethodsByYear2$value=="FALSE"),]
+names(ResearchMethodsByYear3) <- c("YearGroup","ResearchMethodsName","ResearchMethods")
+ggplot(ResearchMethodsByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchMethods)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchMethodsByYear3$YearGroup, ResearchMethodsByYear3$ResearchMethods))
+```
+
+# Research methods by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByResearchMethods <- data.frame(Private$ResearchMethods, PrivateRegionGrid)
+RegionByResearchMethods2 <- melt(RegionByResearchMethods, id=c("Private.ResearchMethods"))
+RegionByResearchMethods3 <- RegionByResearchMethods2[!(RegionByResearchMethods2$value=="FALSE"),]
+names(RegionByResearchMethods3) <- c("ResearchMethods","Region","value")
+ggplot(RegionByResearchMethods3, aes(ResearchMethods))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByResearchMethods3$Region, RegionByResearchMethods3$ResearchMethods))
+```
+
+# Research methods by year group
+### Graph for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(Private, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchMethods)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(Private$YearGroup, Private$ResearchMethods))
+```
+
+# Research methods by publication type
+### Graph for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(Private, aes(PubType))+geom_bar()+facet_wrap(~ResearchMethods)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(Private$PubType, Private$ResearchMethods))
+```
