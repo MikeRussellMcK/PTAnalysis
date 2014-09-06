@@ -5,7 +5,7 @@
 
 ### Number of duplicate ID numbers in the Google Doc: 69
 
-### List of all duplicates as of 2014-09-03 13:29:40:
+### List of all duplicates as of 2014-09-05 09:47:51:
 
 
 |ID   |Reviewer     |Publisher                                                                                |PubLang |

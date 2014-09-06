@@ -1,11 +1,19 @@
-# escriptives
+# Descriptives
 
 
 
 
 ### TOTAL NUMBER OF ARTICLES: 301
+This number includes 69 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). Document was last updated on 2014-09-05 17:06:20.
 
-# Descriptives
+Throughout this document the data are divided four ways:
+
+* **All Entries or Private** - This dataset includes all rows in the database
+* **All Asia** - Using the region column for reference, this dataset includes all articles with Central Asia, East Asia, South Asia, or Southeast Asia selected. Includes both Chinese- and English-language articles.
+* **All Chinese** - Using the publication language column for reference, this dataset includes only those articles with Chinese-languge selected. All regions are included.
+* **All English** - Using the publication language column for reference, this dataset includes only those articles with English-languge selected. All regions are included.
+
+**Others** lists include entries from all articles. 
 
 ## Publication Details
 
@@ -1215,7 +1223,383 @@
 
 #### What data set was used?
 
+<table>
+<caption>Counts</caption>
+ <thead>
+  <tr>
+   <th align="left"> Var1 </th>
+   <th align="right"> Freq </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td align="left">  </td>
+   <td align="right"> 0 </td>
+  </tr>
+  <tr>
+   <td align="left">  Data comes from a Chinese household expenditure survey in 2006. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  Data drawn from Educational Longitudinal Study of 2002-2006 (ELS:02-06) conducted by the NationalCenter for Education Statistics (NCES). </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  Data for this study were drawn from the data of Korean Education & Employment Panel [KEEP], a nationally representative baseline survey conducted by the Korea Research Institute for 
+Vocational Education and Training [KRIVET] in 2004. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> "Korean Education & Employment Panel (KEEP), a nationally representative baseline survey conducted by the Korea Research Institute for Vocational Education and Training in 2004, 9th graders, high school seniors, and vocational school seniors in 2004." p. 215. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> (i) the 2006 Vietnam Household Living Standards Measurement Survey (VHLSS), (ii) the 19971998 Vietnam Living Standards Measurement Survey (VLSS), (iii) the 2008
+Vietnam Household Testing Survey (VHTS) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1,624 Form 3 and Form 6 students in Hong Kong and interviews with 105 students </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1,624 secondary students, 967 Grade 9 and 657 Grade 12
 
+101 interviews
+ </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 101 sixth-grade students in a primary school located in Hexi district, Tianjin. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 106 students in a primary school in urban Wuhan, 140 students in a middle school in suburban Hubei, 130 students in a middle school in rural Hubei. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 160 primary school students and 240 secondary school students from Xian.  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1988 Family Expenditure Survey  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 1995 Social Stratification and Mobility survey (SSM). p.72  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2 national wide household survey data, in 1995/96 and 2006/07 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2005-2007 waves of the Korean Education Longitudinal Study (KELS), conducted by the Korean Educational Research Institute (KEDI), seventh graders in base year 2005, N=6,908 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 2005-2011 waves of the Korean Education Longitudinal Study and the Seoul Education Longitudinal Study (SELS), which began in 2010. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> 237 2-6 grade students from a Zhejiang urban primary school. 258 questionnaire were distributed. The number of vaid questionnaire was 237. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> a national survey of 18,000 students o f grades 5 and 8 from 600 schools in 10 different regions in Egypt. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Author created survey of schools </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> author's other research's database on English language learning and teaching </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Data are drawn from the National Education Longitudinal Study in 1994 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> data collected by author--Secondary 1-7, 630 pupils </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> data collected by author: 600 Kenyan households </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Data comes from China Family Panel Studies in 2008 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Data comes from Chinese Urban Household Education and Employment survey in 2004, which include 4772 households and 4772 students. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Data comes from Chinese Urban Household Education and Employment Survey in 2004. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Data drawn from a national postal survey of 1136 supplementary schools in British. The survey (compiled from the National Resource Centre (NRC) for Supplementary Schools’ database) was conducted by a London research centre and built upon a previous survey undertaken with supplementary school community language teachers  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Educational Longitudinal Study of 2002-2006 conducted by the National Center for Education Statistics--Sample of US high school sophomores in 2002 through their senior years in 2004 and beyond (2006) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> entrance test scores at UFPE, a major university in the Northeast of Brazil </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> German longitudinal study KESS (“Competencies and Attitudes of Students”) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Greek data set of 10% of 1999 university entrants  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Household Expenditure Survey (1994) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> In the first year, the target population consisted of students who attended grades four through six at the public school two blocks from the center and who lived in the neighborhood. In the second year of the program, students from the school's new kindergarten program also were permitted to apply. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> interview freshmen in college, which include Chinese students and Korea students </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korea Education Longitudinal Study (KELS) conducted by the Koran Educational Development Institute.  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korea National Assessment of Educational Achievement (NAEA) 2001 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korean Education Longitudinal Study (KELS), conducted by the Korean Educational Research Institute (KEDI) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korean National Assessment of Educational Achievement (NAEA) 2001. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korean panel data
+The Korean Labor and Income Panel Survey (KLIPS) data </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korean Youth Panel Survey (KYPS) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Longitudinal survey of high school students in Japan conducted by the Youth Research Institute in Tokyo in 1980 and 1982 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Malaysian Household Expenditure Survey 2004/2005 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Mathematics data for eighth-graders from TIMMS 2003 and PISA 2006 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Ministry of National Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> National Education Longitudinal Study (NESL) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> OSI student survey </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> OSI student survey (12,000 students surveyed in 12 countries) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Our data come from the 1995 Social Stratification and Mobility survey (SSM).  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> PISA </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> PISA 2003 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> primary data </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> primary data (ethnography) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> primary data (survey of 1,170 parents, interview of 58 parents) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> primary data from interview </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> primary data from interview and survey </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Questionnaire 2011/2012 Grades 9 and Grade 12 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Some information drawn from 72 teachers interviewed and 198 parents surveyed in Cambodia by author </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> survey administrated by the Turkish Higher Education Council, 2002 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> survey conducted by author </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Survey conducted by author </td>
+   <td align="right"> 28 </td>
+  </tr>
+  <tr>
+   <td align="left"> Survey conducted by Ministry of Education in Jordan in 2006 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> survey conducted by the author </td>
+   <td align="right"> 9 </td>
+  </tr>
+  <tr>
+   <td align="left"> Survey conducted by the author </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> survey conducted by the author  </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Survey conducted by the author in Shandong province of China. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Survey conducted by the author. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The data come from a  large longitudinal study of high school seniors in Japan conducted by the Youth Research Institute of Tokyo  in  1980 and 1982. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The data for this study came from three sources: 1) the National Survey on Learning Expenditure of Households (NSLEH) (1994, 1996, 1998, 2000, and 2002); 2) the National Household Expenditure Survey (NHES) (1984-2003); and 3) the original data of private school parents and local education committees collected in September-November 2004. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> the Egypt Labor Market Survey (ELMS 98) and the Egypt Labor Market Panel Survey (ELMPS 06) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The fieldwork began in August of 1985, after a pilot interview study of 12 ronin students in April
+and May of 1985, and ended in August of 1986. In December 1985, self-administered
+questionnaires were distributed to all ronin students attending classes in the yobiko at that
+time. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> the Korea Education Longitudinal Study (KELS) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> the Korean Education and Employment Panel (KEEP) conducted by the Korea Research Institute for Vocational Education and Training (KRIVET) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> the Korean Educational Longitudinal Survey (KELS) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> the National Education Longitudinal Study and includes approximately 7,600 students who attended high school between 1990 and 1992. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The target population consisted of 64 full-time special education students enrolled in the primary division of a Northern Delaware school district's Intensive Learning center. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> This paper focuses on private tutoring in Hong Kong. It draws on data collected through
+questionnaires from students in Grades 9 and 12 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> three datasets from Cyprus Statistical Service, including 2000, 2003, 2009  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Three middle schools in Zhengzhou was chosen for participants. One is key school, the second one regular school, the third a branch school of a key school.960 questionnaire were distributed. 902 responded. There were 872 valid questionnaires. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Three study data: 1. data comes from university rank. 2. data comes from a large, nationwide, cross-sectional study of private expenditures on shadow education for elementary, middle, and high school education conducted by KEDI in 2001. 3. data comes from a series of researches conducted by the KEDI (1977,1982, 1985, 1990,1995,1998).  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> TIMSS </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> TIMSS 1995 8th grade teacher and student surveys </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> US National Education Longitudinal Survey </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Various </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Vietnam Household Living Standards Surveys </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Vietnam Living Standards Survey </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Vietnam Living Standards Surveys 1997-1998 and 1992-1993, from Vietnam’s Ministry of Education and Training. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> World Bank data, survey of UNICEF officers </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Young Lives survey </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Young Lives' Older Cohort of Vietnamese Children (born in 1994), Round 2 Data (from 2006); Students were 12 years old </td>
+   <td align="right"> 1 </td>
+  </tr>
+</tbody>
+</table>
 
 ### Theoretical Framework
 
@@ -1258,24 +1642,9 @@
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 42 </td>
-   <td align="left"> teacher professionalism (critical theory) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="left"> 46 </td>
    <td align="left"> Institutional theory </td>
    <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 47 </td>
-   <td align="left"> critical theory </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 48 </td>
-   <td align="left"> Critical theory </td>
-   <td align="left"> Iveta </td>
   </tr>
   <tr>
    <td align="left"> 50 </td>
@@ -2621,7 +2990,7 @@ household </td>
 
 ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-261.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-262.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-263.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-264.png) 
 
-#### Stakeholder others:
+#### WhatTaught others:
 
 <table>
  <thead>

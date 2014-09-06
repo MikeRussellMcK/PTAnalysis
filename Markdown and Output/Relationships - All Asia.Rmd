@@ -1,35 +1,875 @@
 ---
-title: "Relationships for All Asian-Region Articles"
+title: "Relationships for All Asian-region Articles"
 output:
   html_document:
     keep_md: yes
     toc: true
   pdf_document: default
 ---
+
 ```{r, results="asis", echo=FALSE, message=FALSE}
 source('../RCode/Download and Clean PT Data.R')
 source('../RCode/PT Analysis.R')
 ```
 
-# Region by years (grouped)
+# _Region by year group_ for all entries in the database:
 
-## _Region by year group_ for all Asian-region entries in the database:
-
-### Graphs for all Asian-region entries
+### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
-RegionByYear<-data.frame(AllAsia$YearGroup, AllAsiaRegionGrid)
+RegionByYear<-data.frame(AllAsia$YearGroup, AllAsiaRegionGrid) #Grid vs column
 RegionByYear2 <- melt(RegionByYear, id=c("AllAsia.YearGroup"))
 RegionByYear3<-RegionByYear2[!(RegionByYear2$value=="FALSE"),]
 names(RegionByYear3) <- c("YearGroup","Region","value")
-ggplot(RegionByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
+ggplot(RegionByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
 ```
 
-### Counts for all Asian-region entries
+### Counts for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(table(RegionByYear3$YearGroup, RegionByYear3$Region))
 ```
 
-### Percentages for all Asian-region entries
+# _Region by publication type_: 
+
+### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
-kable(prop.table(table(RegionByYear3$YearGroup, RegionByYear3$Region)))
+RegionByPubType <- data.frame(AllAsia$PubType, AllAsiaRegionGrid) #Grid vs column
+RegionByPubType2 <- melt(RegionByPubType, id=c("AllAsia.PubType"))
+RegionByPubType3<-RegionByPubType2[!(RegionByPubType2$value=="FALSE"),]
+names(RegionByPubType3) <- c("PubType","Region","value")
+ggplot(RegionByPubType3, aes(PubType))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByPubType3$PubType, RegionByPubType3$Region))
+```
+
+# _Publication type by year group_ for all entries in the database:
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(AllAsia, aes(YearGroup))+geom_bar()+facet_wrap(~PubType)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(AllAsia$YearGroup, AllAsia$PubType))
+```
+
+# _Research type by region_ for all entries in the database
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByResearchType <- data.frame(AllAsiaResearchTypeGrid, AllAsiaRegionGrid) # Double-grid
+RegionByResearchType2 <- melt(RegionByResearchType, id=c("Original.emperical.research", "Review.of.other.research", "Policy.analysis"))
+RegionByResearchType3<-RegionByResearchType2[!(RegionByResearchType2$value=="FALSE"),]
+names(RegionByResearchType3) <- c("Original emperical", "Review of other", "Policy analysis","Region","value")
+RegionByResearchType3 <- melt(RegionByResearchType3, id=c("Region"))
+RegionByResearchType3<-RegionByResearchType3[!(RegionByResearchType3$value=="FALSE"),]
+names(RegionByResearchType3) <- c("Region","ResearchType", "value")
+RegionByResearchType3<-RegionByResearchType3[!(RegionByResearchType3$ResearchType=="value"),]
+ggplot(RegionByResearchType3, aes(ResearchType))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByResearchType3$Region, RegionByResearchType3$ResearchType))
+```
+
+# _Research type by year group_ for all entries in the database
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchTypeByYear<-data.frame(AllAsia$YearGroup, AllAsiaResearchTypeGrid) #Grid vs column
+ResearchTypeByYear2 <- melt(ResearchTypeByYear, id=c("AllAsia.YearGroup"))
+ResearchTypeByYear3<-ResearchTypeByYear2[!(ResearchTypeByYear2$value=="FALSE"),] 
+names(ResearchTypeByYear3) <- c("YearGroup","ResearchType","value")
+ggplot(ResearchTypeByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchType)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchTypeByYear3$YearGroup, ResearchTypeByYear3$ResearchType))
+```
+
+# _Ed levels by region_ 
+
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByEdLevel <- data.frame(AllAsiaEdLevelGrid, AllAsiaRegionGrid) # Double-grid
+RegionByEdLevel2 <- melt(RegionByEdLevel, id=c("Pre.primary","Primary","Secondary","Tertiary"))
+RegionByEdLevel3<-RegionByEdLevel2[!(RegionByEdLevel2$value=="FALSE"),]
+names(RegionByEdLevel3) <- c("Pre-primary","Primary","Secondary","Tertiary","Region","value")
+RegionByEdLevel3 <- melt(RegionByEdLevel3, id=c("Region"))
+RegionByEdLevel3<-RegionByEdLevel3[!(RegionByEdLevel3$value=="FALSE"),]
+names(RegionByEdLevel3) <- c("Region","EdLevel", "value")
+RegionByEdLevel3<-RegionByEdLevel3[!(RegionByEdLevel3$EdLevel=="value"),]
+ggplot(RegionByEdLevel3, aes(EdLevel))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByEdLevel3$Region, RegionByEdLevel3$EdLevel))
+```
+
+# _Research approach by region_
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByResearchApproach <- data.frame(AllAsiaResearchApproachGrid, AllAsiaRegionGrid) # Double-grid
+RegionByResearchApproach2 <- melt(RegionByResearchApproach, id=c("Single.country...case", "Comparative"))
+RegionByResearchApproach3 <- RegionByResearchApproach2[!(RegionByResearchApproach2$value=="FALSE"),]
+names(RegionByResearchApproach3) <- c("Single-country","Comparative", "Region","value")
+RegionByResearchApproach3 <- melt(RegionByResearchApproach3, id=c("Region"))
+RegionByResearchApproach3<-RegionByResearchApproach3[!(RegionByResearchApproach3$value=="FALSE"),]
+names(RegionByResearchApproach3) <- c("Region","ResearchApproach", "value")
+RegionByResearchApproach3<-RegionByResearchApproach3[!(RegionByResearchApproach3$ResearchApproach=="value"),]
+ggplot(RegionByResearchApproach3, aes(ResearchApproach))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByResearchApproach3$Region, RegionByResearchApproach3$ResearchApproach))
+```
+
+# Research approach by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchApproachByYear<-data.frame(AllAsia$YearGroup, AllAsiaResearchApproachGrid) #Grid vs column
+ResearchApproachByYear2 <- melt(ResearchApproachByYear, id=c("AllAsia.YearGroup"))
+ResearchApproachByYear3<-ResearchApproachByYear2[!(ResearchApproachByYear2$value=="FALSE"),]
+names(ResearchApproachByYear3) <- c("YearGroup","ResearchApproach","value")
+ggplot(ResearchApproachByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchApproach)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchApproachByYear3$YearGroup, ResearchApproachByYear3$ResearchApproach))
+```
+
+# Research methods by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(AllAsia, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchMethods)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(AllAsia$YearGroup, AllAsia$ResearchMethods))
+```
+
+# Research methods by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByResearchMethods <- data.frame(AllAsia$ResearchMethods, AllAsiaRegionGrid)
+RegionByResearchMethods2 <- melt(RegionByResearchMethods, id=c("AllAsia.ResearchMethods"))
+RegionByResearchMethods3 <- RegionByResearchMethods2[!(RegionByResearchMethods2$value=="FALSE"),]
+names(RegionByResearchMethods3) <- c("ResearchMethods","Region","value")
+ggplot(RegionByResearchMethods3, aes(ResearchMethods))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByResearchMethods3$Region, RegionByResearchMethods3$ResearchMethods))
+```
+
+# Research methods by year group
+### Graph for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(AllAsia, aes(YearGroup))+geom_bar()+facet_wrap(~ResearchMethods)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(AllAsia$YearGroup, AllAsia$ResearchMethods))
+```
+
+# Research methods by publication type
+### Graph for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(AllAsia, aes(PubType))+geom_bar()+facet_wrap(~ResearchMethods)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(AllAsia$PubType, AllAsia$ResearchMethods))
+```
+
+# Theoreortical framework by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaRegionGrid) # Double-grid
+RegionByTheory2 <- melt(RegionByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+RegionByTheory3 <- RegionByTheory2[!(RegionByTheory2$value=="FALSE"),]
+names(RegionByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "Region", "value")
+RegionByTheory3 <- melt(RegionByTheory3, id=c("Region"))
+RegionByTheory3<-RegionByTheory3[!(RegionByTheory3$value=="FALSE"),]
+names(RegionByTheory3) <- c("Region","Theory", "value")
+RegionByTheory3<-RegionByTheory3[!(RegionByTheory3$Theory=="value"),]
+ggplot(RegionByTheory3, aes(Theory))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByTheory3$Theory, RegionByTheory3$Region))
+```
+
+# Theoreortical framework by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+TheoryByYear<-data.frame(AllAsia$YearGroup, AllAsiaTheoryGrid) #Grid vs column
+TheoryByYear2 <- melt(TheoryByYear, id=c("AllAsia.YearGroup"))
+TheoryByYear3<-TheoryByYear2[!(TheoryByYear2$value=="FALSE"),] 
+names(TheoryByYear3) <- c("YearGroup","Theory","value")
+ggplot(TheoryByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Theory)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(TheoryByYear3$YearGroup, TheoryByYear3$Theory))
+```
+
+# Theoretical framework by research method
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchMethodsByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaResearchMethodsGrid) # Double-grid
+ResearchMethodsByTheory2 <- melt(ResearchMethodsByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+ResearchMethodsByTheory3 <- ResearchMethodsByTheory2[!(ResearchMethodsByTheory2$value=="FALSE"),]
+names(ResearchMethodsByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "ResearchMethods", "value")
+ResearchMethodsByTheory3 <- melt(ResearchMethodsByTheory3, id=c("ResearchMethods"))
+ResearchMethodsByTheory3<-ResearchMethodsByTheory3[!(ResearchMethodsByTheory3$value=="FALSE"),]
+names(ResearchMethodsByTheory3) <- c("ResearchMethods","Theory", "value")
+ResearchMethodsByTheory3<-ResearchMethodsByTheory3[!(ResearchMethodsByTheory3$Theory=="value"),]
+ggplot(ResearchMethodsByTheory3, aes(Theory))+geom_bar()+facet_wrap(~ResearchMethods)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchMethodsByTheory3$Theory, ResearchMethodsByTheory3$ResearchMethods))
+```
+
+# Theoretical framework by research approach
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchApproachByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaResearchApproachGrid) # Double-grid
+ResearchApproachByTheory2 <- melt(ResearchApproachByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+ResearchApproachByTheory3 <- ResearchApproachByTheory2[!(ResearchApproachByTheory2$value=="FALSE"),]
+names(ResearchApproachByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "ResearchApproach", "value")
+ResearchApproachByTheory3 <- melt(ResearchApproachByTheory3, id=c("ResearchApproach"))
+ResearchApproachByTheory3<-ResearchApproachByTheory3[!(ResearchApproachByTheory3$value=="FALSE"),]
+names(ResearchApproachByTheory3) <- c("ResearchApproach","Theory", "value")
+ResearchApproachByTheory3<-ResearchApproachByTheory3[!(ResearchApproachByTheory3$Theory=="value"),]
+ggplot(ResearchApproachByTheory3, aes(Theory))+geom_bar()+facet_wrap(~ResearchApproach)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchApproachByTheory3$Theory, ResearchApproachByTheory3$ResearchApproach))
+```
+
+# Framing by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByFramed <- data.frame(AllAsiaFramedGrid, AllAsiaRegionGrid) # Double-grid
+RegionByFramed2 <- melt(RegionByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+RegionByFramed3 <- RegionByFramed2[!(RegionByFramed2$value=="FALSE"),]
+names(RegionByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "Region", "value")
+RegionByFramed3 <- melt(RegionByFramed3, id=c("Region"))
+RegionByFramed3<-RegionByFramed3[!(RegionByFramed3$value=="FALSE"),]
+names(RegionByFramed3) <- c("Region","Framed", "value")
+RegionByFramed3<-RegionByFramed3[!(RegionByFramed3$Framed=="value"),]
+ggplot(RegionByFramed3, aes(Framed))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByFramed3$Framed, RegionByFramed3$Region))
+```
+
+# Framing by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+FramedByYear<-data.frame(AllAsia$YearGroup, AllAsiaFramedGrid) #Grid vs column
+FramedByYear2 <- melt(FramedByYear, id=c("AllAsia.YearGroup"))
+FramedByYear3<-FramedByYear2[!(FramedByYear2$value=="FALSE"),] 
+names(FramedByYear3) <- c("YearGroup","Framed","value")
+ggplot(FramedByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Framed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(FramedByYear3$YearGroup, FramedByYear3$Framed))
+```
+
+# Framed by research method
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchMethodsByFramed <- data.frame(AllAsiaFramedGrid, AllAsiaResearchMethodsGrid) # Double-grid
+ResearchMethodsByFramed2 <- melt(ResearchMethodsByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchMethodsByFramed3 <- ResearchMethodsByFramed2[!(ResearchMethodsByFramed2$value=="FALSE"),]
+names(ResearchMethodsByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchMethods", "value")
+ResearchMethodsByFramed3 <- melt(ResearchMethodsByFramed3, id=c("ResearchMethods"))
+ResearchMethodsByFramed3<-ResearchMethodsByFramed3[!(ResearchMethodsByFramed3$value=="FALSE"),]
+names(ResearchMethodsByFramed3) <- c("ResearchMethods","Framed", "value")
+ResearchMethodsByFramed3<-ResearchMethodsByFramed3[!(ResearchMethodsByFramed3$Framed=="value"),]
+ggplot(ResearchMethodsByFramed3, aes(ResearchMethods))+geom_bar()+facet_wrap(~Framed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchMethodsByFramed3$Framed, ResearchMethodsByFramed3$ResearchMethods))
+```
+
+# Framed by research approach
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchApproachByFramed <- data.frame(AllAsiaFramedGrid, AllAsiaResearchApproachGrid) # Double-grid
+ResearchApproachByFramed2 <- melt(ResearchApproachByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchApproachByFramed3 <- ResearchApproachByFramed2[!(ResearchApproachByFramed2$value=="FALSE"),]
+names(ResearchApproachByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchApproach", "value")
+ResearchApproachByFramed3 <- melt(ResearchApproachByFramed3, id=c("ResearchApproach"))
+ResearchApproachByFramed3<-ResearchApproachByFramed3[!(ResearchApproachByFramed3$value=="FALSE"),]
+names(ResearchApproachByFramed3) <- c("ResearchApproach","Framed", "value")
+ResearchApproachByFramed3<-ResearchApproachByFramed3[!(ResearchApproachByFramed3$Framed=="value"),]
+ggplot(ResearchApproachByFramed3, aes(ResearchApproach))+geom_bar()+facet_wrap(~Framed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchApproachByFramed3$Framed, ResearchApproachByFramed3$ResearchApproach))
+```
+
+# Framed by theory
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+FramedByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaFramedGrid) # Double-grid
+FramedByTheory2 <- melt(FramedByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+FramedByTheory3 <- FramedByTheory2[!(FramedByTheory2$value=="FALSE"),]
+names(FramedByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "Framed", "value")
+FramedByTheory3 <- melt(FramedByTheory3, id=c("Framed"))
+FramedByTheory3<-FramedByTheory3[!(FramedByTheory3$value=="FALSE"),]
+names(FramedByTheory3) <- c("Framed","Theory", "value")
+FramedByTheory3<-FramedByTheory3[!(FramedByTheory3$Theory=="value"),]
+ggplot(FramedByTheory3, aes(Theory))+geom_bar()+facet_wrap(~Framed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(FramedByTheory3$Framed, FramedByTheory3$Theory))
+```
+
+# How Viewed by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByHowViewed <- data.frame(AllAsiaHowViewedGrid, AllAsiaRegionGrid) # Double-grid
+RegionByHowViewed2 <- melt(RegionByHowViewed, id=c("Raises.concerns","Discusses.benefits","Both","Neither"))
+RegionByHowViewed3 <- RegionByHowViewed2[!(RegionByHowViewed2$value=="FALSE"),]
+names(RegionByHowViewed3) <- c("Raises concerns","Discusses benefits","Both","Neither", "Region", "value")
+RegionByHowViewed3 <- melt(RegionByHowViewed3, id=c("Region"))
+RegionByHowViewed3<-RegionByHowViewed3[!(RegionByHowViewed3$value=="FALSE"),]
+names(RegionByHowViewed3) <- c("Region","HowViewed", "value")
+RegionByHowViewed3<-RegionByHowViewed3[!(RegionByHowViewed3$HowViewed=="value"),]
+ggplot(RegionByHowViewed3, aes(HowViewed))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByHowViewed3$HowViewed, RegionByHowViewed3$Region))
+```
+
+# How Viewed by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+HowViewedByYear<-data.frame(AllAsia$YearGroup, AllAsiaHowViewedGrid) #Grid vs column
+HowViewedByYear2 <- melt(HowViewedByYear, id=c("AllAsia.YearGroup"))
+HowViewedByYear3<-HowViewedByYear2[!(HowViewedByYear2$value=="FALSE"),] 
+names(HowViewedByYear3) <- c("YearGroup","HowViewed","value")
+ggplot(HowViewedByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~HowViewed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(HowViewedByYear3$YearGroup, HowViewedByYear3$HowViewed))
+```
+
+# HowViewed by research method
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchMethodsByHowViewed <- data.frame(AllAsiaHowViewedGrid, AllAsiaResearchMethodsGrid) # Double-grid
+ResearchMethodsByHowViewed2 <- melt(ResearchMethodsByHowViewed, id=c("Raises.concerns","Discusses.benefits","Both","Neither"))
+ResearchMethodsByHowViewed3 <- ResearchMethodsByHowViewed2[!(ResearchMethodsByHowViewed2$value=="FALSE"),]
+names(ResearchMethodsByHowViewed3) <- c("Raises concerns","Discusses benefits","Both","Neither", "ResearchMethods", "value")
+ResearchMethodsByHowViewed3 <- melt(ResearchMethodsByHowViewed3, id=c("ResearchMethods"))
+ResearchMethodsByHowViewed3<-ResearchMethodsByHowViewed3[!(ResearchMethodsByHowViewed3$value=="FALSE"),]
+names(ResearchMethodsByHowViewed3) <- c("ResearchMethods","HowViewed", "value")
+ResearchMethodsByHowViewed3<-ResearchMethodsByHowViewed3[!(ResearchMethodsByHowViewed3$HowViewed=="value"),]
+ggplot(ResearchMethodsByHowViewed3, aes(ResearchMethods))+geom_bar()+facet_wrap(~HowViewed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchMethodsByHowViewed3$HowViewed, ResearchMethodsByHowViewed3$ResearchMethods))
+```
+
+# HowViewed by research approach
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchApproachByHowViewed <- data.frame(AllAsiaHowViewedGrid, AllAsiaResearchApproachGrid) # Double-grid
+ResearchApproachByHowViewed2 <- melt(ResearchApproachByHowViewed, id=c("Raises.concerns","Discusses.benefits","Both","Neither"))
+ResearchApproachByHowViewed3 <- ResearchApproachByHowViewed2[!(ResearchApproachByHowViewed2$value=="FALSE"),]
+names(ResearchApproachByHowViewed3) <- c("Raises concerns","Discusses benefits","Both","Neither", "ResearchApproach", "value")
+ResearchApproachByHowViewed3 <- melt(ResearchApproachByHowViewed3, id=c("ResearchApproach"))
+ResearchApproachByHowViewed3<-ResearchApproachByHowViewed3[!(ResearchApproachByHowViewed3$value=="FALSE"),]
+names(ResearchApproachByHowViewed3) <- c("ResearchApproach","HowViewed", "value")
+ResearchApproachByHowViewed3<-ResearchApproachByHowViewed3[!(ResearchApproachByHowViewed3$HowViewed=="value"),]
+ggplot(ResearchApproachByHowViewed3, aes(ResearchApproach))+geom_bar()+facet_wrap(~HowViewed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchApproachByHowViewed3$HowViewed, ResearchApproachByHowViewed3$ResearchApproach))
+```
+
+# HowViewed by theory
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+HowViewedByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaHowViewedGrid) # Double-grid
+HowViewedByTheory2 <- melt(HowViewedByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+HowViewedByTheory3 <- HowViewedByTheory2[!(HowViewedByTheory2$value=="FALSE"),]
+names(HowViewedByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "HowViewed", "value")
+HowViewedByTheory3 <- melt(HowViewedByTheory3, id=c("HowViewed"))
+HowViewedByTheory3<-HowViewedByTheory3[!(HowViewedByTheory3$value=="FALSE"),]
+names(HowViewedByTheory3) <- c("HowViewed","Theory", "value")
+HowViewedByTheory3<-HowViewedByTheory3[!(HowViewedByTheory3$Theory=="value"),]
+ggplot(HowViewedByTheory3, aes(HowViewed))+geom_bar()+facet_wrap(~Theory)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(HowViewedByTheory3$HowViewed, HowViewedByTheory3$Theory))
+```
+
+# How Viewed by Framed
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+FramedByHowViewed <- data.frame(AllAsiaHowViewedGrid, AllAsiaFramedGrid) # Double-grid
+FramedByHowViewed2 <- melt(FramedByHowViewed, id=c("Raises.concerns","Discusses.benefits","Both","Neither"))
+FramedByHowViewed3 <- FramedByHowViewed2[!(FramedByHowViewed2$value=="FALSE"),]
+names(FramedByHowViewed3) <- c("Raises concerns","Discusses benefits","Both","Neither", "Framed", "value")
+FramedByHowViewed3 <- melt(FramedByHowViewed3, id=c("Framed"))
+FramedByHowViewed3<-FramedByHowViewed3[!(FramedByHowViewed3$value=="FALSE"),]
+names(FramedByHowViewed3) <- c("Framed","HowViewed", "value")
+FramedByHowViewed3<-FramedByHowViewed3[!(FramedByHowViewed3$HowViewed=="value"),]
+ggplot(FramedByHowViewed3, aes(HowViewed))+geom_bar()+facet_wrap(~Framed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(FramedByHowViewed3$Framed, FramedByHowViewed3$HowViewed))
+```
+
+# Stakeholders by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByStakeholders <- data.frame(AllAsiaStakeholdersGrid, AllAsiaRegionGrid) # Double-grid
+RegionByStakeholders2 <- melt(RegionByStakeholders, id=c("Teachers.who.do.not.tutor","Teachers.who.tutor","Tutors.who.are.not.teachers","Parents...household","Students","Policymakers","Documents"))
+RegionByStakeholders3 <- RegionByStakeholders2[!(RegionByStakeholders2$value=="FALSE"),]
+names(RegionByStakeholders3) <- c("Non-tutor teachers","Teachers who tutor","Tutors","Parents","Students","Policymakers","Documents", "Region", "value")
+RegionByStakeholders3 <- melt(RegionByStakeholders3, id=c("Region"))
+RegionByStakeholders3<-RegionByStakeholders3[!(RegionByStakeholders3$value=="FALSE"),]
+names(RegionByStakeholders3) <- c("Region","Stakeholders", "value")
+RegionByStakeholders3<-RegionByStakeholders3[!(RegionByStakeholders3$Stakeholders=="value"),]
+ggplot(RegionByStakeholders3, aes(Stakeholders))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByStakeholders3$Stakeholders, RegionByStakeholders3$Region))
+```
+
+# Stakeholders by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+StakeholdersByYear<-data.frame(AllAsia$YearGroup, AllAsiaStakeholdersGrid) #Grid vs column
+StakeholdersByYear2 <- melt(StakeholdersByYear, id=c("AllAsia.YearGroup"))
+StakeholdersByYear3<-StakeholdersByYear2[!(StakeholdersByYear2$value=="FALSE"),] 
+names(StakeholdersByYear3) <- c("YearGroup","Stakeholders","value")
+ggplot(StakeholdersByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Stakeholders)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(StakeholdersByYear3$YearGroup, StakeholdersByYear3$Stakeholders))
+```
+
+# Stakeholders by theory
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+StakeholdersByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaStakeholdersGrid) # Double-grid
+StakeholdersByTheory2 <- melt(StakeholdersByTheory, id=c("Teachers.who.do.not.tutor","Teachers.who.tutor","Tutors.who.are.not.teachers","Parents...household","Students","Policymakers","Documents"))
+StakeholdersByTheory3 <- StakeholdersByTheory2[!(StakeholdersByTheory2$value=="FALSE"),]
+names(StakeholdersByTheory3) <- c("Non-tutor teachers","Tutors who tutor","Tutors","Parents","Students","Policymakers","Documents", "Stakeholders", "value")
+StakeholdersByTheory3 <- melt(StakeholdersByTheory3, id=c("Stakeholders"))
+StakeholdersByTheory3<-StakeholdersByTheory3[!(StakeholdersByTheory3$value=="FALSE"),]
+names(StakeholdersByTheory3) <- c("Stakeholders","Theory", "value")
+StakeholdersByTheory3<-StakeholdersByTheory3[!(StakeholdersByTheory3$Theory=="value"),]
+ggplot(StakeholdersByTheory3, aes(Theory))+geom_bar()+facet_wrap(~Stakeholders)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(StakeholdersByTheory3$Stakeholders, StakeholdersByTheory3$Theory))
+```
+
+# WhatTaught by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByWhatTaught <- data.frame(AllAsiaWhatTaughtGrid, AllAsiaRegionGrid) # Double-grid
+RegionByWhatTaught2 <- melt(RegionByWhatTaught, id=c("Subjects.taught.in.school","Extracurricular.activities..Dance..art..sports..music.","Both","Not.defined"))
+RegionByWhatTaught3 <- RegionByWhatTaught2[!(RegionByWhatTaught2$value=="FALSE"),]
+names(RegionByWhatTaught3) <- c("School subjects","Extracurriculars","Both","Not defined", "Region", "value")
+RegionByWhatTaught3 <- melt(RegionByWhatTaught3, id=c("Region"))
+RegionByWhatTaught3<-RegionByWhatTaught3[!(RegionByWhatTaught3$value=="FALSE"),]
+names(RegionByWhatTaught3) <- c("Region","WhatTaught", "value")
+RegionByWhatTaught3<-RegionByWhatTaught3[!(RegionByWhatTaught3$WhatTaught=="value"),]
+ggplot(RegionByWhatTaught3, aes(WhatTaught))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByWhatTaught3$WhatTaught, RegionByWhatTaught3$Region))
+```
+
+WhatTaught by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhatTaughtByYear<-data.frame(AllAsia$YearGroup, AllAsiaWhatTaughtGrid) #Grid vs column
+WhatTaughtByYear2 <- melt(WhatTaughtByYear, id=c("AllAsia.YearGroup"))
+WhatTaughtByYear3<-WhatTaughtByYear2[!(WhatTaughtByYear2$value=="FALSE"),] 
+names(WhatTaughtByYear3) <- c("YearGroup","WhatTaught","value")
+ggplot(WhatTaughtByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~WhatTaught)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhatTaughtByYear3$YearGroup, WhatTaughtByYear3$WhatTaught))
+```
+
+# WhatTaught by theory
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhatTaughtByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaWhatTaughtGrid) # Double-grid
+WhatTaughtByTheory2 <- melt(WhatTaughtByTheory, id=c("Subjects.taught.in.school","Extracurricular.activities..Dance..art..sports..music.","Both","Not.defined"))
+WhatTaughtByTheory3 <- WhatTaughtByTheory2[!(WhatTaughtByTheory2$value=="FALSE"),]
+names(WhatTaughtByTheory3) <- c("School subjects","Extracurriculars","Both","Not defined", "WhatTaught", "value")
+WhatTaughtByTheory3 <- melt(WhatTaughtByTheory3, id=c("WhatTaught"))
+WhatTaughtByTheory3<-WhatTaughtByTheory3[!(WhatTaughtByTheory3$value=="FALSE"),]
+names(WhatTaughtByTheory3) <- c("WhatTaught","Theory", "value")
+WhatTaughtByTheory3<-WhatTaughtByTheory3[!(WhatTaughtByTheory3$Theory=="value"),]
+ggplot(WhatTaughtByTheory3, aes(Theory))+geom_bar()+facet_wrap(~WhatTaught)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhatTaughtByTheory3$WhatTaught, WhatTaughtByTheory3$Theory))
+```
+
+# WhereOccur by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByWhereOccur <- data.frame(AllAsiaWhereOccurGrid, AllAsiaRegionGrid) # Double-grid
+RegionByWhereOccur2 <- melt(RegionByWhereOccur, id=c("On.school.grounds","Designated.tutoring.center.or.franchise","On.line...via.web","In.the.student.s.home","Other.outside.school..e.g..teacher.s.home..coffee.shop..library.","Not.defined"))
+RegionByWhereOccur3 <- RegionByWhereOccur2[!(RegionByWhereOccur2$value=="FALSE"),]
+names(RegionByWhereOccur3) <- c("On school grounds","Designated center","Web","Student's home","Outside school","Not defined", "Region", "value")
+RegionByWhereOccur3 <- melt(RegionByWhereOccur3, id=c("Region"))
+RegionByWhereOccur3<-RegionByWhereOccur3[!(RegionByWhereOccur3$value=="FALSE"),]
+names(RegionByWhereOccur3) <- c("Region","WhereOccur", "value")
+RegionByWhereOccur3<-RegionByWhereOccur3[!(RegionByWhereOccur3$WhereOccur=="value"),]
+ggplot(RegionByWhereOccur3, aes(WhereOccur))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByWhereOccur3$WhereOccur, RegionByWhereOccur3$Region))
+```
+
+# WhereOccur by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhereOccurByYear<-data.frame(AllAsia$YearGroup, AllAsiaWhereOccurGrid) #Grid vs column
+WhereOccurByYear2 <- melt(WhereOccurByYear, id=c("AllAsia.YearGroup"))
+WhereOccurByYear3<-WhereOccurByYear2[!(WhereOccurByYear2$value=="FALSE"),] 
+names(WhereOccurByYear3) <- c("YearGroup","WhereOccur","value")
+ggplot(WhereOccurByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~WhereOccur)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhereOccurByYear3$YearGroup, WhereOccurByYear3$WhereOccur))
+```
+
+# WhereOccur by theory
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhereOccurByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaWhereOccurGrid) # Double-grid
+WhereOccurByTheory2 <- melt(WhereOccurByTheory, id=c("On.school.grounds","Designated.tutoring.center.or.franchise","On.line...via.web","In.the.student.s.home","Other.outside.school..e.g..teacher.s.home..coffee.shop..library.","Not.defined"))
+WhereOccurByTheory3 <- WhereOccurByTheory2[!(WhereOccurByTheory2$value=="FALSE"),]
+names(WhereOccurByTheory3) <- c("On school grounds","Designated center","Web","Student's home","Outside school","Not defined", "WhereOccur", "value")
+WhereOccurByTheory3 <- melt(WhereOccurByTheory3, id=c("WhereOccur"))
+WhereOccurByTheory3<-WhereOccurByTheory3[!(WhereOccurByTheory3$value=="FALSE"),]
+names(WhereOccurByTheory3) <- c("WhereOccur","Theory", "value")
+WhereOccurByTheory3<-WhereOccurByTheory3[!(WhereOccurByTheory3$Theory=="value"),]
+ggplot(WhereOccurByTheory3, aes(Theory))+geom_bar()+facet_wrap(~WhereOccur)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhereOccurByTheory3$WhereOccur, WhereOccurByTheory3$Theory))
+```
+
+# WhoProvides by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByWhoProvides <- data.frame(AllAsiaWhoProvidesGrid, AllAsiaRegionGrid) # Double-grid
+RegionByWhoProvides2 <- melt(RegionByWhoProvides, id=c("Current.classroom.teacher","Other.K.12.teachers","Retired.teacher","University.faculty","Institution...Professional.tutor","College.student","Peer.classmate","Parent.or.family.member","Community.member...volunteer","Not.defined"))
+RegionByWhoProvides3 <- RegionByWhoProvides2[!(RegionByWhoProvides2$value=="FALSE"),]
+names(RegionByWhoProvides3) <- c("Current teacher", "Other k-12","Retired teacher","Univ. faculty","Professional","Col. student","Peer","Family","Community","Not defined" , "Region", "value")
+RegionByWhoProvides3 <- melt(RegionByWhoProvides3, id=c("Region"))
+RegionByWhoProvides3<-RegionByWhoProvides3[!(RegionByWhoProvides3$value=="FALSE"),]
+names(RegionByWhoProvides3) <- c("Region","WhoProvides", "value")
+RegionByWhoProvides3<-RegionByWhoProvides3[!(RegionByWhoProvides3$WhoProvides=="value"),]
+ggplot(RegionByWhoProvides3, aes(WhoProvides))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByWhoProvides3$WhoProvides, RegionByWhoProvides3$Region))
+```
+
+# WhoProvides by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhoProvidesByYear<-data.frame(AllAsia$YearGroup, AllAsiaWhoProvidesGrid) #Grid vs column
+WhoProvidesByYear2 <- melt(WhoProvidesByYear, id=c("AllAsia.YearGroup"))
+WhoProvidesByYear3<-WhoProvidesByYear2[!(WhoProvidesByYear2$value=="FALSE"),] 
+names(WhoProvidesByYear3) <- c("YearGroup","WhoProvides","value")
+ggplot(WhoProvidesByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~WhoProvides)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhoProvidesByYear3$YearGroup, WhoProvidesByYear3$WhoProvides))
+```
+
+# WhoProvides by theory
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhoProvidesByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaWhoProvidesGrid) # Double-grid
+WhoProvidesByTheory2 <- melt(WhoProvidesByTheory, id=c("Current.classroom.teacher","Other.K.12.teachers","Retired.teacher","University.faculty","Institution...Professional.tutor","College.student","Peer.classmate","Parent.or.family.member","Community.member...volunteer","Not.defined"))
+WhoProvidesByTheory3 <- WhoProvidesByTheory2[!(WhoProvidesByTheory2$value=="FALSE"),]
+names(WhoProvidesByTheory3) <- c("Current teacher", "Other k-12","Retired teacher","Univ. faculty","Professional","Col. student","Peer","Family","Community","Not defined" , "WhoProvides", "value")
+WhoProvidesByTheory3 <- melt(WhoProvidesByTheory3, id=c("WhoProvides"))
+WhoProvidesByTheory3<-WhoProvidesByTheory3[!(WhoProvidesByTheory3$value=="FALSE"),]
+names(WhoProvidesByTheory3) <- c("WhoProvides","Theory", "value")
+WhoProvidesByTheory3<-WhoProvidesByTheory3[!(WhoProvidesByTheory3$Theory=="value"),]
+ggplot(WhoProvidesByTheory3, aes(Theory))+geom_bar()+facet_wrap(~WhoProvides)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhoProvidesByTheory3$WhoProvides, WhoProvidesByTheory3$Theory))
+```
+
+# DoesCharge by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByDoesCharge <- data.frame(AllAsia$DoesCharge, AllAsiaRegionGrid) # single-grid
+RegionByDoesCharge2 <- melt(RegionByDoesCharge, id=c("AllAsia.DoesCharge"))
+RegionByDoesCharge3 <- RegionByDoesCharge2[!(RegionByDoesCharge2$value=="FALSE"),]
+names(RegionByDoesCharge3) <- c("DoesCharge","Region", "value")
+RegionByDoesCharge3<-RegionByDoesCharge3[!(RegionByDoesCharge3$DoesCharge=="value"),]
+ggplot(RegionByDoesCharge3, aes(DoesCharge))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByDoesCharge3$DoesCharge, RegionByDoesCharge3$Region))
+```
+
+# DoesCharge by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ggplot(AllAsia, aes(YearGroup))+geom_bar()+facet_wrap(~DoesCharge)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(AllAsia$YearGroup, AllAsia$DoesCharge))
+```
+
+# DoesCharge by WhoProvides
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhoProvidesByDoesCharge <- data.frame(AllAsia$DoesCharge, AllAsiaWhoProvidesGrid) # single-grid
+WhoProvidesByDoesCharge2 <- melt(WhoProvidesByDoesCharge, id=c("AllAsia.DoesCharge"))
+WhoProvidesByDoesCharge3 <- WhoProvidesByDoesCharge2[!(WhoProvidesByDoesCharge2$value=="FALSE"),]
+names(WhoProvidesByDoesCharge3) <- c("DoesCharge","WhoProvides", "value")
+WhoProvidesByDoesCharge3<-WhoProvidesByDoesCharge3[!(WhoProvidesByDoesCharge3$DoesCharge=="value"),]
+ggplot(WhoProvidesByDoesCharge3, aes(DoesCharge))+geom_bar()+facet_wrap(~WhoProvides)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhoProvidesByDoesCharge3$DoesCharge, WhoProvidesByDoesCharge3$WhoProvides))
+```
+
+# ClassSize by Region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByClassSize <- data.frame(AllAsia$ClassSize, AllAsiaRegionGrid) # single-grid
+RegionByClassSize2 <- melt(RegionByClassSize, id=c("AllAsia.ClassSize"))
+RegionByClassSize3 <- RegionByClassSize2[!(RegionByClassSize2$value=="FALSE"),]
+names(RegionByClassSize3) <- c("ClassSize","Region", "value")
+RegionByClassSize3<-RegionByClassSize3[!(RegionByClassSize3$ClassSize=="value"),]
+ggplot(RegionByClassSize3, aes(ClassSize))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByClassSize3$ClassSize, RegionByClassSize3$Region))
+```
+
+# OperationSize by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByOperationSize <- data.frame(AllAsiaOperationSizeGrid, AllAsiaRegionGrid) # Double-grid
+RegionByOperationSize2 <- melt(RegionByOperationSize, id=c("Individual.operator","Small.firm","Large.firm","Various"))
+RegionByOperationSize3 <- RegionByOperationSize2[!(RegionByOperationSize2$value=="FALSE"),]
+names(RegionByOperationSize3) <- c("Individual","Small firms","Large firm","Various" , "Region", "value")
+RegionByOperationSize3 <- melt(RegionByOperationSize3, id=c("Region"))
+RegionByOperationSize3<-RegionByOperationSize3[!(RegionByOperationSize3$value=="FALSE"),]
+names(RegionByOperationSize3) <- c("Region","OperationSize", "value")
+RegionByOperationSize3<-RegionByOperationSize3[!(RegionByOperationSize3$OperationSize=="value"),]
+ggplot(RegionByOperationSize3, aes(OperationSize))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByOperationSize3$OperationSize, RegionByOperationSize3$Region))
+```
+
+# Why Taking by region
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByWhyTaking <- data.frame(AllAsiaWhyTakingGrid, AllAsiaRegionGrid) # Double-grid
+RegionByWhyTaking2 <- melt(RegionByWhyTaking, id=c(
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+RegionByWhyTaking3 <- RegionByWhyTaking2[!(RegionByWhyTaking2$value=="FALSE"),]
+names(RegionByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "Region", "value")
+RegionByWhyTaking3 <- melt(RegionByWhyTaking3, id=c("Region"))
+RegionByWhyTaking3<-RegionByWhyTaking3[!(RegionByWhyTaking3$value=="FALSE"),]
+names(RegionByWhyTaking3) <- c("Region","WhyTaking", "value")
+RegionByWhyTaking3<-RegionByWhyTaking3[!(RegionByWhyTaking3$WhyTaking=="value"),]
+ggplot(RegionByWhyTaking3, aes(WhyTaking))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByWhyTaking3$WhyTaking, RegionByWhyTaking3$Region))
+```
+
+# Why Taking by year group
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhyTakingByYear<-data.frame(AllAsia$YearGroup, AllAsiaWhyTakingGrid) #Grid vs column
+WhyTakingByYear2 <- melt(WhyTakingByYear, id=c("AllAsia.YearGroup"))
+WhyTakingByYear3<-WhyTakingByYear2[!(WhyTakingByYear2$value=="FALSE"),] 
+names(WhyTakingByYear3) <- c("YearGroup","WhyTaking","value")
+ggplot(WhyTakingByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~WhyTaking)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhyTakingByYear3$YearGroup, WhyTakingByYear3$WhyTaking))
+```
+
+
+
+# WhyTaking by research method
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchMethodsByWhyTaking <- data.frame(AllAsiaWhyTakingGrid, AllAsiaResearchMethodsGrid) # Double-grid
+ResearchMethodsByWhyTaking2 <- melt(ResearchMethodsByWhyTaking, id=c(
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+ResearchMethodsByWhyTaking3 <- ResearchMethodsByWhyTaking2[!(ResearchMethodsByWhyTaking2$value=="FALSE"),]
+names(ResearchMethodsByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "ResearchMethods", "value")
+ResearchMethodsByWhyTaking3 <- melt(ResearchMethodsByWhyTaking3, id=c("ResearchMethods"))
+ResearchMethodsByWhyTaking3<-ResearchMethodsByWhyTaking3[!(ResearchMethodsByWhyTaking3$value=="FALSE"),]
+names(ResearchMethodsByWhyTaking3) <- c("ResearchMethods","WhyTaking", "value")
+ResearchMethodsByWhyTaking3<-ResearchMethodsByWhyTaking3[!(ResearchMethodsByWhyTaking3$WhyTaking=="value"),]
+ggplot(ResearchMethodsByWhyTaking3, aes(ResearchMethods))+geom_bar()+facet_wrap(~WhyTaking)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchMethodsByWhyTaking3$WhyTaking, ResearchMethodsByWhyTaking3$ResearchMethods))
+```
+
+# WhyTaking by research approach
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+ResearchApproachByWhyTaking <- data.frame(AllAsiaWhyTakingGrid, AllAsiaResearchApproachGrid) # Double-grid
+ResearchApproachByWhyTaking2 <- melt(ResearchApproachByWhyTaking, id=c(
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+ResearchApproachByWhyTaking3 <- ResearchApproachByWhyTaking2[!(ResearchApproachByWhyTaking2$value=="FALSE"),]
+names(ResearchApproachByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "ResearchApproach", "value")
+ResearchApproachByWhyTaking3 <- melt(ResearchApproachByWhyTaking3, id=c("ResearchApproach"))
+ResearchApproachByWhyTaking3<-ResearchApproachByWhyTaking3[!(ResearchApproachByWhyTaking3$value=="FALSE"),]
+names(ResearchApproachByWhyTaking3) <- c("ResearchApproach","WhyTaking", "value")
+ResearchApproachByWhyTaking3<-ResearchApproachByWhyTaking3[!(ResearchApproachByWhyTaking3$WhyTaking=="value"),]
+ggplot(ResearchApproachByWhyTaking3, aes(ResearchApproach))+geom_bar()+facet_wrap(~WhyTaking)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(ResearchApproachByWhyTaking3$WhyTaking, ResearchApproachByWhyTaking3$ResearchApproach))
+```
+
+# WhyTaking by theory
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+WhyTakingByTheory <- data.frame(AllAsiaTheoryGrid, AllAsiaWhyTakingGrid) # Double-grid
+WhyTakingByTheory2 <- melt(WhyTakingByTheory, id=c(
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+WhyTakingByTheory3 <- WhyTakingByTheory2[!(WhyTakingByTheory2$value=="FALSE"),]
+names(WhyTakingByTheory3) <- c("Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "Theory", "value")
+WhyTakingByTheory3 <- melt(WhyTakingByTheory3, id=c("Theory"))
+WhyTakingByTheory3<-WhyTakingByTheory3[!(WhyTakingByTheory3$value=="FALSE"),]
+names(WhyTakingByTheory3) <- c("Theory", "WhyTaking","value")
+WhyTakingByTheory3<-WhyTakingByTheory3[!(WhyTakingByTheory3$Theory=="value"),]
+ggplot(WhyTakingByTheory3, aes(WhyTaking))+geom_bar()+facet_wrap(~Theory)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(WhyTakingByTheory3$WhyTaking, WhyTakingByTheory3$Theory))
+```
+
+# Why Taking by Framed
+### Graphs for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+FramedByWhyTaking <- data.frame(AllAsiaWhyTakingGrid, AllAsiaFramedGrid) # Double-grid
+FramedByWhyTaking2 <- melt(FramedByWhyTaking, id=c(
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+FramedByWhyTaking3 <- FramedByWhyTaking2[!(FramedByWhyTaking2$value=="FALSE"),]
+names(FramedByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "Framed", "value")
+FramedByWhyTaking3 <- melt(FramedByWhyTaking3, id=c("Framed"))
+FramedByWhyTaking3<-FramedByWhyTaking3[!(FramedByWhyTaking3$value=="FALSE"),]
+names(FramedByWhyTaking3) <- c("Framed","WhyTaking", "value")
+FramedByWhyTaking3<-FramedByWhyTaking3[!(FramedByWhyTaking3$WhyTaking=="value"),]
+ggplot(FramedByWhyTaking3, aes(WhyTaking))+geom_bar()+facet_wrap(~Framed)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+```
+
+### Counts for all entries
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(FramedByWhyTaking3$Framed, FramedByWhyTaking3$WhyTaking))
 ```

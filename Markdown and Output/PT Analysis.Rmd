@@ -1,5 +1,5 @@
 ---
-title: "escriptives"
+title: "Descriptives"
 output:
   html_document:
     keep_md: yes
@@ -10,12 +10,22 @@ output:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 source('../RCode/Download and Clean PT Data.R')
+source('../RCode/Find Duplicate IDs.R')
 source('../RCode/PT Analysis.R')
 ```
 
 ### TOTAL NUMBER OF ARTICLES: `r nrow(Private)`
+This number includes `r nrow(Dupes)` articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
+Document was last updated on `r Sys.time()`.
 
-# Descriptives
+Throughout this document the data are divided four ways:
+
+* **All Entries or Private** - This dataset includes all rows in the database
+* **All Asia** - Using the region column for reference, this dataset includes all articles with Central Asia, East Asia, South Asia, or Southeast Asia selected. Includes both Chinese- and English-language articles.
+* **All Chinese** - Using the publication language column for reference, this dataset includes only those articles with Chinese-languge selected. All regions are included.
+* **All English** - Using the publication language column for reference, this dataset includes only those articles with English-languge selected. All regions are included.
+
+**Others** lists include entries from all articles. 
 
 ## Publication Details
 
@@ -447,13 +457,4 @@ kable(WhyTakingOther, format="html", row.names=FALSE)
 ## Additional Details
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(AddDetailsGrid, format="html",  row.names=FALSE)
-```
-
-# Relationships
-```{r, results="asis", echo=FALSE, message=FALSE}
-RegionByYear<-data.frame(Private$YearGroup, PrivateRegionGrid)
-RegionByYear2 <- melt(RegionByYear, id=c("Private.YearGroup"))
-RegionByYear3<-RegionByYear2[!(RegionByYear2$value=="FALSE"),]
-names(RegionByYear3) <- c("YearGroup","Region","value")
-ggplot(RegionByYear3, aes(YearGroup))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
