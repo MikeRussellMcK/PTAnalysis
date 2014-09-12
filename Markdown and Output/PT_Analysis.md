@@ -3,9 +3,9 @@
 
 
 
-### TOTAL NUMBER OF ARTICLES: 300
-This number includes 57 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-12 09:35:12.
+### TOTAL NUMBER OF ARTICLES: 297
+This number includes 43 articles with duplicate ID numbers (43 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
+Document was last updated on 2014-09-12 14:29:21.
 
 Throughout this document the data are divided four ways:
 
@@ -57,10 +57,6 @@ Throughout this document the data are divided four ways:
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left">  Sociology of Education </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left">  University of Hawai'i </td>
    <td align="right"> 1 </td>
   </tr>
@@ -94,7 +90,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Asia Pacific Education Review </td>
-   <td align="right"> 12 </td>
+   <td align="right"> 11 </td>
   </tr>
   <tr>
    <td align="left"> Asia Pacific Education Review  </td>
@@ -182,10 +178,6 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Economic Review </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Economics of Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -406,7 +398,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Journal of Curriculum Studies </td>
-   <td align="right"> 3 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Journal of Educational Science of Hunan Normal University </td>
@@ -710,7 +702,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Sociology of Education </td>
-   <td align="right"> 7 </td>
+   <td align="right"> 5 </td>
   </tr>
   <tr>
    <td align="left"> Springer </td>
@@ -992,7 +984,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Hong Kong </td>
-   <td align="right"> 8 </td>
+   <td align="right"> 6 </td>
   </tr>
   <tr>
    <td align="left"> Hong Kong, Macao, Korea, Japan, and Taiwan </td>
@@ -1012,7 +1004,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Japan </td>
-   <td align="right"> 10 </td>
+   <td align="right"> 9 </td>
   </tr>
   <tr>
    <td align="left"> Japan, South Korea, and Cambodia </td>
@@ -1032,15 +1024,11 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Korea </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Korea, Taiwan, Romania, and Phillippines </td>
    <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Korea, US </td>
-   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Kuwait </td>
@@ -1132,15 +1120,11 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> US </td>
-   <td align="right"> 5 </td>
+   <td align="right"> 6 </td>
   </tr>
   <tr>
    <td align="left"> US vs S.Korea </td>
    <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> US, Korea, Japan </td>
-   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> USA </td>
@@ -1219,10 +1203,6 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left">  Data comes from a Chinese household expenditure survey in 2006. </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left">  Data drawn from Educational Longitudinal Study of 2002-2006 (ELS:02-06) conducted by the NationalCenter for Education Statistics (NCES). </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1351,10 +1331,6 @@ Vietnam Household Testing Survey (VHTS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Korea Education Longitudinal Study (KELS) conducted by the Koran Educational Development Institute.  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Korean Education Longitudinal Study (KELS), conducted by the Korean Educational Research Institute (KEDI) </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1400,10 +1376,6 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Our data come from the 1995 Social Stratification and Mobility survey (SSM).  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> PISA </td>
    <td align="right"> 2 </td>
   </tr>
@@ -1425,10 +1397,6 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
   </tr>
   <tr>
    <td align="left"> primary data from interview and survey </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Questionnaire 2011/2012 Grades 9 and Grade 12 </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1495,7 +1463,7 @@ time. </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> This paper focuses on private tutoring in Hong Kong. It draws on data collected through
+   <td align="left"> This paper focuses on private tutoring in Hong Kong in 2011/2012. It draws on data collected through
 questionnaires from students in Grades 9 and 12 </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1620,11 +1588,6 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 61 </td>
-   <td align="left"> parent involvement  </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 70 </td>
    <td align="left"> conceptual framework (sociological perspective and public policy perspective) </td>
    <td align="left"> Olga </td>
@@ -1702,8 +1665,8 @@ questionnaires from students in Grades 9 and 12 </td>
   </tr>
   <tr>
    <td align="left"> 114e </td>
-   <td align="left"> Maslow's hierarchy of needs </td>
-   <td align="left"> Olga </td>
+   <td align="left"> Privatization of education </td>
+   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 142e </td>
@@ -1802,11 +1765,6 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 114e </td>
-   <td align="left"> Privatization of education </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
    <td align="left"> 168e </td>
    <td align="left"> Schein’s conceptual framework </td>
    <td align="left"> Peggy </td>
@@ -1841,7 +1799,7 @@ questionnaires from students in Grades 9 and 12 </td>
   </tr>
   <tr>
    <td align="left"> 15 </td>
-   <td align="left"> racial differences East Asian youth versus other </td>
+   <td align="left"> / / racial differences East Asian youth versus other ethnic </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
@@ -1903,7 +1861,7 @@ questionnaires from students in Grades 9 and 12 </td>
   </tr>
   <tr>
    <td align="left"> 61 </td>
-   <td align="left"> parental involvement </td>
+   <td align="left"> parental involvement/  </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
@@ -2063,7 +2021,7 @@ questionnaires from students in Grades 9 and 12 </td>
   <tr>
    <td align="left"> 15 </td>
    <td align="left"> SES inequality leads to unequal opportunities of private tutoring </td>
-   <td align="left"> Xia Zhao </td>
+   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 24 </td>
@@ -2122,13 +2080,11 @@ questionnaires from students in Grades 9 and 12 </td>
   </tr>
   <tr>
    <td align="left"> 61 </td>
-   <td align="left"> "growing influence of socioeconomic background on academic achievement might be realted to the recent trends in economic inequality and the resulting socioeconomic gap in private tutoring (Byun and Kim, 2010)." p.18 </td>
+   <td align="left"> "growing influence of socioeconomic background on academic achievement might be realted to the recent trends in economic inequality and the resulting socioeconomic gap in private tutoring (Byun and Kim, 2010)." p.18     "Higher SES parents who have more economic and human resources are 
+probably more likely than lower SES parents to succeed in finding and 
+affording high-quality pri- vate tutoring for their children, which in 
+turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 61 </td>
-   <td align="left">  Higher SES parents who have more economic and human resources are probably more likely than lower SES parents to succeed in finding and affording high-quality pri- vate tutoring for their children, which in turn likely influences their children’s academic perfor- mance.  </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 63 </td>
@@ -2529,11 +2485,6 @@ students of better schools, well-performing students, children of educated paren
    <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
-   <td align="left"> 146e </td>
-   <td align="left"> market for private tutoring reproduces social inequalities in the mainstream education system. Family  income was found to have a positive influence on both participation probability and expenditure of private tutoring </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
    <td align="left"> 188e </td>
    <td align="left"> Symbolically, the yobiko is functional for the society as a whole. It legitimises the college entrance examination as a symbol of opportunity. In so doing, it provides the society with stability and legitimacy for social stratification. </td>
    <td align="left"> Xiaoran Yu </td>
@@ -2722,6 +2673,11 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Mike </td>
   </tr>
   <tr>
+   <td align="left"> 146e </td>
+   <td align="left"> market for private tutoring reproduces social inequalities in the mainstream education system. Family  income was found to have a positive influence on both participation probability and expenditure of private tutoring </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
    <td align="left"> 178e </td>
    <td align="left"> Traditional public ed system not meeting cultural needs of disadvantaged groups </td>
    <td align="left"> Mike </td>
@@ -2792,6 +2748,11 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> 58 </td>
    <td align="left"> Schools </td>
    <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 61 </td>
+   <td align="left"> / Parents </td>
+   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 69 </td>
@@ -2983,6 +2944,11 @@ household </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
+   <td align="left"> 141e </td>
+   <td align="left"> correspondence courses </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
    <td align="left"> 194e </td>
    <td align="left"> shopping malls </td>
    <td align="left"> Olga </td>
@@ -3066,7 +3032,7 @@ household </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 41 </td>
+   <td align="left"> 40 </td>
    <td align="left"> Professional tutor </td>
    <td align="left"> Olga </td>
   </tr>
@@ -3390,6 +3356,11 @@ household </td>
    <td align="left"> experts in the field </td>
    <td align="left"> Hang Duong </td>
   </tr>
+  <tr>
+   <td align="left"> 146e </td>
+   <td align="left"> /  Professional tutor </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
 </tbody>
 </table>
 
@@ -3461,22 +3432,12 @@ household </td>
    <td align="left"> Damian Wyman </td>
   </tr>
   <tr>
-   <td align="left"> 141e </td>
-   <td align="left"> unclear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
    <td align="left"> 142e </td>
    <td align="left"> not clear </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 143e </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 189e </td>
    <td align="left"> not clear </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
@@ -3517,6 +3478,11 @@ household </td>
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td align="left"> 15 </td>
+   <td align="left">  / </td>
+   <td align="left"> Peggy </td>
+  </tr>
   <tr>
    <td align="left"> 30 </td>
    <td align="left"> peer presure </td>
@@ -3571,6 +3537,11 @@ household </td>
    <td align="left"> 109e </td>
    <td align="left"> parents want to invest in children's education </td>
    <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 141e </td>
+   <td align="left">  / /  </td>
+   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 208e </td>
@@ -3634,8 +3605,8 @@ household </td>
   </tr>
   <tr>
    <td align="left"> 146e </td>
-   <td align="left"> "reflect educational progress" p.27  </td>
-   <td align="left"> Peggy </td>
+   <td align="left">  / "reflect educational progress" p.27  </td>
+   <td align="left"> Xiaoran Yu </td>
   </tr>
 </tbody>
 </table>
