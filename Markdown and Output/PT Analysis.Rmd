@@ -355,7 +355,7 @@ AllChineseGraph
 AllEnglishGraph
 ```
 
-#### Stakeholder others:
+#### WhereOccur others:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(WhereOccurOther, format="html", row.names=FALSE)

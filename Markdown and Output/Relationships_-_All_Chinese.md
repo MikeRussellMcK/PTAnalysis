@@ -2,6 +2,9 @@
 
 
 
+### TOTAL NUMBER OF ARTICLES: 119
+Document was last updated on 2014-09-12 09:55:27.
+
 # _Region by year group_ for all entries in the database:
 
 ### Graphs for all entries
@@ -26,6 +29,7 @@
 
 |                 | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
 |:----------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
+|                 |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 |Book             |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 |Book Chapter     |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 |Discussion Paper |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
@@ -42,13 +46,13 @@
 
 ### Counts for all entries
 
-|        | Book| Book Chapter| Discussion Paper| Dissertation| Journal Article| Master's Thesis| Report| Working Paper|
-|:-------|----:|------------:|----------------:|------------:|---------------:|---------------:|------:|-------------:|
-|1995-99 |    0|            0|                0|            0|               2|               0|      0|             0|
-|2000-04 |    0|            0|                0|            0|               2|               1|      0|             0|
-|2005-09 |    0|            0|                0|            0|              20|               5|      0|             0|
-|2010-14 |    0|            0|                0|            0|              62|              25|      0|             0|
-|unclear |    0|            0|                0|            0|               1|               1|      0|             0|
+|        |   | Book| Book Chapter| Discussion Paper| Dissertation| Journal Article| Master's Thesis| Report| Working Paper|
+|:-------|--:|----:|------------:|----------------:|------------:|---------------:|---------------:|------:|-------------:|
+|1995-99 |  0|    0|            0|                0|            0|               2|               0|      0|             0|
+|2000-04 |  0|    0|            0|                0|            0|               2|               1|      0|             0|
+|2005-09 |  0|    0|            0|                0|            0|              20|               5|      0|             0|
+|2010-14 |  0|    0|            0|                0|            0|              62|              25|      0|             0|
+|unclear |  0|    0|            0|                0|            0|               1|               1|      0|             0|
 
 # _Research type by region_ for all entries in the database
 
@@ -150,13 +154,13 @@
 
 ### Counts for all entries
 
-|        | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
-|:-------|-------------:|---------------------:|-----------:|------------:|
-|1995-99 |             0|                     1|           0|            1|
-|2000-04 |             1|                     0|           2|            0|
-|2005-09 |             3|                     0|          12|           10|
-|2010-14 |            15|                    18|          38|           16|
-|unclear |             0|                     0|           1|            1|
+|        |   | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
+|:-------|--:|-------------:|---------------------:|-----------:|------------:|
+|1995-99 |  0|             0|                     1|           0|            1|
+|2000-04 |  0|             1|                     0|           2|            0|
+|2005-09 |  0|             3|                     0|          12|           10|
+|2010-14 |  0|            15|                    18|          38|           16|
+|unclear |  0|             0|                     0|           1|            1|
 
 # Research methods by region
 ### Graphs for all entries
@@ -164,20 +168,20 @@
 
 ### Counts for all entries
 
-|            | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
-|:-----------|-------------:|---------------------:|-----------:|------------:|
-|MENA        |             0|                     0|           0|            0|
-|Sub.Saharan |             0|                     0|           0|            0|
-|Cent..Asia  |             0|                     0|           0|            0|
-|East.Asia   |            19|                    12|          40|           28|
-|S..Asia     |             0|                     0|           0|            0|
-|S.E..Asia   |             0|                     0|           0|            0|
-|Aus....NZ   |             0|                     0|           0|            0|
-|W..Europe   |             0|                     1|           2|            0|
-|E..Europe   |             0|                     2|           2|            0|
-|US...Can    |             0|                     1|           1|            0|
-|LAC         |             0|                     0|           0|            0|
-|Global      |             0|                     6|          11|            0|
+|            |   | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
+|:-----------|--:|-------------:|---------------------:|-----------:|------------:|
+|MENA        |  0|             0|                     0|           0|            0|
+|Sub.Saharan |  0|             0|                     0|           0|            0|
+|Cent..Asia  |  0|             0|                     0|           0|            0|
+|East.Asia   |  0|            19|                    12|          40|           28|
+|S..Asia     |  0|             0|                     0|           0|            0|
+|S.E..Asia   |  0|             0|                     0|           0|            0|
+|Aus....NZ   |  0|             0|                     0|           0|            0|
+|W..Europe   |  0|             0|                     1|           2|            0|
+|E..Europe   |  0|             0|                     2|           2|            0|
+|US...Can    |  0|             0|                     1|           1|            0|
+|LAC         |  0|             0|                     0|           0|            0|
+|Global      |  0|             0|                     6|          11|            0|
 
 # Research methods by year group
 ### Graph for all entries
@@ -185,13 +189,13 @@
 
 ### Counts for all entries
 
-|        | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
-|:-------|-------------:|---------------------:|-----------:|------------:|
-|1995-99 |             0|                     1|           0|            1|
-|2000-04 |             1|                     0|           2|            0|
-|2005-09 |             3|                     0|          12|           10|
-|2010-14 |            15|                    18|          38|           16|
-|unclear |             0|                     0|           1|            1|
+|        |   | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
+|:-------|--:|-------------:|---------------------:|-----------:|------------:|
+|1995-99 |  0|             0|                     1|           0|            1|
+|2000-04 |  0|             1|                     0|           2|            0|
+|2005-09 |  0|             3|                     0|          12|           10|
+|2010-14 |  0|            15|                    18|          38|           16|
+|unclear |  0|             0|                     0|           1|            1|
 
 # Research methods by publication type
 ### Graph for all entries
@@ -199,16 +203,17 @@
 
 ### Counts for all entries
 
-|                 | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
-|:----------------|-------------:|---------------------:|-----------:|------------:|
-|Book             |             0|                     0|           0|            0|
-|Book Chapter     |             0|                     0|           0|            0|
-|Discussion Paper |             0|                     0|           0|            0|
-|Dissertation     |             0|                     0|           0|            0|
-|Journal Article  |             0|                    19|          41|           27|
-|Master's Thesis  |            19|                     0|          12|            1|
-|Report           |             0|                     0|           0|            0|
-|Working Paper    |             0|                     0|           0|            0|
+|                 |   | Mixed-methods| None or Unclear to us| Qualitative| Quantitative|
+|:----------------|--:|-------------:|---------------------:|-----------:|------------:|
+|                 |  0|             0|                     0|           0|            0|
+|Book             |  0|             0|                     0|           0|            0|
+|Book Chapter     |  0|             0|                     0|           0|            0|
+|Discussion Paper |  0|             0|                     0|           0|            0|
+|Dissertation     |  0|             0|                     0|           0|            0|
+|Journal Article  |  0|             0|                    19|          41|           27|
+|Master's Thesis  |  0|            19|                     0|          12|            1|
+|Report           |  0|             0|                     0|           0|            0|
+|Working Paper    |  0|             0|                     0|           0|            0|
 
 # Theoreortical framework by region
 ### Graphs for all entries
@@ -512,13 +517,13 @@ WhatTaught by year group
 
 ### Counts for all entries
 
-|        | Subjects.taught.in.school| Extracurricular.activities..Dance..art..sports..music.| Both| Not.defined|
-|:-------|-------------------------:|------------------------------------------------------:|----:|-----------:|
-|1995-99 |                         1|                                                      0|    1|           0|
-|2000-04 |                         1|                                                      0|    2|           0|
-|2005-09 |                        11|                                                      0|   13|           1|
-|2010-14 |                        39|                                                      0|   41|           7|
-|unclear |                         1|                                                      0|    1|           0|
+|        | Subjects.taught.in.school| Extracurricular.activities| Both| Not.defined|
+|:-------|-------------------------:|--------------------------:|----:|-----------:|
+|1995-99 |                         1|                          0|    1|           0|
+|2000-04 |                         1|                          0|    2|           0|
+|2005-09 |                        11|                          0|   13|           1|
+|2010-14 |                        39|                          0|   41|           7|
+|unclear |                         1|                          0|    1|           0|
 
 # WhatTaught by theory
 ### Graphs for all entries
@@ -550,7 +555,7 @@ WhatTaught by year group
 |Web               |    0|           0|          0|         8|       0|         0|         0|         1|         1|        0|   0|      3|
 |Student's home    |    0|           0|          0|        27|       0|         0|         0|         1|         1|        0|   0|      8|
 |Outside school    |    0|           0|          0|        27|       0|         0|         0|         1|         2|        0|   0|      7|
-|Not defined       |    0|           0|          0|        59|       0|         0|         0|         2|         2|        2|   0|      9|
+|Not defined       |    0|           0|          0|        60|       0|         0|         0|         2|         2|        2|   0|      9|
 |value             |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
 # WhereOccur by year group
@@ -559,13 +564,13 @@ WhatTaught by year group
 
 ### Counts for all entries
 
-|        | On.school.grounds| Designated.tutoring.center.or.franchise| On.line...via.web| In.the.student.s.home| Other.outside.school..e.g..teacher.s.home..coffee.shop..library.| Not.defined|
-|:-------|-----------------:|---------------------------------------:|-----------------:|---------------------:|----------------------------------------------------------------:|-----------:|
-|1995-99 |                 0|                                       0|                 0|                     0|                                                                0|           2|
-|2000-04 |                 1|                                       0|                 0|                     1|                                                                1|           2|
-|2005-09 |                 3|                                       5|                 2|                     6|                                                                6|          19|
-|2010-14 |                18|                                      39|                10|                    29|                                                               28|          45|
-|unclear |                 0|                                       0|                 0|                     0|                                                                0|           2|
+|        | On.school.grounds| Designated.tutoring.center.or.franchise| On.line...via.web| In.the.student.s.home| Other.outside.school| Not.defined|
+|:-------|-----------------:|---------------------------------------:|-----------------:|---------------------:|--------------------:|-----------:|
+|1995-99 |                 0|                                       0|                 0|                     0|                    0|           2|
+|2000-04 |                 1|                                       0|                 0|                     1|                    1|           2|
+|2005-09 |                 3|                                       5|                 2|                     6|                    6|          19|
+|2010-14 |                18|                                      39|                10|                    29|                   28|          46|
+|unclear |                 0|                                       0|                 0|                     0|                    0|           2|
 
 # WhereOccur by theory
 ### Graphs for all entries
@@ -582,7 +587,7 @@ WhatTaught by year group
 |Human.Rights          |                 2|                 2|   0|              2|              2|           0|     0|
 |Critical.Theory       |                 0|                 0|   0|              0|              0|           0|     0|
 |Political.Theory      |                 1|                 1|   0|              1|              1|           1|     0|
-|None.or.Unclear.to.us |                13|                30|  10|             24|             22|          58|     0|
+|None.or.Unclear.to.us |                13|                30|  10|             24|             22|          59|     0|
 
 # WhoProvides by region
 ### Graphs for all entries

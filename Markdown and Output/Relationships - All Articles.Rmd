@@ -9,8 +9,13 @@ output:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 source('../RCode/Download and Clean PT Data.R')
+source('../RCode/Find Duplicate IDs.R')
 source('../RCode/PT Analysis.R')
 ```
+
+### TOTAL NUMBER OF ARTICLES: `r nrow(Private)`
+This number includes `r nrow(Dupes)` articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
+Document was last updated on `r Sys.time()`.
 
 # _Region by year group_ for all entries in the database:
 
@@ -524,7 +529,7 @@ kable(table(StakeholdersByTheory3$Stakeholders, StakeholdersByTheory3$Theory))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByWhatTaught <- data.frame(PrivateWhatTaughtGrid, PrivateRegionGrid) # Double-grid
-RegionByWhatTaught2 <- melt(RegionByWhatTaught, id=c("Subjects.taught.in.school","Extracurricular.activities..Dance..art..sports..music.","Both","Not.defined"))
+RegionByWhatTaught2 <- melt(RegionByWhatTaught, id=c("Subjects.taught.in.school","Extracurricular.activities","Both","Not.defined"))
 RegionByWhatTaught3 <- RegionByWhatTaught2[!(RegionByWhatTaught2$value=="FALSE"),]
 names(RegionByWhatTaught3) <- c("School subjects","Extracurriculars","Both","Not defined", "Region", "value")
 RegionByWhatTaught3 <- melt(RegionByWhatTaught3, id=c("Region"))
@@ -558,7 +563,7 @@ kable(table(WhatTaughtByYear3$YearGroup, WhatTaughtByYear3$WhatTaught))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 WhatTaughtByTheory <- data.frame(PrivateTheoryGrid, PrivateWhatTaughtGrid) # Double-grid
-WhatTaughtByTheory2 <- melt(WhatTaughtByTheory, id=c("Subjects.taught.in.school","Extracurricular.activities..Dance..art..sports..music.","Both","Not.defined"))
+WhatTaughtByTheory2 <- melt(WhatTaughtByTheory, id=c("Subjects.taught.in.school","Extracurricular.activities","Both","Not.defined"))
 WhatTaughtByTheory3 <- WhatTaughtByTheory2[!(WhatTaughtByTheory2$value=="FALSE"),]
 names(WhatTaughtByTheory3) <- c("School subjects","Extracurriculars","Both","Not defined", "WhatTaught", "value")
 WhatTaughtByTheory3 <- melt(WhatTaughtByTheory3, id=c("WhatTaught"))
@@ -577,7 +582,7 @@ kable(table(WhatTaughtByTheory3$WhatTaught, WhatTaughtByTheory3$Theory))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByWhereOccur <- data.frame(PrivateWhereOccurGrid, PrivateRegionGrid) # Double-grid
-RegionByWhereOccur2 <- melt(RegionByWhereOccur, id=c("On.school.grounds","Designated.tutoring.center.or.franchise","On.line...via.web","In.the.student.s.home","Other.outside.school..e.g..teacher.s.home..coffee.shop..library.","Not.defined"))
+RegionByWhereOccur2 <- melt(RegionByWhereOccur, id=c("On.school.grounds","Designated.tutoring.center.or.franchise","On.line...via.web","In.the.student.s.home","Other.outside.school","Not.defined"))
 RegionByWhereOccur3 <- RegionByWhereOccur2[!(RegionByWhereOccur2$value=="FALSE"),]
 names(RegionByWhereOccur3) <- c("On school grounds","Designated center","Web","Student's home","Outside school","Not defined", "Region", "value")
 RegionByWhereOccur3 <- melt(RegionByWhereOccur3, id=c("Region"))
@@ -611,7 +616,7 @@ kable(table(WhereOccurByYear3$YearGroup, WhereOccurByYear3$WhereOccur))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 WhereOccurByTheory <- data.frame(PrivateTheoryGrid, PrivateWhereOccurGrid) # Double-grid
-WhereOccurByTheory2 <- melt(WhereOccurByTheory, id=c("On.school.grounds","Designated.tutoring.center.or.franchise","On.line...via.web","In.the.student.s.home","Other.outside.school..e.g..teacher.s.home..coffee.shop..library.","Not.defined"))
+WhereOccurByTheory2 <- melt(WhereOccurByTheory, id=c("On.school.grounds","Designated.tutoring.center.or.franchise","On.line...via.web","In.the.student.s.home","Other.outside.school","Not.defined"))
 WhereOccurByTheory3 <- WhereOccurByTheory2[!(WhereOccurByTheory2$value=="FALSE"),]
 names(WhereOccurByTheory3) <- c("On school grounds","Designated center","Web","Student's home","Outside school","Not defined", "WhereOccur", "value")
 WhereOccurByTheory3 <- melt(WhereOccurByTheory3, id=c("WhereOccur"))

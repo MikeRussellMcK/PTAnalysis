@@ -658,7 +658,7 @@ StakeholdersOther <- na.omit(Other)
 # WhatTaught
 # ============================
 
-WhatTaughtNames <- c("Subjects taught in school", "Extracurricular activities (Dance, art, sports, music)","Both", "Not defined")
+WhatTaughtNames <- c("Subjects taught in school", "Extracurricular activities","Both", "Not defined")
 
 ## Private
 ## ======
@@ -711,7 +711,7 @@ WhatTaughtOther <- na.omit(Other)
 # WhereOccur
 # ============================
 
-WhereOccurNames <- c("On school grounds", "Designated tutoring center or franchise", "On-line / via web", "In the student's home", "Other outside school (e.g. teacher's home, coffee shop, library)", "Not defined")
+WhereOccurNames <- c("On school grounds", "Designated tutoring center or franchise", "On-line / via web", "In the student's home", "Other outside school", "Not defined")
 
 ## Private
 ## ======
