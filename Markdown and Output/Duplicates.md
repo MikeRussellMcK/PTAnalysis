@@ -3,9 +3,9 @@
 
 
 
-### Number of duplicate ID numbers in the Google Doc: 57
+### Number of duplicate ID numbers in the Google Doc: 55
 
-### List of all duplicates as of 2014-09-12 13:39:21:
+### List of all duplicates as of 2014-09-12 13:40:51:
 
 
 |ID   |Reviewer   |Publisher                                                 |PubLang |
@@ -14,8 +14,8 @@
 |106  |Xiaoran Yu |Journal of Teaching and Management                        |Chinese |
 |108  |Xia Zhao   |Comparative Education Review                              |Chinese |
 |108  |Xiaoran Yu |Education & Economy                                       |Chinese |
-|114e |Olga       |Journal of Curriculum Studies                             |English |
 |114e |Peggy      |Journal of Curriculum Studies                             |English |
+|114e |Olga       |Journal of Curriculum Studies                             |English |
 |141e |Xiaoran Yu |Sociology of Education                                    |English |
 |141e |Peggy      |Sociology of Education                                    |English |
 |146e |Xiaoran Yu |Economics of Education Review                             |English |
@@ -56,8 +56,6 @@
 |183  |Xiaoran Yu |Elementary and Secondary Schooling Abroad                 |Chinese |
 |189e |Xiaoran Yu |Asia Pacific Education Review                             |English |
 |189e |Xiaoran Yu |Asia Pacific Education Review                             |English |
-|41   |Olga       |European Journal of Psychology of Education               |English |
-|41   |Olga       |KEDI Journal of Educational Policy                        |English |
 |61   |Peggy      |Sociology of Education                                    |English |
 |61   |Xia Zhao   | Sociology of Education                                   |English |
 |91   |Xia Zhao   |Journal of Culture and Education                          |Chinese |
@@ -68,7 +66,7 @@
 |94   |Xia Zhao   |Education&Economy                                         |Chinese |
 |94   |Xiaoran Yu |Journal of Guangxi Vocational and Technical College       |Chinese |
 
-### List of all Chinese-language duplicates as of 2014-09-12 13:39:21:
+### List of all 43 Chinese-language duplicates as of 2014-09-12 13:40:51:
 
 
 |ID  |Reviewer   |Publisher                                                 |PubLang |
@@ -117,23 +115,21 @@
 |94  |Xia Zhao   |Education&Economy                                         |Chinese |
 |94  |Xiaoran Yu |Journal of Guangxi Vocational and Technical College       |Chinese |
 
-### List of all English-language duplicates as of 2014-09-12 13:39:21:
+### List of all 12 English-language duplicates as of 2014-09-12 13:40:51:
 
 
-|ID   |Reviewer   |Publisher                                   |PubLang |
-|:----|:----------|:-------------------------------------------|:-------|
-|114e |Olga       |Journal of Curriculum Studies               |English |
-|114e |Peggy      |Journal of Curriculum Studies               |English |
-|141e |Xiaoran Yu |Sociology of Education                      |English |
-|141e |Peggy      |Sociology of Education                      |English |
-|146e |Xiaoran Yu |Economics of Education Review               |English |
-|146e |Peggy      |Economics of Education                      |English |
-|15   |Peggy      |Sociology of Education                      |English |
-|15   |Xia Zhao   |Sociology of Education                      |English |
-|189e |Xiaoran Yu |Asia Pacific Education Review               |English |
-|189e |Xiaoran Yu |Asia Pacific Education Review               |English |
-|41   |Olga       |European Journal of Psychology of Education |English |
-|41   |Olga       |KEDI Journal of Educational Policy          |English |
-|61   |Peggy      |Sociology of Education                      |English |
-|61   |Xia Zhao   | Sociology of Education                     |English |
+|ID   |Reviewer   |Publisher                     |PubLang |
+|:----|:----------|:-----------------------------|:-------|
+|114e |Peggy      |Journal of Curriculum Studies |English |
+|114e |Olga       |Journal of Curriculum Studies |English |
+|141e |Xiaoran Yu |Sociology of Education        |English |
+|141e |Peggy      |Sociology of Education        |English |
+|146e |Xiaoran Yu |Economics of Education Review |English |
+|146e |Peggy      |Economics of Education        |English |
+|15   |Peggy      |Sociology of Education        |English |
+|15   |Xia Zhao   |Sociology of Education        |English |
+|189e |Xiaoran Yu |Asia Pacific Education Review |English |
+|189e |Xiaoran Yu |Asia Pacific Education Review |English |
+|61   |Peggy      |Sociology of Education        |English |
+|61   |Xia Zhao   | Sociology of Education       |English |
 

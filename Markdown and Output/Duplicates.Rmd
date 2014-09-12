@@ -20,13 +20,13 @@ source('../RCode/Find Duplicate IDs.R')
 kable(Dupes, row.names=FALSE)
 ```
 
-### List of all Chinese-language duplicates as of `r Sys.time()`:
+### List of all `r nrow(ChDupes)` Chinese-language duplicates as of `r Sys.time()`:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(ChDupes, row.names=FALSE)
 ```
 
-### List of all English-language duplicates as of `r Sys.time()`:
+### List of all `r nrow(EngDupes)` English-language duplicates as of `r Sys.time()`:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(EngDupes, row.names=FALSE)
