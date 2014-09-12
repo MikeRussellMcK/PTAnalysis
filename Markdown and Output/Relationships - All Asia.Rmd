@@ -12,7 +12,7 @@ source('../RCode/Download and Clean PT Data.R')
 source('../RCode/PT Analysis.R')
 ```
 
-### TOTAL NUMBER OF ARTICLES: `r nrow(AllChinese)`
+### TOTAL NUMBER OF ARTICLES: `r nrow(AllAsia)`
 Document was last updated on `r Sys.time()`.
 
 # _Region by year group_ for all entries in the database:
