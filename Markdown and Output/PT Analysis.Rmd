@@ -49,13 +49,18 @@ kable(data.frame(table(Private$Publisher)), format="html",  caption='Counts')
 ### Publication Year
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-DataSource1="PubYear"
-YLim=100
-PrivateGraph    <- AllDataPlot(Private, DataSource1, Private$PubYear, Title1, YLim)
-AllAsiaGraph    <- AllDataPlot(AllAsia, DataSource1, AllAsia$PubYear, Title2, YLim)
-AllChineseGraph <- AllDataPlot(AllChinese, DataSource1, AllChinese$PubYear, Title3, YLim)
-AllEnglishGraph <- AllDataPlot(AllEnglish, DataSource1, AllEnglish$PubYear, Title4, YLim)
-grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
+DataSource1=PrivatePubYearGrid
+DataSource2=AllAsiaPubYearGrid
+DataSource3=AllChinesePubYearGrid
+DataSource4=AllEnglishPubYearGrid
+
+YLim=120
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=4)
 ```
 
 ### Publication Language

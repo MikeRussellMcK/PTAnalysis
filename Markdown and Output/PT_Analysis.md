@@ -3,9 +3,9 @@
 
 
 
-### TOTAL NUMBER OF ARTICLES: 297
-This number includes 43 articles with duplicate ID numbers (43 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-12 14:29:21.
+### TOTAL NUMBER OF ARTICLES: 272
+This number includes 10 articles with duplicate ID numbers (10 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
+Document was last updated on 2014-09-13 13:21:05.
 
 Throughout this document the data are divided four ways:
 
@@ -35,6 +35,11 @@ Throughout this document the data are divided four ways:
   <tr>
    <td align="left">  </td>
    <td align="right"> 0 </td>
+  </tr>
+  <tr>
+   <td align="left"> 
+Asian Economic Journal </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left">   Research in Teaching   </td>
@@ -133,10 +138,6 @@ Throughout this document the data are divided four ways:
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> China Today Forums </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> China-Today Forum </td>
    <td align="right"> 1 </td>
   </tr>
@@ -146,10 +147,6 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Chinese Educational Economic year conference  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Chung-Ang University </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -185,10 +182,6 @@ Throughout this document the data are divided four ways:
    <td align="right"> 7 </td>
   </tr>
   <tr>
-   <td align="left"> Education & Economy </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Education & Economy  </td>
    <td align="right"> 3 </td>
   </tr>
@@ -218,10 +211,6 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Education Teaching Forum </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Education Theory </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -257,10 +246,6 @@ Throughout this document the data are divided four ways:
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Elementary and Secondary Schooling Abroad </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> European Commission </td>
    <td align="right"> 1 </td>
   </tr>
@@ -278,10 +263,6 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Future and Development  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Guide of Science and Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -362,7 +343,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Jiangsu Education Research </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Jiangxi Education </td>
@@ -393,23 +374,11 @@ Throughout this document the data are divided four ways:
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Journal of Culture and Education  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Journal of Curriculum Studies </td>
    <td align="right"> 2 </td>
   </tr>
   <tr>
-   <td align="left"> Journal of Educational Science of Hunan Normal University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Journal of Guangxi University for Nationalities  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Journal of Guangxi Vocational and Technical College </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -437,10 +406,6 @@ Throughout this document the data are divided four ways:
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Journal of Hubei University of Educaiton </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Journal of Hubei University of Education </td>
    <td align="right"> 1 </td>
   </tr>
@@ -458,7 +423,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Journal of Schooling Studies </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Journal of Schooling Studies  </td>
@@ -466,7 +431,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Journal of Teaching and Management </td>
-   <td align="right"> 3 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Journal of Teaching and Management  </td>
@@ -474,7 +439,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Journal of Weifang University </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Journal of World Education </td>
@@ -657,12 +622,8 @@ Throughout this document the data are divided four ways:
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Research on Education Tsinghua University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Research On Education Tsinghua University </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Research On Education Tsinghua University  </td>
@@ -682,7 +643,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Shanghai Research on Education </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Shanghai Research on Education  </td>
@@ -714,10 +675,6 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Study of Educational History </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Survey of Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -887,10 +844,6 @@ Throughout this document the data are divided four ways:
    <td align="right"> 0 </td>
   </tr>
   <tr>
-   <td align="left"> Albania, Georgia, Lithuania </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Australia </td>
    <td align="right"> 2 </td>
   </tr>
@@ -932,7 +885,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> China </td>
-   <td align="right"> 90 </td>
+   <td align="right"> 82 </td>
   </tr>
   <tr>
    <td align="left"> Cyprus </td>
@@ -968,7 +921,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> global study </td>
-   <td align="right"> 9 </td>
+   <td align="right"> 8 </td>
   </tr>
   <tr>
    <td align="left"> Great Britain </td>
@@ -1096,7 +1049,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> Taiwan </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> the Phillipines </td>
@@ -1116,7 +1069,7 @@ Throughout this document the data are divided four ways:
   </tr>
   <tr>
    <td align="left"> United States </td>
-   <td align="right"> 5 </td>
+   <td align="right"> 4 </td>
   </tr>
   <tr>
    <td align="left"> US </td>
@@ -1161,7 +1114,6 @@ Throughout this document the data are divided four ways:
 
 |Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
 |:----------|:-------------------------------------------------------------------|:----------------|
-|76         |grades 7-9                                                          |Olga             |
 |183        |not clear                                                           |Xia Zhao         |
 |99e        |not clear                                                           |Hang Duong       |
 
@@ -1235,14 +1187,6 @@ Vietnam Household Testing Survey (VHTS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> 106 students in a primary school in urban Wuhan, 140 students in a middle school in suburban Hubei, 130 students in a middle school in rural Hubei. </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> 160 primary school students and 240 secondary school students from Xian.  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> 1988 Family Expenditure Survey  </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1260,10 +1204,6 @@ Vietnam Household Testing Survey (VHTS) </td>
   </tr>
   <tr>
    <td align="left"> 2005-2011 waves of the Korean Education Longitudinal Study and the Seoul Education Longitudinal Study (SELS), which began in 2010. </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> 237 2-6 grade students from a Zhejiang urban primary school. 258 questionnaire were distributed. The number of vaid questionnaire was 237. </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1469,10 +1409,6 @@ questionnaires from students in Grades 9 and 12 </td>
   </tr>
   <tr>
    <td align="left"> three datasets from Cyprus Statistical Service, including 2000, 2003, 2009  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Three middle schools in Zhengzhou was chosen for participants. One is key school, the second one regular school, the third a branch school of a key school.960 questionnaire were distributed. 902 responded. There were 872 valid questionnaires. </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -2148,11 +2084,6 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 91 </td>
-   <td align="left"> social equality and the  chance to have education </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 92 </td>
    <td align="left"> expand social class gap and social inequity </td>
    <td align="left"> Xia Zhao </td>
@@ -2166,11 +2097,6 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> 94 </td>
    <td align="left"> The  chance to have private tutoring is not the same. It may expand social inequity. </td>
    <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 94 </td>
-   <td align="left"> competition for educational resources </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 95 </td>
@@ -2211,11 +2137,6 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> 108 </td>
    <td align="left"> expand social class gap and social inequity </td>
    <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 108 </td>
-   <td align="left"> rural and urban </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 109 </td>
@@ -2353,7 +2274,7 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 153 </td>
+   <td align="left"> 154 </td>
    <td align="left"> there is a huge educational resource gap between urban and rural areas. </td>
    <td align="left"> Xia Zhao </td>
   </tr>
@@ -2376,11 +2297,6 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> 165 </td>
    <td align="left"> The private tutoring institutions can promote the development of education equity </td>
    <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 165 </td>
-   <td align="left"> educational resource distribution, students receive equal quality of education </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 171 </td>
@@ -2717,11 +2633,6 @@ Education is known to promote social mobility and therefore contributes to impro
   <tr>
    <td align="left"> 4 </td>
    <td align="left"> general public, principals, vice-principals, and school inspectors </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 8 </td>
-   <td align="left"> Parents/household </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
@@ -3152,11 +3063,6 @@ household </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 91 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 93 </td>
    <td align="left"> Classroom teacher </td>
    <td align="left"> Xia Zhao </td>
@@ -3402,31 +3308,6 @@ household </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 94 </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 108 </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 164 </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 167 </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 172 </td>
-   <td align="left"> not discussed </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
    <td align="left"> 105e </td>
    <td align="left"> Unclear </td>
    <td align="left"> Damian Wyman </td>
@@ -3502,11 +3383,6 @@ household </td>
    <td align="left"> 87 </td>
    <td align="left"> supplement low teacher salaries </td>
    <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 91 </td>
-   <td align="left"> parent pressure </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 118 </td>
@@ -3776,11 +3652,6 @@ needs of their children." p.17
   <tr>
    <td align="left"> 141 </td>
    <td align="left"> Girls who have private tutoring are more than boys because parents think girls are good at study. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 147 </td>
-   <td align="left"> To improve students' personal development </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>

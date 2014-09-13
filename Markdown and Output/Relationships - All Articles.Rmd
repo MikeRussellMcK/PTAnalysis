@@ -66,9 +66,9 @@ kable(table(Private$YearGroup, Private$PubType))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByResearchType <- data.frame(PrivateResearchTypeGrid, PrivateRegionGrid) # Double-grid
-RegionByResearchType2 <- melt(RegionByResearchType, id=c("Original.emperical.research", "Review.of.other.research", "Policy.analysis"))
+RegionByResearchType2 <- melt(RegionByResearchType, id=c("Original.empirical.research", "Review.of.other.research", "Policy.analysis"))
 RegionByResearchType3<-RegionByResearchType2[!(RegionByResearchType2$value=="FALSE"),]
-names(RegionByResearchType3) <- c("Original emperical", "Review of other", "Policy analysis","Region","value")
+names(RegionByResearchType3) <- c("Original empirical", "Review of other", "Policy analysis","Region","value")
 RegionByResearchType3 <- melt(RegionByResearchType3, id=c("Region"))
 RegionByResearchType3<-RegionByResearchType3[!(RegionByResearchType3$value=="FALSE"),]
 names(RegionByResearchType3) <- c("Region","ResearchType", "value")

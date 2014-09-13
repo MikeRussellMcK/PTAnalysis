@@ -28,9 +28,9 @@ CategoricalPlot <- function(a,b,c) {
 
 # Keeps titles consistent across all graphs
 Title1 = "All Entries"
-Title2 = "Asia Region"
-Title3 = "All Chinese"
-Title4 = "All English"
+Title2 = "Asian-region"
+Title3 = "Chinese-language"
+Title4 = "English-language"
 
 # Publication Language ===================
 
@@ -51,6 +51,388 @@ AllAsiaPubLangGrid <- data.frame(
   )
 names(AllAsiaPubLangGrid) <- c("Chinese", "English", "Other")
 
+# Publication Year ====
+
+PubYearNames <- c(
+  "1987",
+  "1988",
+  "1989",
+  "1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1995",
+  "1996",
+  "1997",
+  "1998",
+  "1999",
+  "2000",
+  "2001",
+  "2002",
+  "2003",
+  "2004",
+  "2005",
+  "2006",
+  "2007",
+  "2008",
+  "2009",
+  "2010",
+  "2011",
+  "2012",
+  "2013",
+  "2014"
+)
+
+## Private
+## ======
+Private$PubYear1987 <- grepl("1987", Private$PubYear)
+Private$PubYear1988 <- grepl("1988", Private$PubYear)
+Private$PubYear1989 <- grepl("1989", Private$PubYear)
+Private$PubYear1990 <- grepl("1990", Private$PubYear)
+Private$PubYear1991 <- grepl("1991", Private$PubYear)
+Private$PubYear1992 <- grepl("1992", Private$PubYear)
+Private$PubYear1993 <- grepl("1993", Private$PubYear)
+Private$PubYear1994 <- grepl("1994", Private$PubYear)
+Private$PubYear1995 <- grepl("1995", Private$PubYear)
+Private$PubYear1996 <- grepl("1996", Private$PubYear)
+Private$PubYear1997 <- grepl("1997", Private$PubYear)
+Private$PubYear1998 <- grepl("1998", Private$PubYear)
+Private$PubYear1999 <- grepl("1999", Private$PubYear)
+Private$PubYear2000 <- grepl("2000", Private$PubYear)
+Private$PubYear2001 <- grepl("2001", Private$PubYear)
+Private$PubYear2002 <- grepl("2002", Private$PubYear)
+Private$PubYear2003 <- grepl("2003", Private$PubYear)
+Private$PubYear2004 <- grepl("2004", Private$PubYear)
+Private$PubYear2005 <- grepl("2005", Private$PubYear)
+Private$PubYear2006 <- grepl("2006", Private$PubYear)
+Private$PubYear2007 <- grepl("2007", Private$PubYear)
+Private$PubYear2008 <- grepl("2008", Private$PubYear)
+Private$PubYear2009 <- grepl("2009", Private$PubYear)
+Private$PubYear2010 <- grepl("2010", Private$PubYear)
+Private$PubYear2011 <- grepl("2011", Private$PubYear)
+Private$PubYear2012 <- grepl("2012", Private$PubYear)
+Private$PubYear2013 <- grepl("2013", Private$PubYear)
+Private$PubYear2014 <- grepl("2014", Private$PubYear)
+
+PrivatePubYearGrid <- data.frame(
+  Private$PubYear1987,
+  Private$PubYear1988,
+  Private$PubYear1989,
+  Private$PubYear1990,
+  Private$PubYear1991,
+  Private$PubYear1992,
+  Private$PubYear1993,
+  Private$PubYear1994,
+  Private$PubYear1995,
+  Private$PubYear1996,
+  Private$PubYear1997,
+  Private$PubYear1998,
+  Private$PubYear1999,
+  Private$PubYear2000,
+  Private$PubYear2001,
+  Private$PubYear2002,
+  Private$PubYear2003,
+  Private$PubYear2004,
+  Private$PubYear2005,
+  Private$PubYear2006,
+  Private$PubYear2007,
+  Private$PubYear2008,
+  Private$PubYear2009,
+  Private$PubYear2010,
+  Private$PubYear2011,
+  Private$PubYear2012,
+  Private$PubYear2013,
+  Private$PubYear2014
+)
+
+names(PrivatePubYearGrid) <- PubYearNames
+
+PubYearNames <- c(
+  "1987",
+  "1988",
+  "1989",
+  "1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1995",
+  "1996",
+  "1997",
+  "1998",
+  "1999",
+  "2000",
+  "2001",
+  "2002",
+  "2003",
+  "2004",
+  "2005",
+  "2006",
+  "2007",
+  "2008",
+  "2009",
+  "2010",
+  "2011",
+  "2012",
+  "2013",
+  "2014"
+)
+
+## AllAsia
+## ======
+AllAsia$PubYear1987 <- grepl("1987", AllAsia$PubYear)
+AllAsia$PubYear1988 <- grepl("1988", AllAsia$PubYear)
+AllAsia$PubYear1989 <- grepl("1989", AllAsia$PubYear)
+AllAsia$PubYear1990 <- grepl("1990", AllAsia$PubYear)
+AllAsia$PubYear1991 <- grepl("1991", AllAsia$PubYear)
+AllAsia$PubYear1992 <- grepl("1992", AllAsia$PubYear)
+AllAsia$PubYear1993 <- grepl("1993", AllAsia$PubYear)
+AllAsia$PubYear1994 <- grepl("1994", AllAsia$PubYear)
+AllAsia$PubYear1995 <- grepl("1995", AllAsia$PubYear)
+AllAsia$PubYear1996 <- grepl("1996", AllAsia$PubYear)
+AllAsia$PubYear1997 <- grepl("1997", AllAsia$PubYear)
+AllAsia$PubYear1998 <- grepl("1998", AllAsia$PubYear)
+AllAsia$PubYear1999 <- grepl("1999", AllAsia$PubYear)
+AllAsia$PubYear2000 <- grepl("2000", AllAsia$PubYear)
+AllAsia$PubYear2001 <- grepl("2001", AllAsia$PubYear)
+AllAsia$PubYear2002 <- grepl("2002", AllAsia$PubYear)
+AllAsia$PubYear2003 <- grepl("2003", AllAsia$PubYear)
+AllAsia$PubYear2004 <- grepl("2004", AllAsia$PubYear)
+AllAsia$PubYear2005 <- grepl("2005", AllAsia$PubYear)
+AllAsia$PubYear2006 <- grepl("2006", AllAsia$PubYear)
+AllAsia$PubYear2007 <- grepl("2007", AllAsia$PubYear)
+AllAsia$PubYear2008 <- grepl("2008", AllAsia$PubYear)
+AllAsia$PubYear2009 <- grepl("2009", AllAsia$PubYear)
+AllAsia$PubYear2010 <- grepl("2010", AllAsia$PubYear)
+AllAsia$PubYear2011 <- grepl("2011", AllAsia$PubYear)
+AllAsia$PubYear2012 <- grepl("2012", AllAsia$PubYear)
+AllAsia$PubYear2013 <- grepl("2013", AllAsia$PubYear)
+AllAsia$PubYear2014 <- grepl("2014", AllAsia$PubYear)
+
+AllAsiaPubYearGrid <- data.frame(
+  AllAsia$PubYear1987,
+  AllAsia$PubYear1988,
+  AllAsia$PubYear1989,
+  AllAsia$PubYear1990,
+  AllAsia$PubYear1991,
+  AllAsia$PubYear1992,
+  AllAsia$PubYear1993,
+  AllAsia$PubYear1994,
+  AllAsia$PubYear1995,
+  AllAsia$PubYear1996,
+  AllAsia$PubYear1997,
+  AllAsia$PubYear1998,
+  AllAsia$PubYear1999,
+  AllAsia$PubYear2000,
+  AllAsia$PubYear2001,
+  AllAsia$PubYear2002,
+  AllAsia$PubYear2003,
+  AllAsia$PubYear2004,
+  AllAsia$PubYear2005,
+  AllAsia$PubYear2006,
+  AllAsia$PubYear2007,
+  AllAsia$PubYear2008,
+  AllAsia$PubYear2009,
+  AllAsia$PubYear2010,
+  AllAsia$PubYear2011,
+  AllAsia$PubYear2012,
+  AllAsia$PubYear2013,
+  AllAsia$PubYear2014
+)
+
+names(AllAsiaPubYearGrid) <- PubYearNames
+
+PubYearNames <- c(
+  "1987",
+  "1988",
+  "1989",
+  "1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1995",
+  "1996",
+  "1997",
+  "1998",
+  "1999",
+  "2000",
+  "2001",
+  "2002",
+  "2003",
+  "2004",
+  "2005",
+  "2006",
+  "2007",
+  "2008",
+  "2009",
+  "2010",
+  "2011",
+  "2012",
+  "2013",
+  "2014"
+)
+
+## AllChinese
+## ======
+AllChinese$PubYear1987 <- grepl("1987", AllChinese$PubYear)
+AllChinese$PubYear1988 <- grepl("1988", AllChinese$PubYear)
+AllChinese$PubYear1989 <- grepl("1989", AllChinese$PubYear)
+AllChinese$PubYear1990 <- grepl("1990", AllChinese$PubYear)
+AllChinese$PubYear1991 <- grepl("1991", AllChinese$PubYear)
+AllChinese$PubYear1992 <- grepl("1992", AllChinese$PubYear)
+AllChinese$PubYear1993 <- grepl("1993", AllChinese$PubYear)
+AllChinese$PubYear1994 <- grepl("1994", AllChinese$PubYear)
+AllChinese$PubYear1995 <- grepl("1995", AllChinese$PubYear)
+AllChinese$PubYear1996 <- grepl("1996", AllChinese$PubYear)
+AllChinese$PubYear1997 <- grepl("1997", AllChinese$PubYear)
+AllChinese$PubYear1998 <- grepl("1998", AllChinese$PubYear)
+AllChinese$PubYear1999 <- grepl("1999", AllChinese$PubYear)
+AllChinese$PubYear2000 <- grepl("2000", AllChinese$PubYear)
+AllChinese$PubYear2001 <- grepl("2001", AllChinese$PubYear)
+AllChinese$PubYear2002 <- grepl("2002", AllChinese$PubYear)
+AllChinese$PubYear2003 <- grepl("2003", AllChinese$PubYear)
+AllChinese$PubYear2004 <- grepl("2004", AllChinese$PubYear)
+AllChinese$PubYear2005 <- grepl("2005", AllChinese$PubYear)
+AllChinese$PubYear2006 <- grepl("2006", AllChinese$PubYear)
+AllChinese$PubYear2007 <- grepl("2007", AllChinese$PubYear)
+AllChinese$PubYear2008 <- grepl("2008", AllChinese$PubYear)
+AllChinese$PubYear2009 <- grepl("2009", AllChinese$PubYear)
+AllChinese$PubYear2010 <- grepl("2010", AllChinese$PubYear)
+AllChinese$PubYear2011 <- grepl("2011", AllChinese$PubYear)
+AllChinese$PubYear2012 <- grepl("2012", AllChinese$PubYear)
+AllChinese$PubYear2013 <- grepl("2013", AllChinese$PubYear)
+AllChinese$PubYear2014 <- grepl("2014", AllChinese$PubYear)
+
+AllChinesePubYearGrid <- data.frame(
+  AllChinese$PubYear1987,
+  AllChinese$PubYear1988,
+  AllChinese$PubYear1989,
+  AllChinese$PubYear1990,
+  AllChinese$PubYear1991,
+  AllChinese$PubYear1992,
+  AllChinese$PubYear1993,
+  AllChinese$PubYear1994,
+  AllChinese$PubYear1995,
+  AllChinese$PubYear1996,
+  AllChinese$PubYear1997,
+  AllChinese$PubYear1998,
+  AllChinese$PubYear1999,
+  AllChinese$PubYear2000,
+  AllChinese$PubYear2001,
+  AllChinese$PubYear2002,
+  AllChinese$PubYear2003,
+  AllChinese$PubYear2004,
+  AllChinese$PubYear2005,
+  AllChinese$PubYear2006,
+  AllChinese$PubYear2007,
+  AllChinese$PubYear2008,
+  AllChinese$PubYear2009,
+  AllChinese$PubYear2010,
+  AllChinese$PubYear2011,
+  AllChinese$PubYear2012,
+  AllChinese$PubYear2013,
+  AllChinese$PubYear2014
+)
+
+names(AllChinesePubYearGrid) <- PubYearNames
+
+PubYearNames <- c(
+  "1987",
+  "1988",
+  "1989",
+  "1990",
+  "1991",
+  "1992",
+  "1993",
+  "1994",
+  "1995",
+  "1996",
+  "1997",
+  "1998",
+  "1999",
+  "2000",
+  "2001",
+  "2002",
+  "2003",
+  "2004",
+  "2005",
+  "2006",
+  "2007",
+  "2008",
+  "2009",
+  "2010",
+  "2011",
+  "2012",
+  "2013",
+  "2014"
+)
+
+## AllEnglish
+## ======
+AllEnglish$PubYear1987 <- grepl("1987", AllEnglish$PubYear)
+AllEnglish$PubYear1988 <- grepl("1988", AllEnglish$PubYear)
+AllEnglish$PubYear1989 <- grepl("1989", AllEnglish$PubYear)
+AllEnglish$PubYear1990 <- grepl("1990", AllEnglish$PubYear)
+AllEnglish$PubYear1991 <- grepl("1991", AllEnglish$PubYear)
+AllEnglish$PubYear1992 <- grepl("1992", AllEnglish$PubYear)
+AllEnglish$PubYear1993 <- grepl("1993", AllEnglish$PubYear)
+AllEnglish$PubYear1994 <- grepl("1994", AllEnglish$PubYear)
+AllEnglish$PubYear1995 <- grepl("1995", AllEnglish$PubYear)
+AllEnglish$PubYear1996 <- grepl("1996", AllEnglish$PubYear)
+AllEnglish$PubYear1997 <- grepl("1997", AllEnglish$PubYear)
+AllEnglish$PubYear1998 <- grepl("1998", AllEnglish$PubYear)
+AllEnglish$PubYear1999 <- grepl("1999", AllEnglish$PubYear)
+AllEnglish$PubYear2000 <- grepl("2000", AllEnglish$PubYear)
+AllEnglish$PubYear2001 <- grepl("2001", AllEnglish$PubYear)
+AllEnglish$PubYear2002 <- grepl("2002", AllEnglish$PubYear)
+AllEnglish$PubYear2003 <- grepl("2003", AllEnglish$PubYear)
+AllEnglish$PubYear2004 <- grepl("2004", AllEnglish$PubYear)
+AllEnglish$PubYear2005 <- grepl("2005", AllEnglish$PubYear)
+AllEnglish$PubYear2006 <- grepl("2006", AllEnglish$PubYear)
+AllEnglish$PubYear2007 <- grepl("2007", AllEnglish$PubYear)
+AllEnglish$PubYear2008 <- grepl("2008", AllEnglish$PubYear)
+AllEnglish$PubYear2009 <- grepl("2009", AllEnglish$PubYear)
+AllEnglish$PubYear2010 <- grepl("2010", AllEnglish$PubYear)
+AllEnglish$PubYear2011 <- grepl("2011", AllEnglish$PubYear)
+AllEnglish$PubYear2012 <- grepl("2012", AllEnglish$PubYear)
+AllEnglish$PubYear2013 <- grepl("2013", AllEnglish$PubYear)
+AllEnglish$PubYear2014 <- grepl("2014", AllEnglish$PubYear)
+
+AllEnglishPubYearGrid <- data.frame(
+  AllEnglish$PubYear1987,
+  AllEnglish$PubYear1988,
+  AllEnglish$PubYear1989,
+  AllEnglish$PubYear1990,
+  AllEnglish$PubYear1991,
+  AllEnglish$PubYear1992,
+  AllEnglish$PubYear1993,
+  AllEnglish$PubYear1994,
+  AllEnglish$PubYear1995,
+  AllEnglish$PubYear1996,
+  AllEnglish$PubYear1997,
+  AllEnglish$PubYear1998,
+  AllEnglish$PubYear1999,
+  AllEnglish$PubYear2000,
+  AllEnglish$PubYear2001,
+  AllEnglish$PubYear2002,
+  AllEnglish$PubYear2003,
+  AllEnglish$PubYear2004,
+  AllEnglish$PubYear2005,
+  AllEnglish$PubYear2006,
+  AllEnglish$PubYear2007,
+  AllEnglish$PubYear2008,
+  AllEnglish$PubYear2009,
+  AllEnglish$PubYear2010,
+  AllEnglish$PubYear2011,
+  AllEnglish$PubYear2012,
+  AllEnglish$PubYear2013,
+  AllEnglish$PubYear2014
+)
+
+names(AllEnglishPubYearGrid) <- PubYearNames
+
 # Type of Research ================= 
 
 ## Make the Private T/F Grid 
@@ -59,7 +441,7 @@ Private$ResearchTypeReview <- grepl("Review", Private$ResearchType)
 Private$ResearchTypePolicy <- grepl("Policy", Private$ResearchType)
 
 PrivateResearchTypeGrid <- data.frame(Private$ResearchTypeOriginal, Private$ResearchTypeReview, Private$ResearchTypePolicy)
-names(PrivateResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
+names(PrivateResearchTypeGrid) <- c("Original empirical research", "Review of other research", "Policy analysis")
 
 #Make the AllAsia T/F Grid
 AllAsia$ResearchTypeOriginal <- grepl("Original", AllAsia$ResearchType)
@@ -67,7 +449,7 @@ AllAsia$ResearchTypeReview <- grepl("Review", AllAsia$ResearchType)
 AllAsia$ResearchTypePolicy <- grepl("Policy", AllAsia$ResearchType)
 
 AllAsiaResearchTypeGrid <- data.frame(AllAsia$ResearchTypeOriginal, AllAsia$ResearchTypeReview, AllAsia$ResearchTypePolicy)
-names(AllAsiaResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
+names(AllAsiaResearchTypeGrid) <- c("Original empirical research", "Review of other research", "Policy analysis")
 
 #Make the AllChinese T/F Grid
 AllChinese$ResearchTypeOriginal <- grepl("Original", AllChinese$ResearchType)
@@ -75,7 +457,7 @@ AllChinese$ResearchTypeReview <- grepl("Review", AllChinese$ResearchType)
 AllChinese$ResearchTypePolicy <- grepl("Policy", AllChinese$ResearchType)
 
 AllChineseResearchTypeGrid <- data.frame(AllChinese$ResearchTypeOriginal, AllChinese$ResearchTypeReview, AllChinese$ResearchTypePolicy)
-names(AllChineseResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
+names(AllChineseResearchTypeGrid) <- c("Original empirical research", "Review of other research", "Policy analysis")
 
 #Make the AllEnglish T/F Grid
 AllEnglish$ResearchTypeOriginal <- grepl("Original", AllEnglish$ResearchType)
@@ -83,7 +465,7 @@ AllEnglish$ResearchTypeReview <- grepl("Review", AllEnglish$ResearchType)
 AllEnglish$ResearchTypePolicy <- grepl("Policy", AllEnglish$ResearchType)
 
 AllEnglishResearchTypeGrid <- data.frame(AllEnglish$ResearchTypeOriginal, AllEnglish$ResearchTypeReview, AllEnglish$ResearchTypePolicy)
-names(AllEnglishResearchTypeGrid) <- c("Original emperical research", "Review of other research", "Policy analysis")
+names(AllEnglishResearchTypeGrid) <- c("Original empirical research", "Review of other research", "Policy analysis")
 
 ## Others
 items <- c("Review of other research", 
