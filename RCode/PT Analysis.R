@@ -848,7 +848,7 @@ TheoryOther <- na.omit(Other)
 # Framing
 # ============================
 
-FramedNames <- c("Related to curriculum coverage / ed. quality / exam prep", "Corruption", "Equity", "Supply & Demand / Economic Efficiency", " Social Cohesion", "Global Trend", "Household Expenditures")
+FramedNames <- c("Related to curriculum coverage / ed. quality / exam prep", "Corruption", "Equity", "Supply & Demand / Economic Efficiency", "Social Cohesion", "Global Trend", "Household Expenditures")
 
 ## Private
 ## ======
@@ -1385,7 +1385,7 @@ WhyTakingNames <- c(
 
 ## Private
 ## ======
-Private$WhyTakingRemediation <- grepl("Remediation", Private$WhyTaking)
+Private$WhyTakingRemediation <- grepl("falls behind", Private$WhyTaking)
 Private$WhyTakingExams <- grepl("exams", Private$WhyTaking)
 Private$WhyTakingFailure <- grepl("failure", Private$WhyTaking)
 Private$WhyTakingCultural <- grepl("cultural", Private$WhyTaking)
@@ -1409,7 +1409,7 @@ names(PrivateWhyTakingGrid) <- WhyTakingNames
 
 ## AllAsia
 ## ======
-AllAsia$WhyTakingRemediation <- grepl("Remediation", AllAsia$WhyTaking)
+AllAsia$WhyTakingRemediation <- grepl("falls behind", AllAsia$WhyTaking)
 AllAsia$WhyTakingExams <- grepl("exams", AllAsia$WhyTaking)
 AllAsia$WhyTakingFailure <- grepl("failure", AllAsia$WhyTaking)
 AllAsia$WhyTakingCultural <- grepl("cultural", AllAsia$WhyTaking)
@@ -1433,7 +1433,7 @@ names(AllAsiaWhyTakingGrid) <- WhyTakingNames
 
 ## AllChinese
 ## ======
-AllChinese$WhyTakingRemediation <- grepl("Remediation", AllChinese$WhyTaking)
+AllChinese$WhyTakingRemediation <- grepl("falls behind", AllChinese$WhyTaking)
 AllChinese$WhyTakingExams <- grepl("exams", AllChinese$WhyTaking)
 AllChinese$WhyTakingFailure <- grepl("failure", AllChinese$WhyTaking)
 AllChinese$WhyTakingCultural <- grepl("cultural", AllChinese$WhyTaking)
@@ -1457,7 +1457,7 @@ names(AllChineseWhyTakingGrid) <- WhyTakingNames
 
 ## AllEnglish
 ## ======
-AllEnglish$WhyTakingRemediation <- grepl("Remediation", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingRemediation <- grepl("falls behind", AllEnglish$WhyTaking)
 AllEnglish$WhyTakingExams <- grepl("exams", AllEnglish$WhyTaking)
 AllEnglish$WhyTakingFailure <- grepl("failure", AllEnglish$WhyTaking)
 AllEnglish$WhyTakingCultural <- grepl("cultural", AllEnglish$WhyTaking)

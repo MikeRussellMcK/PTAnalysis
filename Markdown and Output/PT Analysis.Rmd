@@ -328,10 +328,7 @@ AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
 AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
 AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
 
-PrivateGraph
-AllAsiaGraph
-AllChineseGraph
-AllEnglishGraph
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
 
 #### WhatTaught others:
@@ -354,10 +351,7 @@ AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
 AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
 AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
 
-PrivateGraph
-AllAsiaGraph
-AllChineseGraph
-AllEnglishGraph
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=1)
 ```
 
 #### WhereOccur others:
@@ -446,11 +440,15 @@ DataSource3=AllChineseWhyTakingGrid
 DataSource4=AllEnglishWhyTakingGrid
 
 YLim=350
-CategoricalPlot(DataSource1, Title1, YLim)
-CategoricalPlot(DataSource2, Title2, YLim)
-CategoricalPlot(DataSource3, Title3, YLim)
-CategoricalPlot(DataSource4, Title4, YLim)
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
 
+PrivateGraph
+AllAsiaGraph
+AllChineseGraph
+AllEnglishGraph
 ```
 
 #### WhyTaking others:

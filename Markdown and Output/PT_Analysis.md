@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 272
 This number includes 10 articles with duplicate ID numbers (10 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-13 13:21:05.
+Document was last updated on 2014-09-15 06:26:04.
 
 Throughout this document the data are divided four ways:
 
@@ -818,12 +818,8 @@ Asian Economic Journal </td>
 |Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.items..collapse.......... |Private.Reviewer |
 |:----------|:------------------------------------------------------------------------------|:----------------|
 |60         |Author designs theoretical model private tutoring                              |Mike             |
-|86         |secondary analysis of primary information                                      |Hang Duong       |
-|101e       |secondary analysis of primary information                                      |Hang Duong       |
-|104e       |secondary analysis of primary information                                      |Hang Duong       |
-|109e       | + Theoretical???                                                              |Hang Duong       |
-|95e        |analysis paper on primary data                                                 |Hang Duong       |
-|96e        |Analysis based on theoretical approaches                                       |Hang Duong       |
+|109e       |Theoretical                                                                    |Hang Duong       |
+|96e        |Comparative                                                                    |Hang Duong       |
 |97e        |Secondary research                                                             |Damian Wyman     |
 
 ## Subjects and Approach
@@ -1097,13 +1093,16 @@ Asian Economic Journal </td>
 #### Region(s) Others:
 
 
+```
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+```
+
+
+
 |Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.items..collapse.......... |Private.Reviewer |
 |:----------|:------------------------------------------------------------------------------|:----------------|
-|51         |"Developing countries"                                                         |Olga             |
-|171        |North Europe                                                                   |Xiaoran Yu       |
-|118e       |Mediterranean                                                                  |Iveta            |
-|119e       |Mediterranean                                                                  |Iveta            |
-|131e       |Mediterranean                                                                  |Iveta            |
 
 ### Levels of Education Discussed
 
@@ -1115,7 +1114,6 @@ Asian Economic Journal </td>
 |Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
 |:----------|:-------------------------------------------------------------------|:----------------|
 |183        |not clear                                                           |Xia Zhao         |
-|99e        |not clear                                                           |Hang Duong       |
 
 ### Research Approach
 
@@ -1127,8 +1125,6 @@ Asian Economic Journal </td>
 |Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.ResearchApproachNames.. |Private.Reviewer |
 |:----------|:----------------------------------------------------------------------------|:----------------|
 |60         |Theoretical model                                                            |Mike             |
-|109e       |Theoretical/conceptual, proposal a model                                     |Hang Duong       |
-|218        |single country but some comparisons were made                                |Hang Duong       |
 
 ### Research Methods
 
@@ -1520,7 +1516,7 @@ questionnaires from students in Grades 9 and 12 </td>
   </tr>
   <tr>
    <td align="left"> 61 </td>
-   <td align="left"> Parental involvement  </td>
+   <td align="left"> Parental Involvement  </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
@@ -1724,34 +1720,14 @@ questionnaires from students in Grades 9 and 12 </td>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 7 </td>
-   <td align="left"> Efficency </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 13 </td>
-   <td align="left"> Efficency </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
    <td align="left"> 15 </td>
-   <td align="left"> / / racial differences East Asian youth versus other ethnic </td>
+   <td align="left"> racial differences East Asian youth versus other ethnic </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 21 </td>
-   <td align="left"> perceived failure of public system/ Global trend </td>
+   <td align="left"> perceived failure of public system/  </td>
    <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 27 </td>
-   <td align="left"> Social Cohesion </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 30 </td>
-   <td align="left"> Household expendures </td>
-   <td align="left"> Mike </td>
   </tr>
   <tr>
    <td align="left"> 34 </td>
@@ -1769,13 +1745,6 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 43 </td>
-   <td align="left"> 
-
- </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="left"> 47 </td>
    <td align="left"> resistance to Western reforms </td>
    <td align="left"> Iveta </td>
@@ -1786,53 +1755,23 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 51 </td>
-   <td align="left"> Efficency </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 52 </td>
-   <td align="left"> Efficency, Response to market demand </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
    <td align="left"> 61 </td>
-   <td align="left"> parental involvement/  </td>
+   <td align="left"> Parental Involvement </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 62 </td>
-   <td align="left"> Efficency </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
    <td align="left"> 70 </td>
-   <td align="left"> Efficency, After-school program was designed to reduce private tutoring </td>
+   <td align="left"> After-school program was designed to reduce private tutoring </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 72 </td>
-   <td align="left"> Social Cohesion, gender rights </td>
+   <td align="left"> gender rights </td>
    <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 78 </td>
-   <td align="left"> Efficency </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 107 </td>
-   <td align="left"> Social Cohesion </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 110 </td>
    <td align="left"> family relationship </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 112 </td>
-   <td align="left"> Social Cohesion </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
@@ -1841,23 +1780,8 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 100e </td>
-   <td align="left"> Social Cohesion </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 108e </td>
-   <td align="left"> global trend </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 109e </td>
-   <td align="left"> Related to curriculum coverage / ed. quality / Global trend </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 113e </td>
-   <td align="left"> Social Cohesion </td>
+   <td align="left"> Related to curriculum coverage / ed. quality /  </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
@@ -1868,11 +1792,6 @@ questionnaires from students in Grades 9 and 12 </td>
   <tr>
    <td align="left"> 208e </td>
    <td align="left"> parent's role/ duty </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 96e </td>
-   <td align="left"> Social Cohesionglobal trend </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
@@ -1896,19 +1815,9 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 160e </td>
-   <td align="left"> / Holdhold expenditure </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 161e </td>
-   <td align="left"> / Culture </td>
+   <td align="left"> Culture </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 137e </td>
-   <td align="left"> Social Cohesion </td>
-   <td align="left"> Mike </td>
   </tr>
 </tbody>
 </table>
@@ -2626,11 +2535,6 @@ Education is known to promote social mobility and therefore contributes to impro
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 2 </td>
-   <td align="left"> : documents </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="left"> 4 </td>
    <td align="left"> general public, principals, vice-principals, and school inspectors </td>
    <td align="left"> Peggy </td>
@@ -2661,18 +2565,13 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 61 </td>
-   <td align="left"> / Parents </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
    <td align="left"> 69 </td>
    <td align="left"> Census data </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 86 </td>
-   <td align="left"> parents/
+   <td align="left"> Parents / 
 household </td>
    <td align="left"> Hang Duong </td>
   </tr>
@@ -2689,11 +2588,6 @@ household </td>
   <tr>
    <td align="left"> 213 </td>
    <td align="left"> primary observation data </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 104e </td>
-   <td align="left"> primary dataset </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
@@ -2798,7 +2692,7 @@ household </td>
 
 ### What is taught during private tutoring?
 
-![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-261.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-262.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-263.png) ![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-264.png) 
+![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-26.png) 
 
 #### WhatTaught others:
 
@@ -2821,7 +2715,7 @@ household </td>
 
 ### Where does private tutoring occur?
 
-![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-281.png) ![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-282.png) ![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-283.png) ![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-284.png) 
+![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-28.png) 
 
 #### WhereOccur others:
 
@@ -2837,11 +2731,6 @@ household </td>
   <tr>
    <td align="left"> 13 </td>
    <td align="left"> Workplace </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 30 </td>
-   <td align="left"> Tutoring Center </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
@@ -2888,363 +2777,18 @@ household </td>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 2 </td>
-   <td align="left"> Classroom teacherProfessional tutor </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="left"> 6 </td>
    <td align="left"> not defined </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 7 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 8 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 13 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 14 </td>
-   <td align="left"> Professional tutor, University professor </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 15 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 16 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 34 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 36 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 41 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 40 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 43 </td>
-   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 46 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 47 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 48 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 49 </td>
-   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 51 </td>
-   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 54 </td>
-   <td align="left"> Classroom teacherProfessional tutor, University professor </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="left"> 57 </td>
-   <td align="left"> Professional tutor, business leaders, not professional teachers </td>
+   <td align="left"> business leaders, not professional teachers </td>
    <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 61 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 62 </td>
-   <td align="left"> "learning centers" </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 66 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 68 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 70 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 71 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 72 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 77 </td>
-   <td align="left"> Classroom teacherUniversity professor </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 78 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 80 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 81 </td>
-   <td align="left"> Professional tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 83 </td>
-   <td align="left"> Classroom teacherProfessional tutor </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 85 </td>
-   <td align="left"> Professional tutor, University professor </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 87 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 91 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 93 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 94 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 95 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 100 </td>
-   <td align="left"> Classroom teachers </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 103 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 107 </td>
-   <td align="left"> Classroom teachers </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 108 </td>
-   <td align="left"> Classroom teachers and secondary school student </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 109 </td>
-   <td align="left"> Classroom teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 110 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 111 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 112 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 113 </td>
-   <td align="left"> Classroom teachers </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 114 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 117 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 120 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 122 </td>
-   <td align="left"> Classroom teachers </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 123 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 124 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 125 </td>
-   <td align="left"> Classroom teachers </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 126 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 127 </td>
-   <td align="left"> s, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 128 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 129 </td>
-   <td align="left"> Classroom teachers; Relatives or friendsf </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 130 </td>
-   <td align="left"> Classroom teachers </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 132 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 133 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 136 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 137 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 138 </td>
-   <td align="left"> Classroom teachers, retired teachers etc. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 140 </td>
-   <td align="left"> Classroom teachercollege students, retired teachers </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 142 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 149 </td>
-   <td align="left"> Classroom teachercollege students and retired teachers </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 153 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 157 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 158 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 159 </td>
-   <td align="left"> Classroom teacher </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 160 </td>
-   <td align="left"> Classroom teachercollege students </td>
+   <td align="left">  and secondary school student </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
@@ -3261,11 +2805,6 @@ household </td>
    <td align="left"> 99e </td>
    <td align="left"> experts in the field </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 146e </td>
-   <td align="left"> /  Professional tutor </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
 </tbody>
 </table>
@@ -3360,16 +2899,6 @@ household </td>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 15 </td>
-   <td align="left">  / </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 30 </td>
-   <td align="left"> peer presure </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
    <td align="left"> 36 </td>
    <td align="left"> Socializing effect (if you pay, both girls and boys can study together) </td>
    <td align="left"> Olga </td>
@@ -3413,11 +2942,6 @@ household </td>
    <td align="left"> 109e </td>
    <td align="left"> parents want to invest in children's education </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 141e </td>
-   <td align="left">  / /  </td>
-   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 208e </td>
@@ -3470,18 +2994,8 @@ household </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 223 </td>
-   <td align="left"> family/culture capital </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 161e </td>
-   <td align="left"> family culture </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 146e </td>
-   <td align="left">  / "reflect educational progress" p.27  </td>
+   <td align="left"> "reflect educational progress" p.27  </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
 </tbody>
@@ -3585,6 +3099,11 @@ in all its forms. p.40 </td>
 
 "the private tutoring system is a potentially illusory prey which hides itself with shadows, smoke, and mirrors. Its precarious position between the education system and the economic system forces it to feed on a self-supporting discourse of "educational anxiety" and support technologies of control such as examinations and pedagogies which increase anxiety for its own survival as a fuan sangyo (Japanese) or "insecurity industry" (50) </td>
    <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 51 </td>
+   <td align="left"> Focused on "Developing countries" </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 57 </td>
@@ -3691,6 +3210,16 @@ their sense of efficacy in helping their child with schoolwork, the intellectual
    <td align="left"> Mike </td>
   </tr>
   <tr>
+   <td align="left"> 118e </td>
+   <td align="left"> Authors defined region of study as Mediterranean </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 119e </td>
+   <td align="left"> Authors defined region of study as Mediterranean </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
    <td align="left"> 120e </td>
    <td align="left"> quote from a teacher: "somewhere along the ling in the last 20 years we have become a society and educational system that does not value or foster equal opportunities and equality. I do not know where we lost that" .... "you cannot enter capitalism and expect that education will be left out of it" p. 23 (reflecting on the transition to market) </td>
    <td align="left"> Iveta </td>
@@ -3729,7 +3258,7 @@ The mere fact of having studied in the public system rather than the private sch
   </tr>
   <tr>
    <td align="left"> 130e </td>
-   <td align="left"> PT acts as a sorting out mechanism (p. 201). The demand for PT increased because of the mismatch between curriculum reform (based on competencies) and high-stakes exams (based on facts). </td>
+   <td align="left"> PT acts as a sorting out mechanism (p. 201). The demand for PT increased because of the mismatch between curriculum reform (based on competencies) and high-stakes exams (based on facts). Authors defined region of study as Mediterranean. </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
