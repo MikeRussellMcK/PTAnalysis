@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 272
 This number includes 10 articles with duplicate ID numbers (10 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-15 06:26:04.
+Document was last updated on 2014-09-20 06:07:36.
 
 Throughout this document the data are divided four ways:
 

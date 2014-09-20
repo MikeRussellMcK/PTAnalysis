@@ -5,7 +5,7 @@
 
 ### Number of duplicate ID numbers in the Google Doc: 10
 
-### List of all duplicates as of 2014-09-14 19:00:38:
+### List of all duplicates as of 2014-09-20 06:07:23:
 
 
 |ID  |Reviewer   |Publisher                        |PubLang |
@@ -21,7 +21,7 @@
 |171 |Xia Zhao   |Jiannan Literature               |Chinese |
 |171 |Xiaoran Yu |Jiannan Literature               |Chinese |
 
-### List of all 10 Chinese-language duplicates as of 2014-09-14 19:00:38:
+### List of all 10 Chinese-language duplicates as of 2014-09-20 06:07:23:
 
 
 |ID  |Reviewer   |Publisher                        |PubLang |
@@ -37,7 +37,7 @@
 |171 |Xia Zhao   |Jiannan Literature               |Chinese |
 |171 |Xiaoran Yu |Jiannan Literature               |Chinese |
 
-### List of all 0 English-language duplicates as of 2014-09-14 19:00:38:
+### List of all 0 English-language duplicates as of 2014-09-20 06:07:23:
 
 
 ```
