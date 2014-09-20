@@ -275,7 +275,7 @@ kable(table(ResearchApproachByTheory3$Theory, ResearchApproachByTheory3$Research
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByFramed <- data.frame(PrivateFramedGrid, PrivateRegionGrid) # Double-grid
-RegionByFramed2 <- melt(RegionByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+RegionByFramed2 <- melt(RegionByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
 RegionByFramed3 <- RegionByFramed2[!(RegionByFramed2$value=="FALSE"),]
 names(RegionByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "Region", "value")
 RegionByFramed3 <- melt(RegionByFramed3, id=c("Region"))
@@ -309,7 +309,7 @@ kable(table(FramedByYear3$YearGroup, FramedByYear3$Framed))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchMethodsByFramed <- data.frame(PrivateFramedGrid, PrivateResearchMethodsGrid) # Double-grid
-ResearchMethodsByFramed2 <- melt(ResearchMethodsByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchMethodsByFramed2 <- melt(ResearchMethodsByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
 ResearchMethodsByFramed3 <- ResearchMethodsByFramed2[!(ResearchMethodsByFramed2$value=="FALSE"),]
 names(ResearchMethodsByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchMethods", "value")
 ResearchMethodsByFramed3 <- melt(ResearchMethodsByFramed3, id=c("ResearchMethods"))
@@ -328,7 +328,7 @@ kable(table(ResearchMethodsByFramed3$Framed, ResearchMethodsByFramed3$ResearchMe
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchApproachByFramed <- data.frame(PrivateFramedGrid, PrivateResearchApproachGrid) # Double-grid
-ResearchApproachByFramed2 <- melt(ResearchApproachByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchApproachByFramed2 <- melt(ResearchApproachByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
 ResearchApproachByFramed3 <- ResearchApproachByFramed2[!(ResearchApproachByFramed2$value=="FALSE"),]
 names(ResearchApproachByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchApproach", "value")
 ResearchApproachByFramed3 <- melt(ResearchApproachByFramed3, id=c("ResearchApproach"))

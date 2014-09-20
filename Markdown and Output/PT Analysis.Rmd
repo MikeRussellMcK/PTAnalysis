@@ -127,7 +127,7 @@ grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=
 #### Region(s) Others:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-kable(RegionOther, row.names=FALSE)
+# kable(RegionOther, row.names=FALSE)
 ```
 
 ### Levels of Education Discussed

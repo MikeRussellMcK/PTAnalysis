@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 272
 This number includes 10 articles with duplicate ID numbers (10 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-20 06:07:36.
+Document was last updated on 2014-09-20 11:24:25.
 
 Throughout this document the data are divided four ways:
 
@@ -1093,16 +1093,6 @@ Asian Economic Journal </td>
 #### Region(s) Others:
 
 
-```
-## Warning: no non-missing arguments to max; returning -Inf
-## Warning: no non-missing arguments to max; returning -Inf
-## Warning: no non-missing arguments to max; returning -Inf
-```
-
-
-
-|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.items..collapse.......... |Private.Reviewer |
-|:----------|:------------------------------------------------------------------------------|:----------------|
 
 ### Levels of Education Discussed
 
@@ -2536,7 +2526,7 @@ Education is known to promote social mobility and therefore contributes to impro
 <tbody>
   <tr>
    <td align="left"> 4 </td>
-   <td align="left"> general public, principals, vice-principals, and school inspectors </td>
+   <td align="left"> general public </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
@@ -2551,12 +2541,12 @@ Education is known to promote social mobility and therefore contributes to impro
   </tr>
   <tr>
    <td align="left"> 39 </td>
-   <td align="left"> principals, academic scholars,principals, and tutorial school heads </td>
+   <td align="left"> academic scholars, tutorial school heads </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 50 </td>
-   <td align="left"> Parents/houeholds </td>
+   <td align="left"> Parents / houeholds </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
@@ -2568,12 +2558,6 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> 69 </td>
    <td align="left"> Census data </td>
    <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 86 </td>
-   <td align="left"> Parents / 
-household </td>
-   <td align="left"> Hang Duong </td>
   </tr>
   <tr>
    <td align="left"> 137 </td>
@@ -2591,26 +2575,6 @@ household </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 190e </td>
-   <td align="left"> school administrators </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 191e </td>
-   <td align="left"> School leaders </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 195e </td>
-   <td align="left"> Administrators </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 197e </td>
-   <td align="left"> school administrator </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 203e </td>
    <td align="left"> policy implemeners </td>
    <td align="left"> Xia Zhao </td>
@@ -2622,13 +2586,8 @@ household </td>
   </tr>
   <tr>
    <td align="left"> 99e </td>
-   <td align="left"> school administrators </td>
+   <td align="left"> School administrator </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 67 </td>
-   <td align="left"> principles </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 212 </td>
@@ -2636,29 +2595,14 @@ household </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 90e </td>
-   <td align="left"> school principals </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
    <td align="left"> 153e </td>
    <td align="left"> Head teachers </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 173e </td>
-   <td align="left"> Administrators </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
    <td align="left"> 137e </td>
    <td align="left"> Author's observations </td>
    <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 168e </td>
-   <td align="left"> principals </td>
-   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 175e </td>
@@ -2676,13 +2620,8 @@ household </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 155e </td>
-   <td align="left"> principals, administrators, policy documents </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 210 </td>
-   <td align="left"> Publics school administrators and managers of tutoring centers </td>
+   <td align="left"> Tutoring center managers </td>
    <td align="left"> Mike </td>
   </tr>
 </tbody>
@@ -2777,28 +2716,13 @@ household </td>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 6 </td>
-   <td align="left"> not defined </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="left"> 57 </td>
    <td align="left"> business leaders, not professional teachers </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 108 </td>
-   <td align="left">  and secondary school student </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 191e </td>
    <td align="left"> the study focused more on demand rather than supply </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 192e </td>
-   <td align="left"> self-employed teachers </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
@@ -2832,11 +2756,6 @@ household </td>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 9 </td>
-   <td align="left"> Not defined </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 41 </td>
    <td align="left"> 5 private tutoring institutions in Bavaria </td>
    <td align="left"> Olga </td>
@@ -2845,36 +2764,6 @@ household </td>
    <td align="left"> 70 </td>
    <td align="left"> after-school programs are supported by the government </td>
    <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 105e </td>
-   <td align="left"> Unclear </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 142e </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 143e </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 189e </td>
-   <td align="left"> not clear </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 203e </td>
-   <td align="left"> unclear </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 172e </td>
-   <td align="left"> unclear </td>
-   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 175e </td>

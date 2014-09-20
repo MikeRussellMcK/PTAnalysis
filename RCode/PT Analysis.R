@@ -963,20 +963,21 @@ names(AllEnglishHowViewedGrid) <- HowViewedNames
 # Stakeholders
 # ============================
 
-StakeholdersNames <- c("Teachers who do not tutor", "Teachers who tutor", "Tutors who are not teachers", "Parents / household", "Students", "Policymakers", "Documents")
+StakeholdersNames <- c("Teachers who do not tutor", "Teachers who tutor", "Tutors who are not teachers", "School administrators", "Parents / household", "Students", "Policymakers", "Documents")
 
 ## Private
 ## ======
 Private$StakeholdersTeachersNonTutor <- grepl("who do not", Private$Stakeholders)
 Private$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", Private$Stakeholders)
 Private$StakeholdersTutorsNonTeachers <- grepl("who are not", Private$Stakeholders)
+Private$StakeholdersSchoolAdmin <- grepl ("School administrators", Private$Stakeholders)
 Private$StakeholdersParents <- grepl("Parents", Private$Stakeholders)
 Private$StakeholdersStudents <- grepl("Students", Private$Stakeholders)
 Private$StakeholdersPolicymakers <- grepl("Policymakers", Private$Stakeholders)
 Private$StakeholdersDocuments <- grepl("Documents", Private$Stakeholders)
 
 PrivateStakeholdersGrid <- data.frame(Private$StakeholdersTeachersNonTutor, 
-                                      Private$StakeholdersTeachersWhoTutor, Private$StakeholdersTutorsNonTeachers, 
+                                      Private$StakeholdersTeachersWhoTutor, Private$StakeholdersTutorsNonTeachers, Private$StakeholdersSchoolAdmin,
                                       Private$StakeholdersParents, Private$StakeholdersStudents, Private$StakeholdersPolicymakers, 
                                       Private$StakeholdersDocuments)
 names(PrivateStakeholdersGrid) <- StakeholdersNames
@@ -986,13 +987,14 @@ names(PrivateStakeholdersGrid) <- StakeholdersNames
 AllAsia$StakeholdersTeachersNonTutor <- grepl("who do not", AllAsia$Stakeholders)
 AllAsia$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllAsia$Stakeholders)
 AllAsia$StakeholdersTutorsNonTeachers <- grepl("who are not", AllAsia$Stakeholders)
+AllAsia$StakeholdersSchoolAdmin <- grepl ("School administrators", AllAsia$Stakeholders)
 AllAsia$StakeholdersParents <- grepl("Parents", AllAsia$Stakeholders)
 AllAsia$StakeholdersStudents <- grepl("Students", AllAsia$Stakeholders)
 AllAsia$StakeholdersPolicymakers <- grepl("Policymakers", AllAsia$Stakeholders)
 AllAsia$StakeholdersDocuments <- grepl("Documents", AllAsia$Stakeholders)
 
 AllAsiaStakeholdersGrid <- data.frame(AllAsia$StakeholdersTeachersNonTutor, 
-                                      AllAsia$StakeholdersTeachersWhoTutor, AllAsia$StakeholdersTutorsNonTeachers, 
+                                      AllAsia$StakeholdersTeachersWhoTutor, AllAsia$StakeholdersTutorsNonTeachers, AllAsia$StakeholdersSchoolAdmin,
                                       AllAsia$StakeholdersParents, AllAsia$StakeholdersStudents, AllAsia$StakeholdersPolicymakers, 
                                       AllAsia$StakeholdersDocuments)
 names(AllAsiaStakeholdersGrid) <- StakeholdersNames
@@ -1002,13 +1004,14 @@ names(AllAsiaStakeholdersGrid) <- StakeholdersNames
 AllChinese$StakeholdersTeachersNonTutor <- grepl("who do not", AllChinese$Stakeholders)
 AllChinese$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllChinese$Stakeholders)
 AllChinese$StakeholdersTutorsNonTeachers <- grepl("who are not", AllChinese$Stakeholders)
+AllChinese$StakeholdersSchoolAdmin <- grepl ("School administrators", AllChinese$Stakeholders)
 AllChinese$StakeholdersParents <- grepl("Parents", AllChinese$Stakeholders)
 AllChinese$StakeholdersStudents <- grepl("Students", AllChinese$Stakeholders)
 AllChinese$StakeholdersPolicymakers <- grepl("Policymakers", AllChinese$Stakeholders)
 AllChinese$StakeholdersDocuments <- grepl("Documents", AllChinese$Stakeholders)
 
 AllChineseStakeholdersGrid <- data.frame(AllChinese$StakeholdersTeachersNonTutor, 
-                                         AllChinese$StakeholdersTeachersWhoTutor, AllChinese$StakeholdersTutorsNonTeachers, 
+                                         AllChinese$StakeholdersTeachersWhoTutor, AllChinese$StakeholdersTutorsNonTeachers, AllChinese$StakeholdersSchoolAdmin,
                                          AllChinese$StakeholdersParents, AllChinese$StakeholdersStudents, AllChinese$StakeholdersPolicymakers, 
                                          AllChinese$StakeholdersDocuments)
 names(AllChineseStakeholdersGrid) <- StakeholdersNames
@@ -1018,13 +1021,14 @@ names(AllChineseStakeholdersGrid) <- StakeholdersNames
 AllEnglish$StakeholdersTeachersNonTutor <- grepl("who do not", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersTutorsNonTeachers <- grepl("who are not", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersSchoolAdmin <- grepl ("School administrators", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersParents <- grepl("Parents", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersStudents <- grepl("Students", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersPolicymakers <- grepl("Policymakers", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersDocuments <- grepl("Documents", AllEnglish$Stakeholders)
 
 AllEnglishStakeholdersGrid <- data.frame(AllEnglish$StakeholdersTeachersNonTutor, 
-                                         AllEnglish$StakeholdersTeachersWhoTutor, AllEnglish$StakeholdersTutorsNonTeachers, 
+                                         AllEnglish$StakeholdersTeachersWhoTutor, AllEnglish$StakeholdersTutorsNonTeachers, AllEnglish$StakeholdersSchoolAdmin,
                                          AllEnglish$StakeholdersParents, AllEnglish$StakeholdersStudents, AllEnglish$StakeholdersPolicymakers, 
                                          AllEnglish$StakeholdersDocuments)
 names(AllEnglishStakeholdersGrid) <- StakeholdersNames
@@ -1295,7 +1299,7 @@ WhoProvidesOther <- na.omit(Other)
 # OperationSize
 # ============================
 
-OperationSizeNames <- c("Individual operator", "Small firm", "Large firm", "Various")
+OperationSizeNames <- c("Individual operator", "Small firm", "Large firm", "Various", "Not defined or unclear")
 
 ## Private
 ## ======
@@ -1303,13 +1307,15 @@ Private$OperationSizeIndividual <- grepl("Individual", Private$OperationSize)
 Private$OperationSizeSmall <- grepl("Small", Private$OperationSize)
 Private$OperationSizeLarge <- grepl("Large", Private$OperationSize)
 Private$OperationSizeVarious <- grepl("Various", Private$OperationSize)
+Private$OperationSizeUnclear <- grepl("unclear", Private$OperationSize)
 
 
 PrivateOperationSizeGrid <- data.frame(
   Private$OperationSizeIndividual, 
   Private$OperationSizeSmall, 
   Private$OperationSizeLarge, 
-  Private$OperationSizeVarious)
+  Private$OperationSizeVarious,
+  Private$OperationSizeUnclear)
 
 names(PrivateOperationSizeGrid) <- OperationSizeNames
 
@@ -1319,13 +1325,15 @@ AllAsia$OperationSizeIndividual <- grepl("Individual", AllAsia$OperationSize)
 AllAsia$OperationSizeSmall <- grepl("Small", AllAsia$OperationSize)
 AllAsia$OperationSizeLarge <- grepl("Large", AllAsia$OperationSize)
 AllAsia$OperationSizeVarious <- grepl("Various", AllAsia$OperationSize)
+AllAsia$OperationSizeUnclear <- grepl("unclear", AllAsia$OperationSize)
 
 
 AllAsiaOperationSizeGrid <- data.frame(
   AllAsia$OperationSizeIndividual, 
   AllAsia$OperationSizeSmall, 
   AllAsia$OperationSizeLarge, 
-  AllAsia$OperationSizeVarious)
+  AllAsia$OperationSizeVarious,
+  AllAsia$OperationSizeUnclear)
 
 names(AllAsiaOperationSizeGrid) <- OperationSizeNames
 
@@ -1335,13 +1343,15 @@ AllChinese$OperationSizeIndividual <- grepl("Individual", AllChinese$OperationSi
 AllChinese$OperationSizeSmall <- grepl("Small", AllChinese$OperationSize)
 AllChinese$OperationSizeLarge <- grepl("Large", AllChinese$OperationSize)
 AllChinese$OperationSizeVarious <- grepl("Various", AllChinese$OperationSize)
+AllChinese$OperationSizeUnclear <- grepl("unclear", AllChinese$OperationSize)
 
 
 AllChineseOperationSizeGrid <- data.frame(
   AllChinese$OperationSizeIndividual, 
   AllChinese$OperationSizeSmall, 
   AllChinese$OperationSizeLarge, 
-  AllChinese$OperationSizeVarious)
+  AllChinese$OperationSizeVarious,
+  AllChinese$OperationSizeUnclear)
 
 names(AllChineseOperationSizeGrid) <- OperationSizeNames
 
@@ -1351,13 +1361,14 @@ AllEnglish$OperationSizeIndividual <- grepl("Individual", AllEnglish$OperationSi
 AllEnglish$OperationSizeSmall <- grepl("Small", AllEnglish$OperationSize)
 AllEnglish$OperationSizeLarge <- grepl("Large", AllEnglish$OperationSize)
 AllEnglish$OperationSizeVarious <- grepl("Various", AllEnglish$OperationSize)
-
+AllEnglish$OperationSizeUnclear <- grepl("unclear", AllEnglish$OperationSize)
 
 AllEnglishOperationSizeGrid <- data.frame(
   AllEnglish$OperationSizeIndividual, 
   AllEnglish$OperationSizeSmall, 
   AllEnglish$OperationSizeLarge, 
-  AllEnglish$OperationSizeVarious)
+  AllEnglish$OperationSizeVarious,
+  AllEnglish$OperationSizeUnclear)
 
 names(AllEnglishOperationSizeGrid) <- OperationSizeNames
 

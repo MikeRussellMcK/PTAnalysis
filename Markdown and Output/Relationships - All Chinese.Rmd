@@ -9,10 +9,12 @@ output:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 source('../RCode/Download and Clean PT Data.R')
+source('../RCode/Find Duplicate IDs.R')
 source('../RCode/PT Analysis.R')
 ```
 
 ### TOTAL NUMBER OF ARTICLES: `r nrow(AllChinese)`
+This number includes `r nrow(Dupes)` articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
 Document was last updated on `r Sys.time()`.
 
 # _Region by year group_ for all entries in the database:
@@ -64,9 +66,9 @@ kable(table(AllChinese$YearGroup, AllChinese$PubType))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByResearchType <- data.frame(AllChineseResearchTypeGrid, AllChineseRegionGrid) # Double-grid
-RegionByResearchType2 <- melt(RegionByResearchType, id=c("Original.emperical.research", "Review.of.other.research", "Policy.analysis"))
+RegionByResearchType2 <- melt(RegionByResearchType, id=c("Original.empirical.research", "Review.of.other.research", "Policy.analysis"))
 RegionByResearchType3<-RegionByResearchType2[!(RegionByResearchType2$value=="FALSE"),]
-names(RegionByResearchType3) <- c("Original emperical", "Review of other", "Policy analysis","Region","value")
+names(RegionByResearchType3) <- c("Original empirical", "Review of other", "Policy analysis","Region","value")
 RegionByResearchType3 <- melt(RegionByResearchType3, id=c("Region"))
 RegionByResearchType3<-RegionByResearchType3[!(RegionByResearchType3$value=="FALSE"),]
 names(RegionByResearchType3) <- c("Region","ResearchType", "value")
@@ -273,7 +275,7 @@ kable(table(ResearchApproachByTheory3$Theory, ResearchApproachByTheory3$Research
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByFramed <- data.frame(AllChineseFramedGrid, AllChineseRegionGrid) # Double-grid
-RegionByFramed2 <- melt(RegionByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+RegionByFramed2 <- melt(RegionByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
 RegionByFramed3 <- RegionByFramed2[!(RegionByFramed2$value=="FALSE"),]
 names(RegionByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "Region", "value")
 RegionByFramed3 <- melt(RegionByFramed3, id=c("Region"))
@@ -307,7 +309,7 @@ kable(table(FramedByYear3$YearGroup, FramedByYear3$Framed))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchMethodsByFramed <- data.frame(AllChineseFramedGrid, AllChineseResearchMethodsGrid) # Double-grid
-ResearchMethodsByFramed2 <- melt(ResearchMethodsByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchMethodsByFramed2 <- melt(ResearchMethodsByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
 ResearchMethodsByFramed3 <- ResearchMethodsByFramed2[!(ResearchMethodsByFramed2$value=="FALSE"),]
 names(ResearchMethodsByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchMethods", "value")
 ResearchMethodsByFramed3 <- melt(ResearchMethodsByFramed3, id=c("ResearchMethods"))
@@ -326,7 +328,7 @@ kable(table(ResearchMethodsByFramed3$Framed, ResearchMethodsByFramed3$ResearchMe
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchApproachByFramed <- data.frame(AllChineseFramedGrid, AllChineseResearchApproachGrid) # Double-grid
-ResearchApproachByFramed2 <- melt(ResearchApproachByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "X.Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchApproachByFramed2 <- melt(ResearchApproachByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
 ResearchApproachByFramed3 <- ResearchApproachByFramed2[!(ResearchApproachByFramed2$value=="FALSE"),]
 names(ResearchApproachByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchApproach", "value")
 ResearchApproachByFramed3 <- melt(ResearchApproachByFramed3, id=c("ResearchApproach"))
