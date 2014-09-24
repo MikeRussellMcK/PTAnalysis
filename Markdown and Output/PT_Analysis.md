@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 272
 This number includes 10 articles with duplicate ID numbers (10 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-24 10:03:07.
+Document was last updated on 2014-09-24 13:05:57.
 
 Throughout this document the data are divided four ways:
 
@@ -50,15 +50,7 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left">  Comparative Education Review </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left">  École des hautes études commerciales, Institut dè́conomie appliquée. </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left">  Master's Thesis of Zhejiang Normal University  </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -78,7 +70,7 @@ Asian Economic Journal </td>
    <td align="right"> 2 </td>
   </tr>
   <tr>
-   <td align="left"> Annual meeting of the Canada Economic Association </td>
+   <td align="left"> Anhui University </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -87,7 +79,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Asia Pacific Education Review </td>
-   <td align="right"> 13 </td>
+   <td align="right"> 15 </td>
   </tr>
   <tr>
    <td align="left"> Asia Pacific Education Review
@@ -107,16 +99,28 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Canadian Economics Association </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Canadian Journal of Sociology </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Canadian Review of Sociology </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Career Horizen </td>
+   <td align="left"> Capital Normal University University </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Career Horizon </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Central China Normal University </td>
+   <td align="right"> 5 </td>
   </tr>
   <tr>
    <td align="left"> Childhood Education </td>
@@ -139,6 +143,10 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Chongqing Normal University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Columbia University </td>
    <td align="right"> 2 </td>
   </tr>
@@ -147,8 +155,12 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Comparative Education Review  </td>
+   <td align="left"> Comparative Education Review </td>
    <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Comparative Education Review  </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Compare </td>
@@ -157,6 +169,14 @@ Asian Economic Journal </td>
   <tr>
    <td align="left"> Contemporary Educational Science </td>
    <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Duke University Press </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> East China Normal University </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Economic Development and Cultural Change </td>
@@ -172,7 +192,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Education & Economy  </td>
-   <td align="right"> 3 </td>
+   <td align="right"> 4 </td>
   </tr>
   <tr>
    <td align="left"> Education and Urban Society </td>
@@ -187,14 +207,6 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Education Research Institute </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Education Research Institute, Seoul National University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Education Research Monthly </td>
    <td align="right"> 2 </td>
   </tr>
@@ -204,7 +216,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Education&Economy   </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Educational Evaluation and Policy Analysis </td>
@@ -224,10 +236,6 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Educational Studies in Mathematics </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Eighteenth-Century Life, Duke University Press </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -255,6 +263,14 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Guangxi Normal University </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Guangzhou University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Guide of Science and Education  </td>
    <td align="right"> 1 </td>
   </tr>
@@ -275,20 +291,20 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Hubei University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Hunan Normal University </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
    <td align="left"> Institut für Ethnologie und Afrikastudie </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Institute for the Study of Labor, Bonn, Germany </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Institute for the Study of Labor, Bonn, Germany (IZA DP No. 6626 </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Int. J. Educational Development </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> International Education Journal </td>
@@ -304,7 +320,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> International Journal of Educational Development </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> International Journal of Humanities and Social Science </td>
@@ -315,19 +331,11 @@ Asian Economic Journal </td>
    <td align="right"> 11 </td>
   </tr>
   <tr>
-   <td align="left"> International Review of Education, the Netherlands </td>
+   <td align="left"> International Review of Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Introduction of Business  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> IZA, Germany </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> JERO </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -339,16 +347,20 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Jiannan Literature </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Jiannan Literature  </td>
+   <td align="left"> Jiangxi Normal University  </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Journal for Educational Research Online </td>
+   <td align="left"> Jiannan Literature </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Jilin University </td>
    <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal for Educational Research Online </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Journal of Asia Pacific Communication </td>
@@ -420,11 +432,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Journal of Teaching and Management </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Journal of Teaching and Management  </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Journal of Weifang University </td>
@@ -467,83 +475,7 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Master's Thesis of Anhui University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Capital Normal University University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Central China Normal University  </td>
-   <td align="right"> 5 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Chongqing Normal University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of East China Normal University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of East China Normal University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Guangxi Normal University  </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Guangzhou University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Hubei University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Hunan Normal University  </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Jiangxi Normal University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Jilin University  </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
    <td align="left"> Master's Thesis of Liaoning Normal University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Nanjing Normal University  </td>
-   <td align="right"> 3 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Northeast Normal University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Northwest Normal University  </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Shangdong Normal University  </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Shanghai Normal University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Shanxi Financial University  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Master's Thesis of Yanbian University  </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -551,11 +483,31 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Nanjing Normal University </td>
+   <td align="right"> 3 </td>
+  </tr>
+  <tr>
    <td align="left"> National Center for the Study of Privatization in Education, NCSPE.org </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Northeast Normal University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Northwest Normal University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Northwest Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Northwest Population Journal </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Ohio State University </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -584,7 +536,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Pennsylvania State University </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Phi Delta Kappan </td>
@@ -631,11 +583,23 @@ Asian Economic Journal </td>
    <td align="right"> 15 </td>
   </tr>
   <tr>
+   <td align="left"> Shangdong Normal University </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
+   <td align="left"> Shanghai Normal University  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Shanghai Research on Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Shanghai Research on Education  </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Shanxi Financial University </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -687,10 +651,6 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> The Pennsylvania State University </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
    <td align="left"> The Science Education Article Collects </td>
    <td align="right"> 1 </td>
   </tr>
@@ -707,11 +667,7 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> the University of Minnesota </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> The World Bank research observer </td>
+   <td align="left"> The World Bank </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -724,11 +680,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> UNESCO </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> UNESCO, IIEP </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Union Institute and University Graduate College </td>
@@ -744,10 +696,10 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> University of Maryland </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
-   <td align="left"> University of Maryland University College </td>
+   <td align="left"> University of Minnesota </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -759,16 +711,8 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> University of Toronto Press, The Canadian Journal of Sociology </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> World bank </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> World Bank </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> World Bank and UNICEF </td>
@@ -783,7 +727,15 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Yanbian University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Young Lives </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Zhejiang Normal University </td>
    <td align="right"> 1 </td>
   </tr>
 </tbody>
@@ -886,10 +838,6 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Europe </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Examples: USA and India </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1067,6 +1015,10 @@ Asian Economic Journal </td>
   <tr>
    <td align="left"> USA </td>
    <td align="right"> 5 </td>
+  </tr>
+  <tr>
+   <td align="left"> USA and India </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Vietnam </td>
@@ -1350,6 +1302,11 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Survey on the Status of Private Tutoring and the Study of the Policy Measures to
+Reduce Private Tutoring Expenses conducted by Korean Education Development Institute (KEDI) in 2007 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> The data come from a  large longitudinal study of high school seniors in Japan conducted by the Youth Research Institute of Tokyo  in  1980 and 1982. </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1504,11 +1461,6 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> 61 </td>
    <td align="left"> Parental Involvement  </td>
    <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 70 </td>
-   <td align="left"> conceptual framework (sociological perspective and public policy perspective) </td>
-   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 71 </td>
@@ -1746,11 +1698,6 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 70 </td>
-   <td align="left"> After-school program was designed to reduce private tutoring </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
    <td align="left"> 72 </td>
    <td align="left"> gender rights </td>
    <td align="left"> Olga </td>
@@ -1926,6 +1873,11 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> 64 </td>
    <td align="left"> Income </td>
    <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 70 </td>
+   <td align="left"> SES, residential location </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 73 </td>
@@ -2699,11 +2651,6 @@ Education is known to promote social mobility and therefore contributes to impro
   <tr>
    <td align="left"> 41 </td>
    <td align="left"> 5 private tutoring institutions in Bavaria </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 70 </td>
-   <td align="left"> after-school programs are supported by the government </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
