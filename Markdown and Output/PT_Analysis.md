@@ -3,9 +3,9 @@
 
 
 
-### TOTAL NUMBER OF ARTICLES: 272
-This number includes 10 articles with duplicate ID numbers (10 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-24 13:05:57.
+### TOTAL NUMBER OF ARTICLES: 268
+This number includes 0 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
+Document was last updated on 2014-09-24 14:38:36.
 
 Throughout this document the data are divided four ways:
 
@@ -32,10 +32,6 @@ Throughout this document the data are divided four ways:
   </tr>
  </thead>
 <tbody>
-  <tr>
-   <td align="left">  </td>
-   <td align="right"> 0 </td>
-  </tr>
   <tr>
    <td align="left"> 
 Asian Economic Journal </td>
@@ -116,7 +112,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Career Horizon </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Central China Normal University </td>
@@ -243,6 +239,10 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Elementary and Secondary Schooling Abroad </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> European Commission </td>
    <td align="right"> 1 </td>
   </tr>
@@ -352,7 +352,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Jiannan Literature </td>
-   <td align="right"> 3 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Jilin University </td>
@@ -436,10 +436,6 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Journal of Weifang University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Journal of World Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -604,7 +600,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Shenzhou Education </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Social Forces </td>
@@ -822,7 +818,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> China </td>
-   <td align="right"> 82 </td>
+   <td align="right"> 80 </td>
   </tr>
   <tr>
    <td align="left"> Cyprus </td>
@@ -1117,10 +1113,6 @@ Vietnam Household Testing Survey (VHTS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> 101 sixth-grade students in a primary school located in Hexi district, Tianjin. </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> 1988 Family Expenditure Survey  </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1239,6 +1231,10 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
   </tr>
   <tr>
    <td align="left"> National Education Longitudinal Study (NESL) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> OSI </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -2111,6 +2107,11 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
+   <td align="left"> 148 </td>
+   <td align="left"> Reduce social class gap  </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
    <td align="left"> 150 </td>
    <td align="left"> private tutoring can improve students' academic achievements so that it may reduce the gap between students in rural areas and urban city </td>
    <td align="left"> Xia Zhao </td>
@@ -2126,19 +2127,9 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 160 </td>
-   <td align="left"> Reduce social class gap  </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 161 </td>
    <td align="left"> Enhance lower-class students' education opportunity </td>
    <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 161 </td>
-   <td align="left"> benefit poor student by through free tutoring </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 165 </td>
@@ -2149,11 +2140,6 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> 171 </td>
    <td align="left"> private tutoring leads to social inequity, which include the educational chance etc.  </td>
    <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 171 </td>
-   <td align="left"> unequal access and outcomes, racial inequity, psychological inequity, gender inequity, influence on public school system </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 176 </td>
