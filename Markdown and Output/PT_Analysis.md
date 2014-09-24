@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 272
 This number includes 10 articles with duplicate ID numbers (10 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-20 11:24:25.
+Document was last updated on 2014-09-24 10:03:07.
 
 Throughout this document the data are divided four ways:
 
@@ -86,24 +86,13 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Asia Pacific Edu Review </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Asia Pacific Educ. Rev. </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Asia Pacific Education Review </td>
-   <td align="right"> 11 </td>
+   <td align="right"> 13 </td>
   </tr>
   <tr>
-   <td align="left"> Asia Pacific Education Review  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Asian Pacific Education Review </td>
-   <td align="right"> 1 </td>
+   <td align="left"> Asia Pacific Education Review
+ </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> BRAC Center </td>
@@ -1101,9 +1090,16 @@ Asian Economic Journal </td>
 #### EdLevel Others:
 
 
+```
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+```
+
+
+
 |Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
 |:----------|:-------------------------------------------------------------------|:----------------|
-|183        |not clear                                                           |Xia Zhao         |
 
 ### Research Approach
 
@@ -2525,11 +2521,6 @@ Education is known to promote social mobility and therefore contributes to impro
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 4 </td>
-   <td align="left"> general public </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
    <td align="left"> 17 </td>
    <td align="left"> Juku operators </td>
    <td align="left"> Peggy </td>
@@ -2545,11 +2536,6 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 50 </td>
-   <td align="left"> Parents / houeholds </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
    <td align="left"> 58 </td>
    <td align="left"> Schools </td>
    <td align="left"> Mike </td>
@@ -2560,24 +2546,9 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 137 </td>
-   <td align="left"> educator </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 138 </td>
-   <td align="left"> educator </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="left"> 213 </td>
    <td align="left"> primary observation data </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 203e </td>
-   <td align="left"> policy implemeners </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="left"> 95e </td>
@@ -2593,11 +2564,6 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> 212 </td>
    <td align="left"> SES providers </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 153e </td>
-   <td align="left"> Head teachers </td>
-   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 137e </td>
@@ -2667,31 +2633,6 @@ Education is known to promote social mobility and therefore contributes to impro
   </tr>
  </thead>
 <tbody>
-  <tr>
-   <td align="left"> 13 </td>
-   <td align="left"> Workplace </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 57 </td>
-   <td align="left"> in "learning centres" </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 78 </td>
-   <td align="left"> Cram schools </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 141e </td>
-   <td align="left"> correspondence courses </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 194e </td>
-   <td align="left"> shopping malls </td>
-   <td align="left"> Olga </td>
-  </tr>
   <tr>
    <td align="left"> 91e </td>
    <td align="left"> cultural centers </td>
