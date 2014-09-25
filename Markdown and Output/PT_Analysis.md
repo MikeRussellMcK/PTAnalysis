@@ -3,9 +3,9 @@
 
 
 
-### TOTAL NUMBER OF ARTICLES: 268
-This number includes 0 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-25 10:10:31.
+### TOTAL NUMBER OF ARTICLES: 265
+<!-- This number includes 0 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
+Document was last updated on 2014-09-25 10:51:32.
 
 Throughout this document the data are divided four ways:
 
@@ -90,10 +90,6 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Canadian Economics Association </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Canadian Journal of Sociology </td>
    <td align="right"> 1 </td>
   </tr>
@@ -158,10 +154,6 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Duke University Press </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> East China Normal University </td>
    <td align="right"> 2 </td>
   </tr>
@@ -219,6 +211,10 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Educational Studies in Mathematics </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Eighteenth-Century Life </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -454,16 +450,8 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Munich Personal RePEc Archive </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Nanjing Normal University </td>
    <td align="right"> 3 </td>
-  </tr>
-  <tr>
-   <td align="left"> National Center for the Study of Privatization in Education, NCSPE.org </td>
-   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Northeast Normal University </td>
@@ -491,10 +479,10 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> OSI </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> OXFORD BULLETIN OF ECONOMICS AND STATISTICS </td>
+   <td align="left"> Oxford Bulletin of Economics and Statistics </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -511,10 +499,6 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Phi Delta Kappan </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Policy Reform </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -606,11 +590,15 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> TESOL </td>
+   <td align="left"> TESOL Quarterly </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> The Developing Economy </td>
+   <td align="left"> The Developing Economies </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> The Journal of Policy Reform </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -635,7 +623,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> UNESCO </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Union Institute and University Graduate College </td>
@@ -662,7 +650,7 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> University of Pittsburgh, School of Education </td>
+   <td align="left"> University of Pittsburgh </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -711,7 +699,6 @@ Asian Economic Journal </td>
 |:----------|:------------------------------------------------------------------------------|:----------------|
 |60         |Author designs theoretical model private tutoring                              |Mike             |
 |109e       |Theoretical                                                                    |Hang Duong       |
-|96e        |Comparative                                                                    |Hang Duong       |
 |97e        |Secondary research                                                             |Damian Wyman     |
 
 ## Subjects and Approach
@@ -781,7 +768,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Egypt </td>
-   <td align="right"> 4 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> England </td>
@@ -908,10 +895,6 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> S.Korea </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Scoland </td>
    <td align="right"> 1 </td>
   </tr>
@@ -933,7 +916,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Sri Lanka </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Taiwan </td>
@@ -1081,10 +1064,6 @@ Vietnam Household Testing Survey (VHTS) </td>
   </tr>
   <tr>
    <td align="left"> 1998 Urban Household Expenditure Survey, Survey on Private Tutoring (1997) </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> 2 national wide household survey data, in 1995/96 and 2006/07 </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1287,10 +1266,6 @@ Reduce Private Tutoring Expenses conducted by Korean Education Development Insti
   </tr>
   <tr>
    <td align="left"> The data for this study came from three sources: 1) the National Survey on Learning Expenditure of Households (NSLEH) (1994, 1996, 1998, 2000, and 2002); 2) the National Household Expenditure Survey (NHES) (1984-2003); and 3) the original data of private school parents and local education committees collected in September-November 2004. </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> the Egypt Labor Market Survey (ELMS 98) and the Egypt Labor Market Panel Survey (ELMPS 06) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1611,12 +1586,6 @@ questionnaires from students in Grades 9 and 12 </td>
   <tr>
    <td align="left"> 209e </td>
    <td align="left"> Helmke’s (2009) offer-usage model of instructional effects (bw PT and aca achievements) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 96e </td>
-   <td align="left"> Game Theory; Thurow's Job Competition Model; Spence's Market Signaling Model
- </td>
    <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
@@ -2231,11 +2200,6 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Damian Wyman </td>
   </tr>
   <tr>
-   <td align="left"> 101e </td>
-   <td align="left"> "The private tuition classes may increase the social inequalities (income gap, race gap, ethnicity gap...) and damage the purpose of free education policy" (p.20) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 102e </td>
    <td align="left"> "High-income families can afford greater quantities and better qualities of tutoring than middle-income and low-income families." p.416  </td>
    <td align="left"> Peggy </td>
@@ -2244,11 +2208,6 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> 103e </td>
    <td align="left"> "Shadow education, if left to market forces, is likely to perpetuate and increase social inequalities since higher-income households are able more easily than lower-income households to afford both superior quality and greater amounts of private tutoring. This pattern also of course applies in regular schooling: rich families can send their children to types of private schools that are out of reach for poor families. However, as shadow education has expanded, middle-income and low-income families have found themselves forced to invest in private tutoring alongside public provision that is supposedly egalitarian." p.489 </td>
    <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 104e </td>
-   <td align="left"> "tutoring may also have important equity  implications, as it may be more affordable to children belonging to richer households. Moreover,  for poor households that are already resource-constrained, tutoring can affect the enrollment and  dropout decisions of their children given that it represents a substantial education cost" p.4 </td>
-   <td align="left"> Hang Duong </td>
   </tr>
   <tr>
    <td align="left"> 105e </td>
@@ -2439,11 +2398,6 @@ students of better schools, well-performing students, children of educated paren
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 96e </td>
-   <td align="left"> "In South Korean society, negative effects of PT are seen in terms of equity and social  cohesion in that PT potentially aggravates educational disparities across different income  brackets by giving partial access to extra resources of education and information" p.2; "PT can bring about a great inequality between households with different income levels due to variations in  marginal substitution rates between PT and other goods" p.10 </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 97e </td>
    <td align="left"> Those in poor households are unable to afford private tutoring, which leads to lower levels of satisfaction in life. The policy proposed is to improve the public education system so that all are served equally. </td>
    <td align="left"> Damian Wyman </td>
@@ -2574,11 +2528,6 @@ center or franchise
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 153e </td>
-   <td align="left"> Teachers who do tutor </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
    <td align="left"> 175e </td>
    <td align="left"> unclear </td>
    <td align="left"> Peggy </td>
@@ -2587,11 +2536,6 @@ center or franchise
    <td align="left"> 180e </td>
    <td align="left"> local education committees </td>
    <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 99e </td>
-   <td align="left"> School administrator </td>
-   <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
 </table>
@@ -3166,11 +3110,6 @@ their sense of efficacy in helping their child with schoolwork, the intellectual
   <tr>
    <td align="left"> 93e </td>
    <td align="left"> the paper's focus is on identifying the impacts of family size on household investment in private tutoring </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 96e </td>
-   <td align="left"> "The theoretical model presented here suggests that the prevalence of PT in South Korea occurs as the result of four factors. First, as income rises, the demand for PT also rises. Second, the higher the child’s ability, the greater the demand for PT. Third, the greater the parents’ desire to put their child into a prestigious university, the demand for PT will increase. Fourth, one parent’s demands for PT are affected by other parent’s desire and, ultimately, by other parent’s demand for PT. Based on the above model, parent’s expenditures on PT is influenced by other parent’s income, the other child’s academic achievement, and, ultimately, by other parent’s expenditure on PT" (p. 15). </td>
    <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
