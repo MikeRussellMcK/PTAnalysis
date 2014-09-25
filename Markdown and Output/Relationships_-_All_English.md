@@ -3,8 +3,8 @@
 
 
 ### TOTAL NUMBER OF ARTICLES: 170
-This number includes 10 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-20 11:35:42.
+This number includes 0 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
+Document was last updated on 2014-09-24 22:32:18.
 
 # _Region by year group_ for all entries in the database:
 
@@ -74,7 +74,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |Aus....NZ   |                  1|               0|               0|     0|
 |W..Europe   |                 14|               8|               1|     0|
 |E..Europe   |                 15|               4|               2|     0|
-|US...Can    |                 15|               5|               4|     0|
+|US...Can    |                 16|               4|               4|     0|
 |LAC         |                  2|               2|               0|     0|
 |Global      |                  8|               9|               0|     0|
 
@@ -91,7 +91,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |1990-94 |                           4|                        1|               0|
 |1995-99 |                          11|                        1|               0|
 |2000-04 |                           7|                        3|               0|
-|2005-09 |                          28|                        6|               4|
+|2005-09 |                          29|                        5|               4|
 |2010-14 |                          67|                       26|               8|
 
 # _Ed levels by region_ 
@@ -112,7 +112,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |Aus....NZ   |           0|       0|         2|        0|     0|
 |W..Europe   |           1|      17|        24|        2|     0|
 |E..Europe   |           1|      10|        17|        2|     0|
-|US...Can    |           4|      13|        18|        2|     0|
+|US...Can    |           4|      14|        19|        2|     0|
 |LAC         |           0|       2|         3|        0|     0|
 |Global      |           3|      16|        18|        0|     0|
 
@@ -228,14 +228,14 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                      | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
 |:---------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
-|Social Capital        |    3|           1|          1|         4|       1|         2|         1|         2|         1|        2|   0|      2|
+|Social Capital        |    3|           1|          1|         5|       1|         2|         1|         2|         1|        2|   0|      2|
 |Human Capital         |    0|           0|          1|         7|       1|         4|         0|         2|         0|        2|   0|      6|
 |Cultural Capital      |    2|           1|          0|         5|       0|         0|         0|         3|         0|        3|   0|      2|
 |World Culture         |    0|           0|          0|         1|       1|         0|         0|         0|         0|        1|   0|      3|
 |Human Rights          |    1|           0|          0|         0|       0|         1|         0|         1|         0|        2|   0|      0|
 |Critical Theory       |    1|           0|          1|         0|       0|         2|         0|         2|         3|        0|   0|      0|
 |Political Theory      |    1|           0|          0|         0|       0|         0|         0|         1|         1|        0|   0|      0|
-|None or Unclear to us |    5|           1|          4|        26|       9|         9|         1|        15|        13|       10|   3|      8|
+|None or Unclear to us |    5|           1|          4|        26|       9|         9|         1|        15|        13|        9|   3|      8|
 |value                 |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
 # Theoreortical framework by year group
@@ -250,8 +250,8 @@ Document was last updated on 2014-09-20 11:35:42.
 |1990-94 |              1|             0|                0|             0|            0|               0|                0|                     4|
 |1995-99 |              0|             2|                1|             0|            1|               0|                0|                     7|
 |2000-04 |              1|             0|                3|             1|            0|               0|                0|                     7|
-|2005-09 |              3|             7|                3|             0|            1|               1|                0|                    18|
-|2010-14 |             10|            11|                8|             3|            3|               4|                1|                    54|
+|2005-09 |              3|             7|                3|             0|            1|               1|                0|                    17|
+|2010-14 |             11|            11|                8|             3|            3|               4|                1|                    54|
 
 # Theoretical framework by research method
 ### Graphs for all entries
@@ -261,14 +261,14 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                      | Quantitative| Qualitative| Mixed| None.or.unclear|
 |:---------------------|------------:|-----------:|-----:|---------------:|
-|Social Capital        |            7|           8|     0|               0|
+|Social Capital        |            8|           8|     0|               0|
 |Human Capital         |           13|           4|     2|               1|
 |Cultural Capital      |            8|           6|     1|               0|
 |World Culture         |            1|           1|     1|               1|
 |Human Rights          |            2|           2|     1|               0|
 |Critical Theory       |            0|           4|     1|               0|
 |Political Theory      |            0|           1|     0|               0|
-|None or Unclear to us |           32|          39|    20|               1|
+|None or Unclear to us |           32|          38|    20|               1|
 |value                 |            0|           0|     0|               0|
 
 # Theoretical framework by research approach
@@ -279,14 +279,14 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                      | Single.country...case| Comparative|
 |:---------------------|---------------------:|-----------:|
-|Social Capital        |                    11|           4|
+|Social Capital        |                    11|           5|
 |Human Capital         |                    13|           5|
 |Cultural Capital      |                    11|           4|
 |World Culture         |                     2|           2|
 |Human Rights          |                     5|           0|
 |Critical Theory       |                     3|           2|
 |Political Theory      |                     0|           1|
-|None or Unclear to us |                    74|          18|
+|None or Unclear to us |                    74|          17|
 |value                 |                     0|           0|
 
 # Framing by region
@@ -297,7 +297,7 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
 |:---------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
-|Exam Prep       |   11|           3|          5|        47|      11|        13|         2|        18|        16|       18|   2|     16|
+|Exam Prep       |   11|           3|          5|        46|      11|        13|         2|        18|        16|       18|   2|     16|
 |Corruption      |    0|           0|          5|         5|       1|         5|         0|         1|         5|        0|   0|      8|
 |Equity          |   12|           2|          6|        25|       6|        12|         1|        16|        16|        9|   3|     11|
 |Economic        |    0|           1|          2|        23|       5|         8|         0|         5|         3|        6|   0|      7|
@@ -319,7 +319,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |1995-99 |                                                        7|          1|      4|                                     3|               0|            1|                      2|
 |2000-04 |                                                       13|          0|      7|                                     2|               0|            4|                      2|
 |2005-09 |                                                       35|          8|     25|                                    16|               3|           14|                     19|
-|2010-14 |                                                       79|         14|     59|                                    30|               3|           21|                     27|
+|2010-14 |                                                       78|         14|     59|                                    30|               3|           21|                     27|
 
 # Framed by research method
 ### Graphs for all entries
@@ -329,7 +329,7 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                | Quantitative| Qualitative| Mixed| None.or.unclear|
 |:---------------|------------:|-----------:|-----:|---------------:|
-|Exam Prep       |           60|          55|    23|               3|
+|Exam Prep       |           59|          55|    23|               3|
 |Corruption      |            4|          11|     8|               0|
 |Equity          |           44|          40|    14|               1|
 |Economic        |           22|          23|     4|               3|
@@ -346,7 +346,7 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                | Single.country...case| Comparative|
 |:---------------|---------------------:|-----------:|
-|Exam Prep       |                   109|          31|
+|Exam Prep       |                   109|          30|
 |Corruption      |                     8|          15|
 |Equity          |                    72|          27|
 |Economic        |                    39|          12|
@@ -363,10 +363,10 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                                                         | Social Capital| Human Capital| Cultural Capital| World Culture| Human Rights| Critical Theory| Political Theory| None or Unclear to us| value|
 |:--------------------------------------------------------|--------------:|-------------:|----------------:|-------------:|------------:|---------------:|----------------:|---------------------:|-----:|
-|Related.to.curriculum.coverage...ed..quality...exam.prep |             13|            14|               13|             4|            4|               4|                1|                    77|     0|
+|Related.to.curriculum.coverage...ed..quality...exam.prep |             13|            14|               13|             4|            4|               4|                1|                    76|     0|
 |Corruption                                               |              2|             5|                0|             1|            1|               1|                0|                    12|     0|
-|Equity                                                   |             11|            11|                9|             1|            4|               4|                1|                    54|     0|
-|Supply...Demand...Economic.Efficiency                    |              5|            12|                3|             2|            1|               0|                0|                    25|     0|
+|Equity                                                   |             12|            11|                9|             1|            4|               4|                1|                    53|     0|
+|Supply...Demand...Economic.Efficiency                    |              6|            12|                3|             2|            1|               0|                0|                    24|     0|
 |Social.Cohesion                                          |              3|             2|                1|             0|            0|               0|                0|                     2|     0|
 |Global.Trend                                             |              3|             7|                1|             4|            0|               0|                0|                    21|     0|
 |Household.Expenditures                                   |              4|             8|                3|             0|            0|               0|                0|                    29|     0|
@@ -381,7 +381,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |:------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
 |Raises concerns    |    6|           0|          1|        10|       4|         3|         0|         5|         3|       10|   2|      1|
 |Discusses benefits |    0|           0|          0|         6|       1|         3|         1|         4|         1|        3|   0|      3|
-|Both               |    4|           2|          4|        29|       5|        10|         1|        13|        13|        7|   0|     14|
+|Both               |    4|           2|          5|        28|       5|        10|         1|        13|        14|        7|   0|     14|
 |Neither            |    1|           1|          0|        11|       2|         0|         0|         2|         0|        3|   0|      0|
 |value              |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
@@ -397,8 +397,8 @@ Document was last updated on 2014-09-20 11:35:42.
 |1990-94 |               0|                  0|    4|       1|
 |1995-99 |               3|                  1|    6|       1|
 |2000-04 |               4|                  2|    6|       1|
-|2005-09 |               6|                  4|   23|       5|
-|2010-14 |              28|                  8|   48|      10|
+|2005-09 |               6|                  4|   22|       5|
+|2010-14 |              28|                  8|   49|      10|
 
 # HowViewed by research method
 ### Graphs for all entries
@@ -410,7 +410,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |:------------------|------------:|-----------:|-----:|---------------:|
 |Raises concerns    |           16|          19|     6|               1|
 |Discusses benefits |            6|           7|     2|               0|
-|Both               |           38|          38|    10|               2|
+|Both               |           38|          37|    11|               2|
 |Neither            |            9|           4|     5|               1|
 |value              |            0|           0|     0|               0|
 
@@ -424,7 +424,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |:------------------|---------------------:|-----------:|
 |Raises concerns    |                    36|           6|
 |Discusses benefits |                    12|           3|
-|Both               |                    62|          24|
+|Both               |                    61|          25|
 |Neither            |                    18|           1|
 |value              |                     0|           0|
 
@@ -438,7 +438,7 @@ Document was last updated on 2014-09-20 11:35:42.
 |:------------------|--------------:|-------------:|----------------:|-------------:|------------:|---------------:|----------------:|---------------------:|-----:|
 |Raises.concerns    |              6|             5|                6|             0|            5|               1|                1|                    19|     0|
 |Discusses.benefits |              0|             1|                2|             2|            0|               0|                0|                    10|     0|
-|Both               |              8|            13|                6|             1|            0|               4|                0|                    47|     0|
+|Both               |              9|            13|                6|             1|            0|               4|                0|                    46|     0|
 |Neither            |              1|             1|                1|             1|            0|               0|                0|                    12|     0|
 
 # How Viewed by Framed
@@ -449,8 +449,8 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                                                         | Raises concerns| Discusses benefits| Both| Neither| value|
 |:--------------------------------------------------------|---------------:|------------------:|----:|-------:|-----:|
-|Related.to.curriculum.coverage...ed..quality...exam.prep |              39|                 11|   68|      17|     0|
-|Corruption                                               |               5|                  0|   16|       0|     0|
+|Related.to.curriculum.coverage...ed..quality...exam.prep |              39|                 11|   67|      17|     0|
+|Corruption                                               |               5|                  0|   17|       0|     0|
 |Equity                                                   |              32|                  3|   57|       3|     0|
 |Supply...Demand...Economic.Efficiency                    |               9|                  6|   31|       5|     0|
 |Social.Cohesion                                          |               2|                  1|    4|       0|     0|
@@ -468,10 +468,10 @@ Document was last updated on 2014-09-20 11:35:42.
 |Non-tutor teachers |                     8|    5|           0|          0|        13|       2|         3|         1|         2|         5|        2|   1|      1|
 |Teachers who tutor |                     9|    4|           1|          0|        16|       2|         4|         1|         2|         5|        4|   1|      1|
 |Tutors             |                     3|    2|           1|          0|         4|       1|         0|         0|         2|         2|        1|   0|      0|
-|Parents            |                    10|    5|           2|          1|        18|       3|         9|         1|         5|         4|        6|   1|      1|
-|Students           |                    10|    5|           0|          4|        31|       4|         7|         2|         8|         7|        9|   2|      4|
+|Parents            |                    10|    5|           2|          1|        21|       4|         9|         1|         6|         4|        6|   1|      1|
+|Students           |                    10|    5|           0|          4|        33|       5|         7|         2|        10|         7|       10|   2|      4|
 |Policymakers       |                     3|    1|           1|          0|         3|       0|         2|         0|         0|         1|        1|   0|      0|
-|Documents          |                     2|    4|           0|          2|        10|       4|         3|         0|        10|         8|        7|   1|     12|
+|Documents          |                     2|    4|           0|          2|        12|       5|         3|         0|        11|         8|        9|   1|     14|
 |value              |                     0|    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
 # Stakeholders by year group
@@ -484,10 +484,10 @@ Document was last updated on 2014-09-20 11:35:42.
 |:-------|-------------------------:|------------------:|---------------------------:|---------------------:|-------------------:|--------:|------------:|---------:|
 |1985-89 |                         1|                  2|                           0|                     0|                   0|        3|            0|         0|
 |1990-94 |                         0|                  0|                           1|                     0|                   1|        4|            0|         1|
-|1995-99 |                         2|                  3|                           0|                     1|                   3|        3|            3|         4|
-|2000-04 |                         2|                  3|                           2|                     2|                   3|        5|            1|         2|
-|2005-09 |                         8|                 10|                           2|                     4|                  11|       18|            1|         8|
-|2010-14 |                        15|                 16|                           6|                     5|                  32|       40|            4|        31|
+|1995-99 |                         2|                  3|                           0|                     1|                   3|        3|            3|         5|
+|2000-04 |                         2|                  3|                           2|                     2|                   3|        7|            1|         4|
+|2005-09 |                         8|                 10|                           2|                     4|                  12|       19|            1|        11|
+|2010-14 |                        15|                 16|                           6|                     5|                  36|       43|            4|        32|
 
 # Stakeholders by theory
 ### Graphs for all entries
@@ -497,14 +497,14 @@ Document was last updated on 2014-09-20 11:35:42.
 
 |                      | Non-tutor teachers| Tutors who tutor| Tutors| Parents| Students| Policymakers| Documents| value|
 |:---------------------|------------------:|----------------:|------:|-------:|--------:|------------:|---------:|-----:|
-|Social.Capital        |                  2|                1|      0|       4|        6|            0|         5|     0|
-|Human.Capital         |                  0|                1|      0|       6|        7|            1|         6|     0|
-|Cultural.Capital      |                  3|                3|      2|       4|        8|            1|         2|     0|
+|Social.Capital        |                  2|                1|      0|       5|        6|            0|         5|     0|
+|Human.Capital         |                  0|                1|      0|       7|        7|            1|         7|     0|
+|Cultural.Capital      |                  3|                3|      2|       4|        9|            1|         2|     0|
 |World.Culture         |                  0|                0|      0|       0|        1|            0|         3|     0|
-|Human.Rights          |                  1|                2|      0|       2|        2|            0|         2|     0|
+|Human.Rights          |                  1|                2|      0|       2|        2|            0|         3|     0|
 |Critical.Theory       |                  1|                1|      0|       0|        2|            0|         2|     0|
 |Political.Theory      |                  0|                0|      0|       0|        0|            0|         1|     0|
-|None.or.Unclear.to.us |                 11|               14|      5|      25|       35|            5|        26|     0|
+|None.or.Unclear.to.us |                 11|               14|      5|      28|       40|            5|        30|     0|
 |School.administrators |                  8|                9|      3|      10|       10|            3|         2|     0|
 
 # WhatTaught by region
@@ -544,14 +544,14 @@ WhatTaught by year group
 
 |                      | School subjects| Extracurriculars| Both| Not defined| value|
 |:---------------------|---------------:|----------------:|----:|-----------:|-----:|
-|Social.Capital        |              12|                0|    2|           1|     0|
+|Social.Capital        |              12|                0|    3|           1|     0|
 |Human.Capital         |              16|                0|    2|           2|     0|
 |Cultural.Capital      |              12|                2|    1|           0|     0|
 |World.Culture         |               4|                0|    0|           0|     0|
 |Human.Rights          |               5|                0|    0|           0|     0|
 |Critical.Theory       |               4|                0|    1|           0|     0|
 |Political.Theory      |               1|                0|    0|           0|     0|
-|None.or.Unclear.to.us |              78|                1|    9|           3|     0|
+|None.or.Unclear.to.us |              77|                1|    9|           3|     0|
 
 # WhereOccur by region
 ### Graphs for all entries
@@ -562,10 +562,10 @@ WhatTaught by year group
 |                  | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
 |:-----------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
 |On school grounds |    4|           2|          5|        11|       2|         8|         1|         5|        10|        4|   1|      7|
-|Designated center |    8|           1|          1|        32|       5|         7|         1|        14|         7|       16|   2|      8|
+|Designated center |    8|           1|          1|        32|       5|         7|         1|        14|         7|       17|   2|      8|
 |Web               |    3|           0|          1|        12|       2|         2|         0|         5|         6|        5|   0|      7|
 |Student's home    |    6|           2|          5|        14|       5|         6|         1|         9|        11|        5|   0|      7|
-|Outside school    |    5|           0|          4|        19|       6|         4|         1|        10|        11|        6|   2|     10|
+|Outside school    |    5|           0|          4|        20|       6|         4|         1|        10|        11|        7|   2|     10|
 |Not defined       |    3|           1|          1|        18|       5|         8|         1|         7|         4|        3|   1|      6|
 |value             |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
@@ -579,10 +579,10 @@ WhatTaught by year group
 |:-------|-----------------:|---------------------------------------:|-----------------:|---------------------:|--------------------:|-----------:|
 |1985-89 |                 0|                                       1|                 0|                     1|                    0|           2|
 |1990-94 |                 0|                                       4|                 0|                     3|                    3|           1|
-|1995-99 |                 2|                                       7|                 0|                     0|                    1|           5|
-|2000-04 |                 3|                                       6|                 2|                     6|                    8|           1|
+|1995-99 |                 2|                                       7|                 0|                     0|                    2|           5|
+|2000-04 |                 3|                                       7|                 2|                     6|                    8|           1|
 |2005-09 |                 9|                                      13|                 3|                    10|                   12|          19|
-|2010-14 |                30|                                      56|                27|                    34|                   40|          26|
+|2010-14 |                30|                                      56|                27|                    34|                   41|          26|
 
 # WhereOccur by theory
 ### Graphs for all entries
@@ -592,11 +592,11 @@ WhatTaught by year group
 
 |                      | On school grounds| Designated center| Web| Student's home| Outside school| Not defined| value|
 |:---------------------|-----------------:|-----------------:|---:|--------------:|--------------:|-----------:|-----:|
-|Social.Capital        |                 4|                 8|   3|              8|              5|           5|     0|
+|Social.Capital        |                 4|                 8|   3|              8|              6|           5|     0|
 |Human.Capital         |                 6|                11|   6|              6|              7|           5|     0|
-|Cultural.Capital      |                 2|                11|   1|              4|              2|           3|     0|
+|Cultural.Capital      |                 2|                11|   1|              4|              3|           3|     0|
 |World.Culture         |                 2|                 2|   2|              2|              2|           0|     0|
-|Human.Rights          |                 1|                 2|   0|              0|              0|           2|     0|
+|Human.Rights          |                 1|                 2|   0|              0|              1|           2|     0|
 |Critical.Theory       |                 3|                 1|   1|              2|              2|           2|     0|
 |Political.Theory      |                 1|                 1|   1|              1|              1|           0|     0|
 |None.or.Unclear.to.us |                25|                49|  19|             33|             41|          28|     0|
@@ -609,9 +609,9 @@ WhatTaught by year group
 
 |                | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
 |:---------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
-|Current teacher |    4|           2|          5|        15|       7|        11|         1|         4|        13|        1|   1|     14|
-|Other k-12      |    5|           2|          5|        16|       8|         9|         1|         5|        14|        4|   1|     12|
-|Retired teacher |    1|           0|          1|         7|       4|         2|         0|         6|         4|        2|   1|      6|
+|Current teacher |    4|           2|          5|        15|       7|        11|         1|         5|        13|        1|   1|     14|
+|Other k-12      |    5|           2|          5|        16|       8|         9|         1|         6|        14|        4|   1|     12|
+|Retired teacher |    1|           0|          1|         7|       4|         2|         0|         7|         4|        2|   1|      6|
 |Univ. faculty   |    1|           0|          2|         3|       3|         2|         0|         4|         6|        0|   0|      9|
 |Professional    |    7|           1|          4|        29|       6|         6|         0|        14|        11|       11|   0|     12|
 |Col. student    |    1|           0|          1|         8|       3|         2|         0|         6|         2|        2|   0|      6|
@@ -632,7 +632,7 @@ WhatTaught by year group
 |1985-89 |                         1|                   1|               1|                  0|                                1|               1|              0|                       0|                            0|           1|
 |1990-94 |                         0|                   1|               0|                  0|                                3|               0|              0|                       1|                            1|           1|
 |1995-99 |                         5|                   2|               1|                  0|                                6|               1|              1|                       0|                            0|           1|
-|2000-04 |                         3|                   4|               3|                  1|                                9|               0|              0|                       0|                            0|           3|
+|2000-04 |                         4|                   5|               4|                  1|                                9|               0|              0|                       0|                            0|           3|
 |2005-09 |                        19|                  18|               6|                  9|                               18|               4|              3|                       1|                            5|          15|
 |2010-14 |                        33|                  39|              17|                 13|                               50|              19|              4|                       2|                            5|          35|
 
@@ -644,14 +644,14 @@ WhatTaught by year group
 
 |                      | Current teacher| Other k-12| Retired teacher| Univ. faculty| Professional| Col. student| Peer| Family| Community| Not defined| value|
 |:---------------------|---------------:|----------:|---------------:|-------------:|------------:|------------:|----:|------:|---------:|-----------:|-----:|
-|Social.Capital        |               3|          4|               2|             3|            7|            2|    1|      1|         1|           7|     0|
+|Social.Capital        |               3|          4|               2|             3|            8|            2|    1|      1|         1|           7|     0|
 |Human.Capital         |               9|          9|               4|             5|           10|            3|    1|      1|         3|           8|     0|
 |Cultural.Capital      |               3|          4|               5|             2|            9|            3|    0|      0|         1|           5|     0|
 |World.Culture         |               1|          1|               1|             0|            1|            1|    0|      0|         0|           3|     0|
 |Human.Rights          |               1|          0|               0|             0|            2|            0|    0|      0|         0|           2|     0|
 |Critical.Theory       |               4|          3|               2|             1|            1|            1|    0|      0|         0|           1|     0|
 |Political.Theory      |               0|          0|               0|             0|            0|            0|    0|      0|         0|           1|     0|
-|None.or.Unclear.to.us |              35|         38|              15|            15|           51|           15|    5|      3|         6|          27|     0|
+|None.or.Unclear.to.us |              36|         39|              16|            15|           50|           15|    5|      3|         6|          27|     0|
 
 # DoesCharge by region
 ### Graphs for all entries
@@ -662,10 +662,10 @@ WhatTaught by year group
 |                             | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
 |:----------------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
 |                             |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
-|Both                         |    1|           1|          1|         1|       4|         2|         1|         2|         2|        3|   0|      0|
+|Both                         |    1|           1|          1|         0|       3|         2|         1|         3|         2|        3|   0|      1|
 |No, they do not charge a fee |    0|           0|          0|         0|       0|         0|         0|         0|         0|        1|   0|      0|
 |Not defined                  |    2|           0|          0|         5|       1|         2|         0|         1|         0|        4|   0|      2|
-|Yes, they charge a fee       |    9|           2|          5|        50|       7|        14|         1|        21|        16|       15|   3|     17|
+|Yes, they charge a fee       |    9|           2|          5|        51|       8|        14|         1|        20|        16|       15|   3|     16|
 
 # DoesCharge by year group
 ### Graphs for all entries
@@ -679,7 +679,7 @@ WhatTaught by year group
 |1990-94 |  0|    0|                            0|           0|                      5|
 |1995-99 |  0|    0|                            1|           2|                      9|
 |2000-04 |  0|    1|                            0|           1|                     11|
-|2005-09 |  0|    4|                            0|           5|                     31|
+|2005-09 |  0|    5|                            0|           5|                     30|
 |2010-14 |  0|    9|                            0|           5|                     83|
 
 # DoesCharge by WhoProvides
@@ -691,10 +691,10 @@ WhatTaught by year group
 |                             | Current.classroom.teacher| Other.K.12.teachers| Retired.teacher| University.faculty| Institution...Professional.tutor| College.student| Peer.classmate| Parent.or.family.member| Community.member...volunteer| Not.defined|
 |:----------------------------|-------------------------:|-------------------:|---------------:|------------------:|--------------------------------:|---------------:|--------------:|-----------------------:|----------------------------:|-----------:|
 |                             |                         0|                   0|               0|                  0|                                0|               0|              0|                       0|                            0|           0|
-|Both                         |                         9|                   9|               4|                  2|                                6|               3|              2|                       1|                            3|           3|
+|Both                         |                        10|                  10|               5|                  3|                                8|               3|              2|                       1|                            4|           3|
 |No, they do not charge a fee |                         1|                   0|               1|                  0|                                0|               1|              0|                       0|                            0|           0|
 |Not defined                  |                         3|                   1|               0|                  0|                                1|               0|              0|                       0|                            0|           9|
-|Yes, they charge a fee       |                        48|                  55|              23|                 21|                               80|              21|              6|                       3|                            8|          44|
+|Yes, they charge a fee       |                        48|                  55|              23|                 20|                               78|              21|              6|                       3|                            7|          44|
 
 # ClassSize by Region
 ### Graphs for all entries
@@ -709,7 +709,7 @@ WhatTaught by year group
 |Large groups                  |    0|           0|          0|         0|       0|         0|         0|         0|         0|        1|   0|      0|
 |Small groups                  |    0|           0|          0|         0|       1|         1|         0|         2|         0|        4|   0|      0|
 |Unclear                       |    3|           1|          1|        13|       2|         5|         0|         4|         1|        6|   1|      2|
-|Various class sizes discussed |    9|           2|          5|        42|       9|        12|         2|        17|        17|       11|   2|     17|
+|Various class sizes discussed |    9|           2|          5|        42|       9|        12|         2|        17|        17|       12|   2|     17|
 
 # OperationSize by region
 ### Graphs for all entries
@@ -722,7 +722,7 @@ WhatTaught by year group
 |Individual  |                      0|    1|           0|          0|         1|       1|         3|         0|         2|         3|        1|   0|      1|
 |Small firms |                      0|    2|           0|          0|         5|       0|         1|         0|         3|         1|        2|   0|      0|
 |Large firm  |                      0|    1|           0|          0|         3|       0|         0|         0|         1|         0|        5|   0|      0|
-|Various     |                      0|    9|           2|          6|        41|       8|        12|         2|        18|        15|       14|   2|     18|
+|Various     |                      0|    9|           2|          6|        42|       8|        12|         2|        18|        15|       14|   2|     18|
 |value       |                      0|    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
 # Why Taking by region
@@ -735,7 +735,7 @@ WhatTaught by year group
 |:-----------------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
 |Student falls behind          |    8|           2|          4|        36|      10|        11|         1|        13|        11|       18|   2|     15|
 |Preparation for exams         |   10|           3|          5|        54|      12|        12|         1|        15|        15|       17|   3|     15|
-|Make up for perceived failure |    8|           2|          6|        41|      11|        13|         0|        10|        10|       13|   1|     17|
+|Make up for perceived failure |    8|           2|          6|        41|      11|        13|         0|        10|        10|       14|   1|     17|
 |For cultural reasons          |    0|           0|          1|        26|       5|         7|         0|         4|         0|        5|   0|      7|
 |Enrichment activities         |    0|           1|          1|         5|       2|         3|         0|         1|         1|        2|   0|      0|
 |Peer pressure                 |    1|           0|          1|        12|       2|         2|         1|         3|         2|        0|   0|      4|
@@ -753,7 +753,7 @@ WhatTaught by year group
 |:-------|-----------------------------------------:|------------------------------------------------------:|---------------------------------------------------------------:|--------------------:|--------------------------------------:|-------------:|----------------:|---------------------:|
 |1985-89 |                                         2|                                                      3|                                                               1|                    0|                                      0|             1|                1|                     0|
 |1990-94 |                                         3|                                                      5|                                                               3|                    0|                                      0|             1|                1|                     0|
-|1995-99 |                                         5|                                                      6|                                                               7|                    1|                                      1|             0|                1|                     1|
+|1995-99 |                                         5|                                                      6|                                                               8|                    1|                                      1|             0|                1|                     1|
 |2000-04 |                                        11|                                                     10|                                                               9|                    7|                                      0|             3|                0|                     0|
 |2005-09 |                                        23|                                                     31|                                                              27|                   12|                                      3|             4|                2|                     2|
 |2010-14 |                                        66|                                                     85|                                                              61|                   27|                                      6|            13|               12|                     2|
@@ -770,7 +770,7 @@ WhatTaught by year group
 |:-----------------------------|------------:|-----------:|-----:|---------------:|
 |Student falls behind          |           39|          50|    17|               4|
 |Preparation for exams         |           61|          54|    22|               3|
-|Make up for perceived failure |           44|          46|    14|               4|
+|Make up for perceived failure |           44|          47|    14|               4|
 |For cultural reasons          |           23|          17|     7|               0|
 |Enrichment activities         |            3|           6|     1|               0|
 |Peer pressure                 |            8|           9|     5|               0|
@@ -788,7 +788,7 @@ WhatTaught by year group
 |:-----------------------------|---------------------:|-----------:|
 |Student falls behind          |                    78|          31|
 |Preparation for exams         |                   108|          31|
-|Make up for perceived failure |                    77|          29|
+|Make up for perceived failure |                    78|          29|
 |For cultural reasons          |                    34|          13|
 |Enrichment activities         |                     7|           3|
 |Peer pressure                 |                    15|           7|
@@ -804,15 +804,15 @@ WhatTaught by year group
 
 |                              | Social.Capital| Human.Capital| Cultural.Capital| World.Culture| Human.Rights| Critical.Theory| Political.Theory| None.or.Unclear.to.us|
 |:-----------------------------|--------------:|-------------:|----------------:|-------------:|------------:|---------------:|----------------:|---------------------:|
-|Student falls behind          |              9|            16|                8|             3|            1|               3|                1|                    58|
-|Preparation for exams         |             13|            18|               13|             3|            3|               3|                1|                    75|
-|Make up for perceived failure |              8|            15|                8|             3|            1|               4|                1|                    54|
+|Student falls behind          |             10|            16|                8|             3|            1|               3|                1|                    57|
+|Preparation for exams         |             14|            18|               13|             3|            3|               3|                1|                    74|
+|Make up for perceived failure |              9|            15|                8|             3|            2|               4|                1|                    53|
 |For cultural reasons          |              4|             7|               10|             0|            0|               0|                0|                    23|
-|Enrichment activities         |              1|             1|                1|             0|            0|               0|                0|                     6|
+|Enrichment activities         |              2|             1|                1|             0|            0|               0|                0|                     6|
 |Peer pressure                 |              3|             3|                1|             1|            0|               1|                1|                    12|
 |Teacher pressure              |              2|             3|                0|             1|            0|               1|                1|                    10|
 |Not stated or unclear         |              0|             0|                0|             0|            0|               1|                0|                     4|
-|value                         |             15|            20|               15|             4|            5|               5|                1|                    92|
+|value                         |             16|            20|               15|             4|            5|               5|                1|                    91|
 
 # Why Taking by Framed
 ### Graphs for all entries
@@ -822,10 +822,10 @@ WhatTaught by year group
 
 |                                                         | Student falls behind| Preparation for exams| Make up for perceived failure| For cultural reasons| Enrichment activities| Peer pressure| Teacher pressure| Not stated or unclear| value|
 |:--------------------------------------------------------|--------------------:|---------------------:|-----------------------------:|--------------------:|---------------------:|-------------:|----------------:|---------------------:|-----:|
-|Related.to.curriculum.coverage...ed..quality...exam.prep |                   99|                   120|                            94|                   41|                     5|            21|               17|                     5|     0|
+|Related.to.curriculum.coverage...ed..quality...exam.prep |                   98|                   119|                            93|                   41|                     4|            21|               17|                     5|     0|
 |Corruption                                               |                   19|                    20|                            16|                    7|                     4|             5|                8|                     0|     0|
 |Equity                                                   |                   68|                    86|                            66|                   22|                     5|            13|               14|                     2|     0|
-|Supply...Demand...Economic.Efficiency                    |                   35|                    45|                            37|                   17|                     5|             7|                5|                     0|     0|
+|Supply...Demand...Economic.Efficiency                    |                   35|                    45|                            38|                   17|                     5|             7|                5|                     0|     0|
 |Social.Cohesion                                          |                    5|                     6|                             6|                    3|                     2|             1|                1|                     0|     0|
 |Global.Trend                                             |                   31|                    35|                            30|                   13|                     3|             9|               10|                     0|     0|
 |Household.Expenditures                                   |                   29|                    45|                            35|                   20|                     3|            12|               10|                     2|     0|

@@ -3,41 +3,39 @@
 
 
 
-### Number of duplicate ID numbers in the Google Doc: 10
+### Number of duplicate ID numbers in the Google Doc: 0
 
-### List of all duplicates as of 2014-09-24 12:44:03:
-
-
-|ID  |Reviewer   |Publisher                        |PubLang |
-|:---|:----------|:--------------------------------|:-------|
-|160 |Xia Zhao   |Theory and Practice of Education |Chinese |
-|160 |Xia Zhao   |Contemporary Educational Science |Chinese |
-|161 |Xia Zhao   |World Education Information      |Chinese |
-|161 |Xiaoran Yu |Journal of World Education       |Chinese |
-|169 |Xia Zhao   |Career Horizon                   |Chinese |
-|169 |Xiaoran Yu |Career Horizon                   |Chinese |
-|170 |Xia Zhao   |Shenzhou Education               |Chinese |
-|170 |Xiaoran Yu |Shenzhou Education               |Chinese |
-|171 |Xia Zhao   |Jiannan Literature               |Chinese |
-|171 |Xiaoran Yu |Jiannan Literature               |Chinese |
-
-### List of all 10 Chinese-language duplicates as of 2014-09-24 12:44:03:
+### List of all duplicates as of 2014-09-24 22:31:47:
 
 
-|ID  |Reviewer   |Publisher                        |PubLang |
-|:---|:----------|:--------------------------------|:-------|
-|160 |Xia Zhao   |Theory and Practice of Education |Chinese |
-|160 |Xia Zhao   |Contemporary Educational Science |Chinese |
-|161 |Xia Zhao   |World Education Information      |Chinese |
-|161 |Xiaoran Yu |Journal of World Education       |Chinese |
-|169 |Xia Zhao   |Career Horizon                   |Chinese |
-|169 |Xiaoran Yu |Career Horizon                   |Chinese |
-|170 |Xia Zhao   |Shenzhou Education               |Chinese |
-|170 |Xiaoran Yu |Shenzhou Education               |Chinese |
-|171 |Xia Zhao   |Jiannan Literature               |Chinese |
-|171 |Xiaoran Yu |Jiannan Literature               |Chinese |
+```
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+```
 
-### List of all 0 English-language duplicates as of 2014-09-24 12:44:03:
+
+
+|ID |Reviewer |Publisher |PubLang |
+|:--|:--------|:---------|:-------|
+
+### List of all 0 Chinese-language duplicates as of 2014-09-24 22:31:47:
+
+
+```
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+## Warning: no non-missing arguments to max; returning -Inf
+```
+
+
+
+|ID |Reviewer |Publisher |PubLang |
+|:--|:--------|:---------|:-------|
+
+### List of all 0 English-language duplicates as of 2014-09-24 22:31:47:
 
 
 ```

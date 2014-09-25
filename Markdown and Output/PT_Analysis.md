@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 268
 This number includes 0 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-24 14:38:36.
+Document was last updated on 2014-09-24 22:31:12.
 
 Throughout this document the data are divided four ways:
 
@@ -75,12 +75,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Asia Pacific Education Review </td>
-   <td align="right"> 15 </td>
-  </tr>
-  <tr>
-   <td align="left"> Asia Pacific Education Review
- </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 17 </td>
   </tr>
   <tr>
    <td align="left"> BRAC Center </td>
@@ -152,11 +147,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Comparative Education Review </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Comparative Education Review  </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Compare </td>
@@ -187,8 +178,8 @@ Asian Economic Journal </td>
    <td align="right"> 7 </td>
   </tr>
   <tr>
-   <td align="left"> Education & Economy  </td>
-   <td align="right"> 4 </td>
+   <td align="left"> Education & Economy </td>
+   <td align="right"> 5 </td>
   </tr>
   <tr>
    <td align="left"> Education and Urban Society </td>
@@ -208,10 +199,6 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Education Teaching Forum </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Education&Economy   </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -235,12 +222,8 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Elementary & Secondary Schooling Abroad  </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Elementary and Secondary Schooling Abroad </td>
-   <td align="right"> 1 </td>
+   <td align="left"> Elementary & Secondary Schooling Abroad </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> European Commission </td>
@@ -440,11 +423,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Journal of Youth Studies </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Journal of Youth Studies  </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> KDI School of Public Policy and Management </td>
@@ -492,11 +471,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Northwest Normal University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Northwest Normal University  </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Northwest Population Journal </td>
@@ -560,11 +535,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Research On Education Tsinghua University </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Research On Education Tsinghua University  </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Research Papers in Education </td>
@@ -588,11 +559,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Shanghai Research on Education </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> Shanghai Research on Education  </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Shanxi Financial University </td>
@@ -607,7 +574,7 @@ Asian Economic Journal </td>
    <td align="right"> 3 </td>
   </tr>
   <tr>
-   <td align="left"> Sociological Forum, Springer </td>
+   <td align="left"> Sociological Forum </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -648,11 +615,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> The Science Education Article Collects </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> The Science Education Article Collects  </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> The Study of New Curriculum </td>
@@ -660,10 +623,6 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> The University of Hong Kong </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> The World Bank </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -708,7 +667,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> World Bank </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> World Bank and UNICEF </td>
@@ -933,6 +892,10 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Mauritius </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Poland </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1121,6 +1084,10 @@ Vietnam Household Testing Survey (VHTS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> 1998 Urban Household Expenditure Survey, Survey on Private Tutoring (1997) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> 2 national wide household survey data, in 1995/96 and 2006/07 </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1189,6 +1156,10 @@ Vietnam Household Testing Survey (VHTS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Household survey </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> In the first year, the target population consisted of students who attended grades four through six at the public school two blocks from the center and who lived in the neighborhood. In the second year of the program, students from the school's new kindergarten program also were permitted to apply. </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1198,6 +1169,10 @@ Vietnam Household Testing Survey (VHTS) </td>
   </tr>
   <tr>
    <td align="left"> Korean Education Longitudinal Study (KELS), conducted by the Korean Educational Research Institute (KEDI) </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Korean Labor and Income Panel Study (KLIPS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1270,6 +1245,10 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Researcher designed survey </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Some information drawn from 72 teachers interviewed and 198 parents surveyed in Cambodia by author </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1300,6 +1279,10 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
   <tr>
    <td align="left"> Survey on the Status of Private Tutoring and the Study of the Policy Measures to
 Reduce Private Tutoring Expenses conducted by Korean Education Development Institute (KEDI) in 2007 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Taiwan Education Panel Survey  </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1457,6 +1440,11 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> 61 </td>
    <td align="left"> Parental Involvement  </td>
    <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 62 </td>
+   <td align="left"> Institutional theory </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 71 </td>
@@ -1748,6 +1736,11 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Culture </td>
    <td align="left"> Hang Duong </td>
   </tr>
+  <tr>
+   <td align="left"> 135e </td>
+   <td align="left"> Response to oppression </td>
+   <td align="left"> Mike </td>
+  </tr>
 </tbody>
 </table>
 
@@ -1813,9 +1806,24 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
+   <td align="left"> 34 </td>
+   <td align="left"> Rich vs poor </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 36 </td>
+   <td align="left"> SES </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
    <td align="left"> 37 </td>
    <td align="left"> SES </td>
    <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 40 </td>
+   <td align="left"> SES </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 47 </td>
@@ -1836,6 +1844,11 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> 50 </td>
    <td align="left"> "private tutoring systems are necessary to challenge the myths of equality and education and to problematize the past and future miracles of East Asian economic development..." p.22 </td>
    <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 51 </td>
+   <td align="left"> SES </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 54 </td>
@@ -1876,6 +1889,11 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
+   <td align="left"> 71 </td>
+   <td align="left"> Public school not supporting Scotish students </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
    <td align="left"> 73 </td>
    <td align="left"> socioeconomic </td>
    <td align="left"> Olga </td>
@@ -1889,6 +1907,11 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> 77 </td>
    <td align="left"> advantages families with more education and wealth </td>
    <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 78 </td>
+   <td align="left"> Education level of parents </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 80 </td>
@@ -2459,6 +2482,11 @@ Education is known to promote social mobility and therefore contributes to impro
  </thead>
 <tbody>
   <tr>
+   <td align="left"> 13 </td>
+   <td align="left"> Employers, Workers </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
    <td align="left"> 17 </td>
    <td align="left"> Juku operators </td>
    <td align="left"> Peggy </td>
@@ -2474,9 +2502,19 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Peggy </td>
   </tr>
   <tr>
+   <td align="left"> 46 </td>
+   <td align="left"> tutors </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
    <td align="left"> 58 </td>
    <td align="left"> Schools </td>
    <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 62 </td>
+   <td align="left"> Summary of previous research </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 69 </td>
@@ -2634,11 +2672,6 @@ Education is known to promote social mobility and therefore contributes to impro
   </tr>
  </thead>
 <tbody>
-  <tr>
-   <td align="left"> 41 </td>
-   <td align="left"> 5 private tutoring institutions in Bavaria </td>
-   <td align="left"> Olga </td>
-  </tr>
   <tr>
    <td align="left"> 175e </td>
    <td align="left"> school  </td>
@@ -2852,6 +2885,16 @@ in all its forms. p.40 </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
+   <td align="left"> 34 </td>
+   <td align="left"> Paper argues that mother's aspirations play a key role in amount of tutoring and level of tutoring </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 41 </td>
+   <td align="left"> Measures benefits of private tutoring (control group) for cognitive and motivational development (study conducted by psychologists) </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
    <td align="left"> 42 </td>
    <td align="left"> Article discusses private tutoring from the standpoint of teachers who find private tutoring space as the only space where they can regain their professional authority and status in the context of accountability reforms during the post-socialist transformations. </td>
    <td align="left"> Iveta </td>
@@ -2886,6 +2929,11 @@ needs of their children." p.17
 
 "anecdotal evidence suggests that shadow education has become a common phenomenon in developing countries, especially those that utilize central examination systems” p.7 </td>
    <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 71 </td>
+   <td align="left"> Historical account looking at 1700s </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 80 </td>
