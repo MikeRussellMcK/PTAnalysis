@@ -1,10 +1,10 @@
-# Relationships for All Asian-region Articles
+# Relationships for All Articles
 
 
 
 ### TOTAL NUMBER OF ARTICLES: 167
 This number includes 0 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-24 22:34:46.
+Document was last updated on 2014-09-25 10:32:12.
 
 # _Region by year group_ for all entries in the database:
 
@@ -463,16 +463,19 @@ Document was last updated on 2014-09-24 22:34:46.
 
 ### Counts for all entries
 
-|                   | School.administrators| MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
-|:------------------|---------------------:|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
-|Non-tutor teachers |                     7|    0|           0|          0|        23|       2|         3|         0|         0|         1|        1|   0|      1|
-|Teachers who tutor |                     8|    0|           0|          0|        38|       2|         4|         0|         0|         1|        1|   0|      1|
-|Tutors             |                     3|    0|           0|          0|         6|       1|         0|         0|         0|         0|        0|   0|      0|
-|Parents            |                     9|    0|           0|          1|        60|       4|         9|         0|         0|         1|        0|   0|      1|
-|Students           |                     9|    0|           0|          4|        78|       5|         7|         0|         0|         4|        1|   0|      1|
-|Policymakers       |                     2|    0|           0|          0|         7|       0|         2|         0|         0|         0|        0|   0|      0|
-|Documents          |                     1|    0|           0|          2|        45|       5|         3|         0|         0|         1|        3|   0|      1|
-|value              |                     0|    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
+|                      | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
+|:---------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
+|Non-tutor teachers    |    0|           0|          0|        23|       2|         3|         0|         0|         1|        1|   0|      1|
+|Teachers who tutor    |    0|           0|          0|        38|       2|         4|         0|         0|         1|        1|   0|      1|
+|Tutors                |    0|           0|          0|         6|       1|         0|         0|         0|         0|        0|   0|      0|
+|Parents               |    0|           0|          1|        60|       4|         9|         0|         0|         1|        0|   0|      1|
+|Students              |    0|           0|          4|        77|       5|         7|         0|         0|         4|        1|   0|      1|
+|School admin          |    0|           0|          0|         9|       0|         1|         0|         0|         0|        0|   0|      0|
+|Tutoring center admin |    0|           0|          0|         1|       0|         0|         0|         0|         0|        0|   0|      0|
+|Academic scholar(s)   |    0|           0|          0|         3|       0|         0|         0|         0|         0|        0|   0|      0|
+|Policymakers          |    0|           0|          0|         7|       0|         2|         0|         0|         0|        0|   0|      0|
+|Documents             |    0|           0|          2|        46|       5|         3|         0|         0|         1|        3|   0|      1|
+|value                 |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
 # Stakeholders by year group
 ### Graphs for all entries
@@ -480,14 +483,14 @@ Document was last updated on 2014-09-24 22:34:46.
 
 ### Counts for all entries
 
-|        | Teachers.who.do.not.tutor| Teachers.who.tutor| Tutors.who.are.not.teachers| School.administrators| Parents...household| Students| Policymakers| Documents|
-|:-------|-------------------------:|------------------:|---------------------------:|---------------------:|-------------------:|--------:|------------:|---------:|
-|1985-89 |                         1|                  2|                           0|                     0|                   0|        2|            0|         0|
-|1990-94 |                         0|                  0|                           1|                     0|                   1|        4|            0|         1|
-|1995-99 |                         2|                  2|                           0|                     0|                   2|        2|            2|         1|
-|2000-04 |                         3|                  4|                           2|                     2|                   3|        5|            1|         2|
-|2005-09 |                         7|                 10|                           1|                     3|                  19|       26|            1|        13|
-|2010-14 |                        13|                 24|                           3|                     4|                  47|       53|            5|        32|
+|        | Teachers.who.do.not.tutor| Teachers.who.tutor| Tutors.who.are.not.teachers| School.administrators| Tutoring.center.admin| Academic.scholars| Parents...household| Students| Policymakers| Documents|
+|:-------|-------------------------:|------------------:|---------------------------:|---------------------:|---------------------:|-----------------:|-------------------:|--------:|------------:|---------:|
+|1985-89 |                         1|                  2|                           0|                     0|                     0|                 0|                   0|        2|            0|         0|
+|1990-94 |                         0|                  0|                           1|                     0|                     0|                 0|                   1|        4|            0|         1|
+|1995-99 |                         2|                  2|                           0|                     0|                     0|                 0|                   2|        2|            2|         1|
+|2000-04 |                         3|                  4|                           2|                     2|                     1|                 1|                   3|        5|            1|         2|
+|2005-09 |                         7|                 10|                           1|                     3|                     0|                 1|                  19|       26|            1|        13|
+|2010-14 |                        13|                 24|                           3|                     5|                     0|                 1|                  47|       52|            5|        33|
 
 # Stakeholders by theory
 ### Graphs for all entries
@@ -499,13 +502,15 @@ Document was last updated on 2014-09-24 22:34:46.
 |:---------------------|------------------:|----------------:|------:|-------:|--------:|------------:|---------:|-----:|
 |Social.Capital        |                  0|                1|      0|       4|        5|            0|         2|     0|
 |Human.Capital         |                  1|                2|      0|       7|        6|            1|         2|     0|
-|Cultural.Capital      |                  2|                4|      2|       4|        7|            1|         0|     0|
+|Cultural.Capital      |                  2|                4|      2|       4|        6|            1|         0|     0|
 |World.Culture         |                  0|                0|      0|       0|        0|            0|         2|     0|
 |Human.Rights          |                  0|                1|      0|       0|        0|            0|         0|     0|
 |Critical.Theory       |                  0|                0|      0|       0|        2|            0|         0|     0|
 |Political.Theory      |                  0|                0|      0|       0|        0|            0|         0|     0|
-|None.or.Unclear.to.us |                 16|               27|      4|      49|       58|            7|        39|     0|
+|None.or.Unclear.to.us |                 16|               27|      4|      49|       58|            7|        40|     0|
 |School.administrators |                  7|                8|      3|       9|        9|            2|         1|     0|
+|Tutoring.center.admin |                  0|                1|      1|       1|        1|            1|         0|     0|
+|Academic.scholars     |                  1|                3|      1|       3|        3|            2|         0|     0|
 
 # WhatTaught by region
 ### Graphs for all entries

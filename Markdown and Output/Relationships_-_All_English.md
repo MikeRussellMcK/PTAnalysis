@@ -4,7 +4,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 170
 This number includes 0 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-24 22:32:18.
+Document was last updated on 2014-09-25 10:34:26.
 
 # _Region by year group_ for all entries in the database:
 
@@ -300,7 +300,7 @@ Document was last updated on 2014-09-24 22:32:18.
 |Exam Prep       |   11|           3|          5|        46|      11|        13|         2|        18|        16|       18|   2|     16|
 |Corruption      |    0|           0|          5|         5|       1|         5|         0|         1|         5|        0|   0|      8|
 |Equity          |   12|           2|          6|        25|       6|        12|         1|        16|        16|        9|   3|     11|
-|Economic        |    0|           1|          2|        23|       5|         8|         0|         5|         3|        6|   0|      7|
+|Economic        |    0|           1|          2|        23|       5|         8|         0|         5|         3|        7|   0|      7|
 |Social Cohesion |    1|           0|          1|         3|       1|         1|         0|         1|         1|        0|   0|      1|
 |Global Trend    |    2|           0|          1|        14|       6|         4|         0|         3|         4|        2|   2|     12|
 |Household       |    2|           0|          1|        23|       5|        10|         0|         2|         4|        1|   1|      6|
@@ -318,7 +318,7 @@ Document was last updated on 2014-09-24 22:32:18.
 |1990-94 |                                                        4|          0|      2|                                     1|               0|            0|                      2|
 |1995-99 |                                                        7|          1|      4|                                     3|               0|            1|                      2|
 |2000-04 |                                                       13|          0|      7|                                     2|               0|            4|                      2|
-|2005-09 |                                                       35|          8|     25|                                    16|               3|           14|                     19|
+|2005-09 |                                                       35|          8|     25|                                    17|               3|           14|                     19|
 |2010-14 |                                                       78|         14|     59|                                    30|               3|           21|                     27|
 
 # Framed by research method
@@ -332,7 +332,7 @@ Document was last updated on 2014-09-24 22:32:18.
 |Exam Prep       |           59|          55|    23|               3|
 |Corruption      |            4|          11|     8|               0|
 |Equity          |           44|          40|    14|               1|
-|Economic        |           22|          23|     4|               3|
+|Economic        |           23|          23|     4|               3|
 |Social Cohesion |            1|           5|     1|               0|
 |Global Trend    |           18|          16|     5|               1|
 |Household       |           33|          10|     9|               0|
@@ -349,7 +349,7 @@ Document was last updated on 2014-09-24 22:32:18.
 |Exam Prep       |                   109|          30|
 |Corruption      |                     8|          15|
 |Equity          |                    72|          27|
-|Economic        |                    39|          12|
+|Economic        |                    40|          12|
 |Social Cohesion |                     4|           3|
 |Global Trend    |                    25|          15|
 |Household       |                    44|           8|
@@ -366,7 +366,7 @@ Document was last updated on 2014-09-24 22:32:18.
 |Related.to.curriculum.coverage...ed..quality...exam.prep |             13|            14|               13|             4|            4|               4|                1|                    76|     0|
 |Corruption                                               |              2|             5|                0|             1|            1|               1|                0|                    12|     0|
 |Equity                                                   |             12|            11|                9|             1|            4|               4|                1|                    53|     0|
-|Supply...Demand...Economic.Efficiency                    |              6|            12|                3|             2|            1|               0|                0|                    24|     0|
+|Supply...Demand...Economic.Efficiency                    |              6|            13|                3|             2|            1|               0|                0|                    24|     0|
 |Social.Cohesion                                          |              3|             2|                1|             0|            0|               0|                0|                     2|     0|
 |Global.Trend                                             |              3|             7|                1|             4|            0|               0|                0|                    21|     0|
 |Household.Expenditures                                   |              4|             8|                3|             0|            0|               0|                0|                    29|     0|
@@ -452,7 +452,7 @@ Document was last updated on 2014-09-24 22:32:18.
 |Related.to.curriculum.coverage...ed..quality...exam.prep |              39|                 11|   67|      17|     0|
 |Corruption                                               |               5|                  0|   17|       0|     0|
 |Equity                                                   |              32|                  3|   57|       3|     0|
-|Supply...Demand...Economic.Efficiency                    |               9|                  6|   31|       5|     0|
+|Supply...Demand...Economic.Efficiency                    |              10|                  6|   31|       5|     0|
 |Social.Cohesion                                          |               2|                  1|    4|       0|     0|
 |Global.Trend                                             |               9|                  5|   23|       2|     0|
 |Household.Expenditures                                   |              10|                  1|   30|       6|     0|
@@ -463,16 +463,19 @@ Document was last updated on 2014-09-24 22:32:18.
 
 ### Counts for all entries
 
-|                   | School.administrators| MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
-|:------------------|---------------------:|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
-|Non-tutor teachers |                     8|    5|           0|          0|        13|       2|         3|         1|         2|         5|        2|   1|      1|
-|Teachers who tutor |                     9|    4|           1|          0|        16|       2|         4|         1|         2|         5|        4|   1|      1|
-|Tutors             |                     3|    2|           1|          0|         4|       1|         0|         0|         2|         2|        1|   0|      0|
-|Parents            |                    10|    5|           2|          1|        21|       4|         9|         1|         6|         4|        6|   1|      1|
-|Students           |                    10|    5|           0|          4|        33|       5|         7|         2|        10|         7|       10|   2|      4|
-|Policymakers       |                     3|    1|           1|          0|         3|       0|         2|         0|         0|         1|        1|   0|      0|
-|Documents          |                     2|    4|           0|          2|        12|       5|         3|         0|        11|         8|        9|   1|     14|
-|value              |                     0|    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
+|                      | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
+|:---------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
+|Non-tutor teachers    |    4|           0|          0|        13|       2|         3|         1|         2|         5|        2|   1|      1|
+|Teachers who tutor    |    5|           1|          0|        16|       2|         4|         1|         3|         5|        4|   1|      1|
+|Tutors                |    2|           1|          0|         4|       1|         0|         0|         2|         2|        1|   0|      0|
+|Parents               |    5|           2|          1|        21|       4|         9|         1|         6|         4|        6|   1|      1|
+|Students              |    5|           0|          4|        32|       5|         7|         2|        10|         8|       10|   2|      4|
+|School admin          |    1|           0|          0|         9|       0|         1|         0|         0|         0|        2|   0|      0|
+|Tutoring center admin |    0|           0|          0|         1|       0|         0|         0|         1|         0|        1|   0|      0|
+|Academic scholar(s)   |    0|           0|          0|         1|       0|         0|         0|         0|         0|        0|   0|      0|
+|Policymakers          |    1|           1|          0|         3|       0|         2|         0|         0|         1|        1|   0|      0|
+|Documents             |    4|           0|          2|        13|       5|         3|         0|        12|         8|        9|   1|     14|
+|value                 |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
 # Stakeholders by year group
 ### Graphs for all entries
@@ -480,14 +483,14 @@ Document was last updated on 2014-09-24 22:32:18.
 
 ### Counts for all entries
 
-|        | Teachers.who.do.not.tutor| Teachers.who.tutor| Tutors.who.are.not.teachers| School.administrators| Parents...household| Students| Policymakers| Documents|
-|:-------|-------------------------:|------------------:|---------------------------:|---------------------:|-------------------:|--------:|------------:|---------:|
-|1985-89 |                         1|                  2|                           0|                     0|                   0|        3|            0|         0|
-|1990-94 |                         0|                  0|                           1|                     0|                   1|        4|            0|         1|
-|1995-99 |                         2|                  3|                           0|                     1|                   3|        3|            3|         5|
-|2000-04 |                         2|                  3|                           2|                     2|                   3|        7|            1|         4|
-|2005-09 |                         8|                 10|                           2|                     4|                  12|       19|            1|        11|
-|2010-14 |                        15|                 16|                           6|                     5|                  36|       43|            4|        32|
+|        | Teachers.who.do.not.tutor| Teachers.who.tutor| Tutors.who.are.not.teachers| School.administrators| Tutoring.center.admin| Academic.scholars| Parents...household| Students| Policymakers| Documents|
+|:-------|-------------------------:|------------------:|---------------------------:|---------------------:|---------------------:|-----------------:|-------------------:|--------:|------------:|---------:|
+|1985-89 |                         1|                  2|                           0|                     0|                     0|                 0|                   0|        3|            0|         0|
+|1990-94 |                         0|                  0|                           1|                     0|                     0|                 0|                   1|        4|            0|         1|
+|1995-99 |                         2|                  3|                           0|                     1|                     0|                 0|                   3|        3|            3|         5|
+|2000-04 |                         2|                  3|                           2|                     2|                     1|                 1|                   3|        7|            1|         4|
+|2005-09 |                         8|                 11|                           2|                     4|                     2|                 0|                  12|       20|            1|        11|
+|2010-14 |                        14|                 17|                           6|                     6|                     0|                 0|                  36|       42|            4|        34|
 
 # Stakeholders by theory
 ### Graphs for all entries
@@ -499,13 +502,15 @@ Document was last updated on 2014-09-24 22:32:18.
 |:---------------------|------------------:|----------------:|------:|-------:|--------:|------------:|---------:|-----:|
 |Social.Capital        |                  2|                1|      0|       5|        6|            0|         5|     0|
 |Human.Capital         |                  0|                1|      0|       7|        7|            1|         7|     0|
-|Cultural.Capital      |                  3|                3|      2|       4|        9|            1|         2|     0|
+|Cultural.Capital      |                  3|                4|      2|       4|        8|            1|         3|     0|
 |World.Culture         |                  0|                0|      0|       0|        1|            0|         3|     0|
 |Human.Rights          |                  1|                2|      0|       2|        2|            0|         3|     0|
 |Critical.Theory       |                  1|                1|      0|       0|        2|            0|         2|     0|
 |Political.Theory      |                  0|                0|      0|       0|        0|            0|         1|     0|
-|None.or.Unclear.to.us |                 11|               14|      5|      28|       40|            5|        30|     0|
+|None.or.Unclear.to.us |                 10|               15|      5|      28|       41|            5|        31|     0|
 |School.administrators |                  8|                9|      3|      10|       10|            3|         2|     0|
+|Tutoring.center.admin |                  0|                2|      1|       1|        1|            1|         0|     0|
+|Academic.scholars     |                  0|                1|      1|       1|        1|            1|         0|     0|
 
 # WhatTaught by region
 ### Graphs for all entries
@@ -825,7 +830,7 @@ WhatTaught by year group
 |Related.to.curriculum.coverage...ed..quality...exam.prep |                   98|                   119|                            93|                   41|                     4|            21|               17|                     5|     0|
 |Corruption                                               |                   19|                    20|                            16|                    7|                     4|             5|                8|                     0|     0|
 |Equity                                                   |                   68|                    86|                            66|                   22|                     5|            13|               14|                     2|     0|
-|Supply...Demand...Economic.Efficiency                    |                   35|                    45|                            38|                   17|                     5|             7|                5|                     0|     0|
+|Supply...Demand...Economic.Efficiency                    |                   36|                    46|                            39|                   17|                     5|             7|                5|                     0|     0|
 |Social.Cohesion                                          |                    5|                     6|                             6|                    3|                     2|             1|                1|                     0|     0|
 |Global.Trend                                             |                   31|                    35|                            30|                   13|                     3|             9|               10|                     0|     0|
 |Household.Expenditures                                   |                   29|                    45|                            35|                   20|                     3|            12|               10|                     2|     0|

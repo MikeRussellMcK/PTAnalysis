@@ -476,9 +476,9 @@ kable(table(FramedByHowViewed3$Framed, FramedByHowViewed3$HowViewed))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByStakeholders <- data.frame(AllChineseStakeholdersGrid, AllChineseRegionGrid) # Double-grid
-RegionByStakeholders2 <- melt(RegionByStakeholders, id=c("Teachers.who.do.not.tutor","Teachers.who.tutor","Tutors.who.are.not.teachers","Parents...household","Students","Policymakers","Documents"))
+RegionByStakeholders2 <- melt(RegionByStakeholders, id=c("Teachers.who.do.not.tutor","Teachers.who.tutor","Tutors.who.are.not.teachers","Parents...household","Students","School.administrators","Tutoring.center.admin","Academic.scholars","Policymakers","Documents"))
 RegionByStakeholders3 <- RegionByStakeholders2[!(RegionByStakeholders2$value=="FALSE"),]
-names(RegionByStakeholders3) <- c("Non-tutor teachers","Teachers who tutor","Tutors","Parents","Students","Policymakers","Documents", "Region", "value")
+names(RegionByStakeholders3) <- c("Non-tutor teachers","Teachers who tutor","Tutors","Parents","Students", "School admin", "Tutoring center admin","Academic scholar(s)","Policymakers","Documents", "Region", "value")
 RegionByStakeholders3 <- melt(RegionByStakeholders3, id=c("Region"))
 RegionByStakeholders3<-RegionByStakeholders3[!(RegionByStakeholders3$value=="FALSE"),]
 names(RegionByStakeholders3) <- c("Region","Stakeholders", "value")

@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 268
 This number includes 0 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-24 22:31:12.
+Document was last updated on 2014-09-25 10:10:31.
 
 Throughout this document the data are divided four ways:
 
@@ -667,11 +667,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> World Bank </td>
-   <td align="right"> 3 </td>
-  </tr>
-  <tr>
-   <td align="left"> World Bank and UNICEF </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 4 </td>
   </tr>
   <tr>
    <td align="left"> World Education Information  </td>
@@ -1497,6 +1493,26 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
+   <td align="left"> 204 </td>
+   <td align="left"> marketization/privatization of education </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 212 </td>
+   <td align="left"> actor-network theory </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 218 </td>
+   <td align="left"> organizational field approach </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 222 </td>
+   <td align="left"> neolibralism </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
    <td align="left"> 100e </td>
    <td align="left"> Teacher professionalism; research highlighting the phenomenon of private tutoring, a “background” practice, which has grown into a parallel system of education in many countries </td>
    <td align="left"> Damian Wyman </td>
@@ -1523,9 +1539,39 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
+   <td align="left"> 118e </td>
+   <td align="left"> Various (edited book) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 122e </td>
+   <td align="left"> Critical ethnography </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 136e </td>
+   <td align="left"> Bourdieu’s theory of social capital and cultural reproduction </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
    <td align="left"> 142e </td>
    <td align="left"> game theory </td>
    <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 168e </td>
+   <td align="left"> Schein’s conceptual framework </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 172e </td>
+   <td align="left"> Cultural institutional  </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 173e </td>
+   <td align="left"> Functionalist and Institutionalist </td>
+   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 190e </td>
@@ -1573,56 +1619,6 @@ questionnaires from students in Grades 9 and 12 </td>
  </td>
    <td align="left"> Hang Duong </td>
   </tr>
-  <tr>
-   <td align="left"> 118e </td>
-   <td align="left"> Various (edited book) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 122e </td>
-   <td align="left"> Critical ethnography </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 218 </td>
-   <td align="left"> organizational field approach </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 222 </td>
-   <td align="left"> neolibralism </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 212 </td>
-   <td align="left"> actor-network theory </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 136e </td>
-   <td align="left"> Bourdieu’s theory of social capital and cultural reproduction </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 204 </td>
-   <td align="left"> marketization/privatization of education </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 173e </td>
-   <td align="left"> Functionalist and Institutionalist </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 172e </td>
-   <td align="left"> Cultural institutional  </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 168e </td>
-   <td align="left"> Schein’s conceptual framework </td>
-   <td align="left"> Peggy </td>
-  </tr>
 </tbody>
 </table>
 
@@ -1652,7 +1648,7 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 34 </td>
+   <td align="left"> 33 </td>
    <td align="left"> Commercialization/privatization of education </td>
    <td align="left"> Olga </td>
   </tr>
@@ -1697,24 +1693,9 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 109e </td>
-   <td align="left"> Related to curriculum coverage / ed. quality /  </td>
+   <td align="left"> 212 </td>
+   <td align="left"> publicly funded after-school tutoring for low-achieving stu </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 194e </td>
-   <td align="left"> economic </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 208e </td>
-   <td align="left"> parent's role/ duty </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 125e </td>
-   <td align="left"> resistance  </td>
-   <td align="left"> Iveta </td>
   </tr>
   <tr>
    <td align="left"> 218 </td>
@@ -1727,9 +1708,19 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 212 </td>
-   <td align="left"> publicly funded after-school tutoring for low-achieving stu </td>
+   <td align="left"> 109e </td>
+   <td align="left"> Related to curriculum coverage / ed. quality / exam pre </td>
    <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 125e </td>
+   <td align="left"> resistance  </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 135e </td>
+   <td align="left"> Response to oppression </td>
+   <td align="left"> Mike </td>
   </tr>
   <tr>
    <td align="left"> 161e </td>
@@ -1737,9 +1728,14 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 135e </td>
-   <td align="left"> Response to oppression </td>
-   <td align="left"> Mike </td>
+   <td align="left"> 194e </td>
+   <td align="left"> Supply & Demand / Economic Efficency </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 208e </td>
+   <td align="left"> parent's role/ duty </td>
+   <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
 </table>
@@ -1806,7 +1802,7 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 34 </td>
+   <td align="left"> 33 </td>
    <td align="left"> Rich vs poor </td>
    <td align="left"> Olga </td>
   </tr>
@@ -2195,6 +2191,41 @@ turn likely influences their children’s academic perfor- mance." p.17 </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
+   <td align="left"> 212 </td>
+   <td align="left"> NCLB policy is originally intended to enhance equity and opportunities in edu </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 214 </td>
+   <td align="left"> the spatial equity issues in the distribution of Supplementary edu centers and secondary schools among the provinces of Turkey (p.26) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 216 </td>
+   <td align="left"> given the disparities in attendance at tutoring classes between rich and poor, urban and rural, and ethnic majority groups and minority groups, the concern about inequalities in access to tutoring seems to be indeed justified (p.117) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 217 </td>
+   <td align="left"> supplementary education is a result of quality deficiencies and inequity </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 221 </td>
+   <td align="left"> In the German case with its structured school system supplementary education creates even more difference and with it  probably  more social inequality p.218. </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 222 </td>
+   <td align="left"> both SES in the US and ASP in SK aim to address the negative consequences of inequitable schooling </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 223 </td>
+   <td align="left"> SE can be an “unequalizer.” (p.246) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
    <td align="left"> 100e </td>
    <td align="left"> Lower socioeconomic classes can't afford the private tutoring, leading to inequity of opportunity compared to wealthier students. </td>
    <td align="left"> Damian Wyman </td>
@@ -2252,67 +2283,9 @@ students of better schools, well-performing students, children of educated paren
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 142e </td>
-   <td align="left"> uneven distribution of educational resources that exist between regions, urban and rural areas, at different levels, and at the same type of institution within a particular area </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 188e </td>
-   <td align="left"> Symbolically, the yobiko is functional for the society as a whole. It legitimises the college entrance examination as a symbol of opportunity. In so doing, it provides the society with stability and legitimacy for social stratification. </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 191e </td>
-   <td align="left"> Socioeconomic  </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 192e </td>
-   <td align="left"> social inequality </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 198e </td>
-   <td align="left"> it leads to social inequality </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 203e </td>
-   <td align="left"> In Ghana, the  main inequities that contribute to education stratification include socioeconomic, gender,  rural-urban, and north-south inequities.  </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 91e </td>
-   <td align="left"> "Parents lacking financial resources often cannot turn to private tutoring, which may further decrease their social status if their children are unable to further their careers and education." p.113 </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 92e </td>
-   <td align="left"> "f  the national  policy  is  committed  to  equality  of  opportunity,  then  the  balance  between  the  school  system  and  PT-E  will  need  to be  redressed" (p.303) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 95e </td>
-   <td align="left"> "policymakers and researchers ought to be concerned about the equity implications particularly along economic and gender lines ñof a large-scale tutoring system" p.9
-"Since it is only high expenditure on tutoring that pays off, our results have significant ramifications for thinking about ... educational equity (p. 3)." There's concern about "equity implications - particularly along economic and gender lines - of a large-scale tutoring system in Turkey (p. 9)." Females and children in less affluent families receive less tutoring. </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 96e </td>
-   <td align="left"> "In South Korean society, negative effects of PT are seen in terms of equity and social  cohesion in that PT potentially aggravates educational disparities across different income  brackets by giving partial access to extra resources of education and information" p.2; "PT can bring about a great inequality between households with different income levels due to variations in  marginal substitution rates between PT and other goods" p.10 </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 97e </td>
-   <td align="left"> Those in poor households are unable to afford private tutoring, which leads to lower levels of satisfaction in life. The policy proposed is to improve the public education system so that all are served equally. </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 99e </td>
-   <td align="left"> "private tutoring in the Philippines was also found to intensify social stratification" (20)
-Education is known to promote social mobility and therefore contributes to improving equity (Orbeta, 2005). This situation eventually prompts parents to seek for their children, a competitive edge over their peers through tutorial services as their financial resources allow. Those at the lower portion of the socioeconomic strata fear of being left behind if they do not receive tutoring (Bray, 2006; Paviot et al., 2008). In the process, major issues of equity are involved. Since future life chances in most settings are closely linked to achievement in education systems, students’ future employment may be significantly shaped by whether they have undergone tutoring (Kim, 2004).
- </td>
-   <td align="left"> Hang Duong </td>
+   <td align="left"> 117e </td>
+   <td align="left"> rich vs poor </td>
+   <td align="left"> Mike </td>
   </tr>
   <tr>
    <td align="left"> 118e </td>
@@ -2360,11 +2333,6 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 214 </td>
-   <td align="left"> the spatial equity issues in the distribution of Supplementary edu centers and secondary schools among the provinces of Turkey (p.26) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 129e </td>
    <td align="left"> SES, rural/urban </td>
    <td align="left"> Iveta </td>
@@ -2380,46 +2348,6 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 216 </td>
-   <td align="left"> given the disparities in attendance at tutoring classes between rich and poor, urban and rural, and ethnic majority groups and minority groups, the concern about inequalities in access to tutoring seems to be indeed justified (p.117) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 217 </td>
-   <td align="left"> supplementary education is a result of quality deficiencies and inequity </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 221 </td>
-   <td align="left"> In the German case with its structured school system supplementary education creates even more difference and with it  probably  more social inequality p.218. </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 222 </td>
-   <td align="left"> both SES in the US and ASP in SK aim to address the negative consequences of inequitable schooling </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 223 </td>
-   <td align="left"> SE can be an “unequalizer.” (p.246) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 212 </td>
-   <td align="left"> NCLB policy is originally intended to enhance equity and opportunities in edu </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 160e </td>
-   <td align="left"> the importance of providing public tutoring classes, which was a policy implemented just a few years ago in attempt to compensate the large advantage students coming from wealthier families had over students coming from poorer environments (p.50) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 90e </td>
-   <td align="left"> social </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
    <td align="left"> 132e </td>
    <td align="left"> social  </td>
    <td align="left"> Olga </td>
@@ -2430,24 +2358,29 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 153e </td>
-   <td align="left"> Socioeconomic </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 171e </td>
-   <td align="left"> "the exacerbation of inequalities in education" p.103 </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 117e </td>
-   <td align="left"> rich vs poor </td>
-   <td align="left"> Mike </td>
+   <td align="left"> 142e </td>
+   <td align="left"> uneven distribution of educational resources that exist between regions, urban and rural areas, at different levels, and at the same type of institution within a particular area </td>
+   <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
    <td align="left"> 146e </td>
    <td align="left"> market for private tutoring reproduces social inequalities in the mainstream education system. Family  income was found to have a positive influence on both participation probability and expenditure of private tutoring </td>
    <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 153e </td>
+   <td align="left"> Socioeconomic </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 160e </td>
+   <td align="left"> the importance of providing public tutoring classes, which was a policy implemented just a few years ago in attempt to compensate the large advantage students coming from wealthier families had over students coming from poorer environments (p.50) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 171e </td>
+   <td align="left"> "the exacerbation of inequalities in education" p.103 </td>
+   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="left"> 178e </td>
@@ -2458,6 +2391,69 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> 180e </td>
    <td align="left"> Wealth </td>
    <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 188e </td>
+   <td align="left"> Symbolically, the yobiko is functional for the society as a whole. It legitimises the college entrance examination as a symbol of opportunity. In so doing, it provides the society with stability and legitimacy for social stratification. </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 191e </td>
+   <td align="left"> Socioeconomic  </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 192e </td>
+   <td align="left"> social inequality </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 198e </td>
+   <td align="left"> it leads to social inequality </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 203e </td>
+   <td align="left"> In Ghana, the  main inequities that contribute to education stratification include socioeconomic, gender,  rural-urban, and north-south inequities.  </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 90e </td>
+   <td align="left"> social </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 91e </td>
+   <td align="left"> "Parents lacking financial resources often cannot turn to private tutoring, which may further decrease their social status if their children are unable to further their careers and education." p.113 </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 92e </td>
+   <td align="left"> "f  the national  policy  is  committed  to  equality  of  opportunity,  then  the  balance  between  the  school  system  and  PT-E  will  need  to be  redressed" (p.303) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 95e </td>
+   <td align="left"> "policymakers and researchers ought to be concerned about the equity implications particularly along economic and gender lines ñof a large-scale tutoring system" p.9
+"Since it is only high expenditure on tutoring that pays off, our results have significant ramifications for thinking about ... educational equity (p. 3)." There's concern about "equity implications - particularly along economic and gender lines - of a large-scale tutoring system in Turkey (p. 9)." Females and children in less affluent families receive less tutoring. </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 96e </td>
+   <td align="left"> "In South Korean society, negative effects of PT are seen in terms of equity and social  cohesion in that PT potentially aggravates educational disparities across different income  brackets by giving partial access to extra resources of education and information" p.2; "PT can bring about a great inequality between households with different income levels due to variations in  marginal substitution rates between PT and other goods" p.10 </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 97e </td>
+   <td align="left"> Those in poor households are unable to afford private tutoring, which leads to lower levels of satisfaction in life. The policy proposed is to improve the public education system so that all are served equally. </td>
+   <td align="left"> Damian Wyman </td>
+  </tr>
+  <tr>
+   <td align="left"> 99e </td>
+   <td align="left"> "private tutoring in the Philippines was also found to intensify social stratification" (20)
+Education is known to promote social mobility and therefore contributes to improving equity (Orbeta, 2005). This situation eventually prompts parents to seek for their children, a competitive edge over their peers through tutorial services as their financial resources allow. Those at the lower portion of the socioeconomic strata fear of being left behind if they do not receive tutoring (Bray, 2006; Paviot et al., 2008). In the process, major issues of equity are involved. Since future life chances in most settings are closely linked to achievement in education systems, students’ future employment may be significantly shaped by whether they have undergone tutoring (Kim, 2004).
+ </td>
+   <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
 </table>
@@ -2497,13 +2493,36 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 39 </td>
-   <td align="left"> academic scholars, tutorial school heads </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
    <td align="left"> 46 </td>
    <td align="left"> tutors </td>
+   <td align="left"> Olga </td>
+  </tr>
+  <tr>
+   <td align="left"> 57 </td>
+   <td align="left"> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Designated tutoring
+center or franchise 
+
+
+
+ </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
@@ -2522,19 +2541,32 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 213 </td>
-   <td align="left"> primary observation data </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 95e </td>
-   <td align="left"> primary data </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 99e </td>
-   <td align="left"> School administrator </td>
-   <td align="left"> Hang Duong </td>
+   <td align="left"> 78 </td>
+   <td align="left"> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Designated tutoring
+center or franchise 
+
+
+
+ </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 212 </td>
@@ -2542,9 +2574,9 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 137e </td>
-   <td align="left"> Author's observations </td>
-   <td align="left"> Mike </td>
+   <td align="left"> 153e </td>
+   <td align="left"> Teachers who do tutor </td>
+   <td align="left"> Olga </td>
   </tr>
   <tr>
    <td align="left"> 175e </td>
@@ -2552,19 +2584,14 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 178e </td>
-   <td align="left"> Case study observations </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
    <td align="left"> 180e </td>
    <td align="left"> local education committees </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 210 </td>
-   <td align="left"> Tutoring center managers </td>
-   <td align="left"> Mike </td>
+   <td align="left"> 99e </td>
+   <td align="left"> School administrator </td>
+   <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
 </table>
@@ -2609,6 +2636,11 @@ Education is known to promote social mobility and therefore contributes to impro
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td align="left"> 194e </td>
+   <td align="left"> Shopping malls </td>
+   <td align="left"> Olga </td>
+  </tr>
   <tr>
    <td align="left"> 91e </td>
    <td align="left"> cultural centers </td>
@@ -2725,6 +2757,21 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
+   <td align="left"> 218 </td>
+   <td align="left"> help stu have “confidence” in their abilities (p.160) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 221 </td>
+   <td align="left"> parents’ fears and perceptions of poor school quality </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 222 </td>
+   <td align="left"> parents anxiety (SK case) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
    <td align="left"> 102e </td>
    <td align="left"> Other government to compete internationally </td>
    <td align="left"> Peggy </td>
@@ -2737,21 +2784,6 @@ Education is known to promote social mobility and therefore contributes to impro
   <tr>
    <td align="left"> 109e </td>
    <td align="left"> parents want to invest in children's education </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 208e </td>
-   <td align="left"> parents’ beliefs about the importance of striving for achievement and their sense of efficacy in helping their child with schoolwork </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 209e </td>
-   <td align="left"> to improve their academic achievement </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 94e </td>
-   <td align="left"> parents' investment </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
@@ -2770,29 +2802,29 @@ Education is known to promote social mobility and therefore contributes to impro
    <td align="left"> Iveta </td>
   </tr>
   <tr>
+   <td align="left"> 146e </td>
+   <td align="left"> "reflect educational progress" p.27  </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
    <td align="left"> 162e </td>
    <td align="left"> government's financial support </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 218 </td>
-   <td align="left"> help stu have “confidence” in their abilities (p.160) </td>
+   <td align="left"> 208e </td>
+   <td align="left"> parents’ beliefs about the importance of striving for achievement and their sense of efficacy in helping their child with schoolwork </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 221 </td>
-   <td align="left"> parents’ fears and perceptions of poor school quality </td>
+   <td align="left"> 209e </td>
+   <td align="left"> to improve their academic achievement </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 222 </td>
-   <td align="left"> parents anxiety (SK case) </td>
+   <td align="left"> 94e </td>
+   <td align="left"> parents' investment </td>
    <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 146e </td>
-   <td align="left"> "reflect educational progress" p.27  </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
 </tbody>
 </table>
@@ -2885,7 +2917,12 @@ in all its forms. p.40 </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 34 </td>
+   <td align="left"> 25 </td>
+   <td align="left"> Private tutoring is only one small part of a larger report on private costs of schooling. </td>
+   <td align="left"> Mike </td>
+  </tr>
+  <tr>
+   <td align="left"> 33 </td>
    <td align="left"> Paper argues that mother's aspirations play a key role in amount of tutoring and level of tutoring </td>
    <td align="left"> Olga </td>
   </tr>
@@ -2985,40 +3022,53 @@ needs of their children." p.17
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
+   <td align="left"> 212 </td>
+   <td align="left"> this book is about the SES industry in the NCLB policy </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 215 </td>
+   <td align="left"> This article is mainly concerned with research methodology of PT </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 218 </td>
+   <td align="left"> Supplementary edu in Canada has occurred not by shadowing Canadian public schools, but by remaining on the periphery of the broader organizational field, and by having a relative weak impact on schooling, stratification, and socialization processes (p.164) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 219 </td>
+   <td align="left"> Overall the research suggests that, perhaps we should not worry overly much about
+the inequalities brought by private tutoring as, yet again, the market shows itself to less efficient than some hope it to be and that others might fear it is (p.172) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 220 </td>
+   <td align="left"> this study is about the supplemental educational services (SES) program of the No Child Left Behind (NCLB) Act in the United States: This government- sponsored tutoring is particularly an interesting case in which privately funded tutoring is increasingly integrated into a public policy. As a result, private tutoring once used by wealthy students becomes available to
+poor students through a public subsidy (p.193) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 221 </td>
+   <td align="left"> a complex combination of parents’ fears and perceptions of poor school quality push German students and their parents into the supplementary education sector (p.218) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 222 </td>
+   <td align="left"> In order to enhance school quality, policymakers are blurring older distinctions
+between public and private organizations. However, it may be that these policy goals for supplementary educational services are undercut by the very markets that are used to deliver the services. (p.242) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 223 </td>
+   <td align="left"> family resources: economic, social, and cultural capital affect the use of SE (p.254): Families with more cultural capital purchase more education for their children and
+make more educational investments. </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
    <td align="left"> 103e </td>
    <td align="left"> Those who can't afford it don't have the same opportunity-human rights and social justice issues </td>
    <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 208e </td>
-   <td align="left"> several psychological factors come into play as parents make choices about supporting their children’s schoolwork at home and deciding whether to employ private tutors: parents’ beliefs about the importance of striving for achievement, the value they place on academic achievement,
-their sense of efficacy in helping their child with schoolwork, the intellectual and financial resources the family is able to provide, and the demands made by their child and by the education system (p.31) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 209e </td>
-   <td align="left"> Looking at the neutral effects of private tutoring on the students’ marks and test achievement, this study gives no indication that private tutoring is an important mediator to convert economic capital into educational advantages and increase social disparities in academic achievement. Political initiatives aiming to subsidize private tutoring to support underachievers in school (Bray, 2009), should therefore be critically evaluated (p.58) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 91e </td>
-   <td align="left"> "Parents believe that the benefits from private tutoring are much more important than its economic costs, because it may eliminate a larger problem: failure." p.111 </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 93e </td>
-   <td align="left"> the paper's focus is on identifying the impacts of family size on household investment in private tutoring </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 96e </td>
-   <td align="left"> "The theoretical model presented here suggests that the prevalence of PT in South Korea occurs as the result of four factors. First, as income rises, the demand for PT also rises. Second, the higher the child’s ability, the greater the demand for PT. Third, the greater the parents’ desire to put their child into a prestigious university, the demand for PT will increase. Fourth, one parent’s demands for PT are affected by other parent’s desire and, ultimately, by other parent’s demand for PT. Based on the above model, parent’s expenditures on PT is influenced by other parent’s income, the other child’s academic achievement, and, ultimately, by other parent’s expenditure on PT" (p. 15). </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 25 </td>
-   <td align="left"> Private tutoring is only one small part of a larger report on private costs of schooling. </td>
-   <td align="left"> Mike </td>
   </tr>
   <tr>
    <td align="left"> 118e </td>
@@ -3063,11 +3113,6 @@ The mere fact of having studied in the public system rather than the private sch
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 215 </td>
-   <td align="left"> This article is mainly concerned with research methodology of PT </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="left"> 130e </td>
    <td align="left"> PT acts as a sorting out mechanism (p. 201). The demand for PT increased because of the mismatch between curriculum reform (based on competencies) and high-stakes exams (based on facts). Authors defined region of study as Mediterranean. </td>
    <td align="left"> Iveta </td>
@@ -3078,42 +3123,13 @@ The mere fact of having studied in the public system rather than the private sch
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 218 </td>
-   <td align="left"> Supplementary edu in Canada has occurred not by shadowing Canadian public schools, but by remaining on the periphery of the broader organizational field, and by having a relative weak impact on schooling, stratification, and socialization processes (p.164) </td>
-   <td align="left"> Hang Duong </td>
+   <td align="left"> 137e </td>
+   <td align="left"> Cultural, language, and religious education for Indian families in England </td>
+   <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 219 </td>
-   <td align="left"> Overall the research suggests that, perhaps we should not worry overly much about
-the inequalities brought by private tutoring as, yet again, the market shows itself to less efficient than some hope it to be and that others might fear it is (p.172) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 220 </td>
-   <td align="left"> this study is about the supplemental educational services (SES) program of the No Child Left Behind (NCLB) Act in the United States: This government- sponsored tutoring is particularly an interesting case in which privately funded tutoring is increasingly integrated into a public policy. As a result, private tutoring once used by wealthy students becomes available to
-poor students through a public subsidy (p.193) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 221 </td>
-   <td align="left"> a complex combination of parents’ fears and perceptions of poor school quality push German students and their parents into the supplementary education sector (p.218) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 222 </td>
-   <td align="left"> In order to enhance school quality, policymakers are blurring older distinctions
-between public and private organizations. However, it may be that these policy goals for supplementary educational services are undercut by the very markets that are used to deliver the services. (p.242) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 223 </td>
-   <td align="left"> family resources: economic, social, and cultural capital affect the use of SE (p.254): Families with more cultural capital purchase more education for their children and
-make more educational investments. </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 212 </td>
-   <td align="left"> this book is about the SES industry in the NCLB policy </td>
+   <td align="left"> 152e </td>
+   <td align="left"> SES under NCLB policy </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
@@ -3122,23 +3138,39 @@ make more educational investments. </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 185e </td>
-   <td align="left"> no significant perfomance advantage accruing to involvement in private tuition in Ireland (p.465) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 137e </td>
-   <td align="left"> Cultural, language, and religious education for Indian families in England </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
    <td align="left"> 178e </td>
    <td align="left"> Looks at African Caribbean and Irish ethnic supplementary programs </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 152e </td>
-   <td align="left"> SES under NCLB policy </td>
+   <td align="left"> 185e </td>
+   <td align="left"> no significant perfomance advantage accruing to involvement in private tuition in Ireland (p.465) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 208e </td>
+   <td align="left"> several psychological factors come into play as parents make choices about supporting their children’s schoolwork at home and deciding whether to employ private tutors: parents’ beliefs about the importance of striving for achievement, the value they place on academic achievement,
+their sense of efficacy in helping their child with schoolwork, the intellectual and financial resources the family is able to provide, and the demands made by their child and by the education system (p.31) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 209e </td>
+   <td align="left"> Looking at the neutral effects of private tutoring on the students’ marks and test achievement, this study gives no indication that private tutoring is an important mediator to convert economic capital into educational advantages and increase social disparities in academic achievement. Political initiatives aiming to subsidize private tutoring to support underachievers in school (Bray, 2009), should therefore be critically evaluated (p.58) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 91e </td>
+   <td align="left"> "Parents believe that the benefits from private tutoring are much more important than its economic costs, because it may eliminate a larger problem: failure." p.111 </td>
+   <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 93e </td>
+   <td align="left"> the paper's focus is on identifying the impacts of family size on household investment in private tutoring </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 96e </td>
+   <td align="left"> "The theoretical model presented here suggests that the prevalence of PT in South Korea occurs as the result of four factors. First, as income rises, the demand for PT also rises. Second, the higher the child’s ability, the greater the demand for PT. Third, the greater the parents’ desire to put their child into a prestigious university, the demand for PT will increase. Fourth, one parent’s demands for PT are affected by other parent’s desire and, ultimately, by other parent’s demand for PT. Based on the above model, parent’s expenditures on PT is influenced by other parent’s income, the other child’s academic achievement, and, ultimately, by other parent’s expenditure on PT" (p. 15). </td>
    <td align="left"> Hang Duong </td>
   </tr>
 </tbody>

@@ -963,7 +963,7 @@ names(AllEnglishHowViewedGrid) <- HowViewedNames
 # Stakeholders
 # ============================
 
-StakeholdersNames <- c("Teachers who do not tutor", "Teachers who tutor", "Tutors who are not teachers", "School administrators", "Parents / household", "Students", "Policymakers", "Documents")
+StakeholdersNames <- c("Teachers who do not tutor", "Teachers who tutor", "Tutors who are not teachers", "School administrators", "Tutoring center admin", "Academic scholars", "Parents / household", "Students", "Policymakers", "Documents")
 
 ## Private
 ## ======
@@ -971,14 +971,22 @@ Private$StakeholdersTeachersNonTutor <- grepl("who do not", Private$Stakeholders
 Private$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", Private$Stakeholders)
 Private$StakeholdersTutorsNonTeachers <- grepl("who are not", Private$Stakeholders)
 Private$StakeholdersSchoolAdmin <- grepl ("School administrators", Private$Stakeholders)
+Private$StakeholdersTutoringAdmin <- grepl ("Tutoring center", Private$Stakeholders)
+Private$StakeholdersScholars <- grepl ("scholar", Private$Stakeholders)
 Private$StakeholdersParents <- grepl("Parents", Private$Stakeholders)
 Private$StakeholdersStudents <- grepl("Students", Private$Stakeholders)
 Private$StakeholdersPolicymakers <- grepl("Policymakers", Private$Stakeholders)
 Private$StakeholdersDocuments <- grepl("Documents", Private$Stakeholders)
 
 PrivateStakeholdersGrid <- data.frame(Private$StakeholdersTeachersNonTutor, 
-                                      Private$StakeholdersTeachersWhoTutor, Private$StakeholdersTutorsNonTeachers, Private$StakeholdersSchoolAdmin,
-                                      Private$StakeholdersParents, Private$StakeholdersStudents, Private$StakeholdersPolicymakers, 
+                                      Private$StakeholdersTeachersWhoTutor, 
+                                      Private$StakeholdersTutorsNonTeachers, 
+                                      Private$StakeholdersSchoolAdmin,
+                                      Private$StakeholdersTutoringAdmin,
+                                      Private$StakeholdersScholars,
+                                      Private$StakeholdersParents, 
+                                      Private$StakeholdersStudents,
+                                      Private$StakeholdersPolicymakers, 
                                       Private$StakeholdersDocuments)
 names(PrivateStakeholdersGrid) <- StakeholdersNames
 
@@ -988,14 +996,22 @@ AllAsia$StakeholdersTeachersNonTutor <- grepl("who do not", AllAsia$Stakeholders
 AllAsia$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllAsia$Stakeholders)
 AllAsia$StakeholdersTutorsNonTeachers <- grepl("who are not", AllAsia$Stakeholders)
 AllAsia$StakeholdersSchoolAdmin <- grepl ("School administrators", AllAsia$Stakeholders)
+AllAsia$StakeholdersTutoringAdmin <- grepl ("Tutoring center", AllAsia$Stakeholders)
+AllAsia$StakeholdersScholars <- grepl ("scholar", AllAsia$Stakeholders)
 AllAsia$StakeholdersParents <- grepl("Parents", AllAsia$Stakeholders)
 AllAsia$StakeholdersStudents <- grepl("Students", AllAsia$Stakeholders)
 AllAsia$StakeholdersPolicymakers <- grepl("Policymakers", AllAsia$Stakeholders)
 AllAsia$StakeholdersDocuments <- grepl("Documents", AllAsia$Stakeholders)
 
 AllAsiaStakeholdersGrid <- data.frame(AllAsia$StakeholdersTeachersNonTutor, 
-                                      AllAsia$StakeholdersTeachersWhoTutor, AllAsia$StakeholdersTutorsNonTeachers, AllAsia$StakeholdersSchoolAdmin,
-                                      AllAsia$StakeholdersParents, AllAsia$StakeholdersStudents, AllAsia$StakeholdersPolicymakers, 
+                                      AllAsia$StakeholdersTeachersWhoTutor, 
+                                      AllAsia$StakeholdersTutorsNonTeachers, 
+                                      AllAsia$StakeholdersSchoolAdmin,
+                                      AllAsia$StakeholdersTutoringAdmin,
+                                      AllAsia$StakeholdersScholars,
+                                      AllAsia$StakeholdersParents, 
+                                      AllAsia$StakeholdersStudents,
+                                      AllAsia$StakeholdersPolicymakers, 
                                       AllAsia$StakeholdersDocuments)
 names(AllAsiaStakeholdersGrid) <- StakeholdersNames
 
@@ -1005,14 +1021,22 @@ AllChinese$StakeholdersTeachersNonTutor <- grepl("who do not", AllChinese$Stakeh
 AllChinese$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllChinese$Stakeholders)
 AllChinese$StakeholdersTutorsNonTeachers <- grepl("who are not", AllChinese$Stakeholders)
 AllChinese$StakeholdersSchoolAdmin <- grepl ("School administrators", AllChinese$Stakeholders)
+AllChinese$StakeholdersTutoringAdmin <- grepl ("Tutoring center", AllChinese$Stakeholders)
+AllChinese$StakeholdersScholars <- grepl ("scholar", AllChinese$Stakeholders)
 AllChinese$StakeholdersParents <- grepl("Parents", AllChinese$Stakeholders)
 AllChinese$StakeholdersStudents <- grepl("Students", AllChinese$Stakeholders)
 AllChinese$StakeholdersPolicymakers <- grepl("Policymakers", AllChinese$Stakeholders)
 AllChinese$StakeholdersDocuments <- grepl("Documents", AllChinese$Stakeholders)
 
 AllChineseStakeholdersGrid <- data.frame(AllChinese$StakeholdersTeachersNonTutor, 
-                                         AllChinese$StakeholdersTeachersWhoTutor, AllChinese$StakeholdersTutorsNonTeachers, AllChinese$StakeholdersSchoolAdmin,
-                                         AllChinese$StakeholdersParents, AllChinese$StakeholdersStudents, AllChinese$StakeholdersPolicymakers, 
+                                         AllChinese$StakeholdersTeachersWhoTutor, 
+                                         AllChinese$StakeholdersTutorsNonTeachers, 
+                                         AllChinese$StakeholdersSchoolAdmin,
+                                         AllChinese$StakeholdersTutoringAdmin,
+                                         AllChinese$StakeholdersScholars,
+                                         AllChinese$StakeholdersParents, 
+                                         AllChinese$StakeholdersStudents,
+                                         AllChinese$StakeholdersPolicymakers, 
                                          AllChinese$StakeholdersDocuments)
 names(AllChineseStakeholdersGrid) <- StakeholdersNames
 
@@ -1022,14 +1046,22 @@ AllEnglish$StakeholdersTeachersNonTutor <- grepl("who do not", AllEnglish$Stakeh
 AllEnglish$StakeholdersTeachersWhoTutor <- grepl("Teachers who tutor", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersTutorsNonTeachers <- grepl("who are not", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersSchoolAdmin <- grepl ("School administrators", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersTutoringAdmin <- grepl ("Tutoring center", AllEnglish$Stakeholders)
+AllEnglish$StakeholdersScholars <- grepl ("scholar", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersParents <- grepl("Parents", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersStudents <- grepl("Students", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersPolicymakers <- grepl("Policymakers", AllEnglish$Stakeholders)
 AllEnglish$StakeholdersDocuments <- grepl("Documents", AllEnglish$Stakeholders)
 
 AllEnglishStakeholdersGrid <- data.frame(AllEnglish$StakeholdersTeachersNonTutor, 
-                                         AllEnglish$StakeholdersTeachersWhoTutor, AllEnglish$StakeholdersTutorsNonTeachers, AllEnglish$StakeholdersSchoolAdmin,
-                                         AllEnglish$StakeholdersParents, AllEnglish$StakeholdersStudents, AllEnglish$StakeholdersPolicymakers, 
+                                         AllEnglish$StakeholdersTeachersWhoTutor, 
+                                         AllEnglish$StakeholdersTutorsNonTeachers, 
+                                         AllEnglish$StakeholdersSchoolAdmin,
+                                         AllEnglish$StakeholdersTutoringAdmin,
+                                         AllEnglish$StakeholdersScholars,
+                                         AllEnglish$StakeholdersParents, 
+                                         AllEnglish$StakeholdersStudents,
+                                         AllEnglish$StakeholdersPolicymakers, 
                                          AllEnglish$StakeholdersDocuments)
 names(AllEnglishStakeholdersGrid) <- StakeholdersNames
 

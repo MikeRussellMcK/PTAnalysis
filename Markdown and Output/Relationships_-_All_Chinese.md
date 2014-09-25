@@ -4,7 +4,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 98
 This number includes 0 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-24 22:35:31.
+Document was last updated on 2014-09-25 10:35:45.
 
 # _Region by year group_ for all entries in the database:
 
@@ -445,16 +445,19 @@ Document was last updated on 2014-09-24 22:35:31.
 
 ### Counts for all entries
 
-|                   | School.administrators| MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
-|:------------------|---------------------:|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
-|Non-tutor teachers |                     0|    0|           0|          0|        10|       0|         0|         0|         0|         0|        0|   0|      0|
-|Teachers who tutor |                     0|    0|           0|          0|        22|       0|         0|         0|         0|         0|        0|   0|      0|
-|Tutors             |                     0|    0|           0|          0|         2|       0|         0|         0|         0|         0|        0|   0|      0|
-|Parents            |                     0|    0|           0|          0|        39|       0|         0|         0|         0|         0|        0|   0|      0|
-|Students           |                     0|    0|           0|          0|        45|       0|         0|         0|         0|         0|        0|   0|      0|
-|Policymakers       |                     0|    0|           0|          0|         4|       0|         0|         0|         0|         0|        0|   0|      0|
-|Documents          |                     0|    0|           0|          0|        33|       0|         0|         0|         1|         2|        1|   0|     10|
-|value              |                     0|    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
+|                      | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
+|:---------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
+|Non-tutor teachers    |    0|           0|          0|        10|       0|         0|         0|         0|         0|        0|   0|      0|
+|Teachers who tutor    |    0|           0|          0|        22|       0|         0|         0|         0|         0|        0|   0|      0|
+|Tutors                |    0|           0|          0|         2|       0|         0|         0|         0|         0|        0|   0|      0|
+|Parents               |    0|           0|          0|        39|       0|         0|         0|         0|         0|        0|   0|      0|
+|Students              |    0|           0|          0|        45|       0|         0|         0|         0|         0|        0|   0|      0|
+|School admin          |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
+|Tutoring center admin |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
+|Academic scholar(s)   |    0|           0|          0|         2|       0|         0|         0|         0|         0|        0|   0|      0|
+|Policymakers          |    0|           0|          0|         4|       0|         0|         0|         0|         0|        0|   0|      0|
+|Documents             |    0|           0|          0|        33|       0|         0|         0|         1|         2|        1|   0|     10|
+|value                 |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
 # Stakeholders by year group
 ### Graphs for all entries
@@ -462,12 +465,12 @@ Document was last updated on 2014-09-24 22:35:31.
 
 ### Counts for all entries
 
-|        | Teachers.who.do.not.tutor| Teachers.who.tutor| Tutors.who.are.not.teachers| School.administrators| Parents...household| Students| Policymakers| Documents|
-|:-------|-------------------------:|------------------:|---------------------------:|---------------------:|-------------------:|--------:|------------:|---------:|
-|1995-99 |                         1|                  1|                           0|                     0|                   1|        1|            0|         1|
-|2000-04 |                         1|                  1|                           0|                     0|                   1|        1|            0|         1|
-|2005-09 |                         2|                  4|                           0|                     0|                  11|       13|            0|        11|
-|2010-14 |                         6|                 16|                           2|                     0|                  26|       30|            4|        33|
+|        | Teachers.who.do.not.tutor| Teachers.who.tutor| Tutors.who.are.not.teachers| School.administrators| Tutoring.center.admin| Academic.scholars| Parents...household| Students| Policymakers| Documents|
+|:-------|-------------------------:|------------------:|---------------------------:|---------------------:|---------------------:|-----------------:|-------------------:|--------:|------------:|---------:|
+|1995-99 |                         1|                  1|                           0|                     0|                     0|                 0|                   1|        1|            0|         1|
+|2000-04 |                         1|                  1|                           0|                     0|                     0|                 0|                   1|        1|            0|         1|
+|2005-09 |                         2|                  4|                           0|                     0|                     0|                 1|                  11|       13|            0|        11|
+|2010-14 |                         6|                 16|                           2|                     0|                     0|                 1|                  26|       30|            4|        33|
 
 # Stakeholders by theory
 ### Graphs for all entries
@@ -486,6 +489,8 @@ Document was last updated on 2014-09-24 22:35:31.
 |Political.Theory      |                  0|                0|      0|       0|        0|            0|         0|     0|
 |None.or.Unclear.to.us |                  9|               18|      2|      31|       35|            4|        39|     0|
 |School.administrators |                  0|                0|      0|       0|        0|            0|         0|     0|
+|Tutoring.center.admin |                  0|                0|      0|       0|        0|            0|         0|     0|
+|Academic.scholars     |                  1|                2|      0|       2|        2|            1|         0|     0|
 
 # WhatTaught by region
 ### Graphs for all entries
