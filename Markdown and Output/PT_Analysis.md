@@ -3,9 +3,9 @@
 
 
 
-### TOTAL NUMBER OF ARTICLES: 265
-<!-- This number includes 0 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2014-09-25 10:51:32.
+### TOTAL NUMBER OF ARTICLES: 287
+<!-- This number includes 2 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
+Document was last updated on 2014-10-03 07:08:39.
 
 Throughout this document the data are divided four ways:
 
@@ -54,7 +54,15 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left">  Walden University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> AASA Journal of Scholarship and Practice </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Action in Teacher Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -62,15 +70,19 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> American Journal of Sociology </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Anhui University </td>
+   <td align="left"> American Educational Research Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Applied Behavioral Science Review </td>
+   <td align="left"> American Journal of Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> American Journal of Sociology </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Anhui University </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -143,14 +155,18 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Comparative Education Review </td>
-   <td align="right"> 3 </td>
+   <td align="right"> 4 </td>
   </tr>
   <tr>
    <td align="left"> Compare </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Contemporary Educational Science </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Distance Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -179,7 +195,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Education Economics </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Education Research  </td>
@@ -195,7 +211,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Educational Evaluation and Policy Analysis </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Educational Policy </td>
@@ -223,6 +239,10 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> European Commission </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> European Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -311,7 +331,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> International Review of Education </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Introduction of Business  </td>
@@ -358,6 +378,14 @@ Asian Economic Journal </td>
    <td align="right"> 2 </td>
   </tr>
   <tr>
+   <td align="left"> Journal of Education for Students </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Education for Students Placed at Risk </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Journal of Guangxi University for Nationalities  </td>
    <td align="right"> 1 </td>
   </tr>
@@ -398,7 +426,15 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Journal of Japanese studies </td>
+   <td align="right"> 2 </td>
+  </tr>
+  <tr>
    <td align="left"> Journal of Negro Education </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Journal of Research in Rural Education </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -442,7 +478,7 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Massey University, Palmerston North, New Zealand </td>
+   <td align="left"> Massey University </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -452,6 +488,10 @@ Asian Economic Journal </td>
   <tr>
    <td align="left"> Nanjing Normal University </td>
    <td align="right"> 3 </td>
+  </tr>
+  <tr>
+   <td align="left"> Network of Education Policy Centers </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Northeast Normal University </td>
@@ -467,6 +507,10 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Ohio State University </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Open Society Foundations </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -487,7 +531,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Oxford Review of Education </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Peabody Journal of Education </td>
@@ -530,6 +574,14 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> Routledge </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Russian Education and Society </td>
+   <td align="right"> 4 </td>
+  </tr>
+  <tr>
    <td align="left"> Sense Publishers </td>
    <td align="right"> 15 </td>
   </tr>
@@ -564,10 +616,6 @@ Asian Economic Journal </td>
   <tr>
    <td align="left"> Sociology of Education </td>
    <td align="right"> 5 </td>
-  </tr>
-  <tr>
-   <td align="left"> Springer </td>
-   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Studies of Finance and Accounting in Education  </td>
@@ -623,7 +671,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> UNESCO </td>
-   <td align="right"> 3 </td>
+   <td align="right"> 4 </td>
   </tr>
   <tr>
    <td align="left"> Union Institute and University Graduate College </td>
@@ -723,6 +771,10 @@ Asian Economic Journal </td>
    <td align="right"> 2 </td>
   </tr>
   <tr>
+   <td align="left"> Azerbaijan, Bosnia & Herzegovina, Croatia, Estonia, Georgia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Azerbaijan, Bosnia and Herzegovina, Croatia, Georgia, Lithuania, Mongolia, Poland, Slovakia, and Ukraine, Kazakhstan, Kyrgyzstan, and Tajikistan </td>
    <td align="right"> 1 </td>
   </tr>
@@ -756,7 +808,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Canada </td>
-   <td align="right"> 5 </td>
+   <td align="right"> 6 </td>
   </tr>
   <tr>
    <td align="left"> China </td>
@@ -768,7 +820,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Egypt </td>
-   <td align="right"> 3 </td>
+   <td align="right"> 4 </td>
   </tr>
   <tr>
    <td align="left"> England </td>
@@ -819,8 +871,12 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Ireland </td>
+   <td align="left"> India and Pakistan </td>
    <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Ireland </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> Italy </td>
@@ -892,7 +948,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Russia </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 7 </td>
   </tr>
   <tr>
    <td align="left"> Scoland </td>
@@ -900,7 +956,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Singapore </td>
-   <td align="right"> 2 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Slovenia </td>
@@ -920,7 +976,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Taiwan </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 2 </td>
   </tr>
   <tr>
    <td align="left"> the Phillipines </td>
@@ -935,6 +991,10 @@ Asian Economic Journal </td>
    <td align="right"> 8 </td>
   </tr>
   <tr>
+   <td align="left"> U.S. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> UK </td>
    <td align="right"> 3 </td>
   </tr>
@@ -944,7 +1004,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> US </td>
-   <td align="right"> 6 </td>
+   <td align="right"> 11 </td>
   </tr>
   <tr>
    <td align="left"> US vs S.Korea </td>
@@ -980,16 +1040,11 @@ Asian Economic Journal </td>
 #### EdLevel Others:
 
 
-```
-## Warning: no non-missing arguments to max; returning -Inf
-## Warning: no non-missing arguments to max; returning -Inf
-## Warning: no non-missing arguments to max; returning -Inf
-```
-
-
-
 |Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
 |:----------|:-------------------------------------------------------------------|:----------------|
+|154e       |Vocational                                                          |Iveta            |
+|157e       |Vocational                                                          |Iveta            |
+|184e       |Vocational                                                          |Iveta            |
 
 ### Research Approach
 
@@ -1032,6 +1087,13 @@ Asian Economic Journal </td>
   <tr>
    <td align="left">  Data for this study were drawn from the data of Korean Education & Employment Panel [KEEP], a nationally representative baseline survey conducted by the Korea Research Institute for 
 Vocational Education and Training [KRIVET] in 2004. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left">  the SAS Educational Value-Added Assessment System
+(EVAAS) methodology and databases, which constitute core components of the
+Tennessee Comprehensive Assessment Program (TCAP), were used for analyzing
+provider effects in a highly rigorous manner.  </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1079,11 +1141,23 @@ Vietnam Household Testing Survey (VHTS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> A survey of 2143 students and 2449 parents in Samara in Russia </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> achievement tests: Kentucky Core Content Test,  Predictive Assessment Series; surveys </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Author created survey of schools </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> author's other research's database on English language learning and teaching </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> Chicago Public Schools student database 2007-2010 </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1135,11 +1209,11 @@ Vietnam Household Testing Survey (VHTS) </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> In the first year, the target population consisted of students who attended grades four through six at the public school two blocks from the center and who lived in the neighborhood. In the second year of the program, students from the school's new kindergarten program also were permitted to apply. </td>
+   <td align="left"> interview freshmen in college, which include Chinese students and Korea students </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> interview freshmen in college, which include Chinese students and Korea students </td>
+   <td align="left"> interview tutors in private tutoring company. </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1184,6 +1258,14 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> National Survey conducted by the Environis polling firm in 1997 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> observations, interviews </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> OSI </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1224,6 +1306,10 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> School Leaver Survey, 2004; Schools Database, 1994 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Some information drawn from 72 teachers interviewed and 198 parents surveyed in Cambodia by author </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1261,11 +1347,11 @@ Reduce Private Tutoring Expenses conducted by Korean Education Development Insti
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> The data come from a  large longitudinal study of high school seniors in Japan conducted by the Youth Research Institute of Tokyo  in  1980 and 1982. </td>
+   <td align="left"> The data for this study came from three sources: 1) the National Survey on Learning Expenditure of Households (NSLEH) (1994, 1996, 1998, 2000, and 2002); 2) the National Household Expenditure Survey (NHES) (1984-2003); and 3) the original data of private school parents and local education committees collected in September-November 2004. </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> The data for this study came from three sources: 1) the National Survey on Learning Expenditure of Households (NSLEH) (1994, 1996, 1998, 2000, and 2002); 2) the National Household Expenditure Survey (NHES) (1984-2003); and 3) the original data of private school parents and local education committees collected in September-November 2004. </td>
+   <td align="left"> The empirical testing was confined to three premier secondary schools in Singapore. </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1294,6 +1380,18 @@ time. </td>
   <tr>
    <td align="left"> This paper focuses on private tutoring in Hong Kong in 2011/2012. It draws on data collected through
 questionnaires from students in Grades 9 and 12 </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> This research uses publicly released data sets, the Taiwan Education Panel
+Survey (TEPS), which was collected in 2001 and 2003 (Chang 2003); TEPS
+used a multistage stratified sampling method to survey 20,004 seventh-grade
+students in 333 junior high schools. The sampled students were surveyed a
+second time when they were in grade 9. </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> this study uses individual level quantitative data for India and Pakistan. For India, they study draws from the School Tells survey (2007-2008, 160 rural primary schools). For Pakistan, data from the 2010 Annual Status of Education Report (ASER) are used (rural regions, children aged 3-16, in 2010).  </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1588,6 +1686,26 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> Helmke’s (2009) offer-usage model of instructional effects (bw PT and aca achievements) </td>
    <td align="left"> Hang Duong </td>
   </tr>
+  <tr>
+   <td align="left"> 128 </td>
+   <td align="left"> New institutionalism </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 229 </td>
+   <td align="left"> using CDA to critique of neoliberalism </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 224 </td>
+   <td align="left"> ecological paradigm (Bronfenbrenner) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 170e </td>
+   <td align="left"> Education for democracy </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
 </tbody>
 </table>
 
@@ -1705,6 +1823,31 @@ questionnaires from students in Grades 9 and 12 </td>
    <td align="left"> 208e </td>
    <td align="left"> parent's role/ duty </td>
    <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 110e </td>
+   <td align="left"> personal learning experience for college students </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 157e </td>
+   <td align="left"> professional mobility </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 184e </td>
+   <td align="left"> Lifelong learning </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 79 </td>
+   <td align="left"> PT becomes "de-facto privatization of secondary education" </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 182e </td>
+   <td align="left"> culture </td>
+   <td align="left"> Xiaoran Yu </td>
   </tr>
 </tbody>
 </table>
@@ -2227,7 +2370,7 @@ students of better schools, well-performing students, children of educated paren
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 112d </td>
+   <td align="left"> 112e </td>
    <td align="left"> SES </td>
    <td align="left"> Iveta </td>
   </tr>
@@ -2409,6 +2552,41 @@ Education is known to promote social mobility and therefore contributes to impro
  </td>
    <td align="left"> Hang Duong </td>
   </tr>
+  <tr>
+   <td align="left"> 56 </td>
+   <td align="left"> "The Kumon method is controversial and occupies a special niche in  the rich, variegated world of Japanese education" p.88 </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 225 </td>
+   <td align="left"> social; race, gender, rural and urban inequity </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 151e </td>
+   <td align="left"> various under presented groups, including ELL and special needs </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 224 </td>
+   <td align="left"> SES </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 134e </td>
+   <td align="left"> "take-up (of private tutoring) is higher among more advantaged social groups, that is, among students from more middleclass backgrounds and those whose parents have tertiary educational qualifications" p.17 </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 79 </td>
+   <td align="left"> PT is a plausible cause for a significant part of achievement polalization (p.55) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 170e </td>
+   <td align="left"> "middle and upper-middle class were receiving supplementary help with their exam preparations from private cram schools (or juku)"p.222 </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
 </tbody>
 </table>
 
@@ -2537,6 +2715,76 @@ center or franchise
    <td align="left"> local education committees </td>
    <td align="left"> Mike </td>
   </tr>
+  <tr>
+   <td align="left"> 56 </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 159e </td>
+   <td align="left"> Administrators </td>
+   <td align="left"> Xia Zhao </td>
+  </tr>
+  <tr>
+   <td align="left"> 154e </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 151e </td>
+   <td align="left"> N/A [documents], Administrators </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 128 </td>
+   <td align="left"> N/A [documents], Administrators of SES centers </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 157e </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 184e </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 166R </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 229 </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 224 </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 79 </td>
+   <td align="left"> principals of schools that provide tutoring </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 156e </td>
+   <td align="left"> principals of schools that receive Supplemental Educational Services of NCLB </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 170e </td>
+   <td align="left"> N/A [documents] </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 176e </td>
+   <td align="left"> superintendents and principals </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
 </tbody>
 </table>
 
@@ -2589,6 +2837,11 @@ center or franchise
    <td align="left"> 91e </td>
    <td align="left"> cultural centers </td>
    <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 170e </td>
+   <td align="left"> juku is a "private tutoring school" </td>
+   <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
 </table>
@@ -2652,6 +2905,11 @@ center or franchise
    <td align="left"> 175e </td>
    <td align="left"> school  </td>
    <td align="left"> Peggy </td>
+  </tr>
+  <tr>
+   <td align="left"> 110e </td>
+   <td align="left"> university </td>
+   <td align="left"> Xiaoran Yu </td>
   </tr>
 </tbody>
 </table>
@@ -2768,6 +3026,41 @@ center or franchise
   <tr>
    <td align="left"> 94e </td>
    <td align="left"> parents' investment </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 56 </td>
+   <td align="left"> as accelerating courses for children of average ability </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 116e </td>
+   <td align="left"> public and private schools are low quality. Students want to supplement their education </td>
+   <td align="left"> Xiaoran Yu </td>
+  </tr>
+  <tr>
+   <td align="left"> 150e </td>
+   <td align="left"> To prepare for the future profession </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 154e </td>
+   <td align="left"> To prepare for the future profession </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 157e </td>
+   <td align="left"> to increase professional mobility </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 156e </td>
+   <td align="left"> as part of the NCLB mandate </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 133e </td>
+   <td align="left"> as part of the NCLB mandate </td>
    <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
@@ -3110,6 +3403,43 @@ their sense of efficacy in helping their child with schoolwork, the intellectual
   <tr>
    <td align="left"> 93e </td>
    <td align="left"> the paper's focus is on identifying the impacts of family size on household investment in private tutoring </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 151e </td>
+   <td align="left"> focus on the NCLB supplementary education services and critiques the privatization of public education </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 128 </td>
+   <td align="left"> Critique of hidden privatization of public education in the US (book) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 229 </td>
+   <td align="left"> "Private online tutoring allows teachers from all over Russia to enter a nationwide marketplace and to compete for students in a new, previ- ously unavailable manner." (p. 79)
+
+The narratives included in the advertisements of online private tutoring promote "the idea of competition and the necessity of investing in self-improvement" (Kozar, 2014, p. 92) </td>
+   <td align="left"> Iveta </td>
+  </tr>
+  <tr>
+   <td align="left"> 134e </td>
+   <td align="left"> taking PT does NOT in fact yield a net advantage in terms of grades for upper secondary students (p.18) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 79 </td>
+   <td align="left"> "there has been official recognition that expanded access to education has come at the expense of quality" (p.51) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 156e </td>
+   <td align="left"> "no achievement advantages for the SES participants (students) on state-mandated test scores in reading and mathematics" (p.21) </td>
+   <td align="left"> Hang Duong </td>
+  </tr>
+  <tr>
+   <td align="left"> 170e </td>
+   <td align="left"> "Seeing exams as somehow measuring the most important qualities of a person is about as narrow and faded an approach to education as is offered to young people anywhere. This outlook cannot be blamed on juku entirely. University exams are the heart of the problem. Yet juku epitomize this world view" (p.241) </td>
    <td align="left"> Hang Duong </td>
   </tr>
 </tbody>

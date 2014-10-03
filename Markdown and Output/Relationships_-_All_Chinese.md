@@ -3,8 +3,8 @@
 
 
 ### TOTAL NUMBER OF ARTICLES: 98
-This number includes 0 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-09-25 10:35:45.
+This number includes 2 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
+Document was last updated on 2014-10-03 07:11:27.
 
 # _Region by year group_ for all entries in the database:
 
