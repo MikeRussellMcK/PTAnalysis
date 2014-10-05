@@ -269,8 +269,20 @@ kable(FramedOther, format="html", row.names=FALSE)
 #### If previous answer was equity, then please define equity concern here:
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
-kable(EquityConcernGrid, format="html",  row.names=FALSE)
+DataSource1=PrivateEquityCodeGrid
+DataSource2=AllAsiaEquityCodeGrid
+DataSource3=AllChineseEquityCodeGrid
+DataSource4=AllEnglishEquityCodeGrid
+
+YLim=175
+PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
+AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
+AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)
+AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
+
+grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
+
 
 ### How is private tutoring viewed in the article?
 

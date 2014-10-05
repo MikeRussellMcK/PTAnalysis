@@ -5,7 +5,7 @@
 
 ### Number of duplicate ID numbers in the Google Doc: 2
 
-### List of all duplicates as of 2014-10-03 07:09:09:
+### List of all duplicates as of 2014-10-03 10:34:07:
 
 
 |ID  |Reviewer |Publisher                 |PubLang |
@@ -13,7 +13,7 @@
 |128 |Xia Zhao |Nanjing Normal University |Chinese |
 |128 |Iveta    |Routledge                 |English |
 
-### List of all 0 Chinese-language duplicates as of 2014-10-03 07:09:09:
+### List of all 0 Chinese-language duplicates as of 2014-10-03 10:34:07:
 
 
 ```
@@ -28,7 +28,7 @@
 |ID |Reviewer |Publisher |PubLang |
 |:--|:--------|:---------|:-------|
 
-### List of all 0 English-language duplicates as of 2014-10-03 07:09:09:
+### List of all 0 English-language duplicates as of 2014-10-03 10:34:07:
 
 
 ```

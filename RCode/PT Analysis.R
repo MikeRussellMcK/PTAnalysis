@@ -912,8 +912,86 @@ FramedOther <- na.omit(Other)
 
 ## Equity Concern
 
-EquityConcernGrid <- data.frame(Private$ID, Private$EquityDefine, Private$Reviewer)
-EquityConcernGrid <- na.omit(EquityConcernGrid)
+EqyityCodeNames <- c("SES","Gender", "Ethnicity / Race","Geographical","Linguistic / Cultural")
+
+## Private
+## ======
+Private$EquitySES <- grepl("1", Private$EquityCode)
+Private$EquityGender <- grepl("2", Private$EquityCode)
+Private$EquityEthnicity <- grepl("3", Private$EquityCode)
+Private$EquityGeo <- grepl("4", Private$EquityCode)
+Private$EquityLang <- grepl("5", Private$EquityCode)
+
+
+PrivateEquityCodeGrid <- data.frame(
+  Private$EquitySES,
+  Private$EquityGender,
+  Private$EquityEthnicity,
+  Private$EquityGeo,
+  Private$EquityLang
+)
+names(PrivateEquityCodeGrid) <- EqyityCodeNames
+
+EqyityCodeNames <- c("SES","Gender", "Ethnicity / Race","Geographical","Linguistic / Cultural")
+
+## AllAsia
+## ======
+AllAsia$EquitySES <- grepl("1", AllAsia$EquityCode)
+AllAsia$EquityGender <- grepl("2", AllAsia$EquityCode)
+AllAsia$EquityEthnicity <- grepl("3", AllAsia$EquityCode)
+AllAsia$EquityGeo <- grepl("4", AllAsia$EquityCode)
+AllAsia$EquityLang <- grepl("5", AllAsia$EquityCode)
+
+
+AllAsiaEquityCodeGrid <- data.frame(
+  AllAsia$EquitySES,
+  AllAsia$EquityGender,
+  AllAsia$EquityEthnicity,
+  AllAsia$EquityGeo,
+  AllAsia$EquityLang
+)
+names(AllAsiaEquityCodeGrid) <- EqyityCodeNames
+
+EqyityCodeNames <- c("SES","Gender", "Ethnicity / Race","Geographical","Linguistic / Cultural")
+
+## AllChinese
+## ======
+AllChinese$EquitySES <- grepl("1", AllChinese$EquityCode)
+AllChinese$EquityGender <- grepl("2", AllChinese$EquityCode)
+AllChinese$EquityEthnicity <- grepl("3", AllChinese$EquityCode)
+AllChinese$EquityGeo <- grepl("4", AllChinese$EquityCode)
+AllChinese$EquityLang <- grepl("5", AllChinese$EquityCode)
+
+
+AllChineseEquityCodeGrid <- data.frame(
+  AllChinese$EquitySES,
+  AllChinese$EquityGender,
+  AllChinese$EquityEthnicity,
+  AllChinese$EquityGeo,
+  AllChinese$EquityLang
+)
+names(AllChineseEquityCodeGrid) <- EqyityCodeNames
+
+EqyityCodeNames <- c("SES","Gender", "Ethnicity / Race","Geographical","Linguistic / Cultural")
+
+## AllEnglish
+## ======
+AllEnglish$EquitySES <- grepl("1", AllEnglish$EquityCode)
+AllEnglish$EquityGender <- grepl("2", AllEnglish$EquityCode)
+AllEnglish$EquityEthnicity <- grepl("3", AllEnglish$EquityCode)
+AllEnglish$EquityGeo <- grepl("4", AllEnglish$EquityCode)
+AllEnglish$EquityLang <- grepl("5", AllEnglish$EquityCode)
+
+
+AllEnglishEquityCodeGrid <- data.frame(
+  AllEnglish$EquitySES,
+  AllEnglish$EquityGender,
+  AllEnglish$EquityEthnicity,
+  AllEnglish$EquityGeo,
+  AllEnglish$EquityLang
+)
+names(AllEnglishEquityCodeGrid) <- EqyityCodeNames
+
 
 # How is private tutoring viewed
 # ============================
