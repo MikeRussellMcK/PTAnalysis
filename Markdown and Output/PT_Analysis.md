@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 287
 <!-- This number includes 2 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2014-10-05 18:01:46.
+Document was last updated on 2014-10-10 06:35:38.
 
 Throughout this document the data are divided four ways:
 
@@ -784,11 +784,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> Bangladesh </td>
-   <td align="right"> 2 </td>
-  </tr>
-  <tr>
-   <td align="left"> Bangladesh  </td>
-   <td align="right"> 1 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> Bosnia & Herzegovina and Croatia </td>
@@ -903,14 +899,6 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Korea </td>
-   <td align="right"> 3 </td>
-  </tr>
-  <tr>
-   <td align="left"> Korea, Taiwan, Romania, and Phillippines </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
    <td align="left"> Kuwait </td>
    <td align="right"> 1 </td>
   </tr>
@@ -964,10 +952,14 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> South Korea </td>
-   <td align="right"> 15 </td>
+   <td align="right"> 18 </td>
   </tr>
   <tr>
    <td align="left"> South Korea and United States </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> South Korea, Taiwan, Romania, and Phillippines </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -992,31 +984,19 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> U.S. </td>
+   <td align="right"> 21 </td>
+  </tr>
+  <tr>
+   <td align="left"> U.S. and India </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
+   <td align="left"> U.S. vs S.Korea </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> UK </td>
    <td align="right"> 3 </td>
-  </tr>
-  <tr>
-   <td align="left"> United States </td>
-   <td align="right"> 4 </td>
-  </tr>
-  <tr>
-   <td align="left"> US </td>
-   <td align="right"> 11 </td>
-  </tr>
-  <tr>
-   <td align="left"> US vs S.Korea </td>
-   <td align="right"> 1 </td>
-  </tr>
-  <tr>
-   <td align="left"> USA </td>
-   <td align="right"> 5 </td>
-  </tr>
-  <tr>
-   <td align="left"> USA and India </td>
-   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Vietnam </td>
