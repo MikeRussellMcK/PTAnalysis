@@ -775,65 +775,133 @@ names(AllEnglishWasDataGrid) <- WasDataNames
 
 # Theory
 
-TheoryNames <- c("Social Capital", "Human Capital", "Cultural Capital", "World Culture", "Human Rights", "Critical Theory", "Political Theory", "None or Unclear to us")
+TheoryNames <- c("Social Capital", "Human Capital", "Cultural Capital", "World Culture", "Human Rights", "Critical Theory", "Political Theory", "None or Unclear to us", "Cultural Model", "Economic Theories", "Social / Cultural Reproduction", "Ecological Model")
 
 # Theoretical Frameworks
 # ============================
 
 ## Private
 ## ======
-Private$TheorySocialCap <- grepl("Social", Private$Theory)
-Private$TheoryHumanCap <- grepl("Human Capital", Private$Theory)
-Private$TheoryCulturalCap <- grepl("Cultural", Private$Theory)
-Private$TheoryWorldCult <- grepl("World", Private$Theory)
-Private$TheoryHumanRights <- grepl("Human Rights", Private$Theory)
-Private$TheoryCritical <- grepl("Critical Theory", Private$Theory)
-Private$TheoryPolitical <- grepl("Political", Private$Theory)
-Private$TheoryNone <- grepl("None", Private$Theory)
+Private$TheorySocialCap   <- grepl("Social", Private$Theory)
+Private$TheoryHumanCap 		<- grepl("Human Capital", Private$Theory)
+Private$TheoryCulturalCap	<- grepl("Cultural", Private$Theory)
+Private$TheoryWorldCult 	<- grepl("World", Private$Theory)
+Private$TheoryHumanRights	<- grepl("Human Rights", Private$Theory)
+Private$TheoryCritical 		<- grepl("Critical Theory", Private$Theory)
+Private$TheoryPolitical 	<- grepl("Political", Private$Theory)
+Private$TheoryNone 			<- grepl("None", Private$Theory)
+Private$TheoryCulturalModel	<- grepl("Cultural Model", Private$Theory)
+Private$TheoryEconomic 		<- grepl("Economic", Private$Theory)
+Private$TheorySocialRepro 	<- grepl("Reproduction", Private$Theory)
+Private$TheoryEcological 	<- grepl("Ecological", Private$Theory)
 
-PrivateTheoryGrid <- data.frame(Private$TheorySocialCap, Private$TheoryHumanCap, Private$TheoryCulturalCap, Private$TheoryWorldCult, Private$TheoryHumanRights, Private$TheoryCritical, Private$TheoryPolitical, Private$TheoryNone)
+PrivateTheoryGrid <- data.frame(
+  Private$TheorySocialCap, 
+  Private$TheoryHumanCap, 
+  Private$TheoryCulturalCap, 
+  Private$TheoryWorldCult, 
+  Private$TheoryHumanRights, 
+  Private$TheoryCritical, 
+  Private$TheoryPolitical, 
+  Private$TheoryNone,
+  Private$TheoryCulturalModel,
+  Private$TheoryEconomic,
+  Private$TheorySocialRepro,
+  Private$TheoryEcological)
+
 names(PrivateTheoryGrid) <- TheoryNames
 
 ## AllAsia
 ## ======
-AllAsia$TheorySocialCap <- grepl("Social", AllAsia$Theory)
-AllAsia$TheoryHumanCap <- grepl("Human Capital", AllAsia$Theory)
-AllAsia$TheoryCulturalCap <- grepl("Cultural", AllAsia$Theory)
-AllAsia$TheoryWorldCult <- grepl("World", AllAsia$Theory)
-AllAsia$TheoryHumanRights <- grepl("Human Rights", AllAsia$Theory)
-AllAsia$TheoryCritical <- grepl("Critical Theory", AllAsia$Theory)
-AllAsia$TheoryPolitical <- grepl("Political", AllAsia$Theory)
-AllAsia$TheoryNone <- grepl("None", AllAsia$Theory)
+AllAsia$TheorySocialCap   <- grepl("Social", AllAsia$Theory)
+AllAsia$TheoryHumanCap 		<- grepl("Human Capital", AllAsia$Theory)
+AllAsia$TheoryCulturalCap	<- grepl("Cultural", AllAsia$Theory)
+AllAsia$TheoryWorldCult 	<- grepl("World", AllAsia$Theory)
+AllAsia$TheoryHumanRights	<- grepl("Human Rights", AllAsia$Theory)
+AllAsia$TheoryCritical 		<- grepl("Critical Theory", AllAsia$Theory)
+AllAsia$TheoryPolitical 	<- grepl("Political", AllAsia$Theory)
+AllAsia$TheoryNone 			<- grepl("None", AllAsia$Theory)
+AllAsia$TheoryCulturalModel	<- grepl("Cultural Model", AllAsia$Theory)
+AllAsia$TheoryEconomic 		<- grepl("Economic", AllAsia$Theory)
+AllAsia$TheorySocialRepro 	<- grepl("Reproduction", AllAsia$Theory)
+AllAsia$TheoryEcological 	<- grepl("Ecological", AllAsia$Theory)
 
-AllAsiaTheoryGrid <- data.frame(AllAsia$TheorySocialCap, AllAsia$TheoryHumanCap, AllAsia$TheoryCulturalCap, AllAsia$TheoryWorldCult, AllAsia$TheoryHumanRights, AllAsia$TheoryCritical, AllAsia$TheoryPolitical, AllAsia$TheoryNone)
+AllAsiaTheoryGrid <- data.frame(
+  AllAsia$TheorySocialCap, 
+  AllAsia$TheoryHumanCap, 
+  AllAsia$TheoryCulturalCap, 
+  AllAsia$TheoryWorldCult, 
+  AllAsia$TheoryHumanRights, 
+  AllAsia$TheoryCritical, 
+  AllAsia$TheoryPolitical, 
+  AllAsia$TheoryNone,
+  AllAsia$TheoryCulturalModel,
+  AllAsia$TheoryEconomic,
+  AllAsia$TheorySocialRepro,
+  AllAsia$TheoryEcological)
+
 names(AllAsiaTheoryGrid) <- TheoryNames
 
 ## AllChinese
 ## ======
-AllChinese$TheorySocialCap <- grepl("Social", AllChinese$Theory)
-AllChinese$TheoryHumanCap <- grepl("Human Capital", AllChinese$Theory)
-AllChinese$TheoryCulturalCap <- grepl("Cultural", AllChinese$Theory)
-AllChinese$TheoryWorldCult <- grepl("World", AllChinese$Theory)
-AllChinese$TheoryHumanRights <- grepl("Human Rights", AllChinese$Theory)
-AllChinese$TheoryCritical <- grepl("Critical Theory", AllChinese$Theory)
-AllChinese$TheoryPolitical <- grepl("Political", AllChinese$Theory)
-AllChinese$TheoryNone <- grepl("None", AllChinese$Theory)
+AllChinese$TheorySocialCap   <- grepl("Social", AllChinese$Theory)
+AllChinese$TheoryHumanCap 		<- grepl("Human Capital", AllChinese$Theory)
+AllChinese$TheoryCulturalCap	<- grepl("Cultural", AllChinese$Theory)
+AllChinese$TheoryWorldCult 	<- grepl("World", AllChinese$Theory)
+AllChinese$TheoryHumanRights	<- grepl("Human Rights", AllChinese$Theory)
+AllChinese$TheoryCritical 		<- grepl("Critical Theory", AllChinese$Theory)
+AllChinese$TheoryPolitical 	<- grepl("Political", AllChinese$Theory)
+AllChinese$TheoryNone 			<- grepl("None", AllChinese$Theory)
+AllChinese$TheoryCulturalModel	<- grepl("Cultural Model", AllChinese$Theory)
+AllChinese$TheoryEconomic 		<- grepl("Economic", AllChinese$Theory)
+AllChinese$TheorySocialRepro 	<- grepl("Reproduction", AllChinese$Theory)
+AllChinese$TheoryEcological 	<- grepl("Ecological", AllChinese$Theory)
 
-AllChineseTheoryGrid <- data.frame(AllChinese$TheorySocialCap, AllChinese$TheoryHumanCap, AllChinese$TheoryCulturalCap, AllChinese$TheoryWorldCult, AllChinese$TheoryHumanRights, AllChinese$TheoryCritical, AllChinese$TheoryPolitical, AllChinese$TheoryNone)
+AllChineseTheoryGrid <- data.frame(
+  AllChinese$TheorySocialCap, 
+  AllChinese$TheoryHumanCap, 
+  AllChinese$TheoryCulturalCap, 
+  AllChinese$TheoryWorldCult, 
+  AllChinese$TheoryHumanRights, 
+  AllChinese$TheoryCritical, 
+  AllChinese$TheoryPolitical, 
+  AllChinese$TheoryNone,
+  AllChinese$TheoryCulturalModel,
+  AllChinese$TheoryEconomic,
+  AllChinese$TheorySocialRepro,
+  AllChinese$TheoryEcological)
+
 names(AllChineseTheoryGrid) <- TheoryNames
 
 ## AllEnglish
 ## ======
-AllEnglish$TheorySocialCap <- grepl("Social", AllEnglish$Theory)
-AllEnglish$TheoryHumanCap <- grepl("Human Capital", AllEnglish$Theory)
-AllEnglish$TheoryCulturalCap <- grepl("Cultural", AllEnglish$Theory)
-AllEnglish$TheoryWorldCult <- grepl("World", AllEnglish$Theory)
-AllEnglish$TheoryHumanRights <- grepl("Human Rights", AllEnglish$Theory)
-AllEnglish$TheoryCritical <- grepl("Critical Theory", AllEnglish$Theory)
-AllEnglish$TheoryPolitical <- grepl("Political", AllEnglish$Theory)
-AllEnglish$TheoryNone <- grepl("None", AllEnglish$Theory)
+AllEnglish$TheorySocialCap   <- grepl("Social", AllEnglish$Theory)
+AllEnglish$TheoryHumanCap 		<- grepl("Human Capital", AllEnglish$Theory)
+AllEnglish$TheoryCulturalCap	<- grepl("Cultural", AllEnglish$Theory)
+AllEnglish$TheoryWorldCult 	<- grepl("World", AllEnglish$Theory)
+AllEnglish$TheoryHumanRights	<- grepl("Human Rights", AllEnglish$Theory)
+AllEnglish$TheoryCritical 		<- grepl("Critical Theory", AllEnglish$Theory)
+AllEnglish$TheoryPolitical 	<- grepl("Political", AllEnglish$Theory)
+AllEnglish$TheoryNone 			<- grepl("None", AllEnglish$Theory)
+AllEnglish$TheoryCulturalModel	<- grepl("Cultural Model", AllEnglish$Theory)
+AllEnglish$TheoryEconomic 		<- grepl("Economic", AllEnglish$Theory)
+AllEnglish$TheorySocialRepro 	<- grepl("Reproduction", AllEnglish$Theory)
+AllEnglish$TheoryEcological 	<- grepl("Ecological", AllEnglish$Theory)
 
-AllEnglishTheoryGrid <- data.frame(AllEnglish$TheorySocialCap, AllEnglish$TheoryHumanCap, AllEnglish$TheoryCulturalCap, AllEnglish$TheoryWorldCult, AllEnglish$TheoryHumanRights, AllEnglish$TheoryCritical, AllEnglish$TheoryPolitical, AllEnglish$TheoryNone)
+AllEnglishTheoryGrid <- data.frame(
+  AllEnglish$TheorySocialCap, 
+  AllEnglish$TheoryHumanCap, 
+  AllEnglish$TheoryCulturalCap, 
+  AllEnglish$TheoryWorldCult, 
+  AllEnglish$TheoryHumanRights, 
+  AllEnglish$TheoryCritical, 
+  AllEnglish$TheoryPolitical, 
+  AllEnglish$TheoryNone,
+  AllEnglish$TheoryCulturalModel,
+  AllEnglish$TheoryEconomic,
+  AllEnglish$TheorySocialRepro,
+  AllEnglish$TheoryEcological)
+
 names(AllEnglishTheoryGrid) <- TheoryNames
 
 ## Others
@@ -848,7 +916,7 @@ TheoryOther <- na.omit(Other)
 # Framing
 # ============================
 
-FramedNames <- c("Related to curriculum coverage / ed. quality / exam prep", "Corruption", "Equity", "Supply & Demand / Economic Efficiency", "Social Cohesion", "Global Trend", "Household Expenditures")
+FramedNames <- c("Related to curriculum coverage / ed. quality / exam prep", "Corruption", "Equity", "Supply & Demand / Economic Efficiency", "Social Cohesion", "Global Trend", "Household Expenditures", "Culture", "Teacher Professionalism", "Parental Involvement")
 
 ## Private
 ## ======
@@ -859,8 +927,11 @@ Private$FramedEcon <- grepl("Economic", Private$Framed)
 Private$FramedCohesion <- grepl("Social", Private$Framed)
 Private$FramedTrend <- grepl("Global", Private$Framed)
 Private$FramedHousehold <- grepl("Household", Private$Framed)
+Private$FramedCulture <- grepl("Culture", Private$Framed)
+Private$FramedProfessionalism <- grepl("Professionalism", Private$Framed)
+Private$FramedParental <- grepl("Parental", Private$Framed)
 
-PrivateFramedGrid <- data.frame(Private$FramedCurric, Private$FramedCorruption, Private$FramedEquity, Private$FramedEcon, Private$FramedCohesion, Private$FramedTrend, Private$FramedHousehold)
+PrivateFramedGrid <- data.frame(Private$FramedCurric, Private$FramedCorruption, Private$FramedEquity, Private$FramedEcon, Private$FramedCohesion, Private$FramedTrend, Private$FramedHousehold, Private$FramedCulture, Private$FramedProfessionalism, Private$FramedParental)
 names(PrivateFramedGrid) <- FramedNames
 
 ## AllAsia
@@ -872,8 +943,11 @@ AllAsia$FramedEcon <- grepl("Economic", AllAsia$Framed)
 AllAsia$FramedCohesion <- grepl("Social", AllAsia$Framed)
 AllAsia$FramedTrend <- grepl("Global", AllAsia$Framed)
 AllAsia$FramedHousehold <- grepl("Household", AllAsia$Framed)
+AllAsia$FramedCulture <- grepl("Culture", AllAsia$Framed)
+AllAsia$FramedProfessionalism <- grepl("Professionalism", AllAsia$Framed)
+AllAsia$FramedParental <- grepl("Parental", AllAsia$Framed)
 
-AllAsiaFramedGrid <- data.frame(AllAsia$FramedCurric, AllAsia$FramedCorruption, AllAsia$FramedEquity, AllAsia$FramedEcon, AllAsia$FramedCohesion, AllAsia$FramedTrend, AllAsia$FramedHousehold)
+AllAsiaFramedGrid <- data.frame(AllAsia$FramedCurric, AllAsia$FramedCorruption, AllAsia$FramedEquity, AllAsia$FramedEcon, AllAsia$FramedCohesion, AllAsia$FramedTrend, AllAsia$FramedHousehold, AllAsia$FramedCulture, AllAsia$FramedProfessionalism, AllAsia$FramedParental)
 names(AllAsiaFramedGrid) <- FramedNames
 
 ## AllChinese
@@ -885,8 +959,11 @@ AllChinese$FramedEcon <- grepl("Economic", AllChinese$Framed)
 AllChinese$FramedCohesion <- grepl("Social", AllChinese$Framed)
 AllChinese$FramedTrend <- grepl("Global", AllChinese$Framed)
 AllChinese$FramedHousehold <- grepl("Household", AllChinese$Framed)
+AllChinese$FramedCulture <- grepl("Culture", AllChinese$Framed)
+AllChinese$FramedProfessionalism <- grepl("Professionalism", AllChinese$Framed)
+AllChinese$FramedParental <- grepl("Parental", AllChinese$Framed)
 
-AllChineseFramedGrid <- data.frame(AllChinese$FramedCurric, AllChinese$FramedCorruption, AllChinese$FramedEquity, AllChinese$FramedEcon, AllChinese$FramedCohesion, AllChinese$FramedTrend, AllChinese$FramedHousehold)
+AllChineseFramedGrid <- data.frame(AllChinese$FramedCurric, AllChinese$FramedCorruption, AllChinese$FramedEquity, AllChinese$FramedEcon, AllChinese$FramedCohesion, AllChinese$FramedTrend, AllChinese$FramedHousehold, AllChinese$FramedCulture, AllChinese$FramedProfessionalism, AllChinese$FramedParental)
 names(AllChineseFramedGrid) <- FramedNames
 
 ## AllEnglish
@@ -898,8 +975,11 @@ AllEnglish$FramedEcon <- grepl("Economic", AllEnglish$Framed)
 AllEnglish$FramedCohesion <- grepl("Social", AllEnglish$Framed)
 AllEnglish$FramedTrend <- grepl("Global", AllEnglish$Framed)
 AllEnglish$FramedHousehold <- grepl("Household", AllEnglish$Framed)
+AllEnglish$FramedCulture <- grepl("Culture", AllEnglish$Framed)
+AllEnglish$FramedProfessionalism <- grepl("Professionalism", AllEnglish$Framed)
+AllEnglish$FramedParental <- grepl("Parental", AllEnglish$Framed)
 
-AllEnglishFramedGrid <- data.frame(AllEnglish$FramedCurric, AllEnglish$FramedCorruption, AllEnglish$FramedEquity, AllEnglish$FramedEcon, AllEnglish$FramedCohesion, AllEnglish$FramedTrend, AllEnglish$FramedHousehold)
+AllEnglishFramedGrid <- data.frame(AllEnglish$FramedCurric, AllEnglish$FramedCorruption, AllEnglish$FramedEquity, AllEnglish$FramedEcon, AllEnglish$FramedCohesion, AllEnglish$FramedTrend, AllEnglish$FramedHousehold, AllEnglish$FramedCulture, AllEnglish$FramedProfessionalism, AllEnglish$FramedParental)
 names(AllEnglishFramedGrid) <- FramedNames
 
 ## Others

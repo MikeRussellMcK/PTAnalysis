@@ -224,7 +224,7 @@ DataSource2=AllAsiaTheoryGrid
 DataSource3=AllChineseTheoryGrid
 DataSource4=AllEnglishTheoryGrid
 
-YLim=350
+YLim=275
 PrivateGraph <- CategoricalPlot(DataSource1, Title1, YLim)
 AllAsiaGraph <- CategoricalPlot(DataSource2, Title2, YLim)
 AllChineseGraph <- CategoricalPlot(DataSource3, Title3, YLim)

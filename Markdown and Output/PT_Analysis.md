@@ -4,8 +4,8 @@
 
 
 ### TOTAL NUMBER OF ARTICLES: 287
-<!-- This number includes 2 articles with duplicate ID numbers (0 Chinese-language, 0 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2014-10-10 06:35:38.
+<!-- This number includes 155 articles with duplicate ID numbers (0 Chinese-language, 2 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
+Document was last updated on 2014-10-11 18:43:58.
 
 Throughout this document the data are divided four ways:
 
@@ -743,11 +743,11 @@ Asian Economic Journal </td>
 #### Research Type Others:
 
 
-|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.items..collapse.......... |Private.Reviewer |
-|:----------|:------------------------------------------------------------------------------|:----------------|
-|60         |Author designs theoretical model private tutoring                              |Mike             |
-|109e       |Theoretical                                                                    |Hang Duong       |
-|97e        |Secondary research                                                             |Damian Wyman     |
+| Private.ID|X.others....gsub.sprintf......s....s.....s.....paste.items..collapse.......... |Private.Reviewer |
+|----------:|:------------------------------------------------------------------------------|:----------------|
+|         60|Author designs theoretical model private tutoring                              |Mike             |
+|        109|Theoretical                                                                    |Hang Duong       |
+|         97|Secondary research                                                             |Damian Wyman     |
 
 ## Subjects and Approach
 
@@ -1020,11 +1020,11 @@ Asian Economic Journal </td>
 #### EdLevel Others:
 
 
-|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
-|:----------|:-------------------------------------------------------------------|:----------------|
-|154e       |Vocational                                                          |Iveta            |
-|157e       |Vocational                                                          |Iveta            |
-|184e       |Vocational                                                          |Iveta            |
+| Private.ID|X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
+|----------:|:-------------------------------------------------------------------|:----------------|
+|        154|Vocational                                                          |Iveta            |
+|        157|Vocational                                                          |Iveta            |
+|        184|Vocational                                                          |Iveta            |
 
 ### Research Approach
 
@@ -1033,9 +1033,9 @@ Asian Economic Journal </td>
 #### ResearchApproach Others:
 
 
-|Private.ID |X.others....gsub.sprintf......s....s.....s.....paste.ResearchApproachNames.. |Private.Reviewer |
-|:----------|:----------------------------------------------------------------------------|:----------------|
-|60         |Theoretical model                                                            |Mike             |
+| Private.ID|X.others....gsub.sprintf......s....s.....s.....paste.ResearchApproachNames.. |Private.Reviewer |
+|----------:|:----------------------------------------------------------------------------|:----------------|
+|         60|Theoretical model                                                            |Mike             |
 
 ### Research Methods
 
@@ -1434,256 +1434,70 @@ second time when they were in grade 9. </td>
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.TheoryNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 4 </td>
-   <td align="left"> Cultural model </td>
+   <td align="right"> 50 </td>
+   <td align="left"> System Theory </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 7 </td>
-   <td align="left"> Institutional approach </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 12 </td>
-   <td align="left"> Allocation theory of education (Bourdieu and Passeron, 1977) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 16 </td>
-   <td align="left"> None or Unclear, family expenditure </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 39 </td>
-   <td align="left"> Cultural model </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 46 </td>
-   <td align="left"> Institutional theory </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 50 </td>
-   <td align="left"> systems theory </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 51 </td>
-   <td align="left"> Economic theory </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 59 </td>
-   <td align="left"> Social Reproduction </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 61 </td>
+   <td align="right"> 61 </td>
    <td align="left"> Parental Involvement  </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 62 </td>
-   <td align="left"> Institutional theory </td>
+   <td align="right"> 71 </td>
+   <td align="left"> Historical view </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 71 </td>
-   <td align="left"> None or Unclear, Historical view </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 72 </td>
-   <td align="left"> None or Unclear, economic theories </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 87 </td>
-   <td align="left"> Discusses in relation to EFA & free access to education </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 93 </td>
-   <td align="left"> Huge gap between urban and rural areas </td>
+   <td align="right"> 124 </td>
+   <td align="left"> Maslow's Hierarchy of Needs </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 94 </td>
-   <td align="left"> Huge gap between urban and rural areas </td>
+   <td align="right"> 147 </td>
+   <td align="left"> Structural Functionalism </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 98 </td>
-   <td align="left"> Huge gap between urban and rural areas </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 108 </td>
-   <td align="left"> Education equity </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 124 </td>
-   <td align="left"> Maslow's hierarchy of needs theory ; Theories of Motivation. </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 147 </td>
-   <td align="left"> Structural functionalism </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 185 </td>
-   <td align="left"> Neoliberalism </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 204 </td>
-   <td align="left"> marketization/privatization of education </td>
+   <td align="right"> 212 </td>
+   <td align="left"> Actor-Network Theory </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 212 </td>
-   <td align="left"> actor-network theory </td>
+   <td align="right"> 218 </td>
+   <td align="left"> Organizational Field Approach </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 218 </td>
-   <td align="left"> organizational field approach </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 222 </td>
-   <td align="left"> neolibralism </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 100e </td>
-   <td align="left"> Teacher professionalism; research highlighting the phenomenon of private tutoring, a “background” practice, which has grown into a parallel system of education in many countries </td>
+   <td align="right"> 100 </td>
+   <td align="left"> Teacher professionalism, Labor Process Theory, Trait Theory </td>
    <td align="left"> Damian Wyman </td>
   </tr>
   <tr>
-   <td align="left"> 105e </td>
-   <td align="left"> Game Theory and Nash equilibrium </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 107e </td>
-   <td align="left"> the education production function </td>
-   <td align="left"> Damian Wyman </td>
-  </tr>
-  <tr>
-   <td align="left"> 109e </td>
-   <td align="left"> Presents model of private tutoring in which demand comes from poor school infrastructure and teacher "shirking"
-??? </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 114e </td>
-   <td align="left"> Privatization of education </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 118e </td>
+   <td align="right"> 118 </td>
    <td align="left"> Various (edited book) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 122e </td>
-   <td align="left"> Critical ethnography </td>
+   <td align="right"> 122 </td>
+   <td align="left"> Critical Ethnography </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 136e </td>
-   <td align="left"> Bourdieu’s theory of social capital and cultural reproduction </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 142e </td>
-   <td align="left"> game theory </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="left"> 168e </td>
-   <td align="left"> Schein’s conceptual framework </td>
+   <td align="right"> 168 </td>
+   <td align="left"> Schein’s Conceptual Framework </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 172e </td>
-   <td align="left"> Cultural institutional  </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 173e </td>
-   <td align="left"> Functionalist and Institutionalist </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 190e </td>
-   <td align="left"> Bronfenbrenner's (1979) ecological model of human development </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 191e </td>
-   <td align="left"> Screening theory, theory about demand for PT by James (1987) </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 192e </td>
-   <td align="left"> the standard microeconomic theory of supply and demand and educational production function </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 193e </td>
-   <td align="left"> econometric frameworks </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 197e </td>
-   <td align="left">  status competition  theory and institutional theory </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 198e </td>
-   <td align="left"> status competition theory and institutional theory </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 200e </td>
-   <td align="left"> social stratification </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 209e </td>
+   <td align="right"> 209 </td>
    <td align="left"> Helmke’s (2009) offer-usage model of instructional effects (bw PT and aca achievements) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 128 </td>
-   <td align="left"> New institutionalism </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 229 </td>
-   <td align="left"> using CDA to critique of neoliberalism </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 224 </td>
-   <td align="left"> ecological paradigm (Bronfenbrenner) </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 170e </td>
-   <td align="left"> Education for democracy </td>
    <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
@@ -1698,136 +1512,31 @@ second time when they were in grade 9. </td>
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.FramedNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 15 </td>
-   <td align="left"> racial differences East Asian youth versus other ethnic </td>
-   <td align="left"> Peggy </td>
+   <td align="right"> 218 </td>
+   <td align="left"> Organizational Field Approach </td>
+   <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 21 </td>
-   <td align="left"> perceived failure of public system/  </td>
+   <td align="right"> 125 </td>
+   <td align="left"> Resistance  </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 33 </td>
-   <td align="left"> Commercialization/privatization of education </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 39 </td>
-   <td align="left"> cultural and socio-cultural </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 42 </td>
-   <td align="left"> teacher status  </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 47 </td>
-   <td align="left"> resistance to Western reforms </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 48 </td>
-   <td align="left"> site of resistance to global reforms </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 61 </td>
-   <td align="left"> Parental Involvement </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="left"> 72 </td>
-   <td align="left"> gender rights </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 110 </td>
-   <td align="left"> family relationship </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 144 </td>
-   <td align="left"> the relationship between teachers and students </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="left"> 212 </td>
-   <td align="left"> publicly funded after-school tutoring for low-achieving stu </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 218 </td>
-   <td align="left"> on the periphery of the broader organizational field of edu. </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 220 </td>
-   <td align="left"> publicly funded after-school tutoring for low-achieving stu </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 109e </td>
-   <td align="left"> Related to curriculum coverage / ed. quality / exam pre </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 125e </td>
-   <td align="left"> resistance  </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 135e </td>
-   <td align="left"> Response to oppression </td>
-   <td align="left"> Mike </td>
-  </tr>
-  <tr>
-   <td align="left"> 161e </td>
-   <td align="left"> Culture </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 194e </td>
-   <td align="left"> Supply & Demand / Economic Efficency </td>
-   <td align="left"> Olga </td>
-  </tr>
-  <tr>
-   <td align="left"> 208e </td>
-   <td align="left"> parent's role/ duty </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 110e </td>
-   <td align="left"> personal learning experience for college students </td>
+   <td align="right"> 110 </td>
+   <td align="left"> Personal Learning Experience for College Students </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
-   <td align="left"> 157e </td>
-   <td align="left"> professional mobility </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 184e </td>
+   <td align="right"> 184 </td>
    <td align="left"> Lifelong learning </td>
    <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="left"> 79 </td>
-   <td align="left"> PT becomes "de-facto privatization of secondary education" </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="left"> 182e </td>
-   <td align="left"> culture </td>
-   <td align="left"> Xiaoran Yu </td>
   </tr>
 </tbody>
 </table>
@@ -1850,34 +1559,34 @@ second time when they were in grade 9. </td>
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.StakeholdersNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 13 </td>
+   <td align="right"> 13 </td>
    <td align="left"> Employers, Workers </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 17 </td>
+   <td align="right"> 17 </td>
    <td align="left"> Juku operators </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 24 </td>
+   <td align="right"> 24 </td>
    <td align="left"> UNICEF officers </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 46 </td>
+   <td align="right"> 46 </td>
    <td align="left"> tutors </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 57 </td>
+   <td align="right"> 57 </td>
    <td align="left"> 
 
 
@@ -1905,22 +1614,22 @@ center or franchise
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 58 </td>
+   <td align="right"> 58 </td>
    <td align="left"> Schools </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 62 </td>
+   <td align="right"> 62 </td>
    <td align="left"> Summary of previous research </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 69 </td>
+   <td align="right"> 69 </td>
    <td align="left"> Census data </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 78 </td>
+   <td align="right"> 78 </td>
    <td align="left"> 
 
 
@@ -1948,87 +1657,87 @@ center or franchise
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 212 </td>
+   <td align="right"> 212 </td>
    <td align="left"> SES providers </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 175e </td>
+   <td align="right"> 175 </td>
    <td align="left"> unclear </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 180e </td>
+   <td align="right"> 180 </td>
    <td align="left"> local education committees </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 56 </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 56 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 159e </td>
+   <td align="right"> 159 </td>
    <td align="left"> Administrators </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 154e </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 154 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 151e </td>
-   <td align="left"> N/A [documents], Administrators </td>
+   <td align="right"> 151 </td>
+   <td align="left"> N/A [], Administrators </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 128 </td>
-   <td align="left"> N/A [documents], Administrators of SES centers </td>
+   <td align="right"> 128 </td>
+   <td align="left"> N/A [], Administrators of SES centers </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 157e </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 157 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 184e </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 184 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 166R </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 166 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 229 </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 229 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 224 </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 224 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 79 </td>
+   <td align="right"> 79 </td>
    <td align="left"> principals of schools that provide tutoring </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 156e </td>
+   <td align="right"> 156 </td>
    <td align="left"> principals of schools that receive Supplemental Educational Services of NCLB </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 170e </td>
-   <td align="left"> N/A [documents] </td>
+   <td align="right"> 170 </td>
+   <td align="left"> N/A [] </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 176e </td>
+   <td align="right"> 176 </td>
    <td align="left"> superintendents and principals </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
@@ -2046,14 +1755,14 @@ center or franchise
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.WhatTaughtNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 135e </td>
+   <td align="right"> 135 </td>
    <td align="left"> African-American cultural classes </td>
    <td align="left"> Mike </td>
   </tr>
@@ -2069,24 +1778,24 @@ center or franchise
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.WhereOccurNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 194e </td>
+   <td align="right"> 194 </td>
    <td align="left"> Shopping malls </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 91e </td>
+   <td align="right"> 91 </td>
    <td align="left"> cultural centers </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 170e </td>
+   <td align="right"> 170 </td>
    <td align="left"> juku is a "private tutoring school" </td>
    <td align="left"> Hang Duong </td>
   </tr>
@@ -2102,24 +1811,24 @@ center or franchise
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.WhoProvidesNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 57 </td>
+   <td align="right"> 57 </td>
    <td align="left"> business leaders, not professional teachers </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 191e </td>
+   <td align="right"> 191 </td>
    <td align="left"> the study focused more on demand rather than supply </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 99e </td>
+   <td align="right"> 99 </td>
    <td align="left"> experts in the field </td>
    <td align="left"> Hang Duong </td>
   </tr>
@@ -2142,19 +1851,19 @@ center or franchise
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.OperationSizeNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 175e </td>
+   <td align="right"> 175 </td>
    <td align="left"> school  </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 110e </td>
+   <td align="right"> 110 </td>
    <td align="left"> university </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
@@ -2169,144 +1878,144 @@ center or franchise
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> X.others....gsub.sprintf......s....s.....s.....paste.WhyTakingNames.. </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 36 </td>
+   <td align="right"> 36 </td>
    <td align="left"> Socializing effect (if you pay, both girls and boys can study together) </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 39 </td>
+   <td align="right"> 39 </td>
    <td align="left"> "insufficient free academic guidance from daytime schooling or from elder family members" p.67 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 87 </td>
+   <td align="right"> 87 </td>
    <td align="left"> supplement low teacher salaries </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 118 </td>
+   <td align="right"> 118 </td>
    <td align="left"> influenced by tutoring center's propaganda </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 151 </td>
+   <td align="right"> 151 </td>
    <td align="left"> parents' hope; the advantage of private tutoring education; teachers want to earn money </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 155 </td>
+   <td align="right"> 155 </td>
    <td align="left"> Parents do not want to their children lose on the startline; teachers want to earn money </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 218 </td>
+   <td align="right"> 218 </td>
    <td align="left"> help stu have “confidence” in their abilities (p.160) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 221 </td>
+   <td align="right"> 221 </td>
    <td align="left"> parents’ fears and perceptions of poor school quality </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 222 </td>
+   <td align="right"> 222 </td>
    <td align="left"> parents anxiety (SK case) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 102e </td>
+   <td align="right"> 102 </td>
    <td align="left"> Other government to compete internationally </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 108e </td>
+   <td align="right"> 108 </td>
    <td align="left"> "The parents are unable to help their children’s study" </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 109e </td>
+   <td align="right"> 109 </td>
    <td align="left"> parents want to invest in children's education </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 120e </td>
+   <td align="right"> 120 </td>
    <td align="left"> to provide structured time outside of school </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 123e </td>
+   <td align="right"> 123 </td>
    <td align="left"> academic coaching aimed at raising motivation to study and identify professional goals </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 131e </td>
+   <td align="right"> 131 </td>
    <td align="left"> resistance </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 146e </td>
+   <td align="right"> 146 </td>
    <td align="left"> "reflect educational progress" p.27  </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
-   <td align="left"> 162e </td>
+   <td align="right"> 162 </td>
    <td align="left"> government's financial support </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 208e </td>
+   <td align="right"> 208 </td>
    <td align="left"> parents’ beliefs about the importance of striving for achievement and their sense of efficacy in helping their child with schoolwork </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 209e </td>
+   <td align="right"> 209 </td>
    <td align="left"> to improve their academic achievement </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 94e </td>
+   <td align="right"> 94 </td>
    <td align="left"> parents' investment </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 56 </td>
+   <td align="right"> 56 </td>
    <td align="left"> as accelerating courses for children of average ability </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 116e </td>
+   <td align="right"> 116 </td>
    <td align="left"> public and private schools are low quality. Students want to supplement their education </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
-   <td align="left"> 150e </td>
+   <td align="right"> 150 </td>
    <td align="left"> To prepare for the future profession </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 154e </td>
+   <td align="right"> 154 </td>
    <td align="left"> To prepare for the future profession </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 157e </td>
+   <td align="right"> 157 </td>
    <td align="left"> to increase professional mobility </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 156e </td>
+   <td align="right"> 156 </td>
    <td align="left"> as part of the NCLB mandate </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 133e </td>
+   <td align="right"> 133 </td>
    <td align="left"> as part of the NCLB mandate </td>
    <td align="left"> Hang Duong </td>
   </tr>
@@ -2317,19 +2026,19 @@ center or franchise
 <table>
  <thead>
   <tr>
-   <th align="left"> Private.ID </th>
+   <th align="right"> Private.ID </th>
    <th align="left"> Private.AddDetails </th>
    <th align="left"> Private.Reviewer </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td align="left"> 4 </td>
+   <td align="right"> 4 </td>
    <td align="left"> mentions the Confusion heritage culture, which stresses effort for self-improvement rather than acceptance of in-born abilities and existing circumstances (p. 618) - "such cultural traits are arguably one reason why tutoring has been particularly evident in East Asia" p.618 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 6 </td>
+   <td align="right"> 6 </td>
    <td align="left"> "there is clear evidence that shadow education is part of the institutional character of mass schooling." (p. 12)
 
 "the data illustrate the general notion that national and cross-national patterns of shadow education lead to an important institutional perspective on modern schooling. The widespread prevalence of shadow education and the intensity of its use in schooling processes of students and families dramatically underscores the degree to which education increasingly dominates the structure of childhood and child-rearing... As schooling becomes  the primary institution for the generation of knowledge and its transmission to generations of children in the form of achievement, one may expect the continued growth in outside-school activities that are specially aimed at child's performance within schools. (p. 13)
@@ -2343,34 +2052,34 @@ As mass schooling as a world  norm continues to intensify the importance of scho
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 8 </td>
+   <td align="right"> 8 </td>
    <td align="left"> "anecdotal evidence suggests that shadow education has become a common phenomenon in developing countries, especially those that utilize central examination systems” p.139 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 10 </td>
+   <td align="right"> 10 </td>
    <td align="left"> High SES families are more likely to use tutoring (p. 456); discussion of the role of SATs in getting into universities </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 11 </td>
+   <td align="right"> 11 </td>
    <td align="left"> Examines a difference between private and public (tuition-free) tutoring (eg., in libraries, self-help, etc.) and concludes that private tutoring is more effective in preparing for tests and therefore less affordable to low-income, African American families. It therefore contributes to racial inequalities. </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 13 </td>
+   <td align="right"> 13 </td>
    <td align="left"> Focused on employer provided ed </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 14 </td>
+   <td align="right"> 14 </td>
    <td align="left"> The article discusses methodological challenges and the need for better comparative data
 
 "the shadow appears to have expanded and become denser" (14, 13)  </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 16 </td>
+   <td align="right"> 16 </td>
    <td align="left"> The study was conducted to evaluate if South Korea's HSEP (high school equalization policy) helps to eliminate shadow education.  Larger question of the study was to consider how policymakers can respond to growing shadow education system.
 
 "The results of this study show that the HSEP
@@ -2382,12 +2091,12 @@ gap in shadow education opportunities" p.94 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 18 </td>
+   <td align="right"> 18 </td>
    <td align="left"> critiques the use of the definition of private tutoring by Buchmann et al. and argues that "private" should be more narrowly defined and not include anything that happens in the public space (e.g., library) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 21 </td>
+   <td align="right"> 21 </td>
    <td align="left"> shadow education provides more opportunities for learning in a
 world where more learning is demanded by an ever more
 complex job market. It is an easy step from here to assume
@@ -2401,44 +2110,44 @@ in all its forms. p.40 </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 25 </td>
+   <td align="right"> 25 </td>
    <td align="left"> Private tutoring is only one small part of a larger report on private costs of schooling. </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 33 </td>
+   <td align="right"> 33 </td>
    <td align="left"> Paper argues that mother's aspirations play a key role in amount of tutoring and level of tutoring </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 41 </td>
+   <td align="right"> 41 </td>
    <td align="left"> Measures benefits of private tutoring (control group) for cognitive and motivational development (study conducted by psychologists) </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 42 </td>
+   <td align="right"> 42 </td>
    <td align="left"> Article discusses private tutoring from the standpoint of teachers who find private tutoring space as the only space where they can regain their professional authority and status in the context of accountability reforms during the post-socialist transformations. </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 50 </td>
+   <td align="right"> 50 </td>
    <td align="left"> "private tutoring systems function as parasitic systems" (50)
 
 "the private tutoring system is a potentially illusory prey which hides itself with shadows, smoke, and mirrors. Its precarious position between the education system and the economic system forces it to feed on a self-supporting discourse of "educational anxiety" and support technologies of control such as examinations and pedagogies which increase anxiety for its own survival as a fuan sangyo (Japanese) or "insecurity industry" (50) </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 51 </td>
+   <td align="right"> 51 </td>
    <td align="left"> Focused on "Developing countries" </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 57 </td>
+   <td align="right"> 57 </td>
    <td align="left"> The article talks about franchised private tutoring businesses.  </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 61 </td>
+   <td align="right"> 61 </td>
    <td align="left"> the mainstream system randomizes high school assignment.  therefore, parents have very little control over school selection.  private tutoring is viewed as offering tailored instruction, something that the schools cannot do.
 
 "In contrast to
@@ -2452,32 +2161,32 @@ needs of their children." p.17
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 71 </td>
+   <td align="right"> 71 </td>
    <td align="left"> Historical account looking at 1700s </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 80 </td>
+   <td align="right"> 80 </td>
    <td align="left"> Focused only on LDCs </td>
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="left"> 84 </td>
+   <td align="right"> 84 </td>
    <td align="left"> PT increases test scores signifinactly. </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 85 </td>
+   <td align="right"> 85 </td>
    <td align="left"> an analysis of private tutoring ads, with an analysis of teacher profiles and PT subjects advertized  </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 87 </td>
+   <td align="right"> 87 </td>
    <td align="left"> private tutoring is a continuation of a public curriculum, rather than supplementary (87, p. 68) - PT is not remedial or supplementary </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 88 </td>
+   <td align="right"> 88 </td>
    <td align="left"> "In the Philippines and Romania, private tutoring is generally a means of compensation for limited schooling opportunities that is derived from individual needs for academic remediation. Private tutoring in these countries is more popular among low-achieving students and more related to the quality of school education. p. 137. 
 
 "In contrast, in Korea and Taiwan, private tutoring is more closely associated with academic enrichment needs, parental pressure, and the local community's socioeconomic circumstances.  Private tutoring in these countries is largely provided for high-achieving students for enrichment or for college preparation purposes regardless of the quality of school education."  p.137
@@ -2486,211 +2195,211 @@ needs of their children." p.17
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 98 </td>
+   <td align="right"> 98 </td>
    <td align="left"> Peer pressure </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 128 </td>
+   <td align="right"> 128 </td>
    <td align="left"> Parents cannot help their children's study because of low education background. </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 132 </td>
+   <td align="right"> 132 </td>
    <td align="left"> Goverment policy stimulates students have in private tutoring. </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 141 </td>
+   <td align="right"> 141 </td>
    <td align="left"> Girls who have private tutoring are more than boys because parents think girls are good at study. </td>
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="left"> 212 </td>
+   <td align="right"> 212 </td>
    <td align="left"> this book is about the SES industry in the NCLB policy </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 215 </td>
+   <td align="right"> 215 </td>
    <td align="left"> This article is mainly concerned with research methodology of PT </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 218 </td>
+   <td align="right"> 218 </td>
    <td align="left"> Supplementary edu in Canada has occurred not by shadowing Canadian public schools, but by remaining on the periphery of the broader organizational field, and by having a relative weak impact on schooling, stratification, and socialization processes (p.164) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 219 </td>
+   <td align="right"> 219 </td>
    <td align="left"> Overall the research suggests that, perhaps we should not worry overly much about
 the inequalities brought by private tutoring as, yet again, the market shows itself to less efficient than some hope it to be and that others might fear it is (p.172) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 220 </td>
+   <td align="right"> 220 </td>
    <td align="left"> this study is about the supplemental educational services (SES) program of the No Child Left Behind (NCLB) Act in the United States: This government- sponsored tutoring is particularly an interesting case in which privately funded tutoring is increasingly integrated into a public policy. As a result, private tutoring once used by wealthy students becomes available to
 poor students through a public subsidy (p.193) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 221 </td>
+   <td align="right"> 221 </td>
    <td align="left"> a complex combination of parents’ fears and perceptions of poor school quality push German students and their parents into the supplementary education sector (p.218) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 222 </td>
+   <td align="right"> 222 </td>
    <td align="left"> In order to enhance school quality, policymakers are blurring older distinctions
 between public and private organizations. However, it may be that these policy goals for supplementary educational services are undercut by the very markets that are used to deliver the services. (p.242) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 223 </td>
+   <td align="right"> 223 </td>
    <td align="left"> family resources: economic, social, and cultural capital affect the use of SE (p.254): Families with more cultural capital purchase more education for their children and
 make more educational investments. </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 103e </td>
+   <td align="right"> 103 </td>
    <td align="left"> Those who can't afford it don't have the same opportunity-human rights and social justice issues </td>
    <td align="left"> Damian Wyman </td>
   </tr>
   <tr>
-   <td align="left"> 118e </td>
+   <td align="right"> 118 </td>
    <td align="left"> Authors defined region of study as Mediterranean </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 119e </td>
+   <td align="right"> 119 </td>
    <td align="left"> Authors defined region of study as Mediterranean </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 120e </td>
+   <td align="right"> 120 </td>
    <td align="left"> quote from a teacher: "somewhere along the ling in the last 20 years we have become a society and educational system that does not value or foster equal opportunities and equality. I do not know where we lost that" .... "you cannot enter capitalism and expect that education will be left out of it" p. 23 (reflecting on the transition to market) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 122e </td>
+   <td align="right"> 122 </td>
    <td align="left"> Across class boundaries, tutoring is regarded as a positional good: parents invest in it in order to provide their children with a competitive advantage... the educational in itself is devalued" (p. 67)
 
 The mere fact of having studied in the public system rather than the private schools constitutes a stigma and is taken as a indicative of a student's lower class background" (p. 71) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 124e </td>
+   <td align="right"> 124 </td>
    <td align="left"> Constitutional right to free education for all citizens is practically ineffective (p. 104) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 125e </td>
+   <td align="right"> 125 </td>
    <td align="left"> Private tutoring is an outcome of the absence of adequate provisions in public schools to assure equal opportunities for all students. p. 126 </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 126e </td>
+   <td align="right"> 126 </td>
    <td align="left"> PT is "the invisible purchase of educational privilege by some parents" (p. 142) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 166e </td>
+   <td align="right"> 166 </td>
    <td align="left"> PT reflects greater emphasis on materialism (p. 175). PT has become a service industry targeting individuals who aspire- and who can pay - for more. (p. 175) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 130e </td>
+   <td align="right"> 130 </td>
    <td align="left"> PT acts as a sorting out mechanism (p. 201). The demand for PT increased because of the mismatch between curriculum reform (based on competencies) and high-stakes exams (based on facts). Authors defined region of study as Mediterranean. </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 131e </td>
+   <td align="right"> 131 </td>
    <td align="left"> private tutoring as a hegemonic and anti-hegemonic space </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 137e </td>
+   <td align="right"> 137 </td>
    <td align="left"> Cultural, language, and religious education for Indian families in England </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 152e </td>
+   <td align="right"> 152 </td>
    <td align="left"> SES under NCLB policy </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 160e </td>
+   <td align="right"> 160 </td>
    <td align="left"> both private tutoring classes and public tutoring classes are found to increase students' uni entrance scores significantly (p.56).  </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 178e </td>
+   <td align="right"> 178 </td>
    <td align="left"> Looks at African Caribbean and Irish ethnic supplementary programs </td>
    <td align="left"> Mike </td>
   </tr>
   <tr>
-   <td align="left"> 185e </td>
+   <td align="right"> 185 </td>
    <td align="left"> no significant perfomance advantage accruing to involvement in private tuition in Ireland (p.465) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 208e </td>
+   <td align="right"> 208 </td>
    <td align="left"> several psychological factors come into play as parents make choices about supporting their children’s schoolwork at home and deciding whether to employ private tutors: parents’ beliefs about the importance of striving for achievement, the value they place on academic achievement,
 their sense of efficacy in helping their child with schoolwork, the intellectual and financial resources the family is able to provide, and the demands made by their child and by the education system (p.31) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 209e </td>
+   <td align="right"> 209 </td>
    <td align="left"> Looking at the neutral effects of private tutoring on the students’ marks and test achievement, this study gives no indication that private tutoring is an important mediator to convert economic capital into educational advantages and increase social disparities in academic achievement. Political initiatives aiming to subsidize private tutoring to support underachievers in school (Bray, 2009), should therefore be critically evaluated (p.58) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 91e </td>
+   <td align="right"> 91 </td>
    <td align="left"> "Parents believe that the benefits from private tutoring are much more important than its economic costs, because it may eliminate a larger problem: failure." p.111 </td>
    <td align="left"> Peggy </td>
   </tr>
   <tr>
-   <td align="left"> 93e </td>
+   <td align="right"> 93 </td>
    <td align="left"> the paper's focus is on identifying the impacts of family size on household investment in private tutoring </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 56 </td>
+   <td align="right"> 56 </td>
    <td align="left"> "The Kumon method is controversial and occupies a special niche in  the rich, variegated world of Japanese education" p.88 </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 151e </td>
+   <td align="right"> 151 </td>
    <td align="left"> focus on the NCLB supplementary education services and critiques the privatization of public education </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 128 </td>
+   <td align="right"> 128 </td>
    <td align="left"> Critique of hidden privatization of public education in the US (book) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 229 </td>
+   <td align="right"> 229 </td>
    <td align="left"> "Private online tutoring allows teachers from all over Russia to enter a nationwide marketplace and to compete for students in a new, previ- ously unavailable manner." (p. 79)
 
 The narratives included in the advertisements of online private tutoring promote "the idea of competition and the necessity of investing in self-improvement" (Kozar, 2014, p. 92) </td>
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="left"> 134e </td>
+   <td align="right"> 134 </td>
    <td align="left"> taking PT does NOT in fact yield a net advantage in terms of grades for upper secondary students (p.18) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 79 </td>
+   <td align="right"> 79 </td>
    <td align="left"> "there has been official recognition that expanded access to education has come at the expense of quality" (p.51) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 156e </td>
+   <td align="right"> 156 </td>
    <td align="left"> "no achievement advantages for the SES participants (students) on state-mandated test scores in reading and mathematics" (p.21) </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="left"> 170e </td>
+   <td align="right"> 170 </td>
    <td align="left"> "Seeing exams as somehow measuring the most important qualities of a person is about as narrow and faded an approach to education as is offered to young people anywhere. This outlook cannot be blamed on juku entirely. University exams are the heart of the problem. Yet juku epitomize this world view" (p.241) </td>
    <td align="left"> Hang Duong </td>
   </tr>
