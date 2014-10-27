@@ -4,7 +4,7 @@
 AllDataPlot <- function(a,b,c,d,e) {
   Label <- as.data.frame(table(c))
   colnames(Label)[1] <- "x"
-  Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq)))
+  Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq),2))
   Label$lab <- paste(Label$Freq,paste("(",Label$lab,"%)",sep=""),sep=" ")
   
   ggplot(a, aes_string(x=b)) + geom_bar() + ggtitle(d) + 
@@ -17,7 +17,7 @@ AllDataPlot <- function(a,b,c,d,e) {
 CategoricalPlot <- function(a,b,c) {
   Label <- as.data.frame(colSums(a))
   Label <- setNames(cbind(rownames(Label), Label, row.names = NULL), c("x", "Freq"))
-  Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq)))
+  Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq),2))
   Label$lab <- paste(Label$Freq,paste("(",Label$lab,"%)",sep=""),sep=" ")
   
   ggplot(data=Label, aes(x=x, y=Freq)) + geom_bar(stat="identity") + ggtitle(b) +
