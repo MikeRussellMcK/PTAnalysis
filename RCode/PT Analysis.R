@@ -579,7 +579,7 @@ RegionOther <- na.omit(RegionOther)
 # Level of education discussed
 # ============================
 
-EdLevelNames <- c("Pre-primary", "Primary", "Secondary", "Tertiary")
+EdLevelNames <- c("Pre-primary", "Primary", "Secondary", "Tertiary", "Vocational")
 
 ## Private
 ## ======
@@ -588,8 +588,9 @@ Private$EdLevelPrePrimary <- grepl("Pre-primary", Private$EdLevel)
 Private$EdLevelPrimary <- grepl("Primary", Private$EdLevel)
 Private$EdLevelSecondary <- grepl("Secondary", Private$EdLevel)
 Private$EdLevelTertiary <- grepl("Tertiary", Private$EdLevel)
+Private$EdLevelVocational <- grepl("Vocational", Private$EdLevel)
 
-PrivateEdLevelGrid <- data.frame(Private$EdLevelPrePrimary, Private$EdLevelPrimary, Private$EdLevelSecondary, Private$EdLevelTertiary)
+PrivateEdLevelGrid <- data.frame(Private$EdLevelPrePrimary, Private$EdLevelPrimary, Private$EdLevelSecondary, Private$EdLevelTertiary, Private$EdLevelVocational)
 names(PrivateEdLevelGrid) <- EdLevelNames
 
 ## AllAsia
@@ -599,8 +600,9 @@ AllAsia$EdLevelPrePrimary <- grepl("Pre-primary", AllAsia$EdLevel)
 AllAsia$EdLevelPrimary <- grepl("Primary", AllAsia$EdLevel)
 AllAsia$EdLevelSecondary <- grepl("Secondary", AllAsia$EdLevel)
 AllAsia$EdLevelTertiary <- grepl("Tertiary", AllAsia$EdLevel)
+AllAsia$EdLevelVocational <- grepl("Vocational", AllAsia$EdLevel)
 
-AllAsiaEdLevelGrid <- data.frame(AllAsia$EdLevelPrePrimary, AllAsia$EdLevelPrimary, AllAsia$EdLevelSecondary, AllAsia$EdLevelTertiary)
+AllAsiaEdLevelGrid <- data.frame(AllAsia$EdLevelPrePrimary, AllAsia$EdLevelPrimary, AllAsia$EdLevelSecondary, AllAsia$EdLevelTertiary, AllAsia$EdLevelVocational)
 names(AllAsiaEdLevelGrid) <- EdLevelNames
 
 ## AllChinese
@@ -610,8 +612,9 @@ AllChinese$EdLevelPrePrimary <- grepl("Pre-primary", AllChinese$EdLevel)
 AllChinese$EdLevelPrimary <- grepl("Primary", AllChinese$EdLevel)
 AllChinese$EdLevelSecondary <- grepl("Secondary", AllChinese$EdLevel)
 AllChinese$EdLevelTertiary <- grepl("Tertiary", AllChinese$EdLevel)
+AllChinese$EdLevelVocational <- grepl("Vocational", AllChinese$EdLevel)
 
-AllChineseEdLevelGrid <- data.frame(AllChinese$EdLevelPrePrimary, AllChinese$EdLevelPrimary, AllChinese$EdLevelSecondary, AllChinese$EdLevelTertiary)
+AllChineseEdLevelGrid <- data.frame(AllChinese$EdLevelPrePrimary, AllChinese$EdLevelPrimary, AllChinese$EdLevelSecondary, AllChinese$EdLevelTertiary, AllChinese$EdLevelVocational)
 names(AllChineseEdLevelGrid) <- EdLevelNames
 
 ## AllEnglish
@@ -621,8 +624,9 @@ AllEnglish$EdLevelPrePrimary <- grepl("Pre-primary", AllEnglish$EdLevel)
 AllEnglish$EdLevelPrimary <- grepl("Primary", AllEnglish$EdLevel)
 AllEnglish$EdLevelSecondary <- grepl("Secondary", AllEnglish$EdLevel)
 AllEnglish$EdLevelTertiary <- grepl("Tertiary", AllEnglish$EdLevel)
+AllEnglish$EdLevelVocational <- grepl("Vocational", AllEnglish$EdLevel)
 
-AllEnglishEdLevelGrid <- data.frame(AllEnglish$EdLevelPrePrimary, AllEnglish$EdLevelPrimary, AllEnglish$EdLevelSecondary, AllEnglish$EdLevelTertiary)
+AllEnglishEdLevelGrid <- data.frame(AllEnglish$EdLevelPrePrimary, AllEnglish$EdLevelPrimary, AllEnglish$EdLevelSecondary, AllEnglish$EdLevelTertiary, AllEnglish$EdLevelVocational)
 names(AllEnglishEdLevelGrid) <- EdLevelNames
 
 

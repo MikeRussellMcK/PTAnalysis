@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 287
 <!-- This number includes 155 articles with duplicate ID numbers (0 Chinese-language, 2 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2014-10-27 05:21:21.
+Document was last updated on 2014-10-28 06:18:04.
 
 Throughout this document the data are divided four ways:
 
@@ -1017,18 +1017,10 @@ Asian Economic Journal </td>
 
 ![plot of chunk unnamed-chunk-11](./PT_Analysis_files/figure-html/unnamed-chunk-11.png) 
 
-#### EdLevel Others:
-
-
-| Private.ID|X.others....gsub.sprintf......s....s.....s.....paste.EdLevelNames.. |Private.Reviewer |
-|----------:|:-------------------------------------------------------------------|:----------------|
-|        154|Vocational                                                          |Iveta            |
-|        157|Vocational                                                          |Iveta            |
-|        184|Vocational                                                          |Iveta            |
 
 ### Research Approach
 
-![plot of chunk unnamed-chunk-13](./PT_Analysis_files/figure-html/unnamed-chunk-13.png) 
+![plot of chunk unnamed-chunk-12](./PT_Analysis_files/figure-html/unnamed-chunk-12.png) 
 
 #### ResearchApproach Others:
 
@@ -1039,11 +1031,11 @@ Asian Economic Journal </td>
 
 ### Research Methods
 
-![plot of chunk unnamed-chunk-15](./PT_Analysis_files/figure-html/unnamed-chunk-15.png) 
+![plot of chunk unnamed-chunk-14](./PT_Analysis_files/figure-html/unnamed-chunk-14.png) 
 
 ### Was data set used?
 
-![plot of chunk unnamed-chunk-16](./PT_Analysis_files/figure-html/unnamed-chunk-16.png) 
+![plot of chunk unnamed-chunk-15](./PT_Analysis_files/figure-html/unnamed-chunk-15.png) 
 
 #### What data set was used?
 
@@ -1427,7 +1419,7 @@ second time when they were in grade 9. </td>
 
 ### Theoretical Framework
 
-![plot of chunk unnamed-chunk-18](./PT_Analysis_files/figure-html/unnamed-chunk-18.png) 
+![plot of chunk unnamed-chunk-17](./PT_Analysis_files/figure-html/unnamed-chunk-17.png) 
 
 #### Theory Others:
 
@@ -1505,7 +1497,7 @@ second time when they were in grade 9. </td>
 
 ### How is private tutoring framed in the publication?
 
-![plot of chunk unnamed-chunk-20](./PT_Analysis_files/figure-html/unnamed-chunk-201.png) ![plot of chunk unnamed-chunk-20](./PT_Analysis_files/figure-html/unnamed-chunk-202.png) ![plot of chunk unnamed-chunk-20](./PT_Analysis_files/figure-html/unnamed-chunk-203.png) ![plot of chunk unnamed-chunk-20](./PT_Analysis_files/figure-html/unnamed-chunk-204.png) 
+![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-191.png) ![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-192.png) ![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-193.png) ![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-194.png) 
 
 #### Framed Others:
 
@@ -1543,16 +1535,16 @@ second time when they were in grade 9. </td>
 
 #### If previous answer was equity, then please define equity concern here:
 
-![plot of chunk unnamed-chunk-22](./PT_Analysis_files/figure-html/unnamed-chunk-22.png) 
+![plot of chunk unnamed-chunk-21](./PT_Analysis_files/figure-html/unnamed-chunk-21.png) 
 
 
 ### How is private tutoring viewed in the article?
 
-![plot of chunk unnamed-chunk-23](./PT_Analysis_files/figure-html/unnamed-chunk-23.png) 
+![plot of chunk unnamed-chunk-22](./PT_Analysis_files/figure-html/unnamed-chunk-22.png) 
 
 ### Data drawn from the following stakeholders:
 
-![plot of chunk unnamed-chunk-24](./PT_Analysis_files/figure-html/unnamed-chunk-24.png) 
+![plot of chunk unnamed-chunk-23](./PT_Analysis_files/figure-html/unnamed-chunk-23.png) 
 
 #### Stakeholder others:
 
@@ -1748,7 +1740,7 @@ center or franchise
 
 ### What is taught during private tutoring?
 
-![plot of chunk unnamed-chunk-26](./PT_Analysis_files/figure-html/unnamed-chunk-26.png) 
+![plot of chunk unnamed-chunk-25](./PT_Analysis_files/figure-html/unnamed-chunk-25.png) 
 
 #### WhatTaught others:
 
@@ -1771,7 +1763,7 @@ center or franchise
 
 ### Where does private tutoring occur?
 
-![plot of chunk unnamed-chunk-28](./PT_Analysis_files/figure-html/unnamed-chunk-28.png) 
+![plot of chunk unnamed-chunk-27](./PT_Analysis_files/figure-html/unnamed-chunk-27.png) 
 
 #### WhereOccur others:
 
@@ -1804,7 +1796,7 @@ center or franchise
 
 ### Who provides tutoring services?
 
-![plot of chunk unnamed-chunk-30](./PT_Analysis_files/figure-html/unnamed-chunk-30.png) 
+![plot of chunk unnamed-chunk-29](./PT_Analysis_files/figure-html/unnamed-chunk-29.png) 
 
 #### WhoProvides others:
 
@@ -1837,14 +1829,14 @@ center or franchise
 
 ### Does the teacher charge for private tutoring?
 
-![plot of chunk unnamed-chunk-32](./PT_Analysis_files/figure-html/unnamed-chunk-32.png) 
+![plot of chunk unnamed-chunk-31](./PT_Analysis_files/figure-html/unnamed-chunk-31.png) 
 
 ### How large are the tutoring classes?
 
-![plot of chunk unnamed-chunk-33](./PT_Analysis_files/figure-html/unnamed-chunk-33.png) 
+![plot of chunk unnamed-chunk-32](./PT_Analysis_files/figure-html/unnamed-chunk-32.png) 
 
 ### How large is the tutoring operation?
-![plot of chunk unnamed-chunk-34](./PT_Analysis_files/figure-html/unnamed-chunk-34.png) 
+![plot of chunk unnamed-chunk-33](./PT_Analysis_files/figure-html/unnamed-chunk-33.png) 
 
 #### OperationSize others:
 
@@ -1871,7 +1863,7 @@ center or franchise
 </table>
 
 ### Why are students taking private tutoring?
-![plot of chunk unnamed-chunk-36](./PT_Analysis_files/figure-html/unnamed-chunk-361.png) ![plot of chunk unnamed-chunk-36](./PT_Analysis_files/figure-html/unnamed-chunk-362.png) ![plot of chunk unnamed-chunk-36](./PT_Analysis_files/figure-html/unnamed-chunk-363.png) ![plot of chunk unnamed-chunk-36](./PT_Analysis_files/figure-html/unnamed-chunk-364.png) 
+![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-351.png) ![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-352.png) ![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-353.png) ![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-354.png) 
 
 #### WhyTaking others:
 

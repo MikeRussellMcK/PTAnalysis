@@ -4,7 +4,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 189
 This number includes 155 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2014-10-27 05:14:51.
+Document was last updated on 2014-10-28 07:18:23.
 
 # _Region by year group_ for all entries in the database:
 
@@ -106,6 +106,7 @@ Document was last updated on 2014-10-27 05:14:51.
 
 |            | Pre-primary| Primary| Secondary| Tertiary| value|
 |:-----------|-----------:|-------:|---------:|--------:|-----:|
+|Vocational  |           0|       0|         3|        2|     0|
 |MENA        |           0|       8|        11|        0|     0|
 |Sub.Saharan |           0|       1|         4|        0|     0|
 |Cent..Asia  |           0|       5|         6|        0|     0|

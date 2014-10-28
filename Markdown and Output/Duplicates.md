@@ -5,7 +5,7 @@
 
 ### Number of duplicate ID numbers in the Google Doc: 155
 
-### List of all duplicates as of 2014-10-25 05:53:48:
+### List of all duplicates as of 2014-10-28 07:18:02:
 
 
 |  ID|Reviewer     |Publisher                                                                            |PubLang |
@@ -166,7 +166,7 @@
 | 188|Xia Zhao     |Central China Normal University                                                      |Chinese |
 | 188|Xiaoran Yu   |Comparative Education                                                                |English |
 
-### List of all 0 Chinese-language duplicates as of 2014-10-25 05:53:48:
+### List of all 0 Chinese-language duplicates as of 2014-10-28 07:18:02:
 
 
 ```
@@ -181,7 +181,7 @@
 | ID|Reviewer |Publisher |PubLang |
 |--:|:--------|:---------|:-------|
 
-### List of all 2 English-language duplicates as of 2014-10-25 05:53:48:
+### List of all 2 English-language duplicates as of 2014-10-28 07:18:02:
 
 
 |  ID|Reviewer |Publisher          |PubLang |

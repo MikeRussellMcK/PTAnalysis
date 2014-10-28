@@ -147,11 +147,6 @@ AllEnglishGraph <- CategoricalPlot(DataSource4, Title4, YLim)
 grid.arrange(PrivateGraph, AllAsiaGraph, AllChineseGraph, AllEnglishGraph, ncol=2)
 ```
 
-#### EdLevel Others:
-
-```{r, results="asis", echo=FALSE, message=FALSE}
-kable(EdLevelOther, row.names=FALSE)
-```
 
 ### Research Approach
 
