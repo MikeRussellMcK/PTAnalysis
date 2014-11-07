@@ -3,9 +3,9 @@
 
 
 
-### TOTAL NUMBER OF ARTICLES: 287
-<!-- This number includes 155 articles with duplicate ID numbers (0 Chinese-language, 2 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2014-11-07 14:07:38.
+### TOTAL NUMBER OF ARTICLES: 286
+<!-- This number includes 153 articles with duplicate ID numbers (0 Chinese-language, 2 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
+Document was last updated on 2014-11-07 14:53:43.
 
 Throughout this document the data are divided four ways:
 
@@ -703,7 +703,7 @@ Asian Economic Journal </td>
   </tr>
   <tr>
    <td align="left"> World Bank </td>
-   <td align="right"> 4 </td>
+   <td align="right"> 3 </td>
   </tr>
   <tr>
    <td align="left"> World Education Information  </td>
@@ -1908,32 +1908,12 @@ center or franchise
   </tr>
   <tr>
    <td align="right"> 123 </td>
-   <td align="left"> academic coaching aimed at raising motivation to study and identify professional goals </td>
+   <td align="left"> Academic coaching aimed at raising motivation to study and identify professional goals </td>
    <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="right"> 131 </td>
-   <td align="left"> resistance </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="right"> 146 </td>
-   <td align="left"> "reflect educational progress" p.27  </td>
-   <td align="left"> Xiaoran Yu </td>
-  </tr>
-  <tr>
-   <td align="right"> 162 </td>
-   <td align="left"> government's financial support </td>
-   <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
    <td align="right"> 208 </td>
    <td align="left"> parents’ beliefs about the importance of striving for achievement and their sense of efficacy in helping their child with schoolwork </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="right"> 209 </td>
-   <td align="left"> to improve their academic achievement </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
@@ -1942,13 +1922,8 @@ center or franchise
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
-   <td align="right"> 56 </td>
-   <td align="left"> as accelerating courses for children of average ability </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
    <td align="right"> 116 </td>
-   <td align="left"> public and private schools are low quality. Students want to supplement their education </td>
+   <td align="left"> , </td>
    <td align="left"> Xiaoran Yu </td>
   </tr>
   <tr>
@@ -1957,24 +1932,9 @@ center or franchise
    <td align="left"> Iveta </td>
   </tr>
   <tr>
-   <td align="right"> 154 </td>
-   <td align="left"> To prepare for the future profession </td>
-   <td align="left"> Iveta </td>
-  </tr>
-  <tr>
    <td align="right"> 157 </td>
-   <td align="left"> to increase professional mobility </td>
+   <td align="left"> , </td>
    <td align="left"> Iveta </td>
-  </tr>
-  <tr>
-   <td align="right"> 156 </td>
-   <td align="left"> as part of the NCLB mandate </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="right"> 133 </td>
-   <td align="left"> as part of the NCLB mandate </td>
-   <td align="left"> Hang Duong </td>
   </tr>
 </tbody>
 </table>
@@ -2312,11 +2272,6 @@ their sense of efficacy in helping their child with schoolwork, the intellectual
    <td align="right"> 91 </td>
    <td align="left"> "Parents believe that the benefits from private tutoring are much more important than its economic costs, because it may eliminate a larger problem: failure." p.111 </td>
    <td align="left"> Peggy </td>
-  </tr>
-  <tr>
-   <td align="right"> 93 </td>
-   <td align="left"> the paper's focus is on identifying the impacts of family size on household investment in private tutoring </td>
-   <td align="left"> Hang Duong </td>
   </tr>
   <tr>
    <td align="right"> 56 </td>
