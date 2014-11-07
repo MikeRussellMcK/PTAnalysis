@@ -1585,6 +1585,7 @@ WhyTakingNames <- c(
   "To provide extra enrichment activities",
   "Peer pressure",
   "Teacher pressure",
+  "Government pressure",
   "Not stated or unclear"
 )
 
@@ -1597,7 +1598,9 @@ Private$WhyTakingCultural <- grepl("cultural", Private$WhyTaking)
 Private$WhyTakingEnrichment <- grepl("enrichment", Private$WhyTaking)
 Private$WhyTakingPeer <- grepl("Peer", Private$WhyTaking)
 Private$WhyTakingTeacher <- grepl("Teacher", Private$WhyTaking)
+Private$WhyTakingGovt <- grepl("government", Private$WhyTaking)
 Private$WhyTakingUnclear <- grepl("unclear", Private$WhyTaking)
+
 
 PrivateWhyTakingGrid <- data.frame(
   Private$WhyTakingRemediation,
@@ -1607,7 +1610,8 @@ PrivateWhyTakingGrid <- data.frame(
   Private$WhyTakingEnrichment, 
   Private$WhyTakingPeer,
   Private$WhyTakingTeacher, 
-  Private$WhyTakingUnclear
+  Private$WhyTakingUnclear,
+  Private$WhyTakingGovt
 ) 
 
 names(PrivateWhyTakingGrid) <- WhyTakingNames
@@ -1621,7 +1625,9 @@ AllAsia$WhyTakingCultural <- grepl("cultural", AllAsia$WhyTaking)
 AllAsia$WhyTakingEnrichment <- grepl("enrichment", AllAsia$WhyTaking)
 AllAsia$WhyTakingPeer <- grepl("Peer", AllAsia$WhyTaking)
 AllAsia$WhyTakingTeacher <- grepl("Teacher", AllAsia$WhyTaking)
+AllAsia$WhyTakingGovt <- grepl("government", AllAsia$WhyTaking)
 AllAsia$WhyTakingUnclear <- grepl("unclear", AllAsia$WhyTaking)
+
 
 AllAsiaWhyTakingGrid <- data.frame(
   AllAsia$WhyTakingRemediation,
@@ -1631,7 +1637,8 @@ AllAsiaWhyTakingGrid <- data.frame(
   AllAsia$WhyTakingEnrichment, 
   AllAsia$WhyTakingPeer,
   AllAsia$WhyTakingTeacher, 
-  AllAsia$WhyTakingUnclear
+  AllAsia$WhyTakingUnclear,
+  AllAsia$WhyTakingGovt
 ) 
 
 names(AllAsiaWhyTakingGrid) <- WhyTakingNames
@@ -1645,7 +1652,9 @@ AllChinese$WhyTakingCultural <- grepl("cultural", AllChinese$WhyTaking)
 AllChinese$WhyTakingEnrichment <- grepl("enrichment", AllChinese$WhyTaking)
 AllChinese$WhyTakingPeer <- grepl("Peer", AllChinese$WhyTaking)
 AllChinese$WhyTakingTeacher <- grepl("Teacher", AllChinese$WhyTaking)
+AllChinese$WhyTakingGovt <- grepl("government", AllChinese$WhyTaking)
 AllChinese$WhyTakingUnclear <- grepl("unclear", AllChinese$WhyTaking)
+
 
 AllChineseWhyTakingGrid <- data.frame(
   AllChinese$WhyTakingRemediation,
@@ -1655,7 +1664,8 @@ AllChineseWhyTakingGrid <- data.frame(
   AllChinese$WhyTakingEnrichment, 
   AllChinese$WhyTakingPeer,
   AllChinese$WhyTakingTeacher, 
-  AllChinese$WhyTakingUnclear
+  AllChinese$WhyTakingUnclear,
+  AllChinese$WhyTakingGovt
 ) 
 
 names(AllChineseWhyTakingGrid) <- WhyTakingNames
@@ -1669,7 +1679,9 @@ AllEnglish$WhyTakingCultural <- grepl("cultural", AllEnglish$WhyTaking)
 AllEnglish$WhyTakingEnrichment <- grepl("enrichment", AllEnglish$WhyTaking)
 AllEnglish$WhyTakingPeer <- grepl("Peer", AllEnglish$WhyTaking)
 AllEnglish$WhyTakingTeacher <- grepl("Teacher", AllEnglish$WhyTaking)
+AllEnglish$WhyTakingGovt <- grepl("government", AllEnglish$WhyTaking)
 AllEnglish$WhyTakingUnclear <- grepl("unclear", AllEnglish$WhyTaking)
+
 
 AllEnglishWhyTakingGrid <- data.frame(
   AllEnglish$WhyTakingRemediation,
@@ -1679,7 +1691,8 @@ AllEnglishWhyTakingGrid <- data.frame(
   AllEnglish$WhyTakingEnrichment, 
   AllEnglish$WhyTakingPeer,
   AllEnglish$WhyTakingTeacher, 
-  AllEnglish$WhyTakingUnclear
+  AllEnglish$WhyTakingUnclear,
+  AllEnglish$WhyTakingGovt
 ) 
 
 names(AllEnglishWhyTakingGrid) <- WhyTakingNames

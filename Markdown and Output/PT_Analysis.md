@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 287
 <!-- This number includes 155 articles with duplicate ID numbers (0 Chinese-language, 2 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2014-10-28 06:18:04.
+Document was last updated on 2014-11-07 14:07:38.
 
 Throughout this document the data are divided four ways:
 
@@ -1882,11 +1882,6 @@ center or franchise
    <td align="left"> Olga </td>
   </tr>
   <tr>
-   <td align="right"> 39 </td>
-   <td align="left"> "insufficient free academic guidance from daytime schooling or from elder family members" p.67 </td>
-   <td align="left"> Peggy </td>
-  </tr>
-  <tr>
    <td align="right"> 87 </td>
    <td align="left"> supplement low teacher salaries </td>
    <td align="left"> Iveta </td>
@@ -1897,43 +1892,13 @@ center or franchise
    <td align="left"> Xia Zhao </td>
   </tr>
   <tr>
-   <td align="right"> 151 </td>
-   <td align="left"> parents' hope; the advantage of private tutoring education; teachers want to earn money </td>
-   <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
    <td align="right"> 155 </td>
-   <td align="left"> Parents do not want to their children lose on the startline; teachers want to earn money </td>
+   <td align="left"> Parents do not want to their children lose on the startline </td>
    <td align="left"> Xia Zhao </td>
-  </tr>
-  <tr>
-   <td align="right"> 218 </td>
-   <td align="left"> help stu have “confidence” in their abilities (p.160) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="right"> 221 </td>
-   <td align="left"> parents’ fears and perceptions of poor school quality </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="right"> 222 </td>
-   <td align="left"> parents anxiety (SK case) </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="right"> 102 </td>
-   <td align="left"> Other government to compete internationally </td>
-   <td align="left"> Peggy </td>
   </tr>
   <tr>
    <td align="right"> 108 </td>
    <td align="left"> "The parents are unable to help their children’s study" </td>
-   <td align="left"> Hang Duong </td>
-  </tr>
-  <tr>
-   <td align="right"> 109 </td>
-   <td align="left"> parents want to invest in children's education </td>
    <td align="left"> Hang Duong </td>
   </tr>
   <tr>
