@@ -1845,3 +1845,6 @@ AllEnglish$YearGroup <- ifelse(
   ifelse(AllEnglish$PubYear == "2013", '2010-14', 
   ifelse(AllEnglish$PubYear == "2014", '2010-14', 
   'unclear')))))))))))))))))))))))))))))))
+
+
+write.xlsx(Dupes, file="../Excel Output/PT_Analysis.xlsx")
