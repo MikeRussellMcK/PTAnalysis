@@ -4,21 +4,26 @@
 AllDataPlot <- function(a,b,c,d,e) {
   Label <- as.data.frame(table(c))
   colnames(Label)[1] <- "x"
-  Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq),2))
-  Label$lab <- paste(Label$Freq,paste("(",Label$lab,"%)",sep=""),sep=" ")
-  
+  Label$lab <- Label$Freq # Just counts on the labels
+
+#  Lines below add percetnages to the labels  
+#  Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq),2))
+#  Label$lab <- paste(Label$Freq,paste("(",Label$lab,"%)",sep=""),sep=" ")
+
   ggplot(a, aes_string(x=b)) + geom_bar() + ggtitle(d) + 
-    geom_text(size=3, data=Label,aes(x=x,y=Freq,label=lab),hjust=-.1) + 
+    
     theme(axis.title.x=element_blank(), axis.title.y=element_blank(), panel.background=element_blank(), plot.title=element_text(size=7)) + 
-    scale_y_continuous(limits=c(0,e)) + coord_flip()
+    scale_y_continuous(limits=c(0,e)) + coord_flip()+ geom_text(size=3, data=Label,aes(x=x,y=Freq,label=lab),hjust=-.1) 
 }
 
 # For checkbox-style questions:
 CategoricalPlot <- function(a,b,c) {
   Label <- as.data.frame(colSums(a))
   Label <- setNames(cbind(rownames(Label), Label, row.names = NULL), c("x", "Freq"))
-  Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq),2))
-  Label$lab <- paste(Label$Freq,paste("(",Label$lab,"%)",sep=""),sep=" ")
+  Label$lab <- Label$Freq
+  
+  #Label$lab <- as.character(round(100 * Label$Freq / sum(Label$Freq),2))
+  #Label$lab <- paste(Label$Freq,paste("(",Label$lab,"%)",sep=""),sep=" ")
   
   ggplot(data=Label, aes(x=x, y=Freq)) + geom_bar(stat="identity") + ggtitle(b) +
     geom_text(size=3, data=Label,aes(x=x,y=Freq,label=lab),hjust=-.1) +
@@ -27,10 +32,10 @@ CategoricalPlot <- function(a,b,c) {
 }
 
 # Keeps titles consistent across all graphs
-Title1 = "All Entries"
-Title2 = "Asian-region"
-Title3 = "Chinese-language"
-Title4 = "English-language"
+Title1 = "All Entries \n (286 total)"
+Title2 = "Asian-region \n (168 total)"
+Title3 = "Chinese-language \n (98 total)"
+Title4 = "English-language \n (188 total)"
 
 # Publication Language ===================
 
@@ -1847,4 +1852,7 @@ AllEnglish$YearGroup <- ifelse(
   'unclear')))))))))))))))))))))))))))))))
 
 
-write.xlsx(Dupes, file="../Excel Output/PT_Analysis.xlsx")
+# write.xlsx(Private, file="/Users/MikeRussellMcK/Documents/R/PTAnalysis2/Excel Output/PT_Analysis.xlsx")
+# write.xlsx(AllAsia, file="/Users/MikeRussellMcK/Documents/R/PTAnalysis2/Excel Output/AllAsia.xlsx")
+# write.xlsx(AllChinese, file="/Users/MikeRussellMcK/Documents/R/PTAnalysis2/Excel Output/AllChinese.xlsx")
+# write.xlsx(AllEnglish, file="/Users/MikeRussellMcK/Documents/R/PTAnalysis2/Excel Output/AllEnglish.xlsx")
