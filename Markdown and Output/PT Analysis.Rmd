@@ -14,7 +14,7 @@ source('../RCode/Find Duplicate IDs.R')
 source('../RCode/PT Analysis.R')
 ```
 
-### TOTAL NUMBER OF ARTICLES: `r nrow(Private)`
+### TOTAL NUMBER OF PUBLICATIONS: `r nrow(Private)`
 <!-- This number includes `r nrow(Dupes)` articles with duplicate ID numbers (`r nrow(ChDupes)` Chinese-language, `r nrow(EngDupes)` English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
 Document was last updated on `r Sys.time()`.
 

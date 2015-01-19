@@ -3,9 +3,9 @@
 
 
 
-### TOTAL NUMBER OF ARTICLES: 286
+### TOTAL NUMBER OF PUBLICATIONS: 286
 <!-- This number includes 153 articles with duplicate ID numbers (0 Chinese-language, 2 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2014-11-16 05:54:53.
+Document was last updated on 2015-01-18 07:50:24.
 
 Throughout this document the data are divided four ways:
 

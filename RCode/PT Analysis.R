@@ -1716,7 +1716,7 @@ AddDetailsGrid <- na.omit(AddDetailsGrid)
 
 # Year Bins
 Private$YearGroup <- ifelse(
-  Private$PubYear == "1984", 'Before 1985', 
+  Private$PubYear == "1980", '1980-84', 
   ifelse(Private$PubYear == "1985", '1985-89',
   ifelse(Private$PubYear == "1986", '1985-89',
   ifelse(Private$PubYear == "1987", '1985-89',
@@ -1750,7 +1750,7 @@ Private$YearGroup <- ifelse(
   'unclear')))))))))))))))))))))))))))))))
 
 AllAsia$YearGroup <- ifelse(
-  AllAsia$PubYear == "1984", 'Before 1985', 
+  AllAsia$PubYear == "1980", '1980-84', 
   ifelse(AllAsia$PubYear == "1985", '1985-89',
   ifelse(AllAsia$PubYear == "1986", '1985-89',
   ifelse(AllAsia$PubYear == "1987", '1985-89',
@@ -1784,7 +1784,7 @@ AllAsia$YearGroup <- ifelse(
  'unclear')))))))))))))))))))))))))))))))
 
 AllChinese$YearGroup <- ifelse(
-  AllChinese$PubYear == "1984", 'Before 1985', 
+  AllChinese$PubYear == "1980", '1980-84', 
   ifelse(AllChinese$PubYear == "1985", '1985-89',
   ifelse(AllChinese$PubYear == "1986", '1985-89',
   ifelse(AllChinese$PubYear == "1987", '1985-89',
@@ -1818,7 +1818,7 @@ AllChinese$YearGroup <- ifelse(
   'unclear')))))))))))))))))))))))))))))))
 
 AllEnglish$YearGroup <- ifelse(
-  AllEnglish$PubYear == "1984", 'Before 1985', 
+  AllEnglish$PubYear == "1980", '1980-84', 
   ifelse(AllEnglish$PubYear == "1985", '1985-89',
   ifelse(AllEnglish$PubYear == "1986", '1985-89',
   ifelse(AllEnglish$PubYear == "1987", '1985-89',
