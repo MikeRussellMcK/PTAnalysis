@@ -1,5 +1,5 @@
 ---
-title: "Relationships for All Chinese-language Articles"
+title: "Relationships for All Articles"
 output:
   html_document:
     keep_md: yes
@@ -102,9 +102,9 @@ kable(table(ResearchTypeByYear3$YearGroup, ResearchTypeByYear3$ResearchType))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByEdLevel <- data.frame(AllChineseEdLevelGrid, AllChineseRegionGrid) # Double-grid
-RegionByEdLevel2 <- melt(RegionByEdLevel, id=c("Pre.primary","Primary","Secondary","Tertiary"))
+RegionByEdLevel2 <- melt(RegionByEdLevel, id=c("Pre.primary","Primary","Secondary","Tertiary", "Vocational"))
 RegionByEdLevel3<-RegionByEdLevel2[!(RegionByEdLevel2$value=="FALSE"),]
-names(RegionByEdLevel3) <- c("Pre-primary","Primary","Secondary","Tertiary","Region","value")
+names(RegionByEdLevel3) <- c("Pre-primary","Primary","Secondary","Tertiary","Vocational","Region","value")
 RegionByEdLevel3 <- melt(RegionByEdLevel3, id=c("Region"))
 RegionByEdLevel3<-RegionByEdLevel3[!(RegionByEdLevel3$value=="FALSE"),]
 names(RegionByEdLevel3) <- c("Region","EdLevel", "value")
@@ -203,9 +203,9 @@ kable(table(AllChinese$PubType, AllChinese$ResearchMethods))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByTheory <- data.frame(AllChineseTheoryGrid, AllChineseRegionGrid) # Double-grid
-RegionByTheory2 <- melt(RegionByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+RegionByTheory2 <- melt(RegionByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","Cultural.Model", "Economic.Theories","Social...Cultural.Reproduction","Ecological.Model","None.or.Unclear.to.us"))
 RegionByTheory3 <- RegionByTheory2[!(RegionByTheory2$value=="FALSE"),]
-names(RegionByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "Region", "value")
+names(RegionByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","Cultural Model", "Economic Theories","Social/Cultural Reproduction","Ecological Model","None or Unclear to us", "Region", "value")
 RegionByTheory3 <- melt(RegionByTheory3, id=c("Region"))
 RegionByTheory3<-RegionByTheory3[!(RegionByTheory3$value=="FALSE"),]
 names(RegionByTheory3) <- c("Region","Theory", "value")
@@ -237,9 +237,9 @@ kable(table(TheoryByYear3$YearGroup, TheoryByYear3$Theory))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchMethodsByTheory <- data.frame(AllChineseTheoryGrid, AllChineseResearchMethodsGrid) # Double-grid
-ResearchMethodsByTheory2 <- melt(ResearchMethodsByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+ResearchMethodsByTheory2 <- melt(ResearchMethodsByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","Cultural.Model", "Economic.Theories","Social...Cultural.Reproduction","Ecological.Model","None.or.Unclear.to.us"))
 ResearchMethodsByTheory3 <- ResearchMethodsByTheory2[!(ResearchMethodsByTheory2$value=="FALSE"),]
-names(ResearchMethodsByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "ResearchMethods", "value")
+names(ResearchMethodsByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","Cultural Model", "Economic Theories","Social/Cultural Reproduction","Ecological Model","None or Unclear to us", "ResearchMethods", "value")
 ResearchMethodsByTheory3 <- melt(ResearchMethodsByTheory3, id=c("ResearchMethods"))
 ResearchMethodsByTheory3<-ResearchMethodsByTheory3[!(ResearchMethodsByTheory3$value=="FALSE"),]
 names(ResearchMethodsByTheory3) <- c("ResearchMethods","Theory", "value")
@@ -256,9 +256,9 @@ kable(table(ResearchMethodsByTheory3$Theory, ResearchMethodsByTheory3$ResearchMe
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchApproachByTheory <- data.frame(AllChineseTheoryGrid, AllChineseResearchApproachGrid) # Double-grid
-ResearchApproachByTheory2 <- melt(ResearchApproachByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+ResearchApproachByTheory2 <- melt(ResearchApproachByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","Cultural.Model", "Economic.Theories","Social...Cultural.Reproduction","Ecological.Model","None.or.Unclear.to.us"))
 ResearchApproachByTheory3 <- ResearchApproachByTheory2[!(ResearchApproachByTheory2$value=="FALSE"),]
-names(ResearchApproachByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "ResearchApproach", "value")
+names(ResearchApproachByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","Cultural Model", "Economic Theories","Social/Cultural Reproduction","Ecological Model","None or Unclear to us", "ResearchApproach", "value")
 ResearchApproachByTheory3 <- melt(ResearchApproachByTheory3, id=c("ResearchApproach"))
 ResearchApproachByTheory3<-ResearchApproachByTheory3[!(ResearchApproachByTheory3$value=="FALSE"),]
 names(ResearchApproachByTheory3) <- c("ResearchApproach","Theory", "value")
@@ -275,9 +275,9 @@ kable(table(ResearchApproachByTheory3$Theory, ResearchApproachByTheory3$Research
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByFramed <- data.frame(AllChineseFramedGrid, AllChineseRegionGrid) # Double-grid
-RegionByFramed2 <- melt(RegionByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
+RegionByFramed2 <- melt(RegionByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures","Culture","Teacher.Professionalism","Parental.Involvement"))
 RegionByFramed3 <- RegionByFramed2[!(RegionByFramed2$value=="FALSE"),]
-names(RegionByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "Region", "value")
+names(RegionByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household","Culture","Teacher Professionalism","Parental Involvement", "Region", "value")
 RegionByFramed3 <- melt(RegionByFramed3, id=c("Region"))
 RegionByFramed3<-RegionByFramed3[!(RegionByFramed3$value=="FALSE"),]
 names(RegionByFramed3) <- c("Region","Framed", "value")
@@ -309,9 +309,9 @@ kable(table(FramedByYear3$YearGroup, FramedByYear3$Framed))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchMethodsByFramed <- data.frame(AllChineseFramedGrid, AllChineseResearchMethodsGrid) # Double-grid
-ResearchMethodsByFramed2 <- melt(ResearchMethodsByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchMethodsByFramed2 <- melt(ResearchMethodsByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures","Culture","Teacher.Professionalism","Parental.Involvement"))
 ResearchMethodsByFramed3 <- ResearchMethodsByFramed2[!(ResearchMethodsByFramed2$value=="FALSE"),]
-names(ResearchMethodsByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchMethods", "value")
+names(ResearchMethodsByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household","Culture","Teacher Professionalism","Parental Involvement", "ResearchMethods", "value")
 ResearchMethodsByFramed3 <- melt(ResearchMethodsByFramed3, id=c("ResearchMethods"))
 ResearchMethodsByFramed3<-ResearchMethodsByFramed3[!(ResearchMethodsByFramed3$value=="FALSE"),]
 names(ResearchMethodsByFramed3) <- c("ResearchMethods","Framed", "value")
@@ -328,9 +328,9 @@ kable(table(ResearchMethodsByFramed3$Framed, ResearchMethodsByFramed3$ResearchMe
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchApproachByFramed <- data.frame(AllChineseFramedGrid, AllChineseResearchApproachGrid) # Double-grid
-ResearchApproachByFramed2 <- melt(ResearchApproachByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures"))
+ResearchApproachByFramed2 <- melt(ResearchApproachByFramed, id=c("Related.to.curriculum.coverage...ed..quality...exam.prep","Corruption", "Equity", "Supply...Demand...Economic.Efficiency", "Social.Cohesion","Global.Trend","Household.Expenditures","Culture","Teacher.Professionalism","Parental.Involvement"))
 ResearchApproachByFramed3 <- ResearchApproachByFramed2[!(ResearchApproachByFramed2$value=="FALSE"),]
-names(ResearchApproachByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household", "ResearchApproach", "value")
+names(ResearchApproachByFramed3) <- c("Exam Prep", "Corruption", "Equity", "Economic", "Social Cohesion", "Global Trend", "Household","Culture","Teacher Professionalism","Parental Involvement", "ResearchApproach", "value")
 ResearchApproachByFramed3 <- melt(ResearchApproachByFramed3, id=c("ResearchApproach"))
 ResearchApproachByFramed3<-ResearchApproachByFramed3[!(ResearchApproachByFramed3$value=="FALSE"),]
 names(ResearchApproachByFramed3) <- c("ResearchApproach","Framed", "value")
@@ -347,9 +347,9 @@ kable(table(ResearchApproachByFramed3$Framed, ResearchApproachByFramed3$Research
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 FramedByTheory <- data.frame(AllChineseTheoryGrid, AllChineseFramedGrid) # Double-grid
-FramedByTheory2 <- melt(FramedByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+FramedByTheory2 <- melt(FramedByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","Cultural.Model","Economic.Theories","Social...Cultural.Reproduction","Ecological.Model","None.or.Unclear.to.us"))
 FramedByTheory3 <- FramedByTheory2[!(FramedByTheory2$value=="FALSE"),]
-names(FramedByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "Framed", "value")
+names(FramedByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","Cultural.Model","Economic Theories","Social/Cultural Reproduction","Ecological Model","None or Unclear to us", "Framed", "value")
 FramedByTheory3 <- melt(FramedByTheory3, id=c("Framed"))
 FramedByTheory3<-FramedByTheory3[!(FramedByTheory3$value=="FALSE"),]
 names(FramedByTheory3) <- c("Framed","Theory", "value")
@@ -438,9 +438,9 @@ kable(table(ResearchApproachByHowViewed3$HowViewed, ResearchApproachByHowViewed3
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 HowViewedByTheory <- data.frame(AllChineseTheoryGrid, AllChineseHowViewedGrid) # Double-grid
-HowViewedByTheory2 <- melt(HowViewedByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","None.or.Unclear.to.us"))
+HowViewedByTheory2 <- melt(HowViewedByTheory, id=c("Social.Capital","Human.Capital", "Cultural.Capital", "World.Culture", "Human.Rights","Critical.Theory","Political.Theory","Cultural.Model","Economic.Theories","Social...Cultural.Reproduction","Ecological.Model","None.or.Unclear.to.us"))
 HowViewedByTheory3 <- HowViewedByTheory2[!(HowViewedByTheory2$value=="FALSE"),]
-names(HowViewedByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","None or Unclear to us", "HowViewed", "value")
+names(HowViewedByTheory3) <- c("Social Capital","Human Capital", "Cultural Capital", "World Culture", "Human Rights","Critical Theory","Political Theory","Cultural.Model","Economic Theories","Social/Cultural Reproduction","Ecological Model","None or Unclear to us", "HowViewed", "value")
 HowViewedByTheory3 <- melt(HowViewedByTheory3, id=c("HowViewed"))
 HowViewedByTheory3<-HowViewedByTheory3[!(HowViewedByTheory3$value=="FALSE"),]
 names(HowViewedByTheory3) <- c("HowViewed","Theory", "value")
@@ -510,9 +510,9 @@ kable(table(StakeholdersByYear3$YearGroup, StakeholdersByYear3$Stakeholders))
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 StakeholdersByTheory <- data.frame(AllChineseTheoryGrid, AllChineseStakeholdersGrid) # Double-grid
-StakeholdersByTheory2 <- melt(StakeholdersByTheory, id=c("Teachers.who.do.not.tutor","Teachers.who.tutor","Tutors.who.are.not.teachers","Parents...household","Students","Policymakers","Documents"))
+StakeholdersByTheory2 <- melt(StakeholdersByTheory, id=c("Teachers.who.do.not.tutor","Teachers.who.tutor","Tutors.who.are.not.teachers","Parents...household","Students","Policymakers","Documents","School.administrators","Tutoring.center.admin","Academic.scholars"))
 StakeholdersByTheory3 <- StakeholdersByTheory2[!(StakeholdersByTheory2$value=="FALSE"),]
-names(StakeholdersByTheory3) <- c("Non-tutor teachers","Tutors who tutor","Tutors","Parents","Students","Policymakers","Documents", "Stakeholders", "value")
+names(StakeholdersByTheory3) <- c("Non-tutor teachers","Tutors who tutor","Tutors","Parents","Students","Policymakers","Documents","School Admin","Tutoring Center Admin","Scholars", "Stakeholders", "value")
 StakeholdersByTheory3 <- melt(StakeholdersByTheory3, id=c("Stakeholders"))
 StakeholdersByTheory3<-StakeholdersByTheory3[!(StakeholdersByTheory3$value=="FALSE"),]
 names(StakeholdersByTheory3) <- c("Stakeholders","Theory", "value")
@@ -544,7 +544,7 @@ ggplot(RegionByWhatTaught3, aes(WhatTaught))+geom_bar()+facet_wrap(~Region)+them
 kable(table(RegionByWhatTaught3$WhatTaught, RegionByWhatTaught3$Region))
 ```
 
-WhatTaught by year group
+# WhatTaught by year group
 ### Graphs for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 WhatTaughtByYear<-data.frame(AllChinese$YearGroup, AllChineseWhatTaughtGrid) #Grid vs column
@@ -767,9 +767,9 @@ kable(table(RegionByOperationSize3$OperationSize, RegionByOperationSize3$Region)
 ```{r, results="asis", echo=FALSE, message=FALSE}
 RegionByWhyTaking <- data.frame(AllChineseWhyTakingGrid, AllChineseRegionGrid) # Double-grid
 RegionByWhyTaking2 <- melt(RegionByWhyTaking, id=c(
-"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Government.pressure","Not.stated.or.unclear"))
 RegionByWhyTaking3 <- RegionByWhyTaking2[!(RegionByWhyTaking2$value=="FALSE"),]
-names(RegionByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "Region", "value")
+names(RegionByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Government Pressure","Not stated or unclear", "Region", "value")
 RegionByWhyTaking3 <- melt(RegionByWhyTaking3, id=c("Region"))
 RegionByWhyTaking3<-RegionByWhyTaking3[!(RegionByWhyTaking3$value=="FALSE"),]
 names(RegionByWhyTaking3) <- c("Region","WhyTaking", "value")
@@ -804,9 +804,9 @@ kable(table(WhyTakingByYear3$YearGroup, WhyTakingByYear3$WhyTaking))
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchMethodsByWhyTaking <- data.frame(AllChineseWhyTakingGrid, AllChineseResearchMethodsGrid) # Double-grid
 ResearchMethodsByWhyTaking2 <- melt(ResearchMethodsByWhyTaking, id=c(
-"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Government.pressure","Not.stated.or.unclear"))
 ResearchMethodsByWhyTaking3 <- ResearchMethodsByWhyTaking2[!(ResearchMethodsByWhyTaking2$value=="FALSE"),]
-names(ResearchMethodsByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "ResearchMethods", "value")
+names(ResearchMethodsByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Government pressure","Not stated or unclear", "ResearchMethods", "value")
 ResearchMethodsByWhyTaking3 <- melt(ResearchMethodsByWhyTaking3, id=c("ResearchMethods"))
 ResearchMethodsByWhyTaking3<-ResearchMethodsByWhyTaking3[!(ResearchMethodsByWhyTaking3$value=="FALSE"),]
 names(ResearchMethodsByWhyTaking3) <- c("ResearchMethods","WhyTaking", "value")
@@ -824,9 +824,9 @@ kable(table(ResearchMethodsByWhyTaking3$WhyTaking, ResearchMethodsByWhyTaking3$R
 ```{r, results="asis", echo=FALSE, message=FALSE}
 ResearchApproachByWhyTaking <- data.frame(AllChineseWhyTakingGrid, AllChineseResearchApproachGrid) # Double-grid
 ResearchApproachByWhyTaking2 <- melt(ResearchApproachByWhyTaking, id=c(
-"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Government.pressure","Not.stated.or.unclear"))
 ResearchApproachByWhyTaking3 <- ResearchApproachByWhyTaking2[!(ResearchApproachByWhyTaking2$value=="FALSE"),]
-names(ResearchApproachByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "ResearchApproach", "value")
+names(ResearchApproachByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Government pressure","Not stated or unclear", "ResearchApproach", "value")
 ResearchApproachByWhyTaking3 <- melt(ResearchApproachByWhyTaking3, id=c("ResearchApproach"))
 ResearchApproachByWhyTaking3<-ResearchApproachByWhyTaking3[!(ResearchApproachByWhyTaking3$value=="FALSE"),]
 names(ResearchApproachByWhyTaking3) <- c("ResearchApproach","WhyTaking", "value")
@@ -844,9 +844,9 @@ kable(table(ResearchApproachByWhyTaking3$WhyTaking, ResearchApproachByWhyTaking3
 ```{r, results="asis", echo=FALSE, message=FALSE}
 WhyTakingByTheory <- data.frame(AllChineseTheoryGrid, AllChineseWhyTakingGrid) # Double-grid
 WhyTakingByTheory2 <- melt(WhyTakingByTheory, id=c(
-"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Government.pressure","Not.stated.or.unclear"))
 WhyTakingByTheory3 <- WhyTakingByTheory2[!(WhyTakingByTheory2$value=="FALSE"),]
-names(WhyTakingByTheory3) <- c("Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "Theory", "value")
+names(WhyTakingByTheory3) <- c("Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Government pressure","Not stated or unclear", "Theory", "value")
 WhyTakingByTheory3 <- melt(WhyTakingByTheory3, id=c("Theory"))
 WhyTakingByTheory3<-WhyTakingByTheory3[!(WhyTakingByTheory3$value=="FALSE"),]
 names(WhyTakingByTheory3) <- c("Theory", "WhyTaking","value")
@@ -864,9 +864,9 @@ kable(table(WhyTakingByTheory3$WhyTaking, WhyTakingByTheory3$Theory))
 ```{r, results="asis", echo=FALSE, message=FALSE}
 FramedByWhyTaking <- data.frame(AllChineseWhyTakingGrid, AllChineseFramedGrid) # Double-grid
 FramedByWhyTaking2 <- melt(FramedByWhyTaking, id=c(
-"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Not.stated.or.unclear"))
+"Student.falls.behind.and.needs.extra.help","Preparation.for.exams.to.make.student.more.competitive","Make.up.for.perceived.failure.in.the.mainstream.system...school","For.cultural.reasons","To.provide.extra.enrichment.activities","Peer.pressure","Teacher.pressure","Government.pressure","Not.stated.or.unclear"))
 FramedByWhyTaking3 <- FramedByWhyTaking2[!(FramedByWhyTaking2$value=="FALSE"),]
-names(FramedByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Not stated or unclear", "Framed", "value")
+names(FramedByWhyTaking3) <- c( "Student falls behind","Preparation for exams","Make up for perceived failure","For cultural reasons","Enrichment activities","Peer pressure","Teacher pressure","Government pressure","Not stated or unclear", "Framed", "value")
 FramedByWhyTaking3 <- melt(FramedByWhyTaking3, id=c("Framed"))
 FramedByWhyTaking3<-FramedByWhyTaking3[!(FramedByWhyTaking3$value=="FALSE"),]
 names(FramedByWhyTaking3) <- c("Framed","WhyTaking", "value")

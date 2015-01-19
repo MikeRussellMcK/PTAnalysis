@@ -4,7 +4,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 286
 This number includes 153 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2015-01-19 06:39:22.
+Document was last updated on 2015-01-19 06:44:39.
 
 # _Region by year group_ for all entries in the database:
 
