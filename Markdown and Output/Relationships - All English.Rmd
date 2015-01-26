@@ -283,11 +283,38 @@ RegionByFramed3<-RegionByFramed3[!(RegionByFramed3$value=="FALSE"),]
 names(RegionByFramed3) <- c("Region","Framed", "value")
 RegionByFramed3<-RegionByFramed3[!(RegionByFramed3$Framed=="value"),]
 ggplot(RegionByFramed3, aes(Framed))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+
+ggplot(RegionByFramed3, aes(Framed, fill=Region)) + geom_bar(position="fill") + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "Regional variations in how private tutoring is framed (percent)") +  ylab("") + xlab("")
+ggplot(RegionByFramed3, aes(Region, fill=Framed)) + geom_bar(position="fill") + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "How private tutoring is framed in different regions (percent)") +  ylab("") + xlab("")
+ggplot(RegionByFramed3, aes(Framed, fill=Region)) + geom_bar() + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "Regional variations in how private tutoring is framed (count)") +  ylab("") + xlab("")
+ggplot(RegionByFramed3, aes(Region, fill=Framed)) + geom_bar() + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "How private tutoring is framed in different regions (count)") +  ylab("") + xlab("")
+
 ```
 
 ### Counts for all entries
 ```{r, results="asis", echo=FALSE, message=FALSE}
 kable(table(RegionByFramed3$Framed, RegionByFramed3$Region))
+```
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+RegionByEquity <- data.frame(AllEnglishEquityCodeGrid, AllEnglishRegionGrid) # Double-grid
+RegionByEquity2 <- melt(RegionByEquity, id=c("SES","Gender","Ethnicity...Race", "Geographical", "Linguistic...Cultural"))
+RegionByEquity3 <- RegionByEquity2[!(RegionByEquity2$value=="FALSE"),]
+names(RegionByEquity3) <- c("SES","Gender","Ethnicity / Race", "Geographical", "Linguistic / Cultural", "Region","value")
+RegionByEquity3 <- melt(RegionByEquity3, id=c("Region"))
+RegionByEquity3<-RegionByEquity3[!(RegionByEquity3$value=="FALSE"),]
+names(RegionByEquity3) <- c("Region","Equity", "value")
+RegionByEquity3<-RegionByEquity3[!(RegionByEquity3$Equity=="value"),]
+ggplot(RegionByEquity3, aes(Equity))+geom_bar()+facet_wrap(~Region)+theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+
+ggplot(RegionByEquity3, aes(Equity, fill=Region)) + geom_bar(position="fill") + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "Regional variations in Equity concerns (percent)") +  ylab("") + xlab("")
+ggplot(RegionByEquity3, aes(Region, fill=Equity)) + geom_bar(position="fill") + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "Equity concerns in different regions (percent)") +  ylab("") + xlab("")
+ggplot(RegionByEquity3, aes(Equity, fill=Region)) + geom_bar() + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "Regional variations in Equity concerns (count)") +  ylab("") + xlab("")
+ggplot(RegionByEquity3, aes(Region, fill=Equity)) + geom_bar() + coord_flip() + scale_fill_brewer(palette="Paired") + labs(title = "Equity concerns in different regions (count)") +  ylab("") + xlab("")
+```
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+kable(table(RegionByEquity3$Equity, RegionByEquity3$Region))
 ```
 
 # Framing by year group

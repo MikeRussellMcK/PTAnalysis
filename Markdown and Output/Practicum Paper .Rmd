@@ -1,0 +1,96 @@
+---
+title: "Practicum Draft - 01-25-15 0800AM"
+output: html_document
+---
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+ source('../RCode/Download and Clean PT Data.R')
+ source('../RCode/Find Duplicate IDs.R')
+ source('../RCode/PT Analysis.R')
+ tablecount = 0
+ figurecount = 0
+```
+
+Document was last updated on `r Sys.time()`.
+
+*** 
+
+# How is private tutoring framed? 
+## A mixed-methods analysis of the private tutoring literature
+
+## Abstract <!-- 600 words -->
+
+## Introduction <!-- 1-2 paragraphs -->
+
+### Overview
+
+In homes, schoolrooms and tutoring centers all around the world, students end their official school day and begin a second round of studies. 
+Almost always for a fee, these students take extra lessons to better prepare themselves for exams, QQQ, or simply because that is what is expected of them. In Cambodia a students return to school after lunch for a second math class. 
+In the United States, students are bussed to tutoring centers where they are prepared for their end of the year tests in math and language arts. 
+In Japan, students pack into crowded juku centers to prepare for national college-entrance exams.
+
+These are all well known examples of private tutoring, but what of other forms of supplementary education? 
+Art lessons, cultural courses, and language classes all take place outside the regular school structure, so does the literature consider them to be private tutoring? 
+Similarly, does a fee need to be charged before we call something private tutoring or shadow education? How does the literature describe private tutoring? 
+As a corrupt practice that preys on disadvantaged students, or simply the natural workings of the educational market? 
+Do people who pursue private tutoring feel the mainstream education system has somehow failed?
+
+We can begin answering these questions by looking at how private tutoring is framed within the various publications. 
+A complex phenomenon, private tutoring alternatively framed as corruption among teachers, a way of promoting social cohesion, or simply a way to cover material needed for national exams.
+
+In homes, schoolrooms and tutoring centers all around the world, students end their official school day and begin a second round of studies. 
+Almost always for a fee, these students take extra lessons to better prepare themselves for exams, QQQ, or simply because that is what is expected of them. 
+In Cambodia a students return to school after lunch for a second math class. 
+In the United States students are bussed to tutoring centers where they are prepared for their end of the year tests in math and language arts. 
+In Japan students pack into crowded juku centers to prepare for national college-entrance exams.
+
+These are all well known examples of private tutoring, but what of other forms of supplementary education? 
+Art lessons, cultural courses, and language classes all take place outside the regular school structure, so does the literature consider them to be private tutoring? 
+Similarly, does a fee need to be charged before we call something private tutoring or shadow education? How does the literature describe private tutoring? 
+As a corrupt practice that preys on disadvantaged students, or simply the natural workings of the educational market? 
+Do people who pursue private tutoring feel the mainstream education system has somehow failed?
+
+We can begin answering these questions by looking at how private tutoring is framed within the various publications. 
+A complex phenomenon, private tutoring alternatively framed as corruption among teachers, a way of promoting social cohesion, or simply a way to cover material needed for national exams.
+
+### Relevant Theories and Past Research
+
+#### Critical Discourse Analysis
+
+#### Private tutoring as a field of study. 
+
+
+### The Present Research
+
+In our literature analysis we wish to address the following questions:
+
+*  How do authors frame private tutoring in comparative and international education publications?
+*  Do authors frame private tutoring differently in different geographical contexts?
+*  Has the way the literature frames private tutoring changed over time?
+*  Do quantitative and qualitative researchers frame private tutoring differently?
+*  Are there differences in the way private tutoring is framed between papers with take a single-case versus a comparative approach.
+
+## Methods
+
+### Sample
+
+The process began with an exhaustive search for all Chinese-language and English-language articles, books and book chapters, dissertations, and reports related to private tutoring, supplementary education, cram schools, and non-state provision of education. 
+Publications were selected using two criteria. 
+One, the focus was on private tutoring as an educational phenomenon. Publications briefly mentioning private tutoring or describing techniques to provide private tutoring were removed from the pool. 
+Two, studies were written prior to March 31, 2014. 
+Conference papers where not included in the final analysis. 
+This search resulted in 286 publications. 
+This paper will focus just on English-language publications, of which there were `r nrow(AllEnglish)`. Table `r tablecount+1 ` below shows the distribution among English-language publication types. 
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+test <- data.frame(table(AllEnglish$PubType))
+test[test==0] <- NA
+test <- test[complete.cases(test),]
+colnames(test) <- c("Publication Type","Freq.")
+test <- arrange(test, -Freq.)
+kable(test)
+```
+
+### Procedure 
+
+

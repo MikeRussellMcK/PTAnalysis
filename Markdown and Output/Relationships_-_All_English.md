@@ -4,7 +4,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 188
 This number includes 153 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2015-01-19 05:55:04.
+Document was last updated on 2015-01-24 07:12:30.
 
 # _Region by year group_ for all entries in the database:
 
@@ -308,7 +308,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Framing by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-34](./Relationships_-_All_English_files/figure-html/unnamed-chunk-34.png) 
+![plot of chunk unnamed-chunk-34](./Relationships_-_All_English_files/figure-html/unnamed-chunk-341.png) ![plot of chunk unnamed-chunk-34](./Relationships_-_All_English_files/figure-html/unnamed-chunk-342.png) ![plot of chunk unnamed-chunk-34](./Relationships_-_All_English_files/figure-html/unnamed-chunk-343.png) ![plot of chunk unnamed-chunk-34](./Relationships_-_All_English_files/figure-html/unnamed-chunk-344.png) ![plot of chunk unnamed-chunk-34](./Relationships_-_All_English_files/figure-html/unnamed-chunk-345.png) 
 
 ### Counts for all entries
 
@@ -326,9 +326,21 @@ Document was last updated on 2015-01-19 05:55:04.
 |Parental Involvement    |    0|           0|          0|         1|       0|         0|         0|         1|         0|        0|   0|      0|
 |value                   |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
 
+![plot of chunk unnamed-chunk-36](./Relationships_-_All_English_files/figure-html/unnamed-chunk-361.png) ![plot of chunk unnamed-chunk-36](./Relationships_-_All_English_files/figure-html/unnamed-chunk-362.png) ![plot of chunk unnamed-chunk-36](./Relationships_-_All_English_files/figure-html/unnamed-chunk-363.png) ![plot of chunk unnamed-chunk-36](./Relationships_-_All_English_files/figure-html/unnamed-chunk-364.png) ![plot of chunk unnamed-chunk-36](./Relationships_-_All_English_files/figure-html/unnamed-chunk-365.png) 
+
+
+|                      | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
+|:---------------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
+|SES                   |    9|           3|          7|        24|       6|        12|         1|        12|        12|        6|   3|     12|
+|Gender                |    3|           1|          5|         5|       2|         4|         0|         3|         7|        1|   0|      3|
+|Ethnicity / Race      |    0|           0|          2|         2|       2|         3|         1|         1|         0|        3|   0|      0|
+|Geographical          |    2|           1|          6|         5|       3|         5|         0|         2|         5|        0|   0|      1|
+|Linguistic / Cultural |    0|           0|          0|         0|       1|         1|         0|         2|         0|        1|   0|      1|
+|value                 |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
+
 # Framing by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-36](./Relationships_-_All_English_files/figure-html/unnamed-chunk-36.png) 
+![plot of chunk unnamed-chunk-38](./Relationships_-_All_English_files/figure-html/unnamed-chunk-38.png) 
 
 ### Counts for all entries
 
@@ -344,7 +356,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Framed by research method
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-38](./Relationships_-_All_English_files/figure-html/unnamed-chunk-38.png) 
+![plot of chunk unnamed-chunk-40](./Relationships_-_All_English_files/figure-html/unnamed-chunk-40.png) 
 
 ### Counts for all entries
 
@@ -364,7 +376,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Framed by research approach
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-40](./Relationships_-_All_English_files/figure-html/unnamed-chunk-40.png) 
+![plot of chunk unnamed-chunk-42](./Relationships_-_All_English_files/figure-html/unnamed-chunk-42.png) 
 
 ### Counts for all entries
 
@@ -384,7 +396,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Framed by theory
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-42](./Relationships_-_All_English_files/figure-html/unnamed-chunk-42.png) 
+![plot of chunk unnamed-chunk-44](./Relationships_-_All_English_files/figure-html/unnamed-chunk-44.png) 
 
 ### Counts for all entries
 
@@ -403,7 +415,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # How Viewed by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-44](./Relationships_-_All_English_files/figure-html/unnamed-chunk-44.png) 
+![plot of chunk unnamed-chunk-46](./Relationships_-_All_English_files/figure-html/unnamed-chunk-46.png) 
 
 ### Counts for all entries
 
@@ -417,7 +429,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # How Viewed by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-46](./Relationships_-_All_English_files/figure-html/unnamed-chunk-46.png) 
+![plot of chunk unnamed-chunk-48](./Relationships_-_All_English_files/figure-html/unnamed-chunk-48.png) 
 
 ### Counts for all entries
 
@@ -433,7 +445,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # HowViewed by research method
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-48](./Relationships_-_All_English_files/figure-html/unnamed-chunk-48.png) 
+![plot of chunk unnamed-chunk-50](./Relationships_-_All_English_files/figure-html/unnamed-chunk-50.png) 
 
 ### Counts for all entries
 
@@ -447,7 +459,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # HowViewed by research approach
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-50](./Relationships_-_All_English_files/figure-html/unnamed-chunk-50.png) 
+![plot of chunk unnamed-chunk-52](./Relationships_-_All_English_files/figure-html/unnamed-chunk-52.png) 
 
 ### Counts for all entries
 
@@ -461,7 +473,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # HowViewed by theory
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-52](./Relationships_-_All_English_files/figure-html/unnamed-chunk-52.png) 
+![plot of chunk unnamed-chunk-54](./Relationships_-_All_English_files/figure-html/unnamed-chunk-54.png) 
 
 ### Counts for all entries
 
@@ -474,7 +486,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # How Viewed by Framed
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-54](./Relationships_-_All_English_files/figure-html/unnamed-chunk-54.png) 
+![plot of chunk unnamed-chunk-56](./Relationships_-_All_English_files/figure-html/unnamed-chunk-56.png) 
 
 ### Counts for all entries
 
@@ -493,7 +505,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Stakeholders by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-56](./Relationships_-_All_English_files/figure-html/unnamed-chunk-56.png) 
+![plot of chunk unnamed-chunk-58](./Relationships_-_All_English_files/figure-html/unnamed-chunk-58.png) 
 
 ### Counts for all entries
 
@@ -513,7 +525,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Stakeholders by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-58](./Relationships_-_All_English_files/figure-html/unnamed-chunk-58.png) 
+![plot of chunk unnamed-chunk-60](./Relationships_-_All_English_files/figure-html/unnamed-chunk-60.png) 
 
 ### Counts for all entries
 
@@ -529,7 +541,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Stakeholders by theory
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-60](./Relationships_-_All_English_files/figure-html/unnamed-chunk-60.png) 
+![plot of chunk unnamed-chunk-62](./Relationships_-_All_English_files/figure-html/unnamed-chunk-62.png) 
 
 ### Counts for all entries
 
@@ -550,7 +562,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhatTaught by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-62](./Relationships_-_All_English_files/figure-html/unnamed-chunk-62.png) 
+![plot of chunk unnamed-chunk-64](./Relationships_-_All_English_files/figure-html/unnamed-chunk-64.png) 
 
 ### Counts for all entries
 
@@ -564,7 +576,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhatTaught by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-64](./Relationships_-_All_English_files/figure-html/unnamed-chunk-64.png) 
+![plot of chunk unnamed-chunk-66](./Relationships_-_All_English_files/figure-html/unnamed-chunk-66.png) 
 
 ### Counts for all entries
 
@@ -580,7 +592,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhatTaught by theory
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-66](./Relationships_-_All_English_files/figure-html/unnamed-chunk-66.png) 
+![plot of chunk unnamed-chunk-68](./Relationships_-_All_English_files/figure-html/unnamed-chunk-68.png) 
 
 ### Counts for all entries
 
@@ -601,7 +613,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhereOccur by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-68](./Relationships_-_All_English_files/figure-html/unnamed-chunk-68.png) 
+![plot of chunk unnamed-chunk-70](./Relationships_-_All_English_files/figure-html/unnamed-chunk-70.png) 
 
 ### Counts for all entries
 
@@ -617,7 +629,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhereOccur by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-70](./Relationships_-_All_English_files/figure-html/unnamed-chunk-70.png) 
+![plot of chunk unnamed-chunk-72](./Relationships_-_All_English_files/figure-html/unnamed-chunk-72.png) 
 
 ### Counts for all entries
 
@@ -633,7 +645,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhereOccur by theory
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-72](./Relationships_-_All_English_files/figure-html/unnamed-chunk-72.png) 
+![plot of chunk unnamed-chunk-74](./Relationships_-_All_English_files/figure-html/unnamed-chunk-74.png) 
 
 ### Counts for all entries
 
@@ -654,7 +666,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhoProvides by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-74](./Relationships_-_All_English_files/figure-html/unnamed-chunk-74.png) 
+![plot of chunk unnamed-chunk-76](./Relationships_-_All_English_files/figure-html/unnamed-chunk-76.png) 
 
 ### Counts for all entries
 
@@ -674,7 +686,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhoProvides by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-76](./Relationships_-_All_English_files/figure-html/unnamed-chunk-76.png) 
+![plot of chunk unnamed-chunk-78](./Relationships_-_All_English_files/figure-html/unnamed-chunk-78.png) 
 
 ### Counts for all entries
 
@@ -690,7 +702,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhoProvides by theory
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-78](./Relationships_-_All_English_files/figure-html/unnamed-chunk-78.png) 
+![plot of chunk unnamed-chunk-80](./Relationships_-_All_English_files/figure-html/unnamed-chunk-80.png) 
 
 ### Counts for all entries
 
@@ -711,7 +723,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # DoesCharge by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-80](./Relationships_-_All_English_files/figure-html/unnamed-chunk-80.png) 
+![plot of chunk unnamed-chunk-82](./Relationships_-_All_English_files/figure-html/unnamed-chunk-82.png) 
 
 ### Counts for all entries
 
@@ -725,7 +737,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # DoesCharge by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-82](./Relationships_-_All_English_files/figure-html/unnamed-chunk-82.png) 
+![plot of chunk unnamed-chunk-84](./Relationships_-_All_English_files/figure-html/unnamed-chunk-84.png) 
 
 ### Counts for all entries
 
@@ -741,7 +753,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # DoesCharge by WhoProvides
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-84](./Relationships_-_All_English_files/figure-html/unnamed-chunk-84.png) 
+![plot of chunk unnamed-chunk-86](./Relationships_-_All_English_files/figure-html/unnamed-chunk-86.png) 
 
 ### Counts for all entries
 
@@ -755,7 +767,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # ClassSize by Region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-86](./Relationships_-_All_English_files/figure-html/unnamed-chunk-86.png) 
+![plot of chunk unnamed-chunk-88](./Relationships_-_All_English_files/figure-html/unnamed-chunk-88.png) 
 
 ### Counts for all entries
 
@@ -770,7 +782,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # OperationSize by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-88](./Relationships_-_All_English_files/figure-html/unnamed-chunk-88.png) 
+![plot of chunk unnamed-chunk-90](./Relationships_-_All_English_files/figure-html/unnamed-chunk-90.png) 
 
 ### Counts for all entries
 
@@ -784,7 +796,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Why Taking by region
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-90](./Relationships_-_All_English_files/figure-html/unnamed-chunk-90.png) 
+![plot of chunk unnamed-chunk-92](./Relationships_-_All_English_files/figure-html/unnamed-chunk-92.png) 
 
 ### Counts for all entries
 
@@ -803,7 +815,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Why Taking by year group
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-92](./Relationships_-_All_English_files/figure-html/unnamed-chunk-92.png) 
+![plot of chunk unnamed-chunk-94](./Relationships_-_All_English_files/figure-html/unnamed-chunk-94.png) 
 
 ### Counts for all entries
 
@@ -821,7 +833,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhyTaking by research method
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-94](./Relationships_-_All_English_files/figure-html/unnamed-chunk-94.png) 
+![plot of chunk unnamed-chunk-96](./Relationships_-_All_English_files/figure-html/unnamed-chunk-96.png) 
 
 ### Counts for all entries
 
@@ -840,7 +852,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhyTaking by research approach
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-96](./Relationships_-_All_English_files/figure-html/unnamed-chunk-96.png) 
+![plot of chunk unnamed-chunk-98](./Relationships_-_All_English_files/figure-html/unnamed-chunk-98.png) 
 
 ### Counts for all entries
 
@@ -859,7 +871,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # WhyTaking by theory
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-98](./Relationships_-_All_English_files/figure-html/unnamed-chunk-98.png) 
+![plot of chunk unnamed-chunk-100](./Relationships_-_All_English_files/figure-html/unnamed-chunk-100.png) 
 
 ### Counts for all entries
 
@@ -878,7 +890,7 @@ Document was last updated on 2015-01-19 05:55:04.
 
 # Why Taking by Framed
 ### Graphs for all entries
-![plot of chunk unnamed-chunk-100](./Relationships_-_All_English_files/figure-html/unnamed-chunk-100.png) 
+![plot of chunk unnamed-chunk-102](./Relationships_-_All_English_files/figure-html/unnamed-chunk-102.png) 
 
 ### Counts for all entries
 
