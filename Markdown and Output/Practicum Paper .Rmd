@@ -1,6 +1,6 @@
 ---
 title: "Practicum Draft - 01-25-15 0800AM"
-output: html_document
+output: word_document
 ---
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
@@ -75,22 +75,41 @@ In our literature analysis we wish to address the following questions:
 ### Sample
 
 The process began with an exhaustive search for all Chinese-language and English-language articles, books and book chapters, dissertations, and reports related to private tutoring, supplementary education, cram schools, and non-state provision of education. 
-Publications were selected using two criteria. 
-One, the focus was on private tutoring as an educational phenomenon. Publications briefly mentioning private tutoring or describing techniques to provide private tutoring were removed from the pool. 
-Two, studies were written prior to March 31, 2014. 
+Publications were selected using two criteria: 
+
+* One, the focus was on private tutoring as an educational phenomenon. Publications briefly mentioning private tutoring or describing techniques to provide private tutoring were removed from the pool. 
+* Two, studies were written prior to March 31, 2014. 
+
 Conference papers where not included in the final analysis. 
 This search resulted in 286 publications. 
-This paper will focus just on English-language publications, of which there were `r nrow(AllEnglish)`. Table `r tablecount+1 ` below shows the distribution among English-language publication types. 
+This paper will focus just on English-language publications, of which there were `r nrow(AllEnglish)`. Table `r tablecount=tablecount+1` `r tablecount` below shows the distribution among English-language publication types. 
+
+Table `r tablecount`  
+_Publication Types_
 
 ```{r, results="asis", echo=FALSE, message=FALSE}
 test <- data.frame(table(AllEnglish$PubType))
 test[test==0] <- NA
 test <- test[complete.cases(test),]
-colnames(test) <- c("Publication Type","Freq.")
+colnames(test) <- c(" ","Freq.")
 test <- arrange(test, -Freq.)
 kable(test)
 ```
 
-### Procedure 
+
+## How is private tutoring framed?
+
+As can be seen in figure `r tablecount=tablecount+1`, nearly 83% of the publications framed private tutoring as being related to curriculum coverage and/or exam preparation. 
+This is not unexpected. Many frequently studied private tutoring systems, such as the hagwon system in South Korea or the juku system in Japan, are focused on preparing students for national exams.
+In the United States, which has no government-based system of graduation or college entry exams, students take private tutoring as a way of preparing for informal college entry tests such as the SATs and ACTs. 
+
+
+```{r, results="asis", echo=FALSE, message=FALSE}
+test <- as.data.frame(colSums(AllEnglishFramedGrid))
+colnames(test) <- c("Freq.")
+test <- test[order(test$Freq., decreasing=TRUE), ,drop=FALSE]
+kable(test)
+```
+
 
 
