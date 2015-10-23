@@ -12,9 +12,13 @@ library("grid", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/
 library("gridExtra", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 library("gmodels", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
 
+
+
 # Downloads data fresh from Google - 10-15 MIN DELAY FROM GOOGLE SERVERS
-Private <- fetchGoogle("https://docs.google.com/spreadsheet/pub?key=0ApPsU6wycRKhdC14cnZXb3k0T0pKek5pbFpibFJUekE&output=csv")
-#Private <- read.csv("~/Documents/R/PTAnalysis2/Source/Private%20Tutoring%20Coding%20Database%20-%20Form%20Responses.csv")
+Private <- fetchGoogle("https://docs.google.com/spreadsheets/d/1viW8N5d1zG3FAM_wRnrd272SIBu9gb450SxaG67CTv0/export?gid=0&format=csv")
+
+# Google moved it! Private <- fetchGoogle("https://docs.google.com/spreadsheet/pub?key=0ApPsU6wycRKhdC14cnZXb3k0T0pKek5pbFpibFJUekE&output=csv")
+# Private <- read.csv("~/Documents/R/PTAnalysis2/Source/Private%20Tutoring%20Coding%20Database%20-%20Form%20Responses.csv")
 
 # Deletes unused columns from the database
 Private$Author.s.. <- NULL

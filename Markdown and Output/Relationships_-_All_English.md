@@ -4,7 +4,7 @@
 
 ### TOTAL NUMBER OF ARTICLES: 188
 This number includes 153 articles with duplicate ID numbers. A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). 
-Document was last updated on 2015-01-24 07:12:30.
+Document was last updated on 2015-04-18 17:38:49.
 
 # _Region by year group_ for all entries in the database:
 
@@ -569,7 +569,7 @@ Document was last updated on 2015-01-24 07:12:30.
 |                 | MENA| Sub.Saharan| Cent..Asia| East.Asia| S..Asia| S.E..Asia| Aus....NZ| W..Europe| E..Europe| US...Can| LAC| Global|
 |:----------------|----:|-----------:|----------:|---------:|-------:|---------:|---------:|---------:|---------:|--------:|---:|------:|
 |School subjects  |   11|           3|          4|        50|      10|        10|         2|        19|        19|       25|   3|     18|
-|Extracurriculars |    0|           0|          0|         0|       0|         0|         0|         3|         3|        0|   0|      0|
+|Extracurriculars |    0|           0|          0|         0|       0|         0|         0|         3|         3|        1|   0|      0|
 |Both             |    0|           1|          3|         7|       4|         6|         0|         3|         3|        5|   0|      0|
 |Not defined      |    0|           0|          0|         0|       0|         2|         0|         0|         0|        0|   0|      2|
 |value            |    0|           0|          0|         0|       0|         0|         0|         0|         0|        0|   0|      0|
@@ -585,7 +585,7 @@ Document was last updated on 2015-01-24 07:12:30.
 |1980-84 |                         1|                          0|    0|           0|
 |1985-89 |                         3|                          0|    0|           0|
 |1990-94 |                         4|                          0|    1|           0|
-|1995-99 |                         7|                          0|    1|           2|
+|1995-99 |                         7|                          1|    1|           2|
 |2000-04 |                        13|                          3|    1|           0|
 |2005-09 |                        36|                          1|    5|           1|
 |2010-14 |                        92|                          2|   13|           1|
@@ -605,7 +605,7 @@ Document was last updated on 2015-01-24 07:12:30.
 |Human.Rights                   |               4|                0|    0|           0|     0|
 |Critical.Theory                |               7|                0|    1|           0|     0|
 |Political.Theory               |               1|                0|    0|           0|     0|
-|None.or.Unclear.to.us          |              84|                1|   13|           2|     0|
+|None.or.Unclear.to.us          |              84|                2|   13|           2|     0|
 |Cultural.Model                 |               3|                0|    0|           0|     0|
 |Economic.Theories              |              12|                0|    0|           0|     0|
 |Social...Cultural.Reproduction |               4|                0|    0|           0|     0|

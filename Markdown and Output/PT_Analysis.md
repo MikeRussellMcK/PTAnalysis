@@ -5,7 +5,7 @@
 
 ### TOTAL NUMBER OF PUBLICATIONS: 286
 <!-- This number includes 153 articles with duplicate ID numbers (0 Chinese-language, 2 English-language). A full list of duplicate articles can be found [here](https://github.com/MikeRussellMcK/PTAnalysis/blob/master/Markdown%20and%20Output/Duplicates.md). -->
-Document was last updated on 2015-01-22 06:53:14.
+Document was last updated on 2015-06-30 15:26:21.
 
 Throughout this document the data are divided four ways:
 
@@ -20,7 +20,7 @@ Throughout this document the data are divided four ways:
 
 ### Type of Publication
 
-![plot of chunk unnamed-chunk-2](./PT_Analysis_files/figure-html/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](PT_Analysis_files/figure-html/unnamed-chunk-2.png) 
 
 ### Publisher
 <table>
@@ -730,15 +730,15 @@ Asian Economic Journal </td>
 
 ### Publication Year
 
-![plot of chunk unnamed-chunk-4](./PT_Analysis_files/figure-html/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](PT_Analysis_files/figure-html/unnamed-chunk-4.png) 
 
 ### Publication Language
 
-![plot of chunk unnamed-chunk-5](./PT_Analysis_files/figure-html/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-5](PT_Analysis_files/figure-html/unnamed-chunk-5.png) 
 
 ### Type of Research
 
-![plot of chunk unnamed-chunk-6](./PT_Analysis_files/figure-html/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](PT_Analysis_files/figure-html/unnamed-chunk-6.png) 
     
 #### Research Type Others:
 
@@ -765,6 +765,10 @@ Asian Economic Journal </td>
   <tr>
    <td align="left">  </td>
    <td align="right"> 0 </td>
+  </tr>
+  <tr>
+   <td align="left">   </td>
+   <td align="right"> 1 </td>
   </tr>
   <tr>
    <td align="left"> Australia </td>
@@ -923,6 +927,10 @@ Asian Economic Journal </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
+   <td align="left"> nt </td>
+   <td align="right"> 1 </td>
+  </tr>
+  <tr>
    <td align="left"> Poland </td>
    <td align="right"> 1 </td>
   </tr>
@@ -1007,7 +1015,7 @@ Asian Economic Journal </td>
 
 ### Region(s) Studied
 
-![plot of chunk unnamed-chunk-9](./PT_Analysis_files/figure-html/unnamed-chunk-9.png) 
+![plot of chunk unnamed-chunk-9](PT_Analysis_files/figure-html/unnamed-chunk-9.png) 
 
 #### Region(s) Others:
 
@@ -1015,12 +1023,12 @@ Asian Economic Journal </td>
 
 ### Levels of Education Discussed
 
-![plot of chunk unnamed-chunk-11](./PT_Analysis_files/figure-html/unnamed-chunk-11.png) 
+![plot of chunk unnamed-chunk-11](PT_Analysis_files/figure-html/unnamed-chunk-11.png) 
 
 
 ### Research Approach
 
-![plot of chunk unnamed-chunk-12](./PT_Analysis_files/figure-html/unnamed-chunk-12.png) 
+![plot of chunk unnamed-chunk-12](PT_Analysis_files/figure-html/unnamed-chunk-12.png) 
 
 #### ResearchApproach Others:
 
@@ -1031,11 +1039,11 @@ Asian Economic Journal </td>
 
 ### Research Methods
 
-![plot of chunk unnamed-chunk-14](./PT_Analysis_files/figure-html/unnamed-chunk-14.png) 
+![plot of chunk unnamed-chunk-14](PT_Analysis_files/figure-html/unnamed-chunk-14.png) 
 
 ### Was data set used?
 
-![plot of chunk unnamed-chunk-15](./PT_Analysis_files/figure-html/unnamed-chunk-15.png) 
+![plot of chunk unnamed-chunk-15](PT_Analysis_files/figure-html/unnamed-chunk-15.png) 
 
 #### What data set was used?
 
@@ -1282,7 +1290,7 @@ The Korean Labor and Income Panel Survey (KLIPS) data </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
-   <td align="left"> Some information drawn from 72 teachers interviewed and 198 parents surveyed in Cambodia by author </td>
+   <td align="left"> Some information drawn from 72 teachers interviewed and 198 parents surveyed in Cambodia by another author </td>
    <td align="right"> 1 </td>
   </tr>
   <tr>
@@ -1419,7 +1427,7 @@ second time when they were in grade 9. </td>
 
 ### Theoretical Framework
 
-![plot of chunk unnamed-chunk-17](./PT_Analysis_files/figure-html/unnamed-chunk-17.png) 
+![plot of chunk unnamed-chunk-17](PT_Analysis_files/figure-html/unnamed-chunk-17.png) 
 
 #### Theory Others:
 
@@ -1497,7 +1505,7 @@ second time when they were in grade 9. </td>
 
 ### How is private tutoring framed in the publication?
 
-![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-191.png) ![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-192.png) ![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-193.png) ![plot of chunk unnamed-chunk-19](./PT_Analysis_files/figure-html/unnamed-chunk-194.png) 
+![plot of chunk unnamed-chunk-19](PT_Analysis_files/figure-html/unnamed-chunk-191.png) ![plot of chunk unnamed-chunk-19](PT_Analysis_files/figure-html/unnamed-chunk-192.png) ![plot of chunk unnamed-chunk-19](PT_Analysis_files/figure-html/unnamed-chunk-193.png) ![plot of chunk unnamed-chunk-19](PT_Analysis_files/figure-html/unnamed-chunk-194.png) 
 
 #### Framed Others:
 
@@ -1535,16 +1543,16 @@ second time when they were in grade 9. </td>
 
 #### If previous answer was equity, then please define equity concern here:
 
-![plot of chunk unnamed-chunk-21](./PT_Analysis_files/figure-html/unnamed-chunk-21.png) 
+![plot of chunk unnamed-chunk-21](PT_Analysis_files/figure-html/unnamed-chunk-21.png) 
 
 
 ### How is private tutoring viewed in the article?
 
-![plot of chunk unnamed-chunk-22](./PT_Analysis_files/figure-html/unnamed-chunk-22.png) 
+![plot of chunk unnamed-chunk-22](PT_Analysis_files/figure-html/unnamed-chunk-22.png) 
 
 ### Data drawn from the following stakeholders:
 
-![plot of chunk unnamed-chunk-23](./PT_Analysis_files/figure-html/unnamed-chunk-23.png) 
+![plot of chunk unnamed-chunk-23](PT_Analysis_files/figure-html/unnamed-chunk-23.png) 
 
 #### Stakeholder others:
 
@@ -1740,7 +1748,7 @@ center or franchise
 
 ### What is taught during private tutoring?
 
-![plot of chunk unnamed-chunk-25](./PT_Analysis_files/figure-html/unnamed-chunk-25.png) 
+![plot of chunk unnamed-chunk-25](PT_Analysis_files/figure-html/unnamed-chunk-25.png) 
 
 #### WhatTaught others:
 
@@ -1754,16 +1762,14 @@ center or franchise
  </thead>
 <tbody>
   <tr>
-   <td align="right"> 135 </td>
-   <td align="left"> African-American cultural classes </td>
-   <td align="left"> Mike </td>
+
   </tr>
 </tbody>
 </table>
 
 ### Where does private tutoring occur?
 
-![plot of chunk unnamed-chunk-27](./PT_Analysis_files/figure-html/unnamed-chunk-27.png) 
+![plot of chunk unnamed-chunk-27](PT_Analysis_files/figure-html/unnamed-chunk-27.png) 
 
 #### WhereOccur others:
 
@@ -1796,7 +1802,7 @@ center or franchise
 
 ### Who provides tutoring services?
 
-![plot of chunk unnamed-chunk-29](./PT_Analysis_files/figure-html/unnamed-chunk-29.png) 
+![plot of chunk unnamed-chunk-29](PT_Analysis_files/figure-html/unnamed-chunk-29.png) 
 
 #### WhoProvides others:
 
@@ -1829,14 +1835,14 @@ center or franchise
 
 ### Does the teacher charge for private tutoring?
 
-![plot of chunk unnamed-chunk-31](./PT_Analysis_files/figure-html/unnamed-chunk-31.png) 
+![plot of chunk unnamed-chunk-31](PT_Analysis_files/figure-html/unnamed-chunk-31.png) 
 
 ### How large are the tutoring classes?
 
-![plot of chunk unnamed-chunk-32](./PT_Analysis_files/figure-html/unnamed-chunk-32.png) 
+![plot of chunk unnamed-chunk-32](PT_Analysis_files/figure-html/unnamed-chunk-32.png) 
 
 ### How large is the tutoring operation?
-![plot of chunk unnamed-chunk-33](./PT_Analysis_files/figure-html/unnamed-chunk-33.png) 
+![plot of chunk unnamed-chunk-33](PT_Analysis_files/figure-html/unnamed-chunk-33.png) 
 
 #### OperationSize others:
 
@@ -1863,7 +1869,7 @@ center or franchise
 </table>
 
 ### Why are students taking private tutoring?
-![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-351.png) ![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-352.png) ![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-353.png) ![plot of chunk unnamed-chunk-35](./PT_Analysis_files/figure-html/unnamed-chunk-354.png) 
+![plot of chunk unnamed-chunk-35](PT_Analysis_files/figure-html/unnamed-chunk-351.png) ![plot of chunk unnamed-chunk-35](PT_Analysis_files/figure-html/unnamed-chunk-352.png) ![plot of chunk unnamed-chunk-35](PT_Analysis_files/figure-html/unnamed-chunk-353.png) ![plot of chunk unnamed-chunk-35](PT_Analysis_files/figure-html/unnamed-chunk-354.png) 
 
 #### WhyTaking others:
 
